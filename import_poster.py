@@ -126,9 +126,10 @@ def main():
             sys.exit(4)
         page.wait_for_timeout(1500)
         page.screenshot(path="shots/new-menu.png")
-        click_first(page, ['[role="menuitem"]:has-text("Design file")',
-                           'text="Design file"'],
-                    what="'Design file' menu item")
+        click_first(page, ['[role="menuitem"]:has-text("Design")',
+                           'text="Design"',
+                           '[role="menuitem"]:has-text("Design file")'],
+                    what="'Design' menu item")
         try:
             page.wait_for_url(re.compile(r"figma\.com/design/"), timeout=90000)
         except Exception:
