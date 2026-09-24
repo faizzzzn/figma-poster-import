@@ -118,8 +118,10 @@ def main():
 
         # ---- 3. new design file ----
         log("creating new design file...")
-        if not click_first(page, ['button:has-text("New")', '[aria-label="New"]'],
-                           what="'New' button"):
+        if not click_first(page, ['button:has-text("Create")',
+                           'button:has-text("New")',
+                           '[aria-label="New"]'],
+                           what="'Create' button"):
             page.screenshot(path="shots/no-new-button.png")
             sys.exit(4)
         page.wait_for_timeout(1500)
