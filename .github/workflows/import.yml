@@ -49,23 +49,21 @@ jobs:
           FIGMA_EMAIL: ${{ secrets.FIGMA_EMAIL }}
           FIGMA_PASSWORD: ${{ secrets.FIGMA_PASSWORD }}
         run: |
-          EXTRA=""
-          if [ "${{ inputs.board_url }}" != "" ]; then
-            EXTRA="$EXTRA --board-url \"${{ inputs.board_url }}\""
+          ARGS=(--svg "${{ inputs.svg_file }}"
+                --name "${{ inputs.file_name }}"
+                --verify-text "${{ inputs.verify_text }}"
+                --team-hint "${{ inputs.team_hint }}"
+                --file-type "${{ inputs.file_type }}")
+          if [ -n "${{ inputs.board_url }}" ]; then
+            ARGS+=(--board-url "${{ inputs.board_url }}")
           fi
           if [ "${{ inputs.rename_only }}" = "true" ]; then
-            EXTRA="$EXTRA --rename-only"
+            ARGS+=(--rename-only)
           fi
           if [ "${{ inputs.inspect_title_menu }}" = "true" ]; then
-            EXTRA="$EXTRA --inspect-title-menu"
+            ARGS+=(--inspect-title-menu)
           fi
-          python import_poster.py \
-            --svg "${{ inputs.svg_file }}" \
-            --name "${{ inputs.file_name }}" \
-            --verify-text "${{ inputs.verify_text }}" \
-            --team-hint "${{ inputs.team_hint }}" \
-            --file-type "${{ inputs.file_type }}" \
-            $EXTRA
+          python import_poster.py "${ARGS[@]}"
 
       - name: Upload screenshots
         if: always()
