@@ -155,18 +155,36 @@ def main():
         page.wait_for_timeout(500)
 
         # ---- 4. rename ----
-        try:
-            title = page.get_by_text("Untitled", exact=True).first
-            title.wait_for(timeout=15000)
-            title.click()
-            page.wait_for_timeout(800)
-            page.keyboard.press("ControlOrMeta+a")
-            page.keyboard.type(args.name, delay=15)
-            page.keyboard.press("Enter")
-            page.wait_for_timeout(1000)
-            log("renamed to:", args.name)
-        except Exception as e:
-            log("rename skipped (non-fatal):", str(e)[:120])
+        if is_figjam:
+            # FigJam: the "Untitled" title is a dropdown; Rename is a menu item
+            try:
+                page.get_by_text("Untitled", exact=True).first.click()
+                page.wait_for_timeout(900)
+                click_first(page, ['[role="menuitem"]:has-text("Rename")',
+                                   'text="Rename"'],
+                            what="'Rename' menu item")
+                page.wait_for_timeout(900)
+                page.keyboard.press("ControlOrMeta+a")
+                page.keyboard.type(args.name, delay=15)
+                page.keyboard.press("Enter")
+                page.wait_for_timeout(1200)
+                page.screenshot(path="shots/after-rename.png")
+                log("renamed to:", args.name)
+            except Exception as e:
+                log("rename skipped (non-fatal):", str(e)[:120])
+        else:
+            try:
+                title = page.get_by_text("Untitled", exact=True).first
+                title.wait_for(timeout=15000)
+                title.click()
+                page.wait_for_timeout(800)
+                page.keyboard.press("ControlOrMeta+a")
+                page.keyboard.type(args.name, delay=15)
+                page.keyboard.press("Enter")
+                page.wait_for_timeout(1000)
+                log("renamed to:", args.name)
+            except Exception as e:
+                log("rename skipped (non-fatal):", str(e)[:120])
 
         # ---- 5. paste the SVG ----
         log("pasting SVG onto the canvas...")
@@ -176,11 +194,19 @@ def main():
         page.keyboard.press("Control+v")
         page.wait_for_timeout(7000)
         page.screenshot(path="shots/after-paste.png")
-        try:
-            page.get_by_text(args.verify_text, exact=False).first.wait_for(timeout=15000)
-            log("paste verified: poster text found on canvas")
-        except Exception:
-            log("WARNING: could not verify pasted layers — check shots/after-paste.png")
+        if is_figjam:
+            # FigJam renders canvas text on <canvas>, not the DOM, so text
+            # lookup can't verify the paste. The screenshot is the proof.
+            page.keyboard.press("Escape")  # deselect for a clean shot
+            page.wait_for_timeout(500)
+            log("paste done — verify visually in shots/after-paste.png "
+                "(FigJam canvas text is not in the DOM)")
+        else:
+            try:
+                page.get_by_text(args.verify_text, exact=False).first.wait_for(timeout=15000)
+                log("paste verified: poster text found on canvas")
+            except Exception:
+                log("WARNING: could not verify pasted layers — check shots/after-paste.png")
 
         # ---- 6. zoom to fit ----
         page.keyboard.press("Shift+1")
