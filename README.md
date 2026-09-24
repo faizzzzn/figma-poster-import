@@ -29,10 +29,14 @@ or from a terminal:
 gh workflow run import.yml
 ```
 
+To import the second poster instead, set the `svg_file` input to `sidhi_systemic_layer.svg`
+and the file name to something like `Sidhi — the systemic layer (Sem 7)` when you run the workflow.
+
 When it finishes, the file URL is printed in the run summary. Screenshots of every step are kept as the `figma-import-shots` artifact for 90 days.
 
 ## Files
 
 - `import_poster.py` — the Playwright import script (also runnable locally: `pip install playwright && python -m playwright install chromium`)
 - `sidhi_maternal_deaths.svg` — the poster (2400×5700, dark editorial)
+- `sidhi_systemic_layer.svg` — second poster: 8 structures + 4 mental models (2400×8337, same design language; generator: `build_systemic_svg.py`)
 - `.github/workflows/import.yml` — the scheduled-runnable workflow
