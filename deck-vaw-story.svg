@@ -1,0 +1,510 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="67200" height="1080" viewBox="0 0 67200 1080">
+<defs><marker id="arr" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="9" markerHeight="9" orient="auto-start-reverse"><path d="M 0 1 L 9 5 L 0 9 z" fill="#e5484d"/></marker></defs>
+<rect width="67200" height="1080" fill="#0d0d11"/>
+<g id="slide-01">
+<rect x="0" y="0" width="1920" height="1080" rx="24" fill="#121218" stroke="#26262f" stroke-width="2"/>
+<rect x="0" y="0" width="10" height="1080" fill="#e5484d" opacity="0.85"/>
+<text x="110" y="130" font-size="30" fill="#e5484d" font-family="'Inter', -apple-system, 'Helvetica Neue', Arial, sans-serif" font-weight="600" text-anchor="start" letter-spacing="5">SDG 5 · TARGET 5.2 — A PRESENTATION</text>
+<rect x="110" y="158" width="90" height="6" fill="#e5484d"/>
+<text x="110" y="440" font-size="190" fill="#f2efe6" font-family="Georgia, 'Times New Roman', serif" font-weight="700" text-anchor="start">HALF THE SKY,</text>
+<text x="110" y="640" font-size="190" fill="#f2efe6" font-family="Georgia, 'Times New Roman', serif" font-weight="700" text-anchor="start">UNDER SIEGE.</text>
+<text x="110" y="880" font-size="46" fill="#d9d6cb" font-family="'Inter', -apple-system, 'Helvetica Neue', Arial, sans-serif" font-weight="400" text-anchor="start">Violence against women is not an Indian problem.</text>
+<text x="110" y="948" font-size="46" fill="#d9d6cb" font-family="'Inter', -apple-system, 'Helvetica Neue', Arial, sans-serif" font-weight="400" text-anchor="start">It is a world problem. Here is the evidence.</text>
+<text x="110" y="975" font-size="25" fill="#9d9ba6" font-family="ui-monospace, 'SF Mono', Menlo, Consolas, monospace" font-weight="400" text-anchor="start" letter-spacing="2">18 COUNTRIES · 2020–2026 · EVERY FIGURE SOURCED</text>
+<text x="1810" y="975" font-size="25" fill="#9d9ba6" font-family="ui-monospace, 'SF Mono', Menlo, Consolas, monospace" font-weight="400" text-anchor="end">1 / 33</text>
+</g>
+<g id="slide-02">
+<rect x="2040" y="0" width="1920" height="1080" rx="24" fill="#121218" stroke="#26262f" stroke-width="2"/>
+<rect x="2040" y="0" width="10" height="1080" fill="#e5484d" opacity="0.85"/>
+<text x="2150" y="130" font-size="30" fill="#e5484d" font-family="'Inter', -apple-system, 'Helvetica Neue', Arial, sans-serif" font-weight="600" text-anchor="start" letter-spacing="5">WHAT THIS IS ABOUT</text>
+<rect x="2150" y="158" width="90" height="6" fill="#e5484d"/>
+<text x="2150" y="400" font-size="120" fill="#f2efe6" font-family="Georgia, 'Times New Roman', serif" font-weight="700" text-anchor="start">What are you looking at?</text>
+<text x="2150" y="540" font-size="44" fill="#d9d6cb" font-family="'Inter', -apple-system, 'Helvetica Neue', Arial, sans-serif" font-weight="400" text-anchor="start">This is a presentation about violence against women</text>
+<text x="2150" y="606" font-size="44" fill="#d9d6cb" font-family="'Inter', -apple-system, 'Helvetica Neue', Arial, sans-serif" font-weight="400" text-anchor="start">and girls — how big it is, where it happens,</text>
+<text x="2150" y="672" font-size="44" fill="#d9d6cb" font-family="'Inter', -apple-system, 'Helvetica Neue', Arial, sans-serif" font-weight="400" text-anchor="start">why it keeps happening, and what actually stops it.</text>
+<text x="2150" y="804" font-size="44" fill="#d9d6cb" font-family="'Inter', -apple-system, 'Helvetica Neue', Arial, sans-serif" font-weight="400" text-anchor="start">Built from WHO, UNODC and UN Women data,</text>
+<text x="2150" y="870" font-size="44" fill="#d9d6cb" font-family="'Inter', -apple-system, 'Helvetica Neue', Arial, sans-serif" font-weight="400" text-anchor="start">plus national records from 18 countries, 2020–2026.</text>
+<text x="2150" y="975" font-size="25" fill="#9d9ba6" font-family="ui-monospace, 'SF Mono', Menlo, Consolas, monospace" font-weight="400" text-anchor="start" letter-spacing="1">ALL FIGURES SOURCED — SEE FINAL SLIDE</text>
+<text x="3850" y="975" font-size="25" fill="#9d9ba6" font-family="ui-monospace, 'SF Mono', Menlo, Consolas, monospace" font-weight="400" text-anchor="end">2 / 33</text>
+</g>
+<g id="slide-03">
+<rect x="4080" y="0" width="1920" height="1080" rx="24" fill="#121218" stroke="#26262f" stroke-width="2"/>
+<rect x="4080" y="0" width="10" height="1080" fill="#e5484d" opacity="0.85"/>
+<text x="4190" y="130" font-size="30" fill="#e5484d" font-family="'Inter', -apple-system, 'Helvetica Neue', Arial, sans-serif" font-weight="600" text-anchor="start" letter-spacing="5">THE QUESTION</text>
+<rect x="4190" y="158" width="90" height="6" fill="#e5484d"/>
+<text x="4190" y="400" font-size="120" fill="#f2efe6" font-family="Georgia, 'Times New Roman', serif" font-weight="700" text-anchor="start">How big is it — really?</text>
+<text x="4190" y="540" font-size="44" fill="#d9d6cb" font-family="'Inter', -apple-system, 'Helvetica Neue', Arial, sans-serif" font-weight="400" text-anchor="start">And why does it keep happening —</text>
+<text x="4190" y="606" font-size="44" fill="#d9d6cb" font-family="'Inter', -apple-system, 'Helvetica Neue', Arial, sans-serif" font-weight="400" text-anchor="start">in rich countries and poor ones,</text>
+<text x="4190" y="672" font-size="44" fill="#d9d6cb" font-family="'Inter', -apple-system, 'Helvetica Neue', Arial, sans-serif" font-weight="400" text-anchor="start">in war zones and in peacetime?</text>
+<text x="5890" y="975" font-size="25" fill="#9d9ba6" font-family="ui-monospace, 'SF Mono', Menlo, Consolas, monospace" font-weight="400" text-anchor="end">3 / 33</text>
+</g>
+<g id="slide-04">
+<rect x="6120" y="0" width="1920" height="1080" rx="24" fill="#121218" stroke="#26262f" stroke-width="2"/>
+<rect x="6120" y="0" width="10" height="1080" fill="#e5484d" opacity="0.85"/>
+<text x="6230" y="130" font-size="30" fill="#e5484d" font-family="'Inter', -apple-system, 'Helvetica Neue', Arial, sans-serif" font-weight="600" text-anchor="start" letter-spacing="5">THE GLOBAL NUMBER — WHO, NOV 2025</text>
+<rect x="6230" y="158" width="90" height="6" fill="#e5484d"/>
+<text x="6230" y="480" font-size="175" fill="#f2efe6" font-family="Georgia, 'Times New Roman', serif" font-weight="700" text-anchor="start">840 million</text>
+<text x="6230" y="610" font-size="46" fill="#d9d6cb" font-family="'Inter', -apple-system, 'Helvetica Neue', Arial, sans-serif" font-weight="400" text-anchor="start">women — nearly 1 in 3 worldwide — have faced</text>
+<text x="6230" y="678" font-size="46" fill="#d9d6cb" font-family="'Inter', -apple-system, 'Helvetica Neue', Arial, sans-serif" font-weight="400" text-anchor="start">intimate-partner or sexual violence in their lifetime.</text>
+<text x="6230" y="975" font-size="25" fill="#9d9ba6" font-family="ui-monospace, 'SF Mono', Menlo, Consolas, monospace" font-weight="400" text-anchor="start" letter-spacing="1">WHO GLOBAL ESTIMATES, 19 NOV 2025 · 168 COUNTRIES, 2000–2023</text>
+<text x="7930" y="975" font-size="25" fill="#9d9ba6" font-family="ui-monospace, 'SF Mono', Menlo, Consolas, monospace" font-weight="400" text-anchor="end">4 / 33</text>
+</g>
+<g id="slide-05">
+<rect x="8160" y="0" width="1920" height="1080" rx="24" fill="#121218" stroke="#26262f" stroke-width="2"/>
+<rect x="8160" y="0" width="10" height="1080" fill="#e5484d" opacity="0.85"/>
+<text x="8270" y="130" font-size="30" fill="#e5484d" font-family="'Inter', -apple-system, 'Helvetica Neue', Arial, sans-serif" font-weight="600" text-anchor="start" letter-spacing="5">KILLED FOR BEING WOMEN — UNODC, 2023</text>
+<rect x="8270" y="158" width="90" height="6" fill="#e5484d"/>
+<text x="8270" y="480" font-size="175" fill="#f2efe6" font-family="Georgia, 'Times New Roman', serif" font-weight="700" text-anchor="start">~140 a day</text>
+<text x="8270" y="610" font-size="46" fill="#d9d6cb" font-family="'Inter', -apple-system, 'Helvetica Neue', Arial, sans-serif" font-weight="400" text-anchor="start">51,100 women and girls killed by a partner</text>
+<text x="8270" y="678" font-size="46" fill="#d9d6cb" font-family="'Inter', -apple-system, 'Helvetica Neue', Arial, sans-serif" font-weight="400" text-anchor="start">or family member in 2023.</text>
+<text x="8270" y="746" font-size="46" fill="#d9d6cb" font-family="'Inter', -apple-system, 'Helvetica Neue', Arial, sans-serif" font-weight="400" text-anchor="start">Africa's rate is highest: 2.9 per 100,000.</text>
+<text x="8270" y="975" font-size="25" fill="#9d9ba6" font-family="ui-monospace, 'SF Mono', Menlo, Consolas, monospace" font-weight="400" text-anchor="start" letter-spacing="1">UNODC / UN WOMEN FEMICIDE BRIEF 2024</text>
+<text x="9970" y="975" font-size="25" fill="#9d9ba6" font-family="ui-monospace, 'SF Mono', Menlo, Consolas, monospace" font-weight="400" text-anchor="end">5 / 33</text>
+</g>
+<g id="slide-06">
+<rect x="10200" y="0" width="1920" height="1080" rx="24" fill="#121218" stroke="#26262f" stroke-width="2"/>
+<rect x="10200" y="0" width="10" height="1080" fill="#e5484d" opacity="0.85"/>
+<text x="10310" y="130" font-size="30" fill="#e5484d" font-family="'Inter', -apple-system, 'Helvetica Neue', Arial, sans-serif" font-weight="600" text-anchor="start" letter-spacing="5">THE MONEY — UN WOMEN, OCT 2025</text>
+<rect x="10310" y="158" width="90" height="6" fill="#e5484d"/>
+<text x="10310" y="480" font-size="175" fill="#f2efe6" font-family="Georgia, 'Times New Roman', serif" font-weight="700" text-anchor="start">0.2%</text>
+<text x="10310" y="610" font-size="46" fill="#d9d6cb" font-family="'Inter', -apple-system, 'Helvetica Neue', Arial, sans-serif" font-weight="400" text-anchor="start">of global aid goes to preventing violence</text>
+<text x="10310" y="678" font-size="46" fill="#d9d6cb" font-family="'Inter', -apple-system, 'Helvetica Neue', Arial, sans-serif" font-weight="400" text-anchor="start">against women. 1 in 3 anti-GBV programmes</text>
+<text x="10310" y="746" font-size="46" fill="#d9d6cb" font-family="'Inter', -apple-system, 'Helvetica Neue', Arial, sans-serif" font-weight="400" text-anchor="start">have shut down or suspended.</text>
+<text x="10310" y="975" font-size="25" fill="#9d9ba6" font-family="ui-monospace, 'SF Mono', Menlo, Consolas, monospace" font-weight="400" text-anchor="start" letter-spacing="1">UN WOMEN 'AT RISK AND UNDERFUNDED', OCT 2025</text>
+<text x="12010" y="975" font-size="25" fill="#9d9ba6" font-family="ui-monospace, 'SF Mono', Menlo, Consolas, monospace" font-weight="400" text-anchor="end">6 / 33</text>
+</g>
+<g id="slide-07">
+<rect x="12240" y="0" width="1920" height="1080" rx="24" fill="#121218" stroke="#26262f" stroke-width="2"/>
+<rect x="12240" y="0" width="10" height="1080" fill="#e5484d" opacity="0.85"/>
+<text x="12350" y="420" font-size="120" fill="#e5484d" font-family="ui-monospace, 'SF Mono', Menlo, Consolas, monospace" font-weight="700" text-anchor="start">01</text>
+<text x="12350" y="620" font-size="150" fill="#f2efe6" font-family="Georgia, 'Times New Roman', serif" font-weight="700" text-anchor="start">AROUND THE WORLD</text>
+<text x="12350" y="740" font-size="44" fill="#9d9ba6" font-family="'Inter', -apple-system, 'Helvetica Neue', Arial, sans-serif" font-weight="400" text-anchor="start">the news never stops</text>
+<text x="14050" y="975" font-size="25" fill="#9d9ba6" font-family="ui-monospace, 'SF Mono', Menlo, Consolas, monospace" font-weight="400" text-anchor="end">7 / 33</text>
+</g>
+<g id="slide-08">
+<rect x="14280" y="0" width="1920" height="1080" rx="24" fill="#121218" stroke="#26262f" stroke-width="2"/>
+<rect x="14280" y="0" width="10" height="1080" fill="#e5484d" opacity="0.85"/>
+<rect x="14390" y="90" width="302" height="64" fill="#e5484d"/>
+<text x="14418" y="135" font-size="34" fill="#ffffff" font-family="'Inter', -apple-system, 'Helvetica Neue', Arial, sans-serif" font-weight="700" text-anchor="start" letter-spacing="3">NEWS · MEXICO</text>
+<text x="14390" y="360" font-size="105" fill="#f2efe6" font-family="Georgia, 'Times New Roman', serif" font-weight="700" text-anchor="start">10 women killed</text>
+<text x="14390" y="480" font-size="105" fill="#f2efe6" font-family="Georgia, 'Times New Roman', serif" font-weight="700" text-anchor="start">every single day</text>
+<text x="14390" y="610" font-size="28" fill="#9d9ba6" font-family="ui-monospace, 'SF Mono', Menlo, Consolas, monospace" font-weight="400" text-anchor="start" letter-spacing="2">MEXICO CITY · DEC 2024</text>
+<text x="14390" y="680" font-size="40" fill="#d9d6cb" font-family="'Inter', -apple-system, 'Helvetica Neue', Arial, sans-serif" font-weight="400" text-anchor="start">50,000 women murdered since 2001.</text>
+<text x="14390" y="738" font-size="40" fill="#d9d6cb" font-family="'Inter', -apple-system, 'Helvetica Neue', Arial, sans-serif" font-weight="400" text-anchor="start">Impunity above 95%. Only ~2 a day are officially</text>
+<text x="14390" y="796" font-size="40" fill="#d9d6cb" font-family="'Inter', -apple-system, 'Helvetica Neue', Arial, sans-serif" font-weight="400" text-anchor="start">counted as feminicidio — the rest disappear</text>
+<text x="14390" y="854" font-size="40" fill="#d9d6cb" font-family="'Inter', -apple-system, 'Helvetica Neue', Arial, sans-serif" font-weight="400" text-anchor="start">into the statistics.</text>
+<text x="14390" y="975" font-size="24" fill="#9d9ba6" font-family="ui-monospace, 'SF Mono', Menlo, Consolas, monospace" font-weight="400" text-anchor="start" letter-spacing="1">SOURCE: MEXICAN GOVERNMENT DATA VIA UN NEWS</text>
+<text x="16090" y="975" font-size="25" fill="#9d9ba6" font-family="ui-monospace, 'SF Mono', Menlo, Consolas, monospace" font-weight="400" text-anchor="end">8 / 33</text>
+</g>
+<g id="slide-09">
+<rect x="16320" y="0" width="1920" height="1080" rx="24" fill="#121218" stroke="#26262f" stroke-width="2"/>
+<rect x="16320" y="0" width="10" height="1080" fill="#e5484d" opacity="0.85"/>
+<rect x="16430" y="90" width="302" height="64" fill="#e5484d"/>
+<text x="16458" y="135" font-size="34" fill="#ffffff" font-family="'Inter', -apple-system, 'Helvetica Neue', Arial, sans-serif" font-weight="700" text-anchor="start" letter-spacing="3">NEWS · BRAZIL</text>
+<text x="16430" y="360" font-size="105" fill="#f2efe6" font-family="Georgia, 'Times New Roman', serif" font-weight="700" text-anchor="start">1,492 femicides:</text>
+<text x="16430" y="480" font-size="105" fill="#f2efe6" font-family="Georgia, 'Times New Roman', serif" font-weight="700" text-anchor="start">a national record</text>
+<text x="16430" y="610" font-size="28" fill="#9d9ba6" font-family="ui-monospace, 'SF Mono', Menlo, Consolas, monospace" font-weight="400" text-anchor="start" letter-spacing="2">BRASILIA · 2025</text>
+<text x="16430" y="680" font-size="40" fill="#d9d6cb" font-family="'Inter', -apple-system, 'Helvetica Neue', Arial, sans-serif" font-weight="400" text-anchor="start">About 4 women a day in 2024.</text>
+<text x="16430" y="738" font-size="40" fill="#d9d6cb" font-family="'Inter', -apple-system, 'Helvetica Neue', Arial, sans-serif" font-weight="400" text-anchor="start">8 in 10 killed by a partner or ex.</text>
+<text x="16430" y="796" font-size="40" fill="#d9d6cb" font-family="'Inter', -apple-system, 'Helvetica Neue', Arial, sans-serif" font-weight="400" text-anchor="start">The 2024 law finally made femicide a standalone</text>
+<text x="16430" y="854" font-size="40" fill="#d9d6cb" font-family="'Inter', -apple-system, 'Helvetica Neue', Arial, sans-serif" font-weight="400" text-anchor="start">crime — up to 40 years in prison.</text>
+<text x="16430" y="975" font-size="24" fill="#9d9ba6" font-family="ui-monospace, 'SF Mono', Menlo, Consolas, monospace" font-weight="400" text-anchor="start" letter-spacing="1">SOURCE: FORUM BRASILEIRO DE SEGURANCA PUBLICA</text>
+<text x="18130" y="975" font-size="25" fill="#9d9ba6" font-family="ui-monospace, 'SF Mono', Menlo, Consolas, monospace" font-weight="400" text-anchor="end">9 / 33</text>
+</g>
+<g id="slide-10">
+<rect x="18360" y="0" width="1920" height="1080" rx="24" fill="#121218" stroke="#26262f" stroke-width="2"/>
+<rect x="18360" y="0" width="10" height="1080" fill="#e5484d" opacity="0.85"/>
+<rect x="18470" y="90" width="434" height="64" fill="#e5484d"/>
+<text x="18498" y="135" font-size="34" fill="#ffffff" font-family="'Inter', -apple-system, 'Helvetica Neue', Arial, sans-serif" font-weight="700" text-anchor="start" letter-spacing="3">NEWS · SOUTH AFRICA</text>
+<text x="18470" y="360" font-size="105" fill="#f2efe6" font-family="Georgia, 'Times New Roman', serif" font-weight="700" text-anchor="start">A rape reported</text>
+<text x="18470" y="480" font-size="105" fill="#f2efe6" font-family="Georgia, 'Times New Roman', serif" font-weight="700" text-anchor="start">every 12 minutes</text>
+<text x="18470" y="610" font-size="28" fill="#9d9ba6" font-family="ui-monospace, 'SF Mono', Menlo, Consolas, monospace" font-weight="400" text-anchor="start" letter-spacing="2">PRETORIA · 2024</text>
+<text x="18470" y="680" font-size="40" fill="#d9d6cb" font-family="'Inter', -apple-system, 'Helvetica Neue', Arial, sans-serif" font-weight="400" text-anchor="start">About 15 women killed every day.</text>
+<text x="18470" y="738" font-size="40" fill="#d9d6cb" font-family="'Inter', -apple-system, 'Helvetica Neue', Arial, sans-serif" font-weight="400" text-anchor="start">In 2025 the government declared gender-based</text>
+<text x="18470" y="796" font-size="40" fill="#d9d6cb" font-family="'Inter', -apple-system, 'Helvetica Neue', Arial, sans-serif" font-weight="400" text-anchor="start">violence a national disaster.</text>
+<text x="18470" y="975" font-size="24" fill="#9d9ba6" font-family="ui-monospace, 'SF Mono', Menlo, Consolas, monospace" font-weight="400" text-anchor="start" letter-spacing="1">SOURCE: SAPS / SOUTH AFRICAN MEDICAL RESEARCH COUNCIL</text>
+<text x="20170" y="975" font-size="25" fill="#9d9ba6" font-family="ui-monospace, 'SF Mono', Menlo, Consolas, monospace" font-weight="400" text-anchor="end">10 / 33</text>
+</g>
+<g id="slide-11">
+<rect x="20400" y="0" width="1920" height="1080" rx="24" fill="#121218" stroke="#26262f" stroke-width="2"/>
+<rect x="20400" y="0" width="10" height="1080" fill="#e5484d" opacity="0.85"/>
+<rect x="20510" y="90" width="346" height="64" fill="#e5484d"/>
+<text x="20538" y="135" font-size="34" fill="#ffffff" font-family="'Inter', -apple-system, 'Helvetica Neue', Arial, sans-serif" font-weight="700" text-anchor="start" letter-spacing="3">NEWS · PAKISTAN</text>
+<text x="20510" y="360" font-size="105" fill="#f2efe6" font-family="Georgia, 'Times New Roman', serif" font-weight="700" text-anchor="start">405+ honour killings</text>
+<text x="20510" y="480" font-size="105" fill="#f2efe6" font-family="Georgia, 'Times New Roman', serif" font-weight="700" text-anchor="start">in one year</text>
+<text x="20510" y="610" font-size="28" fill="#9d9ba6" font-family="ui-monospace, 'SF Mono', Menlo, Consolas, monospace" font-weight="400" text-anchor="start" letter-spacing="2">BALOCHISTAN · JUL 2025</text>
+<text x="20510" y="680" font-size="40" fill="#d9d6cb" font-family="'Inter', -apple-system, 'Helvetica Neue', Arial, sans-serif" font-weight="400" text-anchor="start">Recorded by HRCP for 2024.</text>
+<text x="20510" y="738" font-size="40" fill="#d9d6cb" font-family="'Inter', -apple-system, 'Helvetica Neue', Arial, sans-serif" font-weight="400" text-anchor="start">Activists say the true figure is ~1,000 a year.</text>
+<text x="20510" y="796" font-size="40" fill="#d9d6cb" font-family="'Inter', -apple-system, 'Helvetica Neue', Arial, sans-serif" font-weight="400" text-anchor="start">July 2025: a woman killed for marrying by choice.</text>
+<text x="20510" y="975" font-size="24" fill="#9d9ba6" font-family="ui-monospace, 'SF Mono', Menlo, Consolas, monospace" font-weight="400" text-anchor="start" letter-spacing="1">SOURCE: HRCP VIA INDEX ON CENSORSHIP</text>
+<text x="22210" y="975" font-size="25" fill="#9d9ba6" font-family="ui-monospace, 'SF Mono', Menlo, Consolas, monospace" font-weight="400" text-anchor="end">11 / 33</text>
+</g>
+<g id="slide-12">
+<rect x="22440" y="0" width="1920" height="1080" rx="24" fill="#121218" stroke="#26262f" stroke-width="2"/>
+<rect x="22440" y="0" width="10" height="1080" fill="#e5484d" opacity="0.85"/>
+<rect x="22550" y="90" width="390" height="64" fill="#e5484d"/>
+<text x="22578" y="135" font-size="34" fill="#ffffff" font-family="'Inter', -apple-system, 'Helvetica Neue', Arial, sans-serif" font-weight="700" text-anchor="start" letter-spacing="3">NEWS · BANGLADESH</text>
+<text x="22550" y="360" font-size="105" fill="#f2efe6" font-family="Georgia, 'Times New Roman', serif" font-weight="700" text-anchor="start">Rapes up 68%</text>
+<text x="22550" y="480" font-size="105" fill="#f2efe6" font-family="Georgia, 'Times New Roman', serif" font-weight="700" text-anchor="start">in seven months</text>
+<text x="22550" y="610" font-size="28" fill="#9d9ba6" font-family="ui-monospace, 'SF Mono', Menlo, Consolas, monospace" font-weight="400" text-anchor="start" letter-spacing="2">DHAKA · MAR 2025</text>
+<text x="22550" y="680" font-size="40" fill="#d9d6cb" font-family="'Inter', -apple-system, 'Helvetica Neue', Arial, sans-serif" font-weight="400" text-anchor="start">Child rape up 75% in the same period.</text>
+<text x="22550" y="738" font-size="40" fill="#d9d6cb" font-family="'Inter', -apple-system, 'Helvetica Neue', Arial, sans-serif" font-weight="400" text-anchor="start">After nationwide protests in March 2025,</text>
+<text x="22550" y="796" font-size="40" fill="#d9d6cb" font-family="'Inter', -apple-system, 'Helvetica Neue', Arial, sans-serif" font-weight="400" text-anchor="start">the government pledged zero tolerance.</text>
+<text x="22550" y="975" font-size="24" fill="#9d9ba6" font-family="ui-monospace, 'SF Mono', Menlo, Consolas, monospace" font-weight="400" text-anchor="start" letter-spacing="1">SOURCE: AIN O SALISH KENDRA / MSF</text>
+<text x="24250" y="975" font-size="25" fill="#9d9ba6" font-family="ui-monospace, 'SF Mono', Menlo, Consolas, monospace" font-weight="400" text-anchor="end">12 / 33</text>
+</g>
+<g id="slide-13">
+<rect x="24480" y="0" width="1920" height="1080" rx="24" fill="#121218" stroke="#26262f" stroke-width="2"/>
+<rect x="24480" y="0" width="10" height="1080" fill="#e5484d" opacity="0.85"/>
+<rect x="24590" y="90" width="412" height="64" fill="#e5484d"/>
+<text x="24618" y="135" font-size="34" fill="#ffffff" font-family="'Inter', -apple-system, 'Helvetica Neue', Arial, sans-serif" font-weight="700" text-anchor="start" letter-spacing="3">NEWS · AFGHANISTAN</text>
+<text x="24590" y="360" font-size="105" fill="#f2efe6" font-family="Georgia, 'Times New Roman', serif" font-weight="700" text-anchor="start">100+ edicts.</text>
+<text x="24590" y="480" font-size="105" fill="#f2efe6" font-family="Georgia, 'Times New Roman', serif" font-weight="700" text-anchor="start">Not one repealed.</text>
+<text x="24590" y="610" font-size="28" fill="#9d9ba6" font-family="ui-monospace, 'SF Mono', Menlo, Consolas, monospace" font-weight="400" text-anchor="start" letter-spacing="2">KABUL · AUG 2025</text>
+<text x="24590" y="680" font-size="40" fill="#d9d6cb" font-family="'Inter', -apple-system, 'Helvetica Neue', Arial, sans-serif" font-weight="400" text-anchor="start">Four years of Taliban rule.</text>
+<text x="24590" y="738" font-size="40" fill="#d9d6cb" font-family="'Inter', -apple-system, 'Helvetica Neue', Arial, sans-serif" font-weight="400" text-anchor="start">The EVAW law scrapped. 270 women judges dismissed.</text>
+<text x="24590" y="796" font-size="40" fill="#d9d6cb" font-family="'Inter', -apple-system, 'Helvetica Neue', Arial, sans-serif" font-weight="400" text-anchor="start">1,110+ public floggings in 2025.</text>
+<text x="24590" y="975" font-size="24" fill="#9d9ba6" font-family="ui-monospace, 'SF Mono', Menlo, Consolas, monospace" font-weight="400" text-anchor="start" letter-spacing="1">SOURCE: UN WOMEN GENDER ALERT</text>
+<text x="26290" y="975" font-size="25" fill="#9d9ba6" font-family="ui-monospace, 'SF Mono', Menlo, Consolas, monospace" font-weight="400" text-anchor="end">13 / 33</text>
+</g>
+<g id="slide-14">
+<rect x="26520" y="0" width="1920" height="1080" rx="24" fill="#121218" stroke="#26262f" stroke-width="2"/>
+<rect x="26520" y="0" width="10" height="1080" fill="#e5484d" opacity="0.85"/>
+<rect x="26630" y="90" width="302" height="64" fill="#e5484d"/>
+<text x="26658" y="135" font-size="34" fill="#ffffff" font-family="'Inter', -apple-system, 'Helvetica Neue', Arial, sans-serif" font-weight="700" text-anchor="start" letter-spacing="3">NEWS · TURKEY</text>
+<text x="26630" y="360" font-size="105" fill="#f2efe6" font-family="Georgia, 'Times New Roman', serif" font-weight="700" text-anchor="start">394 femicides —</text>
+<text x="26630" y="480" font-size="105" fill="#f2efe6" font-family="Georgia, 'Times New Roman', serif" font-weight="700" text-anchor="start">and the state stopped</text>
+<text x="26630" y="600" font-size="105" fill="#f2efe6" font-family="Georgia, 'Times New Roman', serif" font-weight="700" text-anchor="start">counting</text>
+<text x="26630" y="730" font-size="28" fill="#9d9ba6" font-family="ui-monospace, 'SF Mono', Menlo, Consolas, monospace" font-weight="400" text-anchor="start" letter-spacing="2">ANKARA · 2021–2024</text>
+<text x="26630" y="800" font-size="40" fill="#d9d6cb" font-family="'Inter', -apple-system, 'Helvetica Neue', Arial, sans-serif" font-weight="400" text-anchor="start">A record 394 in 2024 — counted only by NGOs.</text>
+<text x="26630" y="858" font-size="40" fill="#d9d6cb" font-family="'Inter', -apple-system, 'Helvetica Neue', Arial, sans-serif" font-weight="400" text-anchor="start">Turkey quit the Istanbul Convention in 2021.</text>
+<text x="26630" y="916" font-size="40" fill="#d9d6cb" font-family="'Inter', -apple-system, 'Helvetica Neue', Arial, sans-serif" font-weight="400" text-anchor="start">Then the state stopped publishing femicide data.</text>
+<text x="26630" y="975" font-size="24" fill="#9d9ba6" font-family="ui-monospace, 'SF Mono', Menlo, Consolas, monospace" font-weight="400" text-anchor="start" letter-spacing="1">SOURCE: WE WILL STOP FEMICIDE PLATFORM</text>
+<text x="28330" y="975" font-size="25" fill="#9d9ba6" font-family="ui-monospace, 'SF Mono', Menlo, Consolas, monospace" font-weight="400" text-anchor="end">14 / 33</text>
+</g>
+<g id="slide-15">
+<rect x="28560" y="0" width="1920" height="1080" rx="24" fill="#121218" stroke="#26262f" stroke-width="2"/>
+<rect x="28560" y="0" width="10" height="1080" fill="#e5484d" opacity="0.85"/>
+<rect x="28670" y="90" width="302" height="64" fill="#e5484d"/>
+<text x="28698" y="135" font-size="34" fill="#ffffff" font-family="'Inter', -apple-system, 'Helvetica Neue', Arial, sans-serif" font-weight="700" text-anchor="start" letter-spacing="3">NEWS · FRANCE</text>
+<text x="28670" y="360" font-size="105" fill="#f2efe6" font-family="Georgia, 'Times New Roman', serif" font-weight="700" text-anchor="start">107 women killed</text>
+<text x="28670" y="480" font-size="105" fill="#f2efe6" font-family="Georgia, 'Times New Roman', serif" font-weight="700" text-anchor="start">by a partner in 2024</text>
+<text x="28670" y="610" font-size="28" fill="#9d9ba6" font-family="ui-monospace, 'SF Mono', Menlo, Consolas, monospace" font-weight="400" text-anchor="start" letter-spacing="2">PARIS · DEC 2025</text>
+<text x="28670" y="680" font-size="40" fill="#d9d6cb" font-family="'Inter', -apple-system, 'Helvetica Neue', Arial, sans-serif" font-weight="400" text-anchor="start">Up 11% in a year.</text>
+<text x="28670" y="738" font-size="40" fill="#d9d6cb" font-family="'Inter', -apple-system, 'Helvetica Neue', Arial, sans-serif" font-weight="400" text-anchor="start">Half of them had already reported violence.</text>
+<text x="28670" y="796" font-size="40" fill="#d9d6cb" font-family="'Inter', -apple-system, 'Helvetica Neue', Arial, sans-serif" font-weight="400" text-anchor="start">Only 1 in 10 complaints ends in a conviction.</text>
+<text x="28670" y="975" font-size="24" fill="#9d9ba6" font-family="ui-monospace, 'SF Mono', Menlo, Consolas, monospace" font-weight="400" text-anchor="start" letter-spacing="1">SOURCE: INTERIOR MINISTRY / FONDATION DES FEMMES</text>
+<text x="30370" y="975" font-size="25" fill="#9d9ba6" font-family="ui-monospace, 'SF Mono', Menlo, Consolas, monospace" font-weight="400" text-anchor="end">15 / 33</text>
+</g>
+<g id="slide-16">
+<rect x="30600" y="0" width="1920" height="1080" rx="24" fill="#121218" stroke="#26262f" stroke-width="2"/>
+<rect x="30600" y="0" width="10" height="1080" fill="#e5484d" opacity="0.85"/>
+<rect x="30710" y="90" width="478" height="64" fill="#e5484d"/>
+<text x="30738" y="135" font-size="34" fill="#ffffff" font-family="'Inter', -apple-system, 'Helvetica Neue', Arial, sans-serif" font-weight="700" text-anchor="start" letter-spacing="3">NEWS · UNITED KINGDOM</text>
+<text x="30710" y="360" font-size="105" fill="#f2efe6" font-family="Georgia, 'Times New Roman', serif" font-weight="700" text-anchor="start">101+ killed by men —</text>
+<text x="30710" y="480" font-size="105" fill="#f2efe6" font-family="Georgia, 'Times New Roman', serif" font-weight="700" text-anchor="start">the state publishes</text>
+<text x="30710" y="600" font-size="105" fill="#f2efe6" font-family="Georgia, 'Times New Roman', serif" font-weight="700" text-anchor="start">no count</text>
+<text x="30710" y="730" font-size="28" fill="#9d9ba6" font-family="ui-monospace, 'SF Mono', Menlo, Consolas, monospace" font-weight="400" text-anchor="start" letter-spacing="2">LONDON · 2021–2025</text>
+<text x="30710" y="800" font-size="40" fill="#d9d6cb" font-family="'Inter', -apple-system, 'Helvetica Neue', Arial, sans-serif" font-weight="400" text-anchor="start">Campaigners counted 101+ in 2025.</text>
+<text x="30710" y="858" font-size="40" fill="#d9d6cb" font-family="'Inter', -apple-system, 'Helvetica Neue', Arial, sans-serif" font-weight="400" text-anchor="start">The government publishes no femicide series.</text>
+<text x="30710" y="916" font-size="40" fill="#d9d6cb" font-family="'Inter', -apple-system, 'Helvetica Neue', Arial, sans-serif" font-weight="400" text-anchor="start">Sarah Everard, 2021: murdered by a serving</text>
+<text x="30710" y="974" font-size="40" fill="#d9d6cb" font-family="'Inter', -apple-system, 'Helvetica Neue', Arial, sans-serif" font-weight="400" text-anchor="start">police officer.</text>
+<text x="30710" y="975" font-size="24" fill="#9d9ba6" font-family="ui-monospace, 'SF Mono', Menlo, Consolas, monospace" font-weight="400" text-anchor="start" letter-spacing="1">SOURCE: FEMICIDE CENSUS (KAREN INGALA SMITH)</text>
+<text x="32410" y="975" font-size="25" fill="#9d9ba6" font-family="ui-monospace, 'SF Mono', Menlo, Consolas, monospace" font-weight="400" text-anchor="end">16 / 33</text>
+</g>
+<g id="slide-17">
+<rect x="32640" y="0" width="1920" height="1080" rx="24" fill="#121218" stroke="#26262f" stroke-width="2"/>
+<rect x="32640" y="0" width="10" height="1080" fill="#e5484d" opacity="0.85"/>
+<rect x="32750" y="90" width="456" height="64" fill="#e5484d"/>
+<text x="32778" y="135" font-size="34" fill="#ffffff" font-family="'Inter', -apple-system, 'Helvetica Neue', Arial, sans-serif" font-weight="700" text-anchor="start" letter-spacing="3">NEWS · UNITED STATES</text>
+<text x="32750" y="360" font-size="105" fill="#f2efe6" font-family="Georgia, 'Times New Roman', serif" font-weight="700" text-anchor="start">2,400+ women killed</text>
+<text x="32750" y="480" font-size="105" fill="#f2efe6" font-family="Georgia, 'Times New Roman', serif" font-weight="700" text-anchor="start">by men in 2023</text>
+<text x="32750" y="610" font-size="28" fill="#9d9ba6" font-family="ui-monospace, 'SF Mono', Menlo, Consolas, monospace" font-weight="400" text-anchor="start" letter-spacing="2">WASHINGTON · SEP 2025</text>
+<text x="32750" y="680" font-size="40" fill="#d9d6cb" font-family="'Inter', -apple-system, 'Helvetica Neue', Arial, sans-serif" font-weight="400" text-anchor="start">Two-thirds died by gunfire.</text>
+<text x="32750" y="738" font-size="40" fill="#d9d6cb" font-family="'Inter', -apple-system, 'Helvetica Neue', Arial, sans-serif" font-weight="400" text-anchor="start">Black women are killed at 2.0 per 100,000 —</text>
+<text x="32750" y="796" font-size="40" fill="#d9d6cb" font-family="'Inter', -apple-system, 'Helvetica Neue', Arial, sans-serif" font-weight="400" text-anchor="start">the highest rate in the country.</text>
+<text x="32750" y="975" font-size="24" fill="#9d9ba6" font-family="ui-monospace, 'SF Mono', Menlo, Consolas, monospace" font-weight="400" text-anchor="start" letter-spacing="1">SOURCE: VIOLENCE POLICY CENTER / FBI DATA</text>
+<text x="34450" y="975" font-size="25" fill="#9d9ba6" font-family="ui-monospace, 'SF Mono', Menlo, Consolas, monospace" font-weight="400" text-anchor="end">17 / 33</text>
+</g>
+<g id="slide-18">
+<rect x="34680" y="0" width="1920" height="1080" rx="24" fill="#121218" stroke="#26262f" stroke-width="2"/>
+<rect x="34680" y="0" width="10" height="1080" fill="#e5484d" opacity="0.85"/>
+<rect x="34790" y="90" width="412" height="64" fill="#e5484d"/>
+<text x="34818" y="135" font-size="34" fill="#ffffff" font-family="'Inter', -apple-system, 'Helvetica Neue', Arial, sans-serif" font-weight="700" text-anchor="start" letter-spacing="3">NEWS · SOUTH KOREA</text>
+<text x="34790" y="360" font-size="105" fill="#f2efe6" font-family="Georgia, 'Times New Roman', serif" font-weight="700" text-anchor="start">Deepfake sex crimes</text>
+<text x="34790" y="480" font-size="105" fill="#f2efe6" font-family="Georgia, 'Times New Roman', serif" font-weight="700" text-anchor="start">x 3.3 in one year</text>
+<text x="34790" y="610" font-size="28" fill="#9d9ba6" font-family="ui-monospace, 'SF Mono', Menlo, Consolas, monospace" font-weight="400" text-anchor="start" letter-spacing="2">SEOUL · 2024</text>
+<text x="34790" y="680" font-size="40" fill="#d9d6cb" font-family="'Inter', -apple-system, 'Helvetica Neue', Arial, sans-serif" font-weight="400" text-anchor="start">1,384 cases in 2024.</text>
+<text x="34790" y="738" font-size="40" fill="#d9d6cb" font-family="'Inter', -apple-system, 'Helvetica Neue', Arial, sans-serif" font-weight="400" text-anchor="start">Telegram chatrooms with 220,000+ members</text>
+<text x="34790" y="796" font-size="40" fill="#d9d6cb" font-family="'Inter', -apple-system, 'Helvetica Neue', Arial, sans-serif" font-weight="400" text-anchor="start">traded AI-generated nudes of schoolgirls.</text>
+<text x="34790" y="975" font-size="24" fill="#9d9ba6" font-family="ui-monospace, 'SF Mono', Menlo, Consolas, monospace" font-weight="400" text-anchor="start" letter-spacing="1">SOURCE: KOREA JOONGANG DAILY / NATIONAL POLICE AGENCY</text>
+<text x="36490" y="975" font-size="25" fill="#9d9ba6" font-family="ui-monospace, 'SF Mono', Menlo, Consolas, monospace" font-weight="400" text-anchor="end">18 / 33</text>
+</g>
+<g id="slide-19">
+<rect x="36720" y="0" width="1920" height="1080" rx="24" fill="#121218" stroke="#26262f" stroke-width="2"/>
+<rect x="36720" y="0" width="10" height="1080" fill="#e5484d" opacity="0.85"/>
+<rect x="36830" y="90" width="280" height="64" fill="#e5484d"/>
+<text x="36858" y="135" font-size="34" fill="#ffffff" font-family="'Inter', -apple-system, 'Helvetica Neue', Arial, sans-serif" font-weight="700" text-anchor="start" letter-spacing="3">NEWS · SUDAN</text>
+<text x="36830" y="360" font-size="105" fill="#f2efe6" font-family="Georgia, 'Times New Roman', serif" font-weight="700" text-anchor="start">Rape as a</text>
+<text x="36830" y="480" font-size="105" fill="#f2efe6" font-family="Georgia, 'Times New Roman', serif" font-weight="700" text-anchor="start">weapon of war</text>
+<text x="36830" y="610" font-size="28" fill="#9d9ba6" font-family="ui-monospace, 'SF Mono', Menlo, Consolas, monospace" font-weight="400" text-anchor="start" letter-spacing="2">KHARTOUM · 2023–2026</text>
+<text x="36830" y="680" font-size="40" fill="#d9d6cb" font-family="'Inter', -apple-system, 'Helvetica Neue', Arial, sans-serif" font-weight="400" text-anchor="start">Demand for rape-survivor support up 288%.</text>
+<text x="36830" y="738" font-size="40" fill="#d9d6cb" font-family="'Inter', -apple-system, 'Helvetica Neue', Arial, sans-serif" font-weight="400" text-anchor="start">838 victims verified by the UN —</text>
+<text x="36830" y="796" font-size="40" fill="#d9d6cb" font-family="'Inter', -apple-system, 'Helvetica Neue', Arial, sans-serif" font-weight="400" text-anchor="start">87% attributed to the RSF.</text>
+<text x="36830" y="975" font-size="24" fill="#9d9ba6" font-family="ui-monospace, 'SF Mono', Menlo, Consolas, monospace" font-weight="400" text-anchor="start" letter-spacing="1">SOURCE: UN WOMEN / OHCHR</text>
+<text x="38530" y="975" font-size="25" fill="#9d9ba6" font-family="ui-monospace, 'SF Mono', Menlo, Consolas, monospace" font-weight="400" text-anchor="end">19 / 33</text>
+</g>
+<g id="slide-20">
+<rect x="38760" y="0" width="1920" height="1080" rx="24" fill="#121218" stroke="#26262f" stroke-width="2"/>
+<rect x="38760" y="0" width="10" height="1080" fill="#e5484d" opacity="0.85"/>
+<text x="38870" y="420" font-size="120" fill="#e5484d" font-family="ui-monospace, 'SF Mono', Menlo, Consolas, monospace" font-weight="700" text-anchor="start">02</text>
+<text x="38870" y="620" font-size="150" fill="#f2efe6" font-family="Georgia, 'Times New Roman', serif" font-weight="700" text-anchor="start">CONNECTING THE DOTS</text>
+<text x="38870" y="740" font-size="44" fill="#9d9ba6" font-family="'Inter', -apple-system, 'Helvetica Neue', Arial, sans-serif" font-weight="400" text-anchor="start">separate news. one machine.</text>
+<text x="40570" y="975" font-size="25" fill="#9d9ba6" font-family="ui-monospace, 'SF Mono', Menlo, Consolas, monospace" font-weight="400" text-anchor="end">20 / 33</text>
+</g>
+<g id="slide-21">
+<rect x="40800" y="0" width="1920" height="1080" rx="24" fill="#121218" stroke="#26262f" stroke-width="2"/>
+<rect x="40800" y="0" width="10" height="1080" fill="#e5484d" opacity="0.85"/>
+<text x="40910" y="110" font-size="30" fill="#e5484d" font-family="'Inter', -apple-system, 'Helvetica Neue', Arial, sans-serif" font-weight="600" text-anchor="start" letter-spacing="5">THE FEAR LOOP</text>
+<rect x="40910" y="138" width="90" height="6" fill="#e5484d"/>
+<text x="40910" y="230" font-size="64" fill="#f2efe6" font-family="Georgia, 'Times New Roman', serif" font-weight="700" text-anchor="start">How violence reproduces itself</text>
+<circle cx="41760" cy="300" r="150.0" fill="#1a1a22" stroke="#e5484d" stroke-width="3"/>
+<text x="41760.0" y="312.0" font-size="34" fill="#f2efe6" font-family="'Inter', -apple-system, 'Helvetica Neue', Arial, sans-serif" font-weight="700" text-anchor="middle">VIOLENCE</text>
+<circle cx="42060" cy="600" r="150.0" fill="#1a1a22" stroke="#e5484d" stroke-width="3"/>
+<text x="42060.0" y="612.0" font-size="34" fill="#f2efe6" font-family="'Inter', -apple-system, 'Helvetica Neue', Arial, sans-serif" font-weight="700" text-anchor="middle">FEAR</text>
+<circle cx="41760" cy="900" r="150.0" fill="#1a1a22" stroke="#e5484d" stroke-width="3"/>
+<text x="41760.0" y="912.0" font-size="34" fill="#f2efe6" font-family="'Inter', -apple-system, 'Helvetica Neue', Arial, sans-serif" font-weight="700" text-anchor="middle">SILENCE</text>
+<circle cx="41460" cy="600" r="150.0" fill="#1a1a22" stroke="#e5484d" stroke-width="3"/>
+<text x="41460.0" y="612.0" font-size="34" fill="#f2efe6" font-family="'Inter', -apple-system, 'Helvetica Neue', Arial, sans-serif" font-weight="700" text-anchor="middle">IMPUNITY</text>
+<line x1="41870" y1="410" x2="41944" y2="484" stroke="#e5484d" stroke-width="5" marker-end="url(#arr)"/>
+<line x1="41950" y1="710" x2="41876" y2="784" stroke="#e5484d" stroke-width="5" marker-end="url(#arr)"/>
+<line x1="41650" y1="790" x2="41576" y2="716" stroke="#e5484d" stroke-width="5" marker-end="url(#arr)"/>
+<line x1="41570" y1="490" x2="41644" y2="416" stroke="#e5484d" stroke-width="5" marker-end="url(#arr)"/>
+<text x="41760" y="950" font-size="36" fill="#d9d6cb" font-family="'Inter', -apple-system, 'Helvetica Neue', Arial, sans-serif" font-weight="400" text-anchor="middle">Each turn of the loop makes the next one easier.</text>
+<text x="40910" y="1000" font-size="22" fill="#9d9ba6" font-family="ui-monospace, 'SF Mono', Menlo, Consolas, monospace" font-weight="400" text-anchor="start" letter-spacing="1">SYSTEMS SYNTHESIS — SEE RESEARCH NOTES</text>
+<text x="42610" y="975" font-size="25" fill="#9d9ba6" font-family="ui-monospace, 'SF Mono', Menlo, Consolas, monospace" font-weight="400" text-anchor="end">21 / 33</text>
+</g>
+<g id="slide-22">
+<rect x="42840" y="0" width="1920" height="1080" rx="24" fill="#121218" stroke="#26262f" stroke-width="2"/>
+<rect x="42840" y="0" width="10" height="1080" fill="#e5484d" opacity="0.85"/>
+<text x="42950" y="130" font-size="30" fill="#e5484d" font-family="'Inter', -apple-system, 'Helvetica Neue', Arial, sans-serif" font-weight="600" text-anchor="start" letter-spacing="5">IMPUNITY IS THE ENGINE</text>
+<rect x="42950" y="158" width="90" height="6" fill="#e5484d"/>
+<text x="42950" y="400" font-size="96" fill="#f2efe6" font-family="Georgia, 'Times New Roman', serif" font-weight="700" text-anchor="start">Most violence is never punished.</text>
+<text x="42950" y="540" font-size="44" fill="#d9d6cb" font-family="'Inter', -apple-system, 'Helvetica Neue', Arial, sans-serif" font-weight="400" text-anchor="start">When punishment is rare, violence is rational:</text>
+<text x="42950" y="606" font-size="44" fill="#d9d6cb" font-family="'Inter', -apple-system, 'Helvetica Neue', Arial, sans-serif" font-weight="400" text-anchor="start">why stop doing what costs you nothing?</text>
+<text x="42950" y="672" font-size="44" fill="#d9d6cb" font-family="'Inter', -apple-system, 'Helvetica Neue', Arial, sans-serif" font-weight="400" text-anchor="start">Underfunded police, closed shelters, collapsed courts —</text>
+<text x="42950" y="738" font-size="44" fill="#d9d6cb" font-family="'Inter', -apple-system, 'Helvetica Neue', Arial, sans-serif" font-weight="400" text-anchor="start">the system teaches perpetrators</text>
+<text x="42950" y="804" font-size="44" fill="#d9d6cb" font-family="'Inter', -apple-system, 'Helvetica Neue', Arial, sans-serif" font-weight="400" text-anchor="start">that they will get away with it.</text>
+<text x="44650" y="975" font-size="25" fill="#9d9ba6" font-family="ui-monospace, 'SF Mono', Menlo, Consolas, monospace" font-weight="400" text-anchor="end">22 / 33</text>
+</g>
+<g id="slide-23">
+<rect x="44880" y="0" width="1920" height="1080" rx="24" fill="#121218" stroke="#26262f" stroke-width="2"/>
+<rect x="44880" y="0" width="10" height="1080" fill="#e5484d" opacity="0.85"/>
+<text x="44990" y="420" font-size="120" fill="#e5484d" font-family="ui-monospace, 'SF Mono', Menlo, Consolas, monospace" font-weight="700" text-anchor="start">03</text>
+<text x="44990" y="600" font-size="130" fill="#f2efe6" font-family="Georgia, 'Times New Roman', serif" font-weight="700" text-anchor="start">INSIDE THE</text>
+<text x="44990" y="740" font-size="130" fill="#f2efe6" font-family="Georgia, 'Times New Roman', serif" font-weight="700" text-anchor="start">PERPETRATOR'S MIND</text>
+<text x="44990" y="860" font-size="44" fill="#9d9ba6" font-family="'Inter', -apple-system, 'Helvetica Neue', Arial, sans-serif" font-weight="400" text-anchor="start">the missing layer</text>
+<text x="46690" y="975" font-size="25" fill="#9d9ba6" font-family="ui-monospace, 'SF Mono', Menlo, Consolas, monospace" font-weight="400" text-anchor="end">23 / 33</text>
+</g>
+<g id="slide-24">
+<rect x="46920" y="0" width="1920" height="1080" rx="24" fill="#121218" stroke="#26262f" stroke-width="2"/>
+<rect x="46920" y="0" width="10" height="1080" fill="#e5484d" opacity="0.85"/>
+<text x="47030" y="130" font-size="30" fill="#e5484d" font-family="'Inter', -apple-system, 'Helvetica Neue', Arial, sans-serif" font-weight="600" text-anchor="start" letter-spacing="5">MORAL DISENGAGEMENT</text>
+<rect x="47030" y="158" width="90" height="6" fill="#e5484d"/>
+<text x="47030" y="400" font-size="96" fill="#f2efe6" font-family="Georgia, 'Times New Roman', serif" font-weight="700" text-anchor="start">He doesn't think he's evil.</text>
+<text x="47030" y="540" font-size="44" fill="#d9d6cb" font-family="'Inter', -apple-system, 'Helvetica Neue', Arial, sans-serif" font-weight="400" text-anchor="start">Psychology's name for it: moral disengagement.</text>
+<text x="47030" y="606" font-size="44" fill="#d9d6cb" font-family="'Inter', -apple-system, 'Helvetica Neue', Arial, sans-serif" font-weight="400" text-anchor="start">People rarely think 'I am doing evil.'</text>
+<text x="47030" y="672" font-size="44" fill="#d9d6cb" font-family="'Inter', -apple-system, 'Helvetica Neue', Arial, sans-serif" font-weight="400" text-anchor="start">Instead they run mental tricks that make</text>
+<text x="47030" y="738" font-size="44" fill="#d9d6cb" font-family="'Inter', -apple-system, 'Helvetica Neue', Arial, sans-serif" font-weight="400" text-anchor="start">abuse feel permissible — even justified.</text>
+<text x="47030" y="975" font-size="25" fill="#9d9ba6" font-family="ui-monospace, 'SF Mono', Menlo, Consolas, monospace" font-weight="400" text-anchor="start" letter-spacing="1">BANDURA — SEE SOURCES SLIDE</text>
+<text x="48730" y="975" font-size="25" fill="#9d9ba6" font-family="ui-monospace, 'SF Mono', Menlo, Consolas, monospace" font-weight="400" text-anchor="end">24 / 33</text>
+</g>
+<g id="slide-25">
+<rect x="48960" y="0" width="1920" height="1080" rx="24" fill="#121218" stroke="#26262f" stroke-width="2"/>
+<rect x="48960" y="0" width="10" height="1080" fill="#e5484d" opacity="0.85"/>
+<text x="49070" y="110" font-size="30" fill="#e5484d" font-family="'Inter', -apple-system, 'Helvetica Neue', Arial, sans-serif" font-weight="600" text-anchor="start" letter-spacing="5">THE FOUR TRICKS</text>
+<rect x="49070" y="138" width="90" height="6" fill="#e5484d"/>
+<text x="49070" y="230" font-size="64" fill="#f2efe6" font-family="Georgia, 'Times New Roman', serif" font-weight="700" text-anchor="start">How he convinces himself</text>
+<rect x="49070" y="330" width="395" height="560" rx="16" fill="#1a1a22" stroke="#26262f" stroke-width="2"/>
+<rect x="49070" y="330" width="395" height="10" fill="#e5484d"/>
+<text x="49106.0" y="410" font-size="30" fill="#e5484d" font-family="'Inter', -apple-system, 'Helvetica Neue', Arial, sans-serif" font-weight="700" text-anchor="start" letter-spacing="2">1 · VICTIM-BLAMING</text>
+<text x="49106.0" y="480" font-size="34" fill="#d9d6cb" font-family="'Inter', -apple-system, 'Helvetica Neue', Arial, sans-serif" font-weight="400" text-anchor="start">She deserved it.</text>
+<text x="49106.0" y="534" font-size="34" fill="#d9d6cb" font-family="'Inter', -apple-system, 'Helvetica Neue', Arial, sans-serif" font-weight="400" text-anchor="start">She asked for it.</text>
+<text x="49106.0" y="588" font-size="34" fill="#d9d6cb" font-family="'Inter', -apple-system, 'Helvetica Neue', Arial, sans-serif" font-weight="400" text-anchor="start">Look what she was wearing.</text>
+<rect x="49505" y="330" width="395" height="560" rx="16" fill="#1a1a22" stroke="#26262f" stroke-width="2"/>
+<rect x="49505" y="330" width="395" height="10" fill="#e5484d"/>
+<text x="49541.0" y="410" font-size="30" fill="#e5484d" font-family="'Inter', -apple-system, 'Helvetica Neue', Arial, sans-serif" font-weight="700" text-anchor="start" letter-spacing="2">2 · MINIMIZING</text>
+<text x="49541.0" y="480" font-size="34" fill="#d9d6cb" font-family="'Inter', -apple-system, 'Helvetica Neue', Arial, sans-serif" font-weight="400" text-anchor="start">It wasn't that bad.</text>
+<text x="49541.0" y="534" font-size="34" fill="#d9d6cb" font-family="'Inter', -apple-system, 'Helvetica Neue', Arial, sans-serif" font-weight="400" text-anchor="start">Just a slap.</text>
+<text x="49541.0" y="588" font-size="34" fill="#d9d6cb" font-family="'Inter', -apple-system, 'Helvetica Neue', Arial, sans-serif" font-weight="400" text-anchor="start">She is exaggerating.</text>
+<rect x="49940" y="330" width="395" height="560" rx="16" fill="#1a1a22" stroke="#26262f" stroke-width="2"/>
+<rect x="49940" y="330" width="395" height="10" fill="#e5484d"/>
+<text x="49976.0" y="410" font-size="30" fill="#e5484d" font-family="'Inter', -apple-system, 'Helvetica Neue', Arial, sans-serif" font-weight="700" text-anchor="start" letter-spacing="2">3 · DIFFUSION</text>
+<text x="49976.0" y="480" font-size="34" fill="#d9d6cb" font-family="'Inter', -apple-system, 'Helvetica Neue', Arial, sans-serif" font-weight="400" text-anchor="start">Everyone does it.</text>
+<text x="49976.0" y="534" font-size="34" fill="#d9d6cb" font-family="'Inter', -apple-system, 'Helvetica Neue', Arial, sans-serif" font-weight="400" text-anchor="start">Boys will be boys.</text>
+<text x="49976.0" y="588" font-size="34" fill="#d9d6cb" font-family="'Inter', -apple-system, 'Helvetica Neue', Arial, sans-serif" font-weight="400" text-anchor="start">It is our culture.</text>
+<rect x="50375" y="330" width="395" height="560" rx="16" fill="#1a1a22" stroke="#26262f" stroke-width="2"/>
+<rect x="50375" y="330" width="395" height="10" fill="#e5484d"/>
+<text x="50411.0" y="410" font-size="30" fill="#e5484d" font-family="'Inter', -apple-system, 'Helvetica Neue', Arial, sans-serif" font-weight="700" text-anchor="start" letter-spacing="2">4 · ENTITLEMENT</text>
+<text x="50411.0" y="480" font-size="34" fill="#d9d6cb" font-family="'Inter', -apple-system, 'Helvetica Neue', Arial, sans-serif" font-weight="400" text-anchor="start">I have the right.</text>
+<text x="50411.0" y="534" font-size="34" fill="#d9d6cb" font-family="'Inter', -apple-system, 'Helvetica Neue', Arial, sans-serif" font-weight="400" text-anchor="start">As a man. As a husband.</text>
+<text x="50411.0" y="588" font-size="34" fill="#d9d6cb" font-family="'Inter', -apple-system, 'Helvetica Neue', Arial, sans-serif" font-weight="400" text-anchor="start">She is mine.</text>
+<text x="50770" y="975" font-size="25" fill="#9d9ba6" font-family="ui-monospace, 'SF Mono', Menlo, Consolas, monospace" font-weight="400" text-anchor="end">25 / 33</text>
+</g>
+<g id="slide-26">
+<rect x="51000" y="0" width="1920" height="1080" rx="24" fill="#121218" stroke="#26262f" stroke-width="2"/>
+<rect x="51000" y="0" width="10" height="1080" fill="#e5484d" opacity="0.85"/>
+<text x="51110" y="110" font-size="30" fill="#e5484d" font-family="'Inter', -apple-system, 'Helvetica Neue', Arial, sans-serif" font-weight="600" text-anchor="start" letter-spacing="5">THE BIG LOOP</text>
+<rect x="51110" y="138" width="90" height="6" fill="#e5484d"/>
+<text x="51110" y="230" font-size="64" fill="#f2efe6" font-family="Georgia, 'Times New Roman', serif" font-weight="700" text-anchor="start">Where entitlement comes from</text>
+<circle cx="51960" cy="300" r="125.0" fill="#1a1a22" stroke="#e5484d" stroke-width="3"/>
+<text x="51960.0" y="312.0" font-size="34" fill="#f2efe6" font-family="'Inter', -apple-system, 'Helvetica Neue', Arial, sans-serif" font-weight="700" text-anchor="middle">HISTORY</text>
+<circle cx="52245" cy="507" r="125.0" fill="#1a1a22" stroke="#e5484d" stroke-width="3"/>
+<text x="52245.31695488855" y="519.2949016875158" font-size="34" fill="#f2efe6" font-family="'Inter', -apple-system, 'Helvetica Neue', Arial, sans-serif" font-weight="700" text-anchor="middle">CULTURE</text>
+<circle cx="52136" cy="843" r="125.0" fill="#1a1a22" stroke="#e5484d" stroke-width="3"/>
+<text x="52136.33557568774" y="830.7050983124842" font-size="30" fill="#f2efe6" font-family="'Inter', -apple-system, 'Helvetica Neue', Arial, sans-serif" font-weight="700" text-anchor="middle">ENTIT</text>
+<text x="52136.33557568774" y="866.7050983124842" font-size="30" fill="#f2efe6" font-family="'Inter', -apple-system, 'Helvetica Neue', Arial, sans-serif" font-weight="700" text-anchor="middle">LEMENT</text>
+<circle cx="51784" cy="843" r="125.0" fill="#1a1a22" stroke="#e5484d" stroke-width="3"/>
+<text x="51783.66442431226" y="854.7050983124842" font-size="34" fill="#f2efe6" font-family="'Inter', -apple-system, 'Helvetica Neue', Arial, sans-serif" font-weight="700" text-anchor="middle">ABUSE</text>
+<circle cx="51675" cy="507" r="125.0" fill="#1a1a22" stroke="#e5484d" stroke-width="3"/>
+<text x="51674.68304511145" y="519.2949016875158" font-size="34" fill="#f2efe6" font-family="'Inter', -apple-system, 'Helvetica Neue', Arial, sans-serif" font-weight="700" text-anchor="middle">IMPUNITY</text>
+<line x1="52066" y1="377" x2="52133" y2="426" stroke="#e5484d" stroke-width="5" marker-end="url(#arr)"/>
+<line x1="52205" y1="632" x2="52179" y2="711" stroke="#e5484d" stroke-width="5" marker-end="url(#arr)"/>
+<line x1="52005" y1="843" x2="51923" y2="843" stroke="#e5484d" stroke-width="5" marker-end="url(#arr)"/>
+<line x1="51743" y1="718" x2="51718" y2="639" stroke="#e5484d" stroke-width="5" marker-end="url(#arr)"/>
+<line x1="51781" y1="430" x2="51848" y2="382" stroke="#e5484d" stroke-width="5" marker-end="url(#arr)"/>
+<text x="51960" y="950" font-size="36" fill="#d9d6cb" font-family="'Inter', -apple-system, 'Helvetica Neue', Arial, sans-serif" font-weight="400" text-anchor="middle">Suppression repeated long enough stops being questioned — and becomes culture.</text>
+<text x="52810" y="975" font-size="25" fill="#9d9ba6" font-family="ui-monospace, 'SF Mono', Menlo, Consolas, monospace" font-weight="400" text-anchor="end">26 / 33</text>
+</g>
+<g id="slide-27">
+<rect x="53040" y="0" width="1920" height="1080" rx="24" fill="#121218" stroke="#26262f" stroke-width="2"/>
+<rect x="53040" y="0" width="10" height="1080" fill="#e5484d" opacity="0.85"/>
+<text x="53150" y="110" font-size="30" fill="#e5484d" font-family="'Inter', -apple-system, 'Helvetica Neue', Arial, sans-serif" font-weight="600" text-anchor="start" letter-spacing="5">MANUFACTURED WHERE?</text>
+<rect x="53150" y="138" width="90" height="6" fill="#e5484d"/>
+<text x="53150" y="230" font-size="64" fill="#f2efe6" font-family="Georgia, 'Times New Roman', serif" font-weight="700" text-anchor="start">Where entitlement is built</text>
+<rect x="53150" y="330" width="395" height="560" rx="16" fill="#1a1a22" stroke="#26262f" stroke-width="2"/>
+<rect x="53150" y="330" width="395" height="10" fill="#e5484d"/>
+<text x="53186.0" y="410" font-size="30" fill="#e5484d" font-family="'Inter', -apple-system, 'Helvetica Neue', Arial, sans-serif" font-weight="700" text-anchor="start" letter-spacing="2">FAMILY</text>
+<text x="53186.0" y="480" font-size="34" fill="#d9d6cb" font-family="'Inter', -apple-system, 'Helvetica Neue', Arial, sans-serif" font-weight="400" text-anchor="start">Who is served first.</text>
+<text x="53186.0" y="534" font-size="34" fill="#d9d6cb" font-family="'Inter', -apple-system, 'Helvetica Neue', Arial, sans-serif" font-weight="400" text-anchor="start">Who inherits.</text>
+<text x="53186.0" y="588" font-size="34" fill="#d9d6cb" font-family="'Inter', -apple-system, 'Helvetica Neue', Arial, sans-serif" font-weight="400" text-anchor="start">Who decides.</text>
+<rect x="53585" y="330" width="395" height="560" rx="16" fill="#1a1a22" stroke="#26262f" stroke-width="2"/>
+<rect x="53585" y="330" width="395" height="10" fill="#e5484d"/>
+<text x="53621.0" y="410" font-size="30" fill="#e5484d" font-family="'Inter', -apple-system, 'Helvetica Neue', Arial, sans-serif" font-weight="700" text-anchor="start" letter-spacing="2">RELIGION</text>
+<text x="53621.0" y="480" font-size="34" fill="#d9d6cb" font-family="'Inter', -apple-system, 'Helvetica Neue', Arial, sans-serif" font-weight="400" text-anchor="start">Who speaks for god.</text>
+<text x="53621.0" y="534" font-size="34" fill="#d9d6cb" font-family="'Inter', -apple-system, 'Helvetica Neue', Arial, sans-serif" font-weight="400" text-anchor="start">Who must obey.</text>
+<text x="53621.0" y="588" font-size="34" fill="#d9d6cb" font-family="'Inter', -apple-system, 'Helvetica Neue', Arial, sans-serif" font-weight="400" text-anchor="start">Whose body is policed.</text>
+<rect x="54020" y="330" width="395" height="560" rx="16" fill="#1a1a22" stroke="#26262f" stroke-width="2"/>
+<rect x="54020" y="330" width="395" height="10" fill="#e5484d"/>
+<text x="54056.0" y="410" font-size="30" fill="#e5484d" font-family="'Inter', -apple-system, 'Helvetica Neue', Arial, sans-serif" font-weight="700" text-anchor="start" letter-spacing="2">MEDIA</text>
+<text x="54056.0" y="480" font-size="34" fill="#d9d6cb" font-family="'Inter', -apple-system, 'Helvetica Neue', Arial, sans-serif" font-weight="400" text-anchor="start">Who is decoration.</text>
+<text x="54056.0" y="534" font-size="34" fill="#d9d6cb" font-family="'Inter', -apple-system, 'Helvetica Neue', Arial, sans-serif" font-weight="400" text-anchor="start">Who is the joke.</text>
+<text x="54056.0" y="588" font-size="34" fill="#d9d6cb" font-family="'Inter', -apple-system, 'Helvetica Neue', Arial, sans-serif" font-weight="400" text-anchor="start">Whose pain is entertainment.</text>
+<rect x="54455" y="330" width="395" height="560" rx="16" fill="#1a1a22" stroke="#26262f" stroke-width="2"/>
+<rect x="54455" y="330" width="395" height="10" fill="#e5484d"/>
+<text x="54491.0" y="410" font-size="30" fill="#e5484d" font-family="'Inter', -apple-system, 'Helvetica Neue', Arial, sans-serif" font-weight="700" text-anchor="start" letter-spacing="2">PEERS</text>
+<text x="54491.0" y="480" font-size="34" fill="#d9d6cb" font-family="'Inter', -apple-system, 'Helvetica Neue', Arial, sans-serif" font-weight="400" text-anchor="start">What the group laughs at.</text>
+<text x="54491.0" y="534" font-size="34" fill="#d9d6cb" font-family="'Inter', -apple-system, 'Helvetica Neue', Arial, sans-serif" font-weight="400" text-anchor="start">What silence rewards.</text>
+<text x="54491.0" y="588" font-size="34" fill="#d9d6cb" font-family="'Inter', -apple-system, 'Helvetica Neue', Arial, sans-serif" font-weight="400" text-anchor="start">Who gets status.</text>
+<text x="54850" y="975" font-size="25" fill="#9d9ba6" font-family="ui-monospace, 'SF Mono', Menlo, Consolas, monospace" font-weight="400" text-anchor="end">27 / 33</text>
+</g>
+<g id="slide-28">
+<rect x="55080" y="0" width="1920" height="1080" rx="24" fill="#121218" stroke="#26262f" stroke-width="2"/>
+<rect x="55080" y="0" width="10" height="1080" fill="#e5484d" opacity="0.85"/>
+<text x="55190" y="420" font-size="120" fill="#e5484d" font-family="ui-monospace, 'SF Mono', Menlo, Consolas, monospace" font-weight="700" text-anchor="start">04</text>
+<text x="55190" y="620" font-size="150" fill="#f2efe6" font-family="Georgia, 'Times New Roman', serif" font-weight="700" text-anchor="start">WHAT WORKS</text>
+<text x="55190" y="740" font-size="44" fill="#9d9ba6" font-family="'Inter', -apple-system, 'Helvetica Neue', Arial, sans-serif" font-weight="400" text-anchor="start">it is not hopeless</text>
+<text x="56890" y="975" font-size="25" fill="#9d9ba6" font-family="ui-monospace, 'SF Mono', Menlo, Consolas, monospace" font-weight="400" text-anchor="end">28 / 33</text>
+</g>
+<g id="slide-29">
+<rect x="57120" y="0" width="1920" height="1080" rx="24" fill="#121218" stroke="#26262f" stroke-width="2"/>
+<rect x="57120" y="0" width="10" height="1080" fill="#e5484d" opacity="0.85"/>
+<text x="57230" y="110" font-size="30" fill="#e5484d" font-family="'Inter', -apple-system, 'Helvetica Neue', Arial, sans-serif" font-weight="600" text-anchor="start" letter-spacing="5">THE PROOF</text>
+<rect x="57230" y="138" width="90" height="6" fill="#e5484d"/>
+<text x="57230" y="230" font-size="64" fill="#f2efe6" font-family="Georgia, 'Times New Roman', serif" font-weight="700" text-anchor="start">Three places that pushed back</text>
+<rect x="57230" y="330" width="540" height="560" rx="16" fill="#1a1a22" stroke="#26262f" stroke-width="2"/>
+<rect x="57230" y="330" width="540" height="10" fill="#e5484d"/>
+<text x="57266.0" y="410" font-size="30" fill="#e5484d" font-family="'Inter', -apple-system, 'Helvetica Neue', Arial, sans-serif" font-weight="700" text-anchor="start" letter-spacing="2">SPAIN · -29.6%</text>
+<text x="57266.0" y="480" font-size="36" fill="#d9d6cb" font-family="'Inter', -apple-system, 'Helvetica Neue', Arial, sans-serif" font-weight="400" text-anchor="start">Partner femicides fell 29.6%</text>
+<text x="57266.0" y="534" font-size="36" fill="#d9d6cb" font-family="'Inter', -apple-system, 'Helvetica Neue', Arial, sans-serif" font-weight="400" text-anchor="start">over 20 years.</text>
+<text x="57266.0" y="588" font-size="36" fill="#d9d6cb" font-family="'Inter', -apple-system, 'Helvetica Neue', Arial, sans-serif" font-weight="400" text-anchor="start">Protection law, special courts,</text>
+<text x="57266.0" y="642" font-size="36" fill="#d9d6cb" font-family="'Inter', -apple-system, 'Helvetica Neue', Arial, sans-serif" font-weight="400" text-anchor="start">GPS monitors on offenders.</text>
+<rect x="57810" y="330" width="540" height="560" rx="16" fill="#1a1a22" stroke="#26262f" stroke-width="2"/>
+<rect x="57810" y="330" width="540" height="10" fill="#e5484d"/>
+<text x="57846.0" y="410" font-size="30" fill="#e5484d" font-family="'Inter', -apple-system, 'Helvetica Neue', Arial, sans-serif" font-weight="700" text-anchor="start" letter-spacing="2">SPOTLIGHT · x2</text>
+<text x="57846.0" y="480" font-size="36" fill="#d9d6cb" font-family="'Inter', -apple-system, 'Helvetica Neue', Arial, sans-serif" font-weight="400" text-anchor="start">GBV conviction rates doubled</text>
+<text x="57846.0" y="534" font-size="36" fill="#d9d6cb" font-family="'Inter', -apple-system, 'Helvetica Neue', Arial, sans-serif" font-weight="400" text-anchor="start">in 13 countries.</text>
+<text x="57846.0" y="588" font-size="36" fill="#d9d6cb" font-family="'Inter', -apple-system, 'Helvetica Neue', Arial, sans-serif" font-weight="400" text-anchor="start">540+ laws strengthened.</text>
+<text x="57846.0" y="642" font-size="36" fill="#d9d6cb" font-family="'Inter', -apple-system, 'Helvetica Neue', Arial, sans-serif" font-weight="400" text-anchor="start">21M cases estimated averted.</text>
+<rect x="58390" y="330" width="540" height="560" rx="16" fill="#1a1a22" stroke="#26262f" stroke-width="2"/>
+<rect x="58390" y="330" width="540" height="10" fill="#e5484d"/>
+<text x="58426.0" y="410" font-size="30" fill="#e5484d" font-family="'Inter', -apple-system, 'Helvetica Neue', Arial, sans-serif" font-weight="700" text-anchor="start" letter-spacing="2">ITALY · LIFE</text>
+<text x="58426.0" y="480" font-size="36" fill="#d9d6cb" font-family="'Inter', -apple-system, 'Helvetica Neue', Arial, sans-serif" font-weight="400" text-anchor="start">Femicide is now an autonomous</text>
+<text x="58426.0" y="534" font-size="36" fill="#d9d6cb" font-family="'Inter', -apple-system, 'Helvetica Neue', Arial, sans-serif" font-weight="400" text-anchor="start">crime: life imprisonment.</text>
+<text x="58426.0" y="588" font-size="36" fill="#d9d6cb" font-family="'Inter', -apple-system, 'Helvetica Neue', Arial, sans-serif" font-weight="400" text-anchor="start">Law 181/2025.</text>
+<text x="58426.0" y="642" font-size="36" fill="#d9d6cb" font-family="'Inter', -apple-system, 'Helvetica Neue', Arial, sans-serif" font-weight="400" text-anchor="start">The law finally names it.</text>
+<text x="58930" y="975" font-size="25" fill="#9d9ba6" font-family="ui-monospace, 'SF Mono', Menlo, Consolas, monospace" font-weight="400" text-anchor="end">29 / 33</text>
+</g>
+<g id="slide-30">
+<rect x="59160" y="0" width="1920" height="1080" rx="24" fill="#121218" stroke="#26262f" stroke-width="2"/>
+<rect x="59160" y="0" width="10" height="1080" fill="#e5484d" opacity="0.85"/>
+<text x="59270" y="420" font-size="120" fill="#e5484d" font-family="ui-monospace, 'SF Mono', Menlo, Consolas, monospace" font-weight="700" text-anchor="start">05</text>
+<text x="59270" y="620" font-size="150" fill="#f2efe6" font-family="Georgia, 'Times New Roman', serif" font-weight="700" text-anchor="start">WHAT'S REGRESSING</text>
+<text x="59270" y="740" font-size="44" fill="#9d9ba6" font-family="'Inter', -apple-system, 'Helvetica Neue', Arial, sans-serif" font-weight="400" text-anchor="start">and it is getting worse</text>
+<text x="60970" y="975" font-size="25" fill="#9d9ba6" font-family="ui-monospace, 'SF Mono', Menlo, Consolas, monospace" font-weight="400" text-anchor="end">30 / 33</text>
+</g>
+<g id="slide-31">
+<rect x="61200" y="0" width="1920" height="1080" rx="24" fill="#121218" stroke="#26262f" stroke-width="2"/>
+<rect x="61200" y="0" width="10" height="1080" fill="#e5484d" opacity="0.85"/>
+<text x="61310" y="110" font-size="30" fill="#e5484d" font-family="'Inter', -apple-system, 'Helvetica Neue', Arial, sans-serif" font-weight="600" text-anchor="start" letter-spacing="5">THE REGRESSION</text>
+<rect x="61310" y="138" width="90" height="6" fill="#e5484d"/>
+<text x="61310" y="230" font-size="64" fill="#f2efe6" font-family="Georgia, 'Times New Roman', serif" font-weight="700" text-anchor="start">Where the world is sliding back</text>
+<rect x="61310" y="330" width="540" height="560" rx="16" fill="#1a1a22" stroke="#26262f" stroke-width="2"/>
+<rect x="61310" y="330" width="540" height="10" fill="#e5484d"/>
+<text x="61346.0" y="410" font-size="30" fill="#e5484d" font-family="'Inter', -apple-system, 'Helvetica Neue', Arial, sans-serif" font-weight="700" text-anchor="start" letter-spacing="2">CONFLICT</text>
+<text x="61346.0" y="480" font-size="36" fill="#d9d6cb" font-family="'Inter', -apple-system, 'Helvetica Neue', Arial, sans-serif" font-weight="400" text-anchor="start">Sexual violence reports +87%.</text>
+<text x="61346.0" y="534" font-size="36" fill="#d9d6cb" font-family="'Inter', -apple-system, 'Helvetica Neue', Arial, sans-serif" font-weight="400" text-anchor="start">676M women live within 50 km</text>
+<text x="61346.0" y="588" font-size="36" fill="#d9d6cb" font-family="'Inter', -apple-system, 'Helvetica Neue', Arial, sans-serif" font-weight="400" text-anchor="start">of active conflict.</text>
+<rect x="61890" y="330" width="540" height="560" rx="16" fill="#1a1a22" stroke="#26262f" stroke-width="2"/>
+<rect x="61890" y="330" width="540" height="10" fill="#e5484d"/>
+<text x="61926.0" y="410" font-size="30" fill="#e5484d" font-family="'Inter', -apple-system, 'Helvetica Neue', Arial, sans-serif" font-weight="700" text-anchor="start" letter-spacing="2">AFGHANISTAN</text>
+<text x="61926.0" y="480" font-size="36" fill="#d9d6cb" font-family="'Inter', -apple-system, 'Helvetica Neue', Arial, sans-serif" font-weight="400" text-anchor="start">Oppression institutionalized.</text>
+<text x="61926.0" y="534" font-size="36" fill="#d9d6cb" font-family="'Inter', -apple-system, 'Helvetica Neue', Arial, sans-serif" font-weight="400" text-anchor="start">100+ edicts. Zero repealed.</text>
+<text x="61926.0" y="588" font-size="36" fill="#d9d6cb" font-family="'Inter', -apple-system, 'Helvetica Neue', Arial, sans-serif" font-weight="400" text-anchor="start">The world watches anyway.</text>
+<rect x="62470" y="330" width="540" height="560" rx="16" fill="#1a1a22" stroke="#26262f" stroke-width="2"/>
+<rect x="62470" y="330" width="540" height="10" fill="#e5484d"/>
+<text x="62506.0" y="410" font-size="30" fill="#e5484d" font-family="'Inter', -apple-system, 'Helvetica Neue', Arial, sans-serif" font-weight="700" text-anchor="start" letter-spacing="2">THE BACKLASH</text>
+<text x="62506.0" y="480" font-size="36" fill="#d9d6cb" font-family="'Inter', -apple-system, 'Helvetica Neue', Arial, sans-serif" font-weight="400" text-anchor="start">1 in 4 countries regressed on</text>
+<text x="62506.0" y="534" font-size="36" fill="#d9d6cb" font-family="'Inter', -apple-system, 'Helvetica Neue', Arial, sans-serif" font-weight="400" text-anchor="start">gender equality in 2024.</text>
+<text x="62506.0" y="588" font-size="36" fill="#d9d6cb" font-family="'Inter', -apple-system, 'Helvetica Neue', Arial, sans-serif" font-weight="400" text-anchor="start">Argentina scrapped its</text>
+<text x="62506.0" y="642" font-size="36" fill="#d9d6cb" font-family="'Inter', -apple-system, 'Helvetica Neue', Arial, sans-serif" font-weight="400" text-anchor="start">women's ministry.</text>
+<text x="63010" y="975" font-size="25" fill="#9d9ba6" font-family="ui-monospace, 'SF Mono', Menlo, Consolas, monospace" font-weight="400" text-anchor="end">31 / 33</text>
+</g>
+<g id="slide-32">
+<rect x="63240" y="0" width="1920" height="1080" rx="24" fill="#121218" stroke="#26262f" stroke-width="2"/>
+<rect x="63240" y="0" width="10" height="1080" fill="#e5484d" opacity="0.85"/>
+<text x="63350" y="430" font-size="140" fill="#f2efe6" font-family="Georgia, 'Times New Roman', serif" font-weight="700" text-anchor="start">The pattern is global.</text>
+<text x="63350" y="580" font-size="64" fill="#d9d6cb" font-family="'Inter', -apple-system, 'Helvetica Neue', Arial, sans-serif" font-weight="400" text-anchor="start">The silence is local.</text>
+<text x="63350" y="690" font-size="44" fill="#9d9ba6" font-family="'Inter', -apple-system, 'Helvetica Neue', Arial, sans-serif" font-weight="400" text-anchor="start">What gets counted, funded and punished — changes.</text>
+<text x="63350" y="975" font-size="25" fill="#9d9ba6" font-family="ui-monospace, 'SF Mono', Menlo, Consolas, monospace" font-weight="400" text-anchor="start" letter-spacing="2">SOURCES: WHO · UNODC · UN WOMEN · NATIONAL POLICE &amp; NGO DATA, 2020–2026</text>
+<text x="65050" y="975" font-size="25" fill="#9d9ba6" font-family="ui-monospace, 'SF Mono', Menlo, Consolas, monospace" font-weight="400" text-anchor="end">32 / 33</text>
+</g>
+<g id="slide-33">
+<rect x="65280" y="0" width="1920" height="1080" rx="24" fill="#121218" stroke="#26262f" stroke-width="2"/>
+<rect x="65280" y="0" width="10" height="1080" fill="#e5484d" opacity="0.85"/>
+<text x="65390" y="110" font-size="30" fill="#e5484d" font-family="'Inter', -apple-system, 'Helvetica Neue', Arial, sans-serif" font-weight="600" text-anchor="start" letter-spacing="5">SOURCES &amp; METHOD</text>
+<rect x="65390" y="138" width="90" height="6" fill="#e5484d"/>
+<text x="65390" y="230" font-size="64" fill="#f2efe6" font-family="Georgia, 'Times New Roman', serif" font-weight="700" text-anchor="start">Every number has an address.</text>
+<text x="65390" y="360" font-size="34" fill="#d9d6cb" font-family="'Inter', -apple-system, 'Helvetica Neue', Arial, sans-serif" font-weight="400" text-anchor="start">·  WHO global violence-against-women estimates — 19 Nov 2025</text>
+<text x="65390" y="422" font-size="34" fill="#d9d6cb" font-family="'Inter', -apple-system, 'Helvetica Neue', Arial, sans-serif" font-weight="400" text-anchor="start">·  UNODC / UN Women femicide brief 2024 (51,100 killed, 2023)</text>
+<text x="65390" y="484" font-size="34" fill="#d9d6cb" font-family="'Inter', -apple-system, 'Helvetica Neue', Arial, sans-serif" font-weight="400" text-anchor="start">·  UN Women 'At Risk and Underfunded' — Oct 2025</text>
+<text x="65390" y="546" font-size="34" fill="#d9d6cb" font-family="'Inter', -apple-system, 'Helvetica Neue', Arial, sans-serif" font-weight="400" text-anchor="start">·  National records: Brazil FBSP · South Africa SAPS/SAMRC · Pakistan HRCP</text>
+<text x="65390" y="608" font-size="34" fill="#d9d6cb" font-family="'Inter', -apple-system, 'Helvetica Neue', Arial, sans-serif" font-weight="400" text-anchor="start">·  Bangladesh ASK/MSF · France Interior Ministry · UK Femicide Census</text>
+<text x="65390" y="670" font-size="34" fill="#d9d6cb" font-family="'Inter', -apple-system, 'Helvetica Neue', Arial, sans-serif" font-weight="400" text-anchor="start">·  USA VPC/FBI · South Korea NPA · UN Women/OHCHR Sudan</text>
+<text x="65390" y="732" font-size="34" fill="#d9d6cb" font-family="'Inter', -apple-system, 'Helvetica Neue', Arial, sans-serif" font-weight="400" text-anchor="start">·  Moral disengagement: Bandura; frame via Honeywill, The Man Problem (2015)</text>
+<text x="65390" y="794" font-size="34" fill="#d9d6cb" font-family="'Inter', -apple-system, 'Helvetica Neue', Arial, sans-serif" font-weight="400" text-anchor="start">·  Caveats: NGO vs official counts differ; snapshot fixed 24 Sep 2026.</text>
+<text x="65390" y="856" font-size="34" fill="#d9d6cb" font-family="'Inter', -apple-system, 'Helvetica Neue', Arial, sans-serif" font-weight="400" text-anchor="start">·  Verify against primary sources before presenting.</text>
+<text x="65390" y="975" font-size="25" fill="#9d9ba6" font-family="ui-monospace, 'SF Mono', Menlo, Consolas, monospace" font-weight="400" text-anchor="start" letter-spacing="2">NEWS PHOTOS: DROP IMAGES INTO THE NEWS FRAMES IN FIGMA</text>
+<text x="67090" y="975" font-size="25" fill="#9d9ba6" font-family="ui-monospace, 'SF Mono', Menlo, Consolas, monospace" font-weight="400" text-anchor="end">33 / 33</text>
+</g>
+</svg>
