@@ -156,37 +156,46 @@ def main():
 
         # ---- 4. rename ----
         if is_figjam:
-            # FigJam: the "Untitled" title is a dropdown; Rename is a menu item
+            # FigJam: two "Untitled" texts exist (file-browser panel + top bar).
+            # The panel one is a dropdown; the TOP BAR one (y < 80) is the
+            # inline-editable board title. Click that.
             try:
-                page.get_by_text("Untitled", exact=True).first.click()
-                page.wait_for_timeout(900)
-                renamed = False
-                for sel in ['[role="menuitem"]:has-text("Rename")',
-                            '[role="menuitemradio"]:has-text("Rename")',
-                            'text="Rename"']:
+                cands = page.get_by_text("Untitled", exact=True).all()
+                target = None
+                for el in cands:
                     try:
-                        el = page.locator(sel).first
-                        el.wait_for(timeout=4000)
-                        el.click()
-                        renamed = True
-                        break
+                        bb = el.bounding_box()
                     except Exception:
                         continue
-                if not renamed:
-                    raise RuntimeError("no Rename menu item")
+                    if bb and bb["y"] < 80 and bb["x"] > 200:
+                        target = el
+                        break
+                if target is None:
+                    # fallback: topmost visible match
+                    for el in cands:
+                        try:
+                            if el.is_visible():
+                                target = el
+                                break
+                        except Exception:
+                            continue
+                if target is None:
+                    raise RuntimeError("no Untitled title found")
+                target.click()
                 page.wait_for_timeout(900)
+                page.screenshot(path="shots/rename-click.png")
                 page.keyboard.press("ControlOrMeta+a")
                 page.keyboard.type(args.name, delay=15)
                 page.keyboard.press("Enter")
                 page.wait_for_timeout(1200)
-                page.screenshot(path="shots/after-rename.png")
-                log("renamed to:", args.name)
+                log("rename attempted:", args.name)
             except Exception as e:
                 log("rename skipped (non-fatal):", str(e)[:120])
                 try:
                     page.keyboard.press("Escape")
                 except Exception:
                     pass
+            page.screenshot(path="shots/after-rename.png")
         else:
             try:
                 title = page.get_by_text("Untitled", exact=True).first
@@ -227,6 +236,7 @@ def main():
         page.keyboard.press("Shift+1")
         page.wait_for_timeout(1000)
         page.screenshot(path="shots/final.png")
+        log("board URL:", page.url)
         log("done.")
 
         summary = (f"## Figma import done\n\n"
