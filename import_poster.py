@@ -47,6 +47,13 @@ def main():
                     help="Team/project to create the file in (fallback: Drafts)")
     ap.add_argument("--file-type", default="design", choices=["design", "figjam"],
                     help="'design' = Figma design file, 'figjam' = FigJam board")
+    ap.add_argument("--board-url", default="",
+                    help="Open this existing board/file URL instead of creating new")
+    ap.add_argument("--rename-only", action="store_true",
+                    help="With --board-url: only rename, skip paste")
+    ap.add_argument("--inspect-title-menu", action="store_true",
+                    help="With --board-url: click the title dropdown and log its "
+                         "menu items (diagnostic, no changes)")
     args = ap.parse_args()
 
     email = os.environ.get("FIGMA_EMAIL", "").strip()
@@ -117,6 +124,58 @@ def main():
             except Exception:
                 log("Drafts link not found either; staying on the file browser")
         page.screenshot(path="shots/file-browser.png")
+
+        # ---- existing board mode: open URL directly, no creation ----
+        if args.board_url:
+            log("opening existing board:", args.board_url[:80] + "...")
+            page.goto(args.board_url, wait_until="domcontentloaded",
+                      timeout=90000)
+            page.wait_for_timeout(9000)
+            page.keyboard.press("Escape")
+            if args.inspect_title_menu:
+                # diagnostic: click the panel's "Untitled" dropdown, list items
+                try:
+                    page.get_by_text("Untitled", exact=True).first.click()
+                    page.wait_for_timeout(1200)
+                    items = page.get_by_role("menuitem").all()
+                    log("menu items found:", len(items))
+                    for it in items:
+                        try:
+                            log("  -", it.inner_text().strip()[:60])
+                        except Exception:
+                            pass
+                    page.screenshot(path="shots/title-menu.png")
+                except Exception as e:
+                    log("inspect failed:", str(e)[:150])
+                    page.screenshot(path="shots/title-menu.png")
+                log("done.")
+                return
+            if args.rename_only:
+                # collapse the file-browser panel so the top-bar title is
+                # the only "Untitled", then use the proven click+type rename
+                try:
+                    page.mouse.click(229, 36)  # panel collapse icon
+                    page.wait_for_timeout(1200)
+                except Exception:
+                    pass
+                try:
+                    title = page.get_by_text("Untitled", exact=True).first
+                    title.wait_for(timeout=15000)
+                    title.click()
+                    page.wait_for_timeout(900)
+                    page.keyboard.press("ControlOrMeta+a")
+                    page.keyboard.type(args.name, delay=15)
+                    page.keyboard.press("Enter")
+                    page.wait_for_timeout(1500)
+                    page.screenshot(path="shots/after-rename.png")
+                    log("rename attempted:", args.name,
+                        "| url now:", page.url)
+                except Exception as e:
+                    log("rename failed:", str(e)[:150])
+                log("done.")
+                return
+            sys.exit("with --board-url, pass --rename-only or "
+                     "--inspect-title-menu")
 
         # ---- 3. new file: design file or FigJam board ----
         is_figjam = args.file_type == "figjam"
