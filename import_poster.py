@@ -41,6 +41,8 @@ def main():
     ap = argparse.ArgumentParser()
     ap.add_argument("--svg", required=True, help="Path to the SVG poster file")
     ap.add_argument("--name", default="Sidhi Maternal Deaths — 53 in a year (Sem 7)")
+    ap.add_argument("--verify-text", default="53 deaths",
+                    help="Canvas text that proves the paste landed (checked after pasting)")
     ap.add_argument("--team-hint", default="Semester 7",
                     help="Team/project to create the file in (fallback: Drafts)")
     args = ap.parse_args()
@@ -161,7 +163,7 @@ def main():
         page.wait_for_timeout(7000)
         page.screenshot(path="shots/after-paste.png")
         try:
-            page.get_by_text("53 deaths", exact=False).first.wait_for(timeout=15000)
+            page.get_by_text(args.verify_text, exact=False).first.wait_for(timeout=15000)
             log("paste verified: poster text found on canvas")
         except Exception:
             log("WARNING: could not verify pasted layers — check shots/after-paste.png")

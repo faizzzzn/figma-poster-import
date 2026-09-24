@@ -32,6 +32,11 @@ gh workflow run import.yml
 To import the second poster instead, set the `svg_file` input to `sidhi_systemic_layer.svg`
 and the file name to something like `Sidhi — the systemic layer (Sem 7)` when you run the workflow.
 
+To import the 22-slide global VAW deck instead, set `svg_file` to `deck-vaw.svg`,
+file name to `VAW — Global Evidence Deck (SDG 5.2)`, and `verify_text` to `22 / 22`.
+The deck is one wide SVG (22 × 1920×1080 slides in a row) — it pastes as editable
+layers; in Figma, select each slide's group and press Ctrl+Alt+G to frame it.
+
 When it finishes, the file URL is printed in the run summary. Screenshots of every step are kept as the `figma-import-shots` artifact for 90 days.
 
 ## Files

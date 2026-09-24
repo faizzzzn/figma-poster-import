@@ -12,6 +12,9 @@ on:
       svg_file:
         description: "Poster SVG file in the repo to import"
         default: "sidhi_maternal_deaths.svg"
+      verify_text:
+        description: "Canvas text that proves the paste landed"
+        default: "53 deaths"
 
 jobs:
   import:
@@ -37,6 +40,7 @@ jobs:
           python import_poster.py \
             --svg "${{ inputs.svg_file }}" \
             --name "${{ inputs.file_name }}" \
+            --verify-text "${{ inputs.verify_text }}" \
             --team-hint "${{ inputs.team_hint }}"
 
       - name: Upload screenshots
