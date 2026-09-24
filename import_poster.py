@@ -160,9 +160,20 @@ def main():
             try:
                 page.get_by_text("Untitled", exact=True).first.click()
                 page.wait_for_timeout(900)
-                click_first(page, ['[role="menuitem"]:has-text("Rename")',
-                                   'text="Rename"'],
-                            what="'Rename' menu item")
+                renamed = False
+                for sel in ['[role="menuitem"]:has-text("Rename")',
+                            '[role="menuitemradio"]:has-text("Rename")',
+                            'text="Rename"']:
+                    try:
+                        el = page.locator(sel).first
+                        el.wait_for(timeout=4000)
+                        el.click()
+                        renamed = True
+                        break
+                    except Exception:
+                        continue
+                if not renamed:
+                    raise RuntimeError("no Rename menu item")
                 page.wait_for_timeout(900)
                 page.keyboard.press("ControlOrMeta+a")
                 page.keyboard.type(args.name, delay=15)
@@ -172,6 +183,10 @@ def main():
                 log("renamed to:", args.name)
             except Exception as e:
                 log("rename skipped (non-fatal):", str(e)[:120])
+                try:
+                    page.keyboard.press("Escape")
+                except Exception:
+                    pass
         else:
             try:
                 title = page.get_by_text("Untitled", exact=True).first
