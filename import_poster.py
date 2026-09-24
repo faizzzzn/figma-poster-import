@@ -45,6 +45,8 @@ def main():
                     help="Canvas text that proves the paste landed (checked after pasting)")
     ap.add_argument("--team-hint", default="Semester 7",
                     help="Team/project to create the file in (fallback: Drafts)")
+    ap.add_argument("--file-type", default="design", choices=["design", "figjam"],
+                    help="'design' = Figma design file, 'figjam' = FigJam board")
     args = ap.parse_args()
 
     email = os.environ.get("FIGMA_EMAIL", "").strip()
@@ -116,8 +118,9 @@ def main():
                 log("Drafts link not found either; staying on the file browser")
         page.screenshot(path="shots/file-browser.png")
 
-        # ---- 3. new design file ----
-        log("creating new design file...")
+        # ---- 3. new file: design file or FigJam board ----
+        is_figjam = args.file_type == "figjam"
+        log("creating new", "FigJam board..." if is_figjam else "design file...")
         if not click_first(page, ['button:has-text("Create")',
                            'button:has-text("New")',
                            '[aria-label="New"]'],
@@ -126,12 +129,20 @@ def main():
             sys.exit(4)
         page.wait_for_timeout(1500)
         page.screenshot(path="shots/new-menu.png")
-        click_first(page, ['[role="menuitem"]:has-text("Design")',
-                           'text="Design"',
-                           '[role="menuitem"]:has-text("Design file")'],
-                    what="'Design' menu item")
+        if is_figjam:
+            click_first(page, ['[role="menuitem"]:has-text("FigJam board")',
+                               '[role="menuitem"]:has-text("FigJam")',
+                               'text="FigJam board"'],
+                        what="'FigJam board' menu item")
+            url_re = re.compile(r"figma\.com/board/")
+        else:
+            click_first(page, ['[role="menuitem"]:has-text("Design")',
+                               'text="Design"',
+                               '[role="menuitem"]:has-text("Design file")'],
+                        what="'Design' menu item")
+            url_re = re.compile(r"figma\.com/design/")
         try:
-            page.wait_for_url(re.compile(r"figma\.com/design/"), timeout=90000)
+            page.wait_for_url(url_re, timeout=90000)
         except Exception:
             page.screenshot(path="shots/no-editor.png")
             log("the editor did not open — see shots/no-editor.png")

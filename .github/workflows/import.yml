@@ -15,6 +15,9 @@ on:
       verify_text:
         description: "Canvas text that proves the paste landed"
         default: "53 deaths"
+      file_type:
+        description: "'design' = Figma design file, 'figjam' = FigJam board"
+        default: "design"
 
 jobs:
   import:
@@ -41,7 +44,8 @@ jobs:
             --svg "${{ inputs.svg_file }}" \
             --name "${{ inputs.file_name }}" \
             --verify-text "${{ inputs.verify_text }}" \
-            --team-hint "${{ inputs.team_hint }}"
+            --team-hint "${{ inputs.team_hint }}" \
+            --file-type "${{ inputs.file_type }}"
 
       - name: Upload screenshots
         if: always()

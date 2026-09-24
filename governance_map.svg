@@ -1,0 +1,245 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="5600" height="3400" viewBox="0 0 5600 3400">
+<defs><marker id="mG" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto"><path d="M0,0 L8,3 L0,6 Z" fill="#30a46c"/></marker><marker id="mX" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto"><path d="M0,0 L8,3 L0,6 Z" fill="#6b7280"/></marker></defs>
+<rect x="0" y="0" width="5600" height="3400" rx="0" fill="#fbfaf7"/>
+<text x="80" y="100" font-family="Inter, -apple-system, 'Segoe UI', sans-serif" font-size="64" fill="#1a1a1a" text-anchor="start" font-weight="bold">WOMEN’S EMPOWERMENT — GOVERNANCE MAP</text>
+<text x="80" y="148" font-family="Inter, -apple-system, 'Segoe UI', sans-serif" font-size="28" fill="#595959" text-anchor="start">India · Sept 2026 — bold figures are new 2025–26 data</text>
+<text x="80" y="368" font-family="Inter, -apple-system, 'Segoe UI', sans-serif" font-size="24" fill="#9a9a9a" text-anchor="start">TIER 1 · WORLD</text>
+<text x="80" y="768" font-family="Inter, -apple-system, 'Segoe UI', sans-serif" font-size="24" fill="#9a9a9a" text-anchor="start">TIER 2 · DELHI</text>
+<text x="80" y="1188" font-family="Inter, -apple-system, 'Segoe UI', sans-serif" font-size="24" fill="#9a9a9a" text-anchor="start">TIER 3 · STATE</text>
+<text x="80" y="1608" font-family="Inter, -apple-system, 'Segoe UI', sans-serif" font-size="24" fill="#9a9a9a" text-anchor="start">TIER 4 · GROUND</text>
+<text x="80" y="2028" font-family="Inter, -apple-system, 'Segoe UI', sans-serif" font-size="24" fill="#9a9a9a" text-anchor="start">TIER 5 · SCHEMES</text>
+<rect x="1470.0" y="285.0" width="620" height="150" rx="18" fill="#e9e9ee"/>
+<text x="1780" y="338" font-family="Inter, -apple-system, 'Segoe UI', sans-serif" fill="#1a1a1a" text-anchor="middle">
+<tspan x="1780" dy="0" font-size="34" font-weight="bold">UN Women</tspan>
+<tspan x="1780" dy="32" font-size="26">norms + data</tspan>
+</text>
+<rect x="2150.0" y="285.0" width="620" height="150" rx="18" fill="#e9e9ee"/>
+<text x="2460" y="338" font-family="Inter, -apple-system, 'Segoe UI', sans-serif" fill="#1a1a1a" text-anchor="middle">
+<tspan x="2460" dy="0" font-size="34" font-weight="bold">CEDAW Committee</tspan>
+<tspan x="2460" dy="32" font-size="26">India reports here</tspan>
+</text>
+<rect x="2830.0" y="285.0" width="620" height="150" rx="18" fill="#e9e9ee"/>
+<text x="3140" y="338" font-family="Inter, -apple-system, 'Segoe UI', sans-serif" fill="#1a1a1a" text-anchor="middle">
+<tspan x="3140" dy="0" font-size="34" font-weight="bold">UNFPA · UNICEF</tspan>
+<tspan x="3140" dy="32" font-size="26">program money</tspan>
+</text>
+<rect x="3510.0" y="285.0" width="620" height="150" rx="18" fill="#e9e9ee"/>
+<text x="3820" y="338" font-family="Inter, -apple-system, 'Segoe UI', sans-serif" fill="#1a1a1a" text-anchor="middle">
+<tspan x="3820" dy="0" font-size="34" font-weight="bold">World Bank · ADB</tspan>
+<tspan x="3820" dy="32" font-size="26">loans for schemes</tspan>
+</text>
+<rect x="760.0" y="675.0" width="440" height="170" rx="18" fill="#e9e9ee"/>
+<text x="980" y="738" font-family="Inter, -apple-system, 'Segoe UI', sans-serif" fill="#1a1a1a" text-anchor="middle">
+<tspan x="980" dy="0" font-size="34" font-weight="bold">NITI Aayog</tspan>
+<tspan x="980" dy="32" font-size="26">tracks SDG 5</tspan>
+</text>
+<rect x="1250.0" y="675.0" width="520" height="170" rx="18" fill="#f59e0b"/>
+<text x="1510" y="738" font-family="Inter, -apple-system, 'Segoe UI', sans-serif" fill="#ffffff" text-anchor="middle">
+<tspan x="1510" dy="0" font-size="34" font-weight="bold">Govt of India</tspan>
+<tspan x="1510" dy="32" font-size="26">budget + law</tspan>
+</text>
+<rect x="1820.0" y="645.0" width="700" height="230" rx="18" fill="#2f5fd0"/>
+<text x="2170" y="705" font-family="Inter, -apple-system, 'Segoe UI', sans-serif" fill="#ffffff" text-anchor="middle">
+<tspan x="2170" dy="0" font-size="34" font-weight="bold">MWCD</tspan>
+<tspan x="2170" dy="32" font-size="26">Nirbhaya: ₹8,212.85 cr allocated</tspan>
+<tspan x="2170" dy="32" font-size="26">₹6,581.84 cr released/utilised</tspan>
+<tspan x="2170" dy="32" font-size="26">Lok Sabha, Feb 2026</tspan>
+</text>
+<rect x="2670.0" y="675.0" width="560" height="170" rx="18" fill="#d7e5ff"/>
+<text x="2950" y="738" font-family="Inter, -apple-system, 'Segoe UI', sans-serif" fill="#1a1a1a" text-anchor="middle">
+<tspan x="2950" dy="0" font-size="34" font-weight="bold">Mission Shakti</tspan>
+<tspan x="2950" dy="32" font-size="26">Sambal + Samarthya</tspan>
+</text>
+<rect x="3280.0" y="675.0" width="560" height="170" rx="18" fill="#d7e5ff"/>
+<text x="3560" y="738" font-family="Inter, -apple-system, 'Segoe UI', sans-serif" fill="#1a1a1a" text-anchor="middle">
+<tspan x="3560" dy="0" font-size="34" font-weight="bold">Mission Vatsalya</tspan>
+<tspan x="3560" dy="32" font-size="26">child protection</tspan>
+</text>
+<rect x="3890.0" y="675.0" width="560" height="170" rx="18" fill="#d7e5ff"/>
+<text x="4170" y="738" font-family="Inter, -apple-system, 'Segoe UI', sans-serif" fill="#1a1a1a" text-anchor="middle">
+<tspan x="4170" dy="0" font-size="34" font-weight="bold">Attached bodies</tspan>
+<tspan x="4170" dy="32" font-size="26">NCPCR · CARA · NIPCCD</tspan>
+</text>
+<rect x="4500.0" y="675.0" width="440" height="170" rx="18" fill="#e9e9ee"/>
+<text x="4720" y="738" font-family="Inter, -apple-system, 'Segoe UI', sans-serif" fill="#1a1a1a" text-anchor="middle">
+<tspan x="4720" dy="0" font-size="34" font-weight="bold">NCW</tspan>
+<tspan x="4720" dy="32" font-size="26">complaints → MWCD</tspan>
+</text>
+<rect x="1890.0" y="890.0" width="560" height="90" rx="18" fill="#ffffff" stroke="#2f5fd0" stroke-width="3"/>
+<text x="2170" y="931" font-family="Inter, -apple-system, 'Segoe UI', sans-serif" fill="#1a1a1a" text-anchor="middle">
+<tspan x="2170" dy="0" font-size="26">FTSCs: 775 functional · extended to Sep 2026</tspan>
+</text>
+<rect x="1260.0" y="1095.0" width="560" height="170" rx="18" fill="#d9f2e3"/>
+<text x="1540" y="1158" font-family="Inter, -apple-system, 'Segoe UI', sans-serif" fill="#1a1a1a" text-anchor="middle">
+<tspan x="1540" dy="0" font-size="34" font-weight="bold">WCD Dept</tspan>
+<tspan x="1540" dy="32" font-size="26">state schemes</tspan>
+</text>
+<rect x="1870.0" y="1080.0" width="640" height="200" rx="18" fill="#bfe8cf"/>
+<text x="2190" y="1158" font-family="Inter, -apple-system, 'Segoe UI', sans-serif" fill="#1a1a1a" text-anchor="middle">
+<tspan x="2190" dy="0" font-size="34" font-weight="bold">State Mission Authority</tspan>
+<tspan x="2190" dy="32" font-size="26">runs Nirbhaya money in-state</tspan>
+</text>
+<rect x="2560.0" y="1095.0" width="560" height="170" rx="18" fill="#d9f2e3"/>
+<text x="2840" y="1158" font-family="Inter, -apple-system, 'Segoe UI', sans-serif" fill="#1a1a1a" text-anchor="middle">
+<tspan x="2840" dy="0" font-size="34" font-weight="bold">One Stop Centre</tspan>
+<tspan x="2840" dy="32" font-size="26">crisis help under one roof</tspan>
+</text>
+<text x="2840" y="1301" font-family="Inter, -apple-system, 'Segoe UI', sans-serif" font-size="24" fill="#1a1a1a" text-anchor="middle" font-weight="bold">991 centres · 15.2L women helped (Jun 2026)</text>
+<rect x="3170.0" y="1095.0" width="560" height="170" rx="18" fill="#d9f2e3"/>
+<text x="3450" y="1158" font-family="Inter, -apple-system, 'Segoe UI', sans-serif" fill="#1a1a1a" text-anchor="middle">
+<tspan x="3450" dy="0" font-size="34" font-weight="bold">Child Protection Unit</tspan>
+<tspan x="3450" dy="32" font-size="26">CWC · JJB</tspan>
+</text>
+<rect x="3780.0" y="1095.0" width="560" height="170" rx="18" fill="#d9f2e3"/>
+<text x="4060" y="1158" font-family="Inter, -apple-system, 'Segoe UI', sans-serif" fill="#1a1a1a" text-anchor="middle">
+<tspan x="4060" dy="0" font-size="34" font-weight="bold">Nari Adalat</tspan>
+<tspan x="4060" dy="32" font-size="26">women-run justice</tspan>
+</text>
+<rect x="1320.0" y="1520.0" width="520" height="160" rx="18" fill="#fff3d6"/>
+<text x="1580" y="1578" font-family="Inter, -apple-system, 'Segoe UI', sans-serif" fill="#1a1a1a" text-anchor="middle">
+<tspan x="1580" dy="0" font-size="34" font-weight="bold">Panchayat</tspan>
+<tspan x="1580" dy="32" font-size="26">50% seats reserved</tspan>
+</text>
+<rect x="1910.0" y="1520.0" width="560" height="160" rx="18" fill="#fff3d6"/>
+<text x="2190" y="1578" font-family="Inter, -apple-system, 'Segoe UI', sans-serif" fill="#1a1a1a" text-anchor="middle">
+<tspan x="2190" dy="0" font-size="34" font-weight="bold">District Admin</tspan>
+<tspan x="2190" dy="32" font-size="26">DC · DPO · police</tspan>
+</text>
+<rect x="2520.0" y="1520.0" width="560" height="160" rx="18" fill="#fff3d6"/>
+<text x="2800" y="1578" font-family="Inter, -apple-system, 'Segoe UI', sans-serif" fill="#1a1a1a" text-anchor="middle">
+<tspan x="2800" dy="0" font-size="34" font-weight="bold">Block · PHC</tspan>
+<tspan x="2800" dy="32" font-size="26">the last office</tspan>
+</text>
+<rect x="3130.0" y="1520.0" width="560" height="160" rx="18" fill="#fff3d6"/>
+<text x="3410" y="1578" font-family="Inter, -apple-system, 'Segoe UI', sans-serif" fill="#1a1a1a" text-anchor="middle">
+<tspan x="3410" dy="0" font-size="34" font-weight="bold">Anganwadi</tspan>
+<tspan x="3410" dy="32" font-size="26">2L+ centres</tspan>
+</text>
+<rect x="3740.0" y="1520.0" width="560" height="160" rx="18" fill="#ffe1a8"/>
+<text x="4020" y="1578" font-family="Inter, -apple-system, 'Segoe UI', sans-serif" fill="#1a1a1a" text-anchor="middle">
+<tspan x="4020" dy="0" font-size="34" font-weight="bold">ASHA Worker</tspan>
+<tspan x="4020" dy="32" font-size="26">honorarium, not salary</tspan>
+</text>
+<rect x="1700.0" y="1905.0" width="760" height="230" rx="18" fill="#ffe8d6"/>
+<text x="2080" y="1965" font-family="Inter, -apple-system, 'Segoe UI', sans-serif" fill="#1a1a1a" text-anchor="middle">
+<tspan x="2080" dy="0" font-size="34" font-weight="bold">SAMBAL — safety</tspan>
+<tspan x="2080" dy="32" font-size="26">One Stop Centre · 181 helpline</tspan>
+<tspan x="2080" dy="32" font-size="26">BBBP · Nari Adalat</tspan>
+<tspan x="2080" dy="32" font-size="26">181: 99L+ women (Feb 2026)</tspan>
+</text>
+<rect x="2520.0" y="1905.0" width="760" height="230" rx="18" fill="#ffe8d6"/>
+<text x="2900" y="1981" font-family="Inter, -apple-system, 'Segoe UI', sans-serif" fill="#1a1a1a" text-anchor="middle">
+<tspan x="2900" dy="0" font-size="34" font-weight="bold">SAMARTHYA — support</tspan>
+<tspan x="2900" dy="32" font-size="26">PMMVY · Shakti Sadan · Sakhi Niwas · Palna</tspan>
+<tspan x="2900" dy="32" font-size="26">SRB 918→929</tspan>
+</text>
+<rect x="3340.0" y="1930.0" width="560" height="180" rx="18" fill="#ffe8d6"/>
+<text x="3620" y="2015" font-family="Inter, -apple-system, 'Segoe UI', sans-serif" fill="#1a1a1a" text-anchor="middle">
+<tspan x="3620" dy="0" font-size="34" font-weight="bold">Poshan 2.0</tspan>
+</text>
+<rect x="1847" y="1000" width="16" height="900" rx="6" fill="#30a46c"/>
+<rect x="1855" y="992" width="1095" height="16" rx="6" fill="#30a46c"/>
+<rect x="1855" y="1042" width="1705" height="16" rx="6" fill="#30a46c"/>
+<rect x="1855" y="1882" width="635" height="16" rx="6" fill="#30a46c"/>
+<rect x="2482" y="1890" width="16" height="310" rx="6" fill="#30a46c"/>
+<rect x="2080" y="2192" width="1540" height="16" rx="6" fill="#30a46c"/>
+<line x1="1770" y1="760" x2="1820" y2="760" stroke="#30a46c" stroke-width="5" marker-end="url(#mG)"/>
+<line x1="2950" y1="845" x2="2950" y2="992" stroke="#30a46c" stroke-width="4" marker-end="url(#mG)"/>
+<line x1="3560" y1="845" x2="3560" y2="1042" stroke="#30a46c" stroke-width="4" marker-end="url(#mG)"/>
+<line x1="2080" y1="2192" x2="2080" y2="2135" stroke="#30a46c" stroke-width="4" marker-end="url(#mG)"/>
+<line x1="2900" y1="2192" x2="2900" y2="2135" stroke="#30a46c" stroke-width="4" marker-end="url(#mG)"/>
+<line x1="3620" y1="2192" x2="3620" y2="2110" stroke="#30a46c" stroke-width="4" marker-end="url(#mG)"/>
+<line x1="2170" y1="875" x2="2190" y2="1080" stroke="#30a46c" stroke-width="5" marker-end="url(#mG)"/>
+<line x1="2190" y1="1280" x2="2170" y2="1520" stroke="#30a46c" stroke-width="5" marker-end="url(#mG)"/>
+<line x1="2450" y1="1600" x2="2500" y2="1600" stroke="#30a46c" stroke-width="5" marker-end="url(#mG)"/>
+<line x1="3060" y1="1600" x2="3720" y2="1600" stroke="#30a46c" stroke-width="5" marker-end="url(#mG)"/>
+<line x1="1510" y1="845" x2="2170" y2="1520" stroke="#30a46c" stroke-width="4" marker-end="url(#mG)"/>
+<line x1="2520" y1="760" x2="2670" y2="760" stroke="#30a46c" stroke-width="4" marker-end="url(#mG)"/>
+<line x1="3230" y1="760" x2="3280" y2="760" stroke="#30a46c" stroke-width="4" marker-end="url(#mG)"/>
+<line x1="3840" y1="760" x2="3890" y2="760" stroke="#30a46c" stroke-width="4" marker-end="url(#mG)"/>
+<line x1="1780" y1="435" x2="1510" y2="675" stroke="#6b7280" stroke-width="2" marker-end="url(#mX)"/>
+<line x1="2460" y1="435" x2="1510" y2="675" stroke="#6b7280" stroke-width="2" marker-end="url(#mX)"/>
+<line x1="3140" y1="435" x2="1510" y2="675" stroke="#6b7280" stroke-width="2" marker-end="url(#mX)"/>
+<line x1="3820" y1="435" x2="1510" y2="675" stroke="#6b7280" stroke-width="2" marker-end="url(#mX)"/>
+<line x1="1200" y1="760" x2="1820" y2="760" stroke="#30a46c" stroke-width="3" marker-end="url(#mG)"/>
+<line x1="3720" y1="1600" x2="3060" y2="1600" stroke="#6b7280" stroke-width="2" stroke-dasharray="10 8" marker-end="url(#mX)"/>
+<line x1="2500" y1="1600" x2="2450" y2="1600" stroke="#6b7280" stroke-width="2" stroke-dasharray="10 8" marker-end="url(#mX)"/>
+<line x1="2170" y1="1520" x2="2190" y2="1280" stroke="#6b7280" stroke-width="2" stroke-dasharray="10 8" marker-end="url(#mX)"/>
+<line x1="2190" y1="1080" x2="2170" y2="875" stroke="#6b7280" stroke-width="2" stroke-dasharray="10 8" marker-end="url(#mX)"/>
+<text x="2140" y="420" font-family="Inter, -apple-system, 'Segoe UI', sans-serif" font-size="22" fill="#6b7280" text-anchor="middle">treaty duty</text>
+<text x="1510" y="730" font-family="Inter, -apple-system, 'Segoe UI', sans-serif" font-size="22" fill="#6b7280" text-anchor="middle">tracks SDG 5</text>
+<text x="1795" y="730" font-family="Inter, -apple-system, 'Segoe UI', sans-serif" font-size="22" fill="#6b7280" text-anchor="middle">funds + mandate</text>
+<text x="3255" y="730" font-family="Inter, -apple-system, 'Segoe UI', sans-serif" font-size="22" fill="#6b7280" text-anchor="middle">all under MWCD</text>
+<text x="1900" y="1180" font-family="Inter, -apple-system, 'Segoe UI', sans-serif" font-size="22" fill="#6b7280" text-anchor="middle">₹ + schemes</text>
+<text x="2330" y="980" font-family="Inter, -apple-system, 'Segoe UI', sans-serif" font-size="22" fill="#6b7280" text-anchor="middle">reports up — patchy ✕</text>
+<rect x="4130.0" y="1448.0" width="150" height="64" rx="12" fill="#e5484d"/>
+<text x="4205" y="1488" font-family="Inter, -apple-system, 'Segoe UI', sans-serif" font-size="22" fill="#ffffff" text-anchor="middle">
+<tspan x="4205" dy="0" font-weight="bold">GAP 1</tspan>
+</text>
+<rect x="2360.0" y="1288.0" width="150" height="64" rx="12" fill="#e5484d"/>
+<text x="2435" y="1328" font-family="Inter, -apple-system, 'Segoe UI', sans-serif" font-size="22" fill="#ffffff" text-anchor="middle">
+<tspan x="2435" dy="0" font-weight="bold">GAP 2</tspan>
+</text>
+<rect x="2300.0" y="1448.0" width="150" height="64" rx="12" fill="#e5484d"/>
+<text x="2375" y="1488" font-family="Inter, -apple-system, 'Segoe UI', sans-serif" font-size="22" fill="#ffffff" text-anchor="middle">
+<tspan x="2375" dy="0" font-weight="bold">GAP 3</tspan>
+</text>
+<rect x="3130.0" y="1833.0" width="150" height="64" rx="12" fill="#e5484d"/>
+<text x="3205" y="1873" font-family="Inter, -apple-system, 'Segoe UI', sans-serif" font-size="22" fill="#ffffff" text-anchor="middle">
+<tspan x="3205" dy="0" font-weight="bold">GAP 4</tspan>
+</text>
+<rect x="1870.0" y="1288.0" width="150" height="64" rx="12" fill="#e5484d"/>
+<text x="1945" y="1328" font-family="Inter, -apple-system, 'Segoe UI', sans-serif" font-size="22" fill="#ffffff" text-anchor="middle">
+<tspan x="1945" dy="0" font-weight="bold">GAP 5</tspan>
+</text>
+<text x="80" y="2320" font-family="Inter, -apple-system, 'Segoe UI', sans-serif" font-size="26" fill="#e5484d" text-anchor="start" font-weight="bold">THE 5 GAPS — where the system leaks</text>
+<rect x="270" y="2400" width="980" height="320" rx="18" fill="#ffffff" stroke="#e5484d" stroke-width="3"/>
+<text x="760" y="2470" font-family="Inter, -apple-system, 'Segoe UI', sans-serif" font-size="24" fill="#1a1a1a" text-anchor="middle">
+<tspan x="760" dy="0" font-weight="bold">GAP 1 · ASHA PAY DISPUTE</tspan>
+<tspan x="760" dy="30">Honorarium, not salary — states delay or deny it.</tspan>
+<tspan x="760" dy="30">2026 protests: AP, Telangana, WB</tspan>
+<tspan x="760" dy="30">→ bites: ASHA Worker (Tier 4)</tspan>
+</text>
+<rect x="1290" y="2400" width="980" height="320" rx="18" fill="#ffffff" stroke="#e5484d" stroke-width="3"/>
+<text x="1780" y="2470" font-family="Inter, -apple-system, 'Segoe UI', sans-serif" font-size="24" fill="#1a1a1a" text-anchor="middle">
+<tspan x="1780" dy="0" font-weight="bold">GAP 2 · BUDGET UNDERSPEND</tspan>
+<tspan x="1780" dy="30">Nirbhaya: ₹8,212.85 cr allocated →</tspan>
+<tspan x="1780" dy="30">₹6,581.84 cr released/utilised (Lok Sabha, Feb 2026)</tspan>
+<tspan x="1780" dy="30">2025-26 grant ₹278 cr: lowest ever</tspan>
+<tspan x="1780" dy="30">→ bites: MWCD → State money pipe</tspan>
+</text>
+<rect x="2310" y="2400" width="980" height="320" rx="18" fill="#ffffff" stroke="#e5484d" stroke-width="3"/>
+<text x="2800" y="2470" font-family="Inter, -apple-system, 'Segoe UI', sans-serif" font-size="24" fill="#1a1a1a" text-anchor="middle">
+<tspan x="2800" dy="0" font-weight="bold">GAP 3 · UNEVEN SCALING</tspan>
+<tspan x="2800" dy="30">Pilots work; scale-up fails.</tspan>
+<tspan x="2800" dy="30">Mahila Police Volunteers: only 13 states</tspan>
+<tspan x="2800" dy="30">WB: 8 of 123 FTSCs work</tspan>
+<tspan x="2800" dy="30">→ bites: State → District handoff</tspan>
+</text>
+<rect x="3330" y="2400" width="980" height="320" rx="18" fill="#ffffff" stroke="#e5484d" stroke-width="3"/>
+<text x="3820" y="2470" font-family="Inter, -apple-system, 'Segoe UI', sans-serif" font-size="24" fill="#1a1a1a" text-anchor="middle">
+<tspan x="3820" dy="0" font-weight="bold">GAP 4 · PMMVY PAYOUT GAP</tspan>
+<tspan x="3820" dy="30">Enrolled ≠ money received.</tspan>
+<tspan x="3820" dy="30">Enrolment counted as success; the money lags</tspan>
+<tspan x="3820" dy="30">→ bites: Samarthya / PMMVY (Tier 5)</tspan>
+</text>
+<rect x="4350" y="2400" width="980" height="320" rx="18" fill="#ffffff" stroke="#e5484d" stroke-width="3"/>
+<text x="4840" y="2470" font-family="Inter, -apple-system, 'Segoe UI', sans-serif" font-size="24" fill="#1a1a1a" text-anchor="middle">
+<tspan x="4840" dy="0" font-weight="bold">GAP 5 · REPORTING GAP</tspan>
+<tspan x="4840" dy="30">Most violence never enters the system.</tspan>
+<tspan x="4840" dy="30">NARI 2025: 2 in 3 harassment cases never reported</tspan>
+<tspan x="4840" dy="30">→ bites: the reports-up chain</tspan>
+</text>
+<rect x="20" y="2948" width="150" height="16" rx="4" fill="#30a46c"/>
+<text x="190" y="2980" font-family="Inter, -apple-system, 'Segoe UI', sans-serif" font-size="22" fill="#1a1a1a" text-anchor="start">money flows down</text>
+<line x1="520" y1="2956" x2="670" y2="2956" stroke="#6b7280" stroke-width="3" stroke-dasharray="10 8"/>
+<text x="690" y="2980" font-family="Inter, -apple-system, 'Segoe UI', sans-serif" font-size="22" fill="#1a1a1a" text-anchor="start">reports flow up (patchy ✕)</text>
+<rect x="1360.0" y="2946.0" width="150" height="64" rx="12" fill="#e5484d"/>
+<text x="1435" y="2986" font-family="Inter, -apple-system, 'Segoe UI', sans-serif" font-size="22" fill="#ffffff" text-anchor="middle">
+<tspan x="1435" dy="0" font-weight="bold">GAP n</tspan>
+</text>
+<text x="1530" y="2980" font-family="Inter, -apple-system, 'Segoe UI', sans-serif" font-size="22" fill="#1a1a1a" text-anchor="start">gap badge → detail card below</text>
+<text x="2900" y="2980" font-family="Inter, -apple-system, 'Segoe UI', sans-serif" font-size="22" fill="#6b7280" text-anchor="start">25 boxes · 2 arrow types · draw it on one sheet</text>
+<rect x="80" y="3155" width="5440" height="130" rx="18" fill="#374151"/>
+<text x="2800" y="3235" font-family="Inter, -apple-system, 'Segoe UI', sans-serif" font-size="24" fill="#ffffff" text-anchor="middle" font-weight="bold">HOW TO COPY ON A SHEET — 1 draw the 5 bands · 2 place the 25 boxes · 3 ink the green money chain going down · 4 dashed gray reports going up · 5 stick the 5 red GAP badges where it leaks</text>
+</svg>
