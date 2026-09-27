@@ -109,25 +109,19 @@ def main():
         # ---- 3. new design file ----
         log("creating new design file...")
         page.screenshot(path="shots/file-browser.png")
-        try:
-            btns = page.evaluate(
-                "() => Array.from(document.querySelectorAll('button'))"
-                ".map(b => (b.innerText || b.getAttribute('aria-label') || '').trim())"
-                ".filter(t => t).slice(0, 40)")
-            log("buttons on page:", btns)
-        except Exception as e:
-            log("button dump failed:", str(e)[:100])
-        if not click_first(page, ['button:has-text("New")', '[aria-label="New"]',
-                                  'button:has-text("+ New")',
-                                  '[data-testid="new-button"]',
-                                  'button:has-text("Create")'],
-                           timeout=15000, what="'New' button"):
-            page.screenshot(path="shots/no-new-button.png")
+        if not click_first(page, ['button:has-text("Create")', '[aria-label="Create"]'],
+                           timeout=15000, what="'Create' button"):
+            page.screenshot(path="shots/no-create-button.png")
             sys.exit(4)
         page.wait_for_timeout(1500)
-        click_first(page, ['[role="menuitem"]:has-text("Design file")',
-                           'text="Design file"'],
-                    what="'Design file' menu item")
+        page.screenshot(path="shots/create-menu.png")
+        if not click_first(page, ['[role="menuitem"]:has-text("Design")',
+                                  'text="Design"'],
+                           timeout=15000, what="'Design' menu item"):
+            page.screenshot(path="shots/no-design-item.png")
+            log("WARNING: 'Design' menu item not clickable; trying Enter on open menu")
+            page.keyboard.press("Enter")
+            page.wait_for_timeout(1500)
         try:
             page.wait_for_url(re.compile(r"figma\.com/design/"), timeout=90000)
         except Exception:
