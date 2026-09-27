@@ -164,7 +164,7 @@ for i, (t, d) in enumerate(obs):
 b.save()
 
 # ================= 05 GAP REMOVED =================
-b = Board(W, 1780, "05-gap-removed.svg"); b.bg()
+b = Board(W, 2300, "05-gap-removed.svg"); b.bg()
 y = b.sec_head("04 \u2014 How the gap was removed", "From findings to design moves",
     "Each finding became a decision. Nothing decorative \u2014 every move answers something the field said.", y=90)
 steps = [
@@ -175,6 +175,8 @@ steps = [
     ("The job survives without a smartphone", "Token code + SMS to a basic phone + printable slip. No app to install, no data needed \u2014 the loop closes over the technology workers already have."),
     ("The referral\u2019s last mile, built in", "Requirements and how-to-reach are shown before acceptance \u2014 what to bring, whom to ask for, how far it is. The system carries the context a referral used to carry."),
     ("Privacy on a public screen", "Masked numbers, a visible privacy promise, session auto-wipe with an inactivity countdown \u2014 so the first tap doesn\u2019t feel like exposure."),
+    ("Skills become visible tags", "Sponsored Skill India / PMKVY courses complete into verified skill tags on the worker\u2019s profile \u2014 cooking, masonry, driving, housekeeping. Reputation stops being only stars; it becomes provable skill."),
+    ("Trust with a paper trail", "Consent-based self-declaration of no criminal record, linked to the local police station for verification \u2014 the check households already trust, now on record. Identity anchored to e-Shram (Ministry of Labour & Employment)."),
 ]
 for i, (t, d) in enumerate(steps):
     hh = 178
@@ -187,7 +189,7 @@ for i, (t, d) in enumerate(steps):
 b.save()
 
 # ================= 06 SOLUTION =================
-b = Board(W, 1500, "06-solution.svg"); b.bg()
+b = Board(W, 2450, "06-solution.svg"); b.bg()
 y = b.sec_head("05 \u2014 Final solution", "Two surfaces, one bridge",
     "The system doesn\u2019t ask either side to change how they live. It meets workers where they wait and hirers where they post \u2014 and turns referrals into portable, verifiable reputation.", y=90)
 b.card(90, y, 610, 560); b.card(740, y, 610, 560)
@@ -210,11 +212,64 @@ y += 600
 b.card(90, y, W - 180, 250)
 b.para(130, y + 100, "Referrals become reputation. Word of mouth becomes a record. And the worker with no phone, no English and no network is visible to the market at last.", 34, W - 340, INK, serif=True)
 b.tag(130, y + 208, "The bridge \u2014 what the two surfaces do together")
+y += 290
+# ---- institutional layer ----
+b.card(90, y, W - 180, 360)
+b.tag(130, y + 54, "The institutional layer")
+b.para(130, y + 104, "The system doesn\u2019t stand alone \u2014 it plugs into the state\u2019s existing rails.", 30, W - 340, INK, serif=True)
+cols = [
+    ("Identity", "e-Shram \u00b7 Ministry of Labour & Employment. The national database of unorganised and rural workers becomes the identity anchor."),
+    ("Skills", "Skill India / PMKVY courses, sponsored. Training partners sponsor courses; verified skill tags land on the worker\u2019s profile."),
+    ("Safety", "Consent + local police station. Workers self-declare no criminal record with explicit consent; verification routes locally."),
+]
+for i, (t, d) in enumerate(cols):
+    x = 130 + i * 400
+    b.tag(x, y + 190, t)
+    b.para(x, y + 222, d, 18, 360, SOFT)
+y += 400
+# ---- how Kaam differs ----
+b.card(90, y, W - 180, 620)
+b.tag(130, y + 54, "How Kaam differs")
+b.para(130, y + 104, "Existing platforms digitize workers who are already reachable. Kaam reaches workers nobody has digitized yet.", 28, W - 340, INK, serif=True)
+diffs = [
+    ("Urban Company", "A service marketplace: customers book a service, the platform assigns an anonymous partner. Workers need a smartphone + app and pay ~25% commission. Built for metro households."),
+    ("Broomees", "Organized domestic-help staffing for metros \u2014 trained at their centers, booked on subscription. Same trust primitives, but locked inside a metro product."),
+    ("BetterPlace", "B2B workforce lifecycle for enterprises \u2014 hiring, verification, payroll for large companies. Serves the employer, not the canteen owner."),
+    ("Kaam \u00d7 RozgaarSetu", "Direct hire, not a service. The hirer hires a person; her reputation travels with her. No degree, no smartphone needed \u2014 and the worker never pays."),
+]
+for i, (t, d) in enumerate(diffs):
+    x = 130 + (i % 2) * 610; yy = y + 190 + (i // 2) * 220
+    b.card(x, yy, 580, 196, r=18)
+    b.tag(x + 24, yy + 44, t)
+    b.para(x + 24, yy + 78, d, 18, 532, SOFT)
 b.save()
 
-# ================= 07 PERSONAS =================
-b = Board(W, 2080, "07-personas.svg"); b.bg()
-y = b.sec_head("06 \u2014 Personas", "The people on both sides",
+# ================= 07 REVENUE =================
+b = Board(W, 1450, "07-revenue.svg"); b.bg()
+y = b.sec_head("06 \u2014 Revenue model", "How it sustains itself",
+    "One rule shapes every revenue line: the worker never pays. Money comes from hirers, sponsors, and institutions \u2014 the sides with budget.", y=90)
+revs = [
+    ("Hirer placement fee", "Posting is free; a small fee lands on a successful hire \u2014 or a monthly plan for contractors hiring crew after crew."),
+    ("Paid verification add-ons", "Police-linked verification and certified skill tags as premium checks, bought by hirers who want extra assurance."),
+    ("Sponsored skill courses", "Training partners, NSDC-aligned bodies and CSR funds sponsor Skill India courses \u2014 they pay for a pipeline of verified workers."),
+    ("Kiosk sponsorship", "Kiosks at bus stands and stations carry sponsor branding \u2014 CSR money from companies that already spend on livelihoods."),
+]
+cw, chh, gx, gy = 610, 260, 40, 36
+for i, (t, d) in enumerate(revs):
+    x = 90 + (i % 2) * (cw + gx); yy = y + (i // 2) * (chh + gy)
+    b.card(x, yy, cw, chh)
+    b.tag(x + 28, yy + 52, f"Revenue 0{i+1}")
+    b.add(f'<text x="{x+28}" y="{yy+102}" font-family="{SERIF}" font-size="34" fill="{INK}">{escape(t)}</text>')
+    b.para(x + 28, yy + 144, d, 19, cw - 56, SOFT)
+y += 2 * (chh + gy) + 10
+b.card(90, y, W - 180, 230)
+b.tag(130, y + 54, "Revenue 05 \u2014 Institutional")
+b.para(130, y + 110, "Service fees from government partnership \u2014 e-Shram onboarding and state labour-department integrations, paid per worker brought into the formal fold.", 26, W - 340, INK, serif=True)
+b.save()
+
+# ================= 08 PERSONAS =================
+b = Board(W, 2080, "08-personas.svg"); b.bg()
+y = b.sec_head("07 \u2014 Personas", "The people on both sides",
     "Three hirers, three workers. Bhagat Singh is field-based; the rest are sample profiles built from the research patterns.", y=90)
 personas = [
     ("hirer", "Hirer \u00b7 field-based", "\u092d", "Bhagat Singh", "39 \u00b7 Canteen & mess \u00b7 Umri, Haryana",
