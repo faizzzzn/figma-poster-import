@@ -1,0 +1,43 @@
+name: import-research-to-figma
+
+on:
+  workflow_dispatch:
+    inputs:
+      file_name:
+        description: "Name for the new Figma file"
+        default: "Kaam x RozgaarSetu — Final Research"
+
+jobs:
+  import:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Install Playwright + Chromium
+        run: |
+          pip install playwright
+          python -m playwright install chromium --with-deps
+
+      - name: Generate research deck SVGs
+        run: python research_deck.py
+
+      - name: Import research deck into Figma
+        env:
+          FIGMA_EMAIL: ${{ secrets.FIGMA_EMAIL }}
+          FIGMA_PASSWORD: ${{ secrets.FIGMA_PASSWORD }}
+        run: |
+          python import_research.py \
+            --svgs research_svg \
+            --name "${{ inputs.file_name }}"
+
+      - name: Upload screenshots
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: figma-research-import-shots
+          path: shots/
