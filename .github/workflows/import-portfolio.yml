@@ -1,0 +1,43 @@
+name: import-portfolio-to-figma
+
+on:
+  workflow_dispatch:
+    inputs:
+      file_name:
+        description: "Name for the new Figma file"
+        default: "Faizan Haidri — Portfolio Website"
+
+jobs:
+  import:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Install deps (Pillow, Playwright + Chromium)
+        run: |
+          pip install pillow playwright
+          python -m playwright install chromium --with-deps
+
+      - name: Generate portfolio Figma artboards
+        run: python build_portfolio_figma.py
+
+      - name: Import portfolio into Figma
+        env:
+          FIGMA_EMAIL: ${{ secrets.FIGMA_EMAIL }}
+          FIGMA_PASSWORD: ${{ secrets.FIGMA_PASSWORD }}
+        run: |
+          python import_research.py \
+            --svgs website_svg_portfolio \
+            --name "${{ inputs.file_name }}"
+
+      - name: Upload screenshots
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: figma-portfolio-import-shots
+          path: shots/
