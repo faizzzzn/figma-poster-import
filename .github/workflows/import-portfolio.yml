@@ -10,7 +10,7 @@ on:
 jobs:
   import:
     runs-on: ubuntu-latest
-    timeout-minutes: 30
+    timeout-minutes: 45
     steps:
       - uses: actions/checkout@v4
 
@@ -30,6 +30,8 @@ jobs:
         env:
           FIGMA_EMAIL: ${{ secrets.FIGMA_EMAIL }}
           FIGMA_PASSWORD: ${{ secrets.FIGMA_PASSWORD }}
+          # fast viewport-pan placement (12 artboards); 0 = legacy nudge
+          PASTE_STRIDE_PX: "2000"
         run: |
           python import_research.py \
             --svgs website_svg_portfolio \

@@ -150,6 +150,13 @@ def main():
             log("rename skipped (non-fatal):", str(e)[:120])
 
         # ---- 5. paste each artboard, nudging into a row ----
+        # PASTE_STRIDE_PX: when > 0, use the fast "pan the viewport" strategy
+        # instead of nudging each layer: after each paste (except the last),
+        # deselect and pan the canvas right by STRIDE px, so the next paste
+        # lands one stride to the right. Cost is ~stride/10 presses per gap
+        # instead of the cumulative i*STEP_PX of the nudge strategy.
+        # Default 0 keeps the original nudge behavior for existing workflows.
+        stride = int(os.environ.get("PASTE_STRIDE_PX", "0"))
         for i, svg_path in enumerate(svg_files):
             name = Path(svg_path).name
             svg_text = Path(svg_path).read_text(encoding="utf-8")
@@ -159,12 +166,22 @@ def main():
             page.wait_for_timeout(500)
             page.keyboard.press("Control+v")
             page.wait_for_timeout(6000)
-            presses = (i * STEP_PX) // 10
-            for _ in range(presses):
-                page.keyboard.press("Shift+ArrowRight")
-            page.wait_for_timeout(800)
+            if stride > 0:
+                if i < len(svg_files) - 1:
+                    page.keyboard.press("Escape")
+                    page.keyboard.press("Escape")
+                    page.wait_for_timeout(400)
+                    for _ in range(stride // 10):
+                        page.keyboard.press("Shift+ArrowRight")
+                    page.wait_for_timeout(400)
+                    log(f"  panned viewport right {stride}px")
+            else:
+                presses = (i * STEP_PX) // 10
+                for _ in range(presses):
+                    page.keyboard.press("Shift+ArrowRight")
+                page.wait_for_timeout(800)
+                log(f"  nudged right {i * STEP_PX}px ({presses} presses)")
             page.screenshot(path=f"shots/after-paste-{i+1}.png")
-            log(f"  nudged right {i * STEP_PX}px ({presses} presses)")
 
         # ---- 6. zoom to fit + final shot ----
         page.keyboard.press("Shift+1")
