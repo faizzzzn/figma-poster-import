@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1440" height="1560" viewBox="0 0 1440 1560"><defs><linearGradient id="bg03findingssvg" x1="0" y1="0" x2="0" y2="1">
+<stop offset="0" stop-color="#F4FAFF"/><stop offset="1" stop-color="#D8EBFB"/></linearGradient></defs>
+<rect width="1440" height="1560" fill="url(#bg03findingssvg)"/>
+<rect x="90" y="90" width="217" height="48" rx="24.0" fill="rgba(255,255,255,0.6)" stroke="#82B9E6" stroke-width="1.5"/>
+<text x="118" y="118" font-family="IBM Plex Mono, monospace" font-size="20" letter-spacing="4" fill="#14608F">02 — FINDINGS</text>
+<text x="90" y="182" font-family="Fraunces, Georgia, serif" font-size="64" fill="#0B2E4E">What the research found</text>
+<text x="90" y="274" font-family="IBM Plex Mono, monospace" font-size="25" fill="#2C5A80">Five findings kept repeating across interviews, on both sides of the market.</text>
+<rect x="90" y="362" width="1260" height="200" rx="26" fill="rgba(255,255,255,0.72)" stroke="#82B9E6" stroke-width="1.5"/>
+<rect x="90" y="362" width="10" height="200" fill="#2E9BE6"/>
+<text x="130" y="414" font-family="IBM Plex Mono, monospace" font-size="17" letter-spacing="3.5" fill="#14608F">FINDING 01</text>
+<text x="130" y="454.0" font-family="Fraunces, Georgia, serif" font-size="27" fill="#0B2E4E">Hiring runs on referrals — or legwork. There is no reliable channel.</text>
+<text x="130" y="508.5" font-family="IBM Plex Mono, monospace" font-size="20" fill="#2C5A80">“The only way hiring worked was through referrals — or by manually going and searching in the</text>
+<text x="130" y="538.5" font-family="IBM Plex Mono, monospace" font-size="20" fill="#2C5A80">market.” Hirers travel to villages, spread the word, and hope. Some days it works. Some days</text>
+<text x="130" y="568.5" font-family="IBM Plex Mono, monospace" font-size="20" fill="#2C5A80">the canteen runs short-staffed.</text>
+<rect x="90" y="592" width="1260" height="200" rx="26" fill="rgba(255,255,255,0.72)" stroke="#82B9E6" stroke-width="1.5"/>
+<rect x="90" y="592" width="10" height="200" fill="#2E9BE6"/>
+<text x="130" y="644" font-family="IBM Plex Mono, monospace" font-size="17" letter-spacing="3.5" fill="#14608F">FINDING 02</text>
+<text x="130" y="684.0" font-family="Fraunces, Georgia, serif" font-size="27" fill="#0B2E4E">Workers are invisible without a phone, network, or English.</text>
+<text x="130" y="738.5" font-family="IBM Plex Mono, monospace" font-size="20" fill="#2C5A80">Work exists nearby, but discovery runs on word of mouth. No phone, no network, no English — and</text>
+<text x="130" y="768.5" font-family="IBM Plex Mono, monospace" font-size="20" fill="#2C5A80">you are invisible to the market around you.</text>
+<rect x="90" y="822" width="1260" height="200" rx="26" fill="rgba(255,255,255,0.72)" stroke="#82B9E6" stroke-width="1.5"/>
+<rect x="90" y="822" width="10" height="200" fill="#2E9BE6"/>
+<text x="130" y="874" font-family="IBM Plex Mono, monospace" font-size="17" letter-spacing="3.5" fill="#14608F">FINDING 03</text>
+<text x="130" y="914.0" font-family="Fraunces, Georgia, serif" font-size="27" fill="#0B2E4E">Every hire is a gamble for the hirer.</text>
+<text x="130" y="968.5" font-family="IBM Plex Mono, monospace" font-size="20" fill="#2C5A80">Strangers, no verification, no track record. Delays in staffing hit service quality directly —</text>
+<text x="130" y="998.5" font-family="IBM Plex Mono, monospace" font-size="20" fill="#2C5A80">and reviews follow. Risk, fear and safety concerns sit underneath every new hire.</text>
+<rect x="90" y="1052" width="1260" height="200" rx="26" fill="rgba(255,255,255,0.72)" stroke="#82B9E6" stroke-width="1.5"/>
+<rect x="90" y="1052" width="10" height="200" fill="#2E9BE6"/>
+<text x="130" y="1104" font-family="IBM Plex Mono, monospace" font-size="17" letter-spacing="3.5" fill="#14608F">FINDING 04</text>
+<text x="130" y="1144.0" font-family="Fraunces, Georgia, serif" font-size="27" fill="#0B2E4E">Money and attendance live on paper and memory.</text>
+<text x="130" y="1198.5" font-family="IBM Plex Mono, monospace" font-size="20" fill="#2C5A80">Khata handled by the hirer or a brother; attendance on a register or in someone’s head. When</text>
+<text x="130" y="1228.5" font-family="IBM Plex Mono, monospace" font-size="20" fill="#2C5A80">wages are disputed, there is no record to settle it.</text>
+<rect x="90" y="1282" width="1260" height="200" rx="26" fill="rgba(255,255,255,0.72)" stroke="#82B9E6" stroke-width="1.5"/>
+<rect x="90" y="1282" width="10" height="200" fill="#2E9BE6"/>
+<text x="130" y="1334" font-family="IBM Plex Mono, monospace" font-size="17" letter-spacing="3.5" fill="#14608F">FINDING 05</text>
+<text x="130" y="1374.0" font-family="Fraunces, Georgia, serif" font-size="27" fill="#0B2E4E">At the decision point, existing tools turn text-heavy.</text>
+<text x="130" y="1428.5" font-family="IBM Plex Mono, monospace" font-size="20" fill="#2C5A80">Listings collapse into dense text exactly where a worker must decide. The four things workers</text>
+<text x="130" y="1458.5" font-family="IBM Plex Mono, monospace" font-size="20" fill="#2C5A80">actually ask — pay, start time, distance, and who else trusts this hirer — are buried or</text>
+<text x="130" y="1488.5" font-family="IBM Plex Mono, monospace" font-size="20" fill="#2C5A80">missing.</text></svg>

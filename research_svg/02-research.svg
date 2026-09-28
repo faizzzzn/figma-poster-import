@@ -1,0 +1,61 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1440" height="1180" viewBox="0 0 1440 1180"><defs><linearGradient id="bg02researchsvg" x1="0" y1="0" x2="0" y2="1">
+<stop offset="0" stop-color="#F4FAFF"/><stop offset="1" stop-color="#D8EBFB"/></linearGradient></defs>
+<rect width="1440" height="1180" fill="url(#bg02researchsvg)"/>
+<rect x="90" y="90" width="217" height="48" rx="24.0" fill="rgba(255,255,255,0.6)" stroke="#82B9E6" stroke-width="1.5"/>
+<text x="118" y="118" font-family="IBM Plex Mono, monospace" font-size="20" letter-spacing="4" fill="#14608F">01 — RESEARCH</text>
+<text x="90" y="182" font-family="Fraunces, Georgia, serif" font-size="64" fill="#0B2E4E">How the research was done</text>
+<text x="90" y="274" font-family="IBM Plex Mono, monospace" font-size="25" fill="#2C5A80">Six methods, one goal — understand how hiring actually happens when there is</text>
+<text x="90" y="312" font-family="IBM Plex Mono, monospace" font-size="25" fill="#2C5A80">no platform in the picture.</text>
+<rect x="90" y="400" width="400" height="300" rx="26" fill="rgba(255,255,255,0.72)" stroke="#82B9E6" stroke-width="1.5"/>
+<text x="118" y="452" font-family="IBM Plex Mono, monospace" font-size="17" letter-spacing="3.5" fill="#14608F">METHOD 01</text>
+<text x="118" y="500" font-family="Fraunces, Georgia, serif" font-size="34" fill="#0B2E4E">Field interviews</text>
+<text x="118" y="542.0" font-family="IBM Plex Mono, monospace" font-size="20" fill="#2C5A80">Conversations with workers</text>
+<text x="118" y="572.0" font-family="IBM Plex Mono, monospace" font-size="20" fill="#2C5A80">at transit hubs and with</text>
+<text x="118" y="602.0" font-family="IBM Plex Mono, monospace" font-size="20" fill="#2C5A80">hirers — canteen managers,</text>
+<text x="118" y="632.0" font-family="IBM Plex Mono, monospace" font-size="20" fill="#2C5A80">households, small</text>
+<text x="118" y="662.0" font-family="IBM Plex Mono, monospace" font-size="20" fill="#2C5A80">contractors — about how a</text>
+<text x="118" y="692.0" font-family="IBM Plex Mono, monospace" font-size="20" fill="#2C5A80">hire actually comes</text>
+<text x="118" y="722.0" font-family="IBM Plex Mono, monospace" font-size="20" fill="#2C5A80">together, step by step.</text>
+<rect x="530" y="400" width="400" height="300" rx="26" fill="rgba(255,255,255,0.72)" stroke="#82B9E6" stroke-width="1.5"/>
+<text x="558" y="452" font-family="IBM Plex Mono, monospace" font-size="17" letter-spacing="3.5" fill="#14608F">METHOD 02</text>
+<text x="558" y="500" font-family="Fraunces, Georgia, serif" font-size="34" fill="#0B2E4E">Persona building</text>
+<text x="558" y="542.0" font-family="IBM Plex Mono, monospace" font-size="20" fill="#2C5A80">Field-based and composite</text>
+<text x="558" y="572.0" font-family="IBM Plex Mono, monospace" font-size="20" fill="#2C5A80">profiles of both sides of</text>
+<text x="558" y="602.0" font-family="IBM Plex Mono, monospace" font-size="20" fill="#2C5A80">the market — what they want,</text>
+<text x="558" y="632.0" font-family="IBM Plex Mono, monospace" font-size="20" fill="#2C5A80">what they do today, and</text>
+<text x="558" y="662.0" font-family="IBM Plex Mono, monospace" font-size="20" fill="#2C5A80">where it breaks.</text>
+<rect x="970" y="400" width="400" height="300" rx="26" fill="rgba(255,255,255,0.72)" stroke="#82B9E6" stroke-width="1.5"/>
+<text x="998" y="452" font-family="IBM Plex Mono, monospace" font-size="17" letter-spacing="3.5" fill="#14608F">METHOD 03</text>
+<text x="998" y="500" font-family="Fraunces, Georgia, serif" font-size="34" fill="#0B2E4E">Empathy &amp; journey maps</text>
+<text x="998" y="542.0" font-family="IBM Plex Mono, monospace" font-size="20" fill="#2C5A80">Walking the full arc from “I</text>
+<text x="998" y="572.0" font-family="IBM Plex Mono, monospace" font-size="20" fill="#2C5A80">need work / I need workers”</text>
+<text x="998" y="602.0" font-family="IBM Plex Mono, monospace" font-size="20" fill="#2C5A80">to payday — marking every</text>
+<text x="998" y="632.0" font-family="IBM Plex Mono, monospace" font-size="20" fill="#2C5A80">workaround, wait, and moment</text>
+<text x="998" y="662.0" font-family="IBM Plex Mono, monospace" font-size="20" fill="#2C5A80">of doubt.</text>
+<rect x="90" y="736" width="400" height="300" rx="26" fill="rgba(255,255,255,0.72)" stroke="#82B9E6" stroke-width="1.5"/>
+<text x="118" y="788" font-family="IBM Plex Mono, monospace" font-size="17" letter-spacing="3.5" fill="#14608F">METHOD 04</text>
+<text x="118" y="836" font-family="Fraunces, Georgia, serif" font-size="34" fill="#0B2E4E">Affinity mapping</text>
+<text x="118" y="878.0" font-family="IBM Plex Mono, monospace" font-size="20" fill="#2C5A80">Clustering interview notes</text>
+<text x="118" y="908.0" font-family="IBM Plex Mono, monospace" font-size="20" fill="#2C5A80">into themes: discovery,</text>
+<text x="118" y="938.0" font-family="IBM Plex Mono, monospace" font-size="20" fill="#2C5A80">trust, verification,</text>
+<text x="118" y="968.0" font-family="IBM Plex Mono, monospace" font-size="20" fill="#2C5A80">payment, and the last mile —</text>
+<text x="118" y="998.0" font-family="IBM Plex Mono, monospace" font-size="20" fill="#2C5A80">so patterns, not anecdotes,</text>
+<text x="118" y="1028.0" font-family="IBM Plex Mono, monospace" font-size="20" fill="#2C5A80">drove the design.</text>
+<rect x="530" y="736" width="400" height="300" rx="26" fill="rgba(255,255,255,0.72)" stroke="#82B9E6" stroke-width="1.5"/>
+<text x="558" y="788" font-family="IBM Plex Mono, monospace" font-size="17" letter-spacing="3.5" fill="#14608F">METHOD 05</text>
+<text x="558" y="836" font-family="Fraunces, Georgia, serif" font-size="34" fill="#0B2E4E">Competitive analysis</text>
+<text x="558" y="878.0" font-family="IBM Plex Mono, monospace" font-size="20" fill="#2C5A80">Urban Company and Broomees</text>
+<text x="558" y="908.0" font-family="IBM Plex Mono, monospace" font-size="20" fill="#2C5A80">assign anonymous service</text>
+<text x="558" y="938.0" font-family="IBM Plex Mono, monospace" font-size="20" fill="#2C5A80">workers. Kaam is a</text>
+<text x="558" y="968.0" font-family="IBM Plex Mono, monospace" font-size="20" fill="#2C5A80">direct-hire identity</text>
+<text x="558" y="998.0" font-family="IBM Plex Mono, monospace" font-size="20" fill="#2C5A80">platform instead — workers</text>
+<text x="558" y="1028.0" font-family="IBM Plex Mono, monospace" font-size="20" fill="#2C5A80">as individuals with portable</text>
+<text x="558" y="1058.0" font-family="IBM Plex Mono, monospace" font-size="20" fill="#2C5A80">reputations.</text>
+<rect x="970" y="736" width="400" height="300" rx="26" fill="rgba(255,255,255,0.72)" stroke="#82B9E6" stroke-width="1.5"/>
+<text x="998" y="788" font-family="IBM Plex Mono, monospace" font-size="17" letter-spacing="3.5" fill="#14608F">METHOD 06</text>
+<text x="998" y="836" font-family="Fraunces, Georgia, serif" font-size="34" fill="#0B2E4E">Cold-start analysis</text>
+<text x="998" y="878.0" font-family="IBM Plex Mono, monospace" font-size="20" fill="#2C5A80">Mapping how the system earns</text>
+<text x="998" y="908.0" font-family="IBM Plex Mono, monospace" font-size="20" fill="#2C5A80">trust with zero history —</text>
+<text x="998" y="938.0" font-family="IBM Plex Mono, monospace" font-size="20" fill="#2C5A80">who verifies whom first, and</text>
+<text x="998" y="968.0" font-family="IBM Plex Mono, monospace" font-size="20" fill="#2C5A80">what makes the first hire</text>
+<text x="998" y="998.0" font-family="IBM Plex Mono, monospace" font-size="20" fill="#2C5A80">feel safe.</text></svg>

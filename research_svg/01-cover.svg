@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1440" height="900" viewBox="0 0 1440 900"><defs><linearGradient id="bg01coversvg" x1="0" y1="0" x2="0" y2="1">
+<stop offset="0" stop-color="#F4FAFF"/><stop offset="1" stop-color="#D8EBFB"/></linearGradient></defs>
+<rect width="1440" height="900" fill="url(#bg01coversvg)"/>
+<rect x="90" y="120" width="378" height="48" rx="24.0" fill="rgba(255,255,255,0.6)" stroke="#82B9E6" stroke-width="1.5"/>
+<text x="118" y="148" font-family="IBM Plex Mono, monospace" font-size="20" letter-spacing="4" fill="#14608F">FINAL RESEARCH COMPILATION</text>
+<text x="90" y="300" font-family="Fraunces, Georgia, serif" font-size="96" fill="#0B2E4E">The gap was never skill.</text>
+<text x="90" y="410" font-family="Fraunces, Georgia, serif" font-size="96" fill="#0B2E4E">It was connection.</text>
+<text x="92" y="530.0" font-family="IBM Plex Mono, monospace" font-size="26" fill="#2C5A80">Kaam × RozgaarSetu — a two-surface hiring system for India’s informal</text>
+<text x="92" y="569.0" font-family="IBM Plex Mono, monospace" font-size="26" fill="#2C5A80">workforce. A Hindi-first worker kiosk meets a hirer-side mobile app,</text>
+<text x="92" y="608.0" font-family="IBM Plex Mono, monospace" font-size="26" fill="#2C5A80">bridging the world of referrals and the world of non-digital users.</text>
+<rect x="92" y="760" width="464" height="56" rx="16" fill="rgba(255,255,255,0.72)" stroke="#82B9E6" stroke-width="1.5"/>
+<text x="114" y="795" font-family="IBM Plex Mono, monospace" font-size="20" fill="#2C5A80">Role · UI/UX research + prototyping</text>
+<rect x="574.0" y="760" width="392" height="56" rx="16" fill="rgba(255,255,255,0.72)" stroke="#82B9E6" stroke-width="1.5"/>
+<text x="596.0" y="795" font-family="IBM Plex Mono, monospace" font-size="20" fill="#2C5A80">Surfaces · kiosk + mobile app</text></svg>

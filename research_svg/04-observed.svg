@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1440" height="1640" viewBox="0 0 1440 1640"><defs><linearGradient id="bg04observedsvg" x1="0" y1="0" x2="0" y2="1">
+<stop offset="0" stop-color="#F4FAFF"/><stop offset="1" stop-color="#D8EBFB"/></linearGradient></defs>
+<rect width="1440" height="1640" fill="url(#bg04observedsvg)"/>
+<rect x="90" y="90" width="217" height="48" rx="24.0" fill="rgba(255,255,255,0.6)" stroke="#82B9E6" stroke-width="1.5"/>
+<text x="118" y="118" font-family="IBM Plex Mono, monospace" font-size="20" letter-spacing="4" fill="#14608F">03 — OBSERVED</text>
+<text x="90" y="182" font-family="Fraunces, Georgia, serif" font-size="64" fill="#0B2E4E">What was observed through research</text>
+<text x="90" y="274" font-family="IBM Plex Mono, monospace" font-size="25" fill="#2C5A80">Not opinions — behaviours. The workarounds people have built because nothing</text>
+<text x="90" y="312" font-family="IBM Plex Mono, monospace" font-size="25" fill="#2C5A80">better exists.</text>
+<rect x="90" y="400" width="1260" height="196" rx="26" fill="rgba(255,255,255,0.72)" stroke="#82B9E6" stroke-width="1.5"/>
+<rect x="90" y="400" width="10" height="196" fill="#2E9BE6"/>
+<text x="130" y="450" font-family="IBM Plex Mono, monospace" font-size="17" letter-spacing="3.5" fill="#14608F">OBSERVATION 01</text>
+<text x="130" y="490.0" font-family="Fraunces, Georgia, serif" font-size="26" fill="#0B2E4E">The village trip is the hiring pipeline.</text>
+<text x="130" y="541.0" font-family="IBM Plex Mono, monospace" font-size="20" fill="#2C5A80">Hirers manually travel to nearby villages or send word through contacts. It costs a day, and it</text>
+<text x="130" y="571.0" font-family="IBM Plex Mono, monospace" font-size="20" fill="#2C5A80">still fails often enough that short-staffing is routine.</text>
+<rect x="90" y="624" width="1260" height="196" rx="26" fill="rgba(255,255,255,0.72)" stroke="#82B9E6" stroke-width="1.5"/>
+<rect x="90" y="624" width="10" height="196" fill="#2E9BE6"/>
+<text x="130" y="674" font-family="IBM Plex Mono, monospace" font-size="17" letter-spacing="3.5" fill="#14608F">OBSERVATION 02</text>
+<text x="130" y="714.0" font-family="Fraunces, Georgia, serif" font-size="26" fill="#0B2E4E">15–20 workers run a mess — managed informally.</text>
+<text x="130" y="765.0" font-family="IBM Plex Mono, monospace" font-size="20" fill="#2C5A80">A canteen or mess runs on 15–20 workers, more during events and mass crowds. Rosters, khata and</text>
+<text x="130" y="795.0" font-family="IBM Plex Mono, monospace" font-size="20" fill="#2C5A80">wages are handled by the hirer or a family member, on paper or memory.</text>
+<rect x="90" y="848" width="1260" height="196" rx="26" fill="rgba(255,255,255,0.72)" stroke="#82B9E6" stroke-width="1.5"/>
+<rect x="90" y="848" width="10" height="196" fill="#2E9BE6"/>
+<text x="130" y="898" font-family="IBM Plex Mono, monospace" font-size="17" letter-spacing="3.5" fill="#14608F">OBSERVATION 03</text>
+<text x="130" y="938.0" font-family="Fraunces, Georgia, serif" font-size="26" fill="#0B2E4E">Referrals do two jobs: matchmaking and the last mile.</text>
+<text x="130" y="989.0" font-family="IBM Plex Mono, monospace" font-size="20" fill="#2C5A80">A referral doesn’t just introduce — it tells the worker how to reach the site, what to bring,</text>
+<text x="130" y="1019.0" font-family="IBM Plex Mono, monospace" font-size="20" fill="#2C5A80">whom to ask for. Any system that only matches, without carrying that last-mile context, leaves</text>
+<text x="130" y="1049.0" font-family="IBM Plex Mono, monospace" font-size="20" fill="#2C5A80">the hardest part unsolved.</text>
+<rect x="90" y="1072" width="1260" height="196" rx="26" fill="rgba(255,255,255,0.72)" stroke="#82B9E6" stroke-width="1.5"/>
+<rect x="90" y="1072" width="10" height="196" fill="#2E9BE6"/>
+<text x="130" y="1122" font-family="IBM Plex Mono, monospace" font-size="17" letter-spacing="3.5" fill="#14608F">OBSERVATION 04</text>
+<text x="130" y="1162.0" font-family="Fraunces, Georgia, serif" font-size="26" fill="#0B2E4E">Voice is the natural input; typing is the barrier.</text>
+<text x="130" y="1213.0" font-family="IBM Plex Mono, monospace" font-size="20" fill="#2C5A80">Speaking a phone number is easy. Tapping it out in English on a touchscreen is not. The mic is</text>
+<text x="130" y="1243.0" font-family="IBM Plex Mono, monospace" font-size="20" fill="#2C5A80">a primary input, not an accessory.</text>
+<rect x="90" y="1296" width="1260" height="196" rx="26" fill="rgba(255,255,255,0.72)" stroke="#82B9E6" stroke-width="1.5"/>
+<rect x="90" y="1296" width="10" height="196" fill="#2E9BE6"/>
+<text x="130" y="1346" font-family="IBM Plex Mono, monospace" font-size="17" letter-spacing="3.5" fill="#14608F">OBSERVATION 05</text>
+<text x="130" y="1386.0" font-family="Fraunces, Georgia, serif" font-size="26" fill="#0B2E4E">Public screens change behaviour.</text>
+<text x="130" y="1437.0" font-family="IBM Plex Mono, monospace" font-size="20" fill="#2C5A80">On a shared kiosk, people hesitate to enter personal details where others can watch. Masked</text>
+<text x="130" y="1467.0" font-family="IBM Plex Mono, monospace" font-size="20" fill="#2C5A80">numbers, a visible privacy promise, and a session that wipes itself are what make the first tap</text>
+<text x="130" y="1497.0" font-family="IBM Plex Mono, monospace" font-size="20" fill="#2C5A80">possible.</text>
+<rect x="90" y="1520" width="1260" height="196" rx="26" fill="rgba(255,255,255,0.72)" stroke="#82B9E6" stroke-width="1.5"/>
+<rect x="90" y="1520" width="10" height="196" fill="#2E9BE6"/>
+<text x="130" y="1570" font-family="IBM Plex Mono, monospace" font-size="17" letter-spacing="3.5" fill="#14608F">OBSERVATION 06</text>
+<text x="130" y="1610.0" font-family="Fraunces, Georgia, serif" font-size="26" fill="#0B2E4E">Trust is borrowed, never assumed.</text>
+<text x="130" y="1661.0" font-family="IBM Plex Mono, monospace" font-size="20" fill="#2C5A80">Nobody trusts a stranger’s listing. They trust that someone accountable checked — which is why</text>
+<text x="130" y="1691.0" font-family="IBM Plex Mono, monospace" font-size="20" fill="#2C5A80">a badge must always state its source, never hide behind a generic checkmark.</text></svg>

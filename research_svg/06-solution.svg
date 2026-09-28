@@ -1,0 +1,102 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1440" height="2450" viewBox="0 0 1440 2450"><defs><linearGradient id="bg06solutionsvg" x1="0" y1="0" x2="0" y2="1">
+<stop offset="0" stop-color="#F4FAFF"/><stop offset="1" stop-color="#D8EBFB"/></linearGradient></defs>
+<rect width="1440" height="2450" fill="url(#bg06solutionsvg)"/>
+<rect x="90" y="90" width="292" height="48" rx="24.0" fill="rgba(255,255,255,0.6)" stroke="#82B9E6" stroke-width="1.5"/>
+<text x="118" y="118" font-family="IBM Plex Mono, monospace" font-size="20" letter-spacing="4" fill="#14608F">05 — FINAL SOLUTION</text>
+<text x="90" y="182" font-family="Fraunces, Georgia, serif" font-size="64" fill="#0B2E4E">Two surfaces, one bridge</text>
+<text x="90" y="274" font-family="IBM Plex Mono, monospace" font-size="25" fill="#2C5A80">The system doesn’t ask either side to change how they live. It meets workers</text>
+<text x="90" y="312" font-family="IBM Plex Mono, monospace" font-size="25" fill="#2C5A80">where they wait and hirers where they post — and turns referrals into</text>
+<text x="90" y="350" font-family="IBM Plex Mono, monospace" font-size="25" fill="#2C5A80">portable, verifiable reputation.</text>
+<rect x="90" y="438" width="610" height="560" rx="26" fill="rgba(255,255,255,0.72)" stroke="#82B9E6" stroke-width="1.5"/>
+<rect x="740" y="438" width="610" height="560" rx="26" fill="rgba(255,255,255,0.72)" stroke="#82B9E6" stroke-width="1.5"/>
+<text x="124" y="492" font-family="IBM Plex Mono, monospace" font-size="17" letter-spacing="3.5" fill="#14608F">SURFACE 01 · WORKER SIDE</text>
+<text x="124" y="546" font-family="Fraunces, Georgia, serif" font-size="42" fill="#0B2E4E">Kaam — the kiosk</text>
+<text x="124" y="590.0" font-family="IBM Plex Mono, monospace" font-size="20" fill="#2C5A80">A Hindi-first, voice/icon-first touchscreen</text>
+<text x="124" y="620.0" font-family="IBM Plex Mono, monospace" font-size="20" fill="#2C5A80">kiosk for transit hotspots. Walk up, choose a</text>
+<text x="124" y="650.0" font-family="IBM Plex Mono, monospace" font-size="20" fill="#2C5A80">language, register with Aadhaar or a spoken</text>
+<text x="124" y="680.0" font-family="IBM Plex Mono, monospace" font-size="20" fill="#2C5A80">phone number, pick a work category, and see</text>
+<text x="124" y="710.0" font-family="IBM Plex Mono, monospace" font-size="20" fill="#2C5A80">live job cards — pay first, always.</text>
+<text x="124" y="774.0" font-family="IBM Plex Mono, monospace" font-size="19" fill="#14608F">→</text>
+<text x="152" y="774.0" font-family="IBM Plex Mono, monospace" font-size="19" fill="#2C5A80">32″ tilted floor kiosk — 1920×1080, built</text>
+<text x="152" y="802.5" font-family="IBM Plex Mono, monospace" font-size="19" fill="#2C5A80">for arm’s-length touch</text>
+<text x="124" y="808.0" font-family="IBM Plex Mono, monospace" font-size="19" fill="#14608F">→</text>
+<text x="152" y="808.0" font-family="IBM Plex Mono, monospace" font-size="19" fill="#2C5A80">Voice is a primary input, not an accessory</text>
+<text x="124" y="842.0" font-family="IBM Plex Mono, monospace" font-size="19" fill="#14608F">→</text>
+<text x="152" y="842.0" font-family="IBM Plex Mono, monospace" font-size="19" fill="#2C5A80">Category grid with live job counts</text>
+<text x="124" y="876.0" font-family="IBM Plex Mono, monospace" font-size="19" fill="#14608F">→</text>
+<text x="152" y="876.0" font-family="IBM Plex Mono, monospace" font-size="19" fill="#2C5A80">Token + SMS + print slip — no smartphone</text>
+<text x="152" y="904.5" font-family="IBM Plex Mono, monospace" font-size="19" fill="#2C5A80">needed</text>
+<text x="124" y="910.0" font-family="IBM Plex Mono, monospace" font-size="19" fill="#14608F">→</text>
+<text x="152" y="910.0" font-family="IBM Plex Mono, monospace" font-size="19" fill="#2C5A80">Session wipes itself; numbers stay masked</text>
+<text x="774" y="492" font-family="IBM Plex Mono, monospace" font-size="17" letter-spacing="3.5" fill="#14608F">SURFACE 02 · HIRER SIDE</text>
+<text x="774" y="546" font-family="Fraunces, Georgia, serif" font-size="42" fill="#0B2E4E">RozgaarSetu — the mobile app</text>
+<text x="774" y="590.0" font-family="IBM Plex Mono, monospace" font-size="20" fill="#2C5A80">The hirer’s end of the bridge: post a job</text>
+<text x="774" y="620.0" font-family="IBM Plex Mono, monospace" font-size="20" fill="#2C5A80">once, and it appears on kiosks across</text>
+<text x="774" y="650.0" font-family="IBM Plex Mono, monospace" font-size="20" fill="#2C5A80">hotspots. Shortlist by trust points, hire</text>
+<text x="774" y="680.0" font-family="IBM Plex Mono, monospace" font-size="20" fill="#2C5A80">verified workers, keep attendance both sides</text>
+<text x="774" y="710.0" font-family="IBM Plex Mono, monospace" font-size="20" fill="#2C5A80">can see.</text>
+<text x="774" y="774.0" font-family="IBM Plex Mono, monospace" font-size="19" fill="#14608F">→</text>
+<text x="802" y="774.0" font-family="IBM Plex Mono, monospace" font-size="19" fill="#2C5A80">Post-a-job flow with kiosk visibility built</text>
+<text x="802" y="802.5" font-family="IBM Plex Mono, monospace" font-size="19" fill="#2C5A80">in</text>
+<text x="774" y="808.0" font-family="IBM Plex Mono, monospace" font-size="19" fill="#14608F">→</text>
+<text x="802" y="808.0" font-family="IBM Plex Mono, monospace" font-size="19" fill="#2C5A80">Trust-point shortlisting — reputation, not</text>
+<text x="802" y="836.5" font-family="IBM Plex Mono, monospace" font-size="19" fill="#2C5A80">just availability</text>
+<text x="774" y="842.0" font-family="IBM Plex Mono, monospace" font-size="19" fill="#14608F">→</text>
+<text x="802" y="842.0" font-family="IBM Plex Mono, monospace" font-size="19" fill="#2C5A80">Verified worker profiles with bidirectional</text>
+<text x="802" y="870.5" font-family="IBM Plex Mono, monospace" font-size="19" fill="#2C5A80">ratings</text>
+<text x="774" y="876.0" font-family="IBM Plex Mono, monospace" font-size="19" fill="#14608F">→</text>
+<text x="802" y="876.0" font-family="IBM Plex Mono, monospace" font-size="19" fill="#2C5A80">Attendance logs that settle wage disputes</text>
+<text x="774" y="910.0" font-family="IBM Plex Mono, monospace" font-size="19" fill="#14608F">→</text>
+<text x="802" y="910.0" font-family="IBM Plex Mono, monospace" font-size="19" fill="#2C5A80">Bilingual interface — Hindi and English</text>
+<rect x="90" y="1038" width="1260" height="250" rx="26" fill="rgba(255,255,255,0.72)" stroke="#82B9E6" stroke-width="1.5"/>
+<text x="130" y="1138.0" font-family="Fraunces, Georgia, serif" font-size="34" fill="#0B2E4E">Referrals become reputation. Word of mouth becomes a record. And</text>
+<text x="130" y="1189.0" font-family="Fraunces, Georgia, serif" font-size="34" fill="#0B2E4E">the worker with no phone, no English and no network is visible</text>
+<text x="130" y="1240.0" font-family="Fraunces, Georgia, serif" font-size="34" fill="#0B2E4E">to the market at last.</text>
+<text x="130" y="1246" font-family="IBM Plex Mono, monospace" font-size="17" letter-spacing="3.5" fill="#14608F">THE BRIDGE — WHAT THE TWO SURFACES DO TOGETHER</text>
+<rect x="90" y="1328" width="1260" height="360" rx="26" fill="rgba(255,255,255,0.72)" stroke="#82B9E6" stroke-width="1.5"/>
+<text x="130" y="1382" font-family="IBM Plex Mono, monospace" font-size="17" letter-spacing="3.5" fill="#14608F">THE INSTITUTIONAL LAYER</text>
+<text x="130" y="1432.0" font-family="Fraunces, Georgia, serif" font-size="30" fill="#0B2E4E">The system doesn’t stand alone — it plugs into the state’s existing</text>
+<text x="130" y="1477.0" font-family="Fraunces, Georgia, serif" font-size="30" fill="#0B2E4E">rails.</text>
+<text x="130" y="1518" font-family="IBM Plex Mono, monospace" font-size="17" letter-spacing="3.5" fill="#14608F">IDENTITY</text>
+<text x="130" y="1550.0" font-family="IBM Plex Mono, monospace" font-size="18" fill="#2C5A80">e-Shram · Ministry of Labour &amp;</text>
+<text x="130" y="1577.0" font-family="IBM Plex Mono, monospace" font-size="18" fill="#2C5A80">Employment. The national database</text>
+<text x="130" y="1604.0" font-family="IBM Plex Mono, monospace" font-size="18" fill="#2C5A80">of unorganised and rural workers</text>
+<text x="130" y="1631.0" font-family="IBM Plex Mono, monospace" font-size="18" fill="#2C5A80">becomes the identity anchor.</text>
+<text x="530" y="1518" font-family="IBM Plex Mono, monospace" font-size="17" letter-spacing="3.5" fill="#14608F">SKILLS</text>
+<text x="530" y="1550.0" font-family="IBM Plex Mono, monospace" font-size="18" fill="#2C5A80">Skill India / PMKVY courses,</text>
+<text x="530" y="1577.0" font-family="IBM Plex Mono, monospace" font-size="18" fill="#2C5A80">sponsored. Training partners</text>
+<text x="530" y="1604.0" font-family="IBM Plex Mono, monospace" font-size="18" fill="#2C5A80">sponsor courses; verified skill</text>
+<text x="530" y="1631.0" font-family="IBM Plex Mono, monospace" font-size="18" fill="#2C5A80">tags land on the worker’s</text>
+<text x="530" y="1658.0" font-family="IBM Plex Mono, monospace" font-size="18" fill="#2C5A80">profile.</text>
+<text x="930" y="1518" font-family="IBM Plex Mono, monospace" font-size="17" letter-spacing="3.5" fill="#14608F">SAFETY</text>
+<text x="930" y="1550.0" font-family="IBM Plex Mono, monospace" font-size="18" fill="#2C5A80">Consent + local police station.</text>
+<text x="930" y="1577.0" font-family="IBM Plex Mono, monospace" font-size="18" fill="#2C5A80">Workers self-declare no criminal</text>
+<text x="930" y="1604.0" font-family="IBM Plex Mono, monospace" font-size="18" fill="#2C5A80">record with explicit consent;</text>
+<text x="930" y="1631.0" font-family="IBM Plex Mono, monospace" font-size="18" fill="#2C5A80">verification routes locally.</text>
+<rect x="90" y="1728" width="1260" height="620" rx="26" fill="rgba(255,255,255,0.72)" stroke="#82B9E6" stroke-width="1.5"/>
+<text x="130" y="1782" font-family="IBM Plex Mono, monospace" font-size="17" letter-spacing="3.5" fill="#14608F">HOW KAAM DIFFERS</text>
+<text x="130" y="1832.0" font-family="Fraunces, Georgia, serif" font-size="28" fill="#0B2E4E">Existing platforms digitize workers who are already reachable. Kaam reaches</text>
+<text x="130" y="1874.0" font-family="Fraunces, Georgia, serif" font-size="28" fill="#0B2E4E">workers nobody has digitized yet.</text>
+<rect x="130" y="1918" width="580" height="196" rx="18" fill="rgba(255,255,255,0.72)" stroke="#82B9E6" stroke-width="1.5"/>
+<text x="154" y="1962" font-family="IBM Plex Mono, monospace" font-size="17" letter-spacing="3.5" fill="#14608F">URBAN COMPANY</text>
+<text x="154" y="1996.0" font-family="IBM Plex Mono, monospace" font-size="18" fill="#2C5A80">A service marketplace: customers book a service,</text>
+<text x="154" y="2023.0" font-family="IBM Plex Mono, monospace" font-size="18" fill="#2C5A80">the platform assigns an anonymous partner.</text>
+<text x="154" y="2050.0" font-family="IBM Plex Mono, monospace" font-size="18" fill="#2C5A80">Workers need a smartphone + app and pay ~25%</text>
+<text x="154" y="2077.0" font-family="IBM Plex Mono, monospace" font-size="18" fill="#2C5A80">commission. Built for metro households.</text>
+<rect x="740" y="1918" width="580" height="196" rx="18" fill="rgba(255,255,255,0.72)" stroke="#82B9E6" stroke-width="1.5"/>
+<text x="764" y="1962" font-family="IBM Plex Mono, monospace" font-size="17" letter-spacing="3.5" fill="#14608F">BROOMEES</text>
+<text x="764" y="1996.0" font-family="IBM Plex Mono, monospace" font-size="18" fill="#2C5A80">Organized domestic-help staffing for metros —</text>
+<text x="764" y="2023.0" font-family="IBM Plex Mono, monospace" font-size="18" fill="#2C5A80">trained at their centers, booked on subscription.</text>
+<text x="764" y="2050.0" font-family="IBM Plex Mono, monospace" font-size="18" fill="#2C5A80">Same trust primitives, but locked inside a metro</text>
+<text x="764" y="2077.0" font-family="IBM Plex Mono, monospace" font-size="18" fill="#2C5A80">product.</text>
+<rect x="130" y="2138" width="580" height="196" rx="18" fill="rgba(255,255,255,0.72)" stroke="#82B9E6" stroke-width="1.5"/>
+<text x="154" y="2182" font-family="IBM Plex Mono, monospace" font-size="17" letter-spacing="3.5" fill="#14608F">BETTERPLACE</text>
+<text x="154" y="2216.0" font-family="IBM Plex Mono, monospace" font-size="18" fill="#2C5A80">B2B workforce lifecycle for enterprises — hiring,</text>
+<text x="154" y="2243.0" font-family="IBM Plex Mono, monospace" font-size="18" fill="#2C5A80">verification, payroll for large companies. Serves</text>
+<text x="154" y="2270.0" font-family="IBM Plex Mono, monospace" font-size="18" fill="#2C5A80">the employer, not the canteen owner.</text>
+<rect x="740" y="2138" width="580" height="196" rx="18" fill="rgba(255,255,255,0.72)" stroke="#82B9E6" stroke-width="1.5"/>
+<text x="764" y="2182" font-family="IBM Plex Mono, monospace" font-size="17" letter-spacing="3.5" fill="#14608F">KAAM × ROZGAARSETU</text>
+<text x="764" y="2216.0" font-family="IBM Plex Mono, monospace" font-size="18" fill="#2C5A80">Direct hire, not a service. The hirer hires a</text>
+<text x="764" y="2243.0" font-family="IBM Plex Mono, monospace" font-size="18" fill="#2C5A80">person; her reputation travels with her. No</text>
+<text x="764" y="2270.0" font-family="IBM Plex Mono, monospace" font-size="18" fill="#2C5A80">degree, no smartphone needed — and the worker</text>
+<text x="764" y="2297.0" font-family="IBM Plex Mono, monospace" font-size="18" fill="#2C5A80">never pays.</text></svg>

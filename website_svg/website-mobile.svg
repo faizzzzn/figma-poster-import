@@ -1,0 +1,734 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="390" height="20552" viewBox="0 0 390 20552">
+<defs><linearGradient id="bg" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#F4FAFF"/><stop offset="1" stop-color="#D8EBFB"/></linearGradient></defs>
+<rect width="390" height="20552" fill="url(#bg)"/>
+<rect x="16" y="40" width="358" height="64" rx="32" fill="#FFFFFF" stroke="#82B9E6" stroke-width="1.5" opacity="0.55"/>
+<text x="46" y="80" font-family="Fraunces, Georgia, 'Times New Roman', serif" font-size="17" fill="#0B2E4E" text-anchor="start">Kaam × RozgaarSetu</text>
+<rect x="25" y="214" width="340" height="46" rx="23" fill="#FFFFFF" stroke="#82B9E6" stroke-width="1.5" opacity="0.55"/>
+<text x="195" y="244" font-family="'IBM Plex Mono', 'SFMono-Regular', Consolas, monospace" font-size="12" fill="#14608F" text-anchor="middle" letter-spacing="3.4px">FINAL RESEARCH COMPILATION</text>
+<text x="195" y="304" font-family="Fraunces, Georgia, 'Times New Roman', serif" font-size="44" fill="#0B2E4E" text-anchor="middle">The gap was</text>
+<text x="195" y="355" font-family="Fraunces, Georgia, 'Times New Roman', serif" font-size="44" fill="#0B2E4E" text-anchor="middle">never skill. It</text>
+<text x="195" y="405" font-family="Fraunces, Georgia, 'Times New Roman', serif" font-size="44" fill="#0B2E4E" text-anchor="middle">was connection.</text>
+<text x="195" y="486" font-family="'IBM Plex Mono', 'SFMono-Regular', Consolas, monospace" font-size="12.5" fill="#2C5A80" text-anchor="middle">Kaam × RozgaarSetu — a two-surface hiring</text>
+<text x="195" y="508" font-family="'IBM Plex Mono', 'SFMono-Regular', Consolas, monospace" font-size="12.5" fill="#2C5A80" text-anchor="middle">system for India's informal workforce. A</text>
+<text x="195" y="530" font-family="'IBM Plex Mono', 'SFMono-Regular', Consolas, monospace" font-size="12.5" fill="#2C5A80" text-anchor="middle">Hindi-first worker kiosk meets a hirer-side</text>
+<text x="195" y="551" font-family="'IBM Plex Mono', 'SFMono-Regular', Consolas, monospace" font-size="12.5" fill="#2C5A80" text-anchor="middle">mobile app, bridging the world of referrals</text>
+<text x="195" y="573" font-family="'IBM Plex Mono', 'SFMono-Regular', Consolas, monospace" font-size="12.5" fill="#2C5A80" text-anchor="middle">and the world of non-digital users.</text>
+<rect x="24" y="617" width="342" height="61" rx="12" fill="#FFFFFF" stroke="#82B9E6" stroke-width="1.5" opacity="0.62"/>
+<text x="44" y="653" font-family="'IBM Plex Mono', 'SFMono-Regular', Consolas, monospace" font-size="12.5" fill="#2C5A80" text-anchor="start">Role · UI/UX research + prototyping</text>
+<rect x="24" y="688" width="342" height="61" rx="12" fill="#FFFFFF" stroke="#82B9E6" stroke-width="1.5" opacity="0.62"/>
+<text x="44" y="724" font-family="'IBM Plex Mono', 'SFMono-Regular', Consolas, monospace" font-size="12.5" fill="#2C5A80" text-anchor="start">Surfaces · kiosk + mobile app</text>
+<rect x="24" y="759" width="342" height="80" rx="12" fill="#FFFFFF" stroke="#82B9E6" stroke-width="1.5" opacity="0.62"/>
+<text x="44" y="795" font-family="'IBM Plex Mono', 'SFMono-Regular', Consolas, monospace" font-size="12.5" fill="#2C5A80" text-anchor="start">Method · field interviews, personas,</text>
+<text x="44" y="813" font-family="'IBM Plex Mono', 'SFMono-Regular', Consolas, monospace" font-size="12.5" fill="#2C5A80" text-anchor="start">journey maps</text>
+<rect x="24" y="848" width="342" height="61" rx="12" fill="#FFFFFF" stroke="#82B9E6" stroke-width="1.5" opacity="0.62"/>
+<text x="44" y="884" font-family="'IBM Plex Mono', 'SFMono-Regular', Consolas, monospace" font-size="12.5" fill="#2C5A80" text-anchor="start">Tools · Figma + FigJam</text>
+<rect x="24" y="939" width="342" height="54" rx="27" fill="#14608F" stroke="none" stroke-width="1.5" opacity="1.00"/>
+<text x="195" y="974" font-family="'IBM Plex Mono', 'SFMono-Regular', Consolas, monospace" font-size="13" fill="#FFFFFF" text-anchor="middle" letter-spacing="1px">READ THE RESEARCH</text>
+<rect x="24" y="1005" width="342" height="54" rx="27" fill="#FFFFFF" stroke="#82B9E6" stroke-width="1.5" opacity="0.50"/>
+<text x="195" y="1040" font-family="'IBM Plex Mono', 'SFMono-Regular', Consolas, monospace" font-size="13" fill="#14608F" text-anchor="middle" letter-spacing="1px">MEET THE PEOPLE</text>
+<text x="24" y="1169" font-family="'IBM Plex Mono', 'SFMono-Regular', Consolas, monospace" font-size="11" fill="#14608F" text-anchor="start" letter-spacing="3.08px">01 — RESEARCH</text>
+<text x="24" y="1169" font-family="Fraunces, Georgia, 'Times New Roman', serif" font-size="34" fill="#0B2E4E" text-anchor="start">How the research</text>
+<text x="24" y="1208" font-family="Fraunces, Georgia, 'Times New Roman', serif" font-size="34" fill="#0B2E4E" text-anchor="start">was done</text>
+<text x="24" y="1265" font-family="'IBM Plex Mono', 'SFMono-Regular', Consolas, monospace" font-size="11" fill="#2C5A80" text-anchor="start">The study stayed close to the ground: the</text>
+<text x="24" y="1284" font-family="'IBM Plex Mono', 'SFMono-Regular', Consolas, monospace" font-size="11" fill="#2C5A80" text-anchor="start">people who hire and the people who wait</text>
+<text x="24" y="1303" font-family="'IBM Plex Mono', 'SFMono-Regular', Consolas, monospace" font-size="11" fill="#2C5A80" text-anchor="start">for work. Six methods, one goal —</text>
+<text x="24" y="1321" font-family="'IBM Plex Mono', 'SFMono-Regular', Consolas, monospace" font-size="11" fill="#2C5A80" text-anchor="start">understand how hiring actually happens</text>
+<text x="24" y="1340" font-family="'IBM Plex Mono', 'SFMono-Regular', Consolas, monospace" font-size="11" fill="#2C5A80" text-anchor="start">when there is no platform in the picture.</text>
+<rect x="24" y="1399" width="342" height="264" rx="26" fill="#FFFFFF" stroke="#82B9E6" stroke-width="1.5" opacity="0.72"/>
+<rect x="26" y="1400" width="339" height="260" rx="24" fill="#FFFFFF" stroke="none" stroke-width="1.5" opacity="0.25"/>
+<text x="68" y="1455" font-family="'IBM Plex Mono', 'SFMono-Regular', Consolas, monospace" font-size="11" fill="#14608F" text-anchor="start" letter-spacing="3.08px">METHOD 01</text>
+<text x="68" y="1481" font-family="Fraunces, Georgia, 'Times New Roman', serif" font-size="20" fill="#0B2E4E" text-anchor="start" font-weight="500">Field interviews</text>
+<text x="68" y="1519" font-family="'IBM Plex Mono', 'SFMono-Regular', Consolas, monospace" font-size="12.5" fill="#2C5A80" text-anchor="start">Conversations with workers at</text>
+<text x="68" y="1540" font-family="'IBM Plex Mono', 'SFMono-Regular', Consolas, monospace" font-size="12.5" fill="#2C5A80" text-anchor="start">transit hubs and with hirers —</text>
+<text x="68" y="1561" font-family="'IBM Plex Mono', 'SFMono-Regular', Consolas, monospace" font-size="12.5" fill="#2C5A80" text-anchor="start">canteen managers, households,</text>
+<text x="68" y="1582" font-family="'IBM Plex Mono', 'SFMono-Regular', Consolas, monospace" font-size="12.5" fill="#2C5A80" text-anchor="start">small contractors — about how a</text>
+<text x="68" y="1604" font-family="'IBM Plex Mono', 'SFMono-Regular', Consolas, monospace" font-size="12.5" fill="#2C5A80" text-anchor="start">hire actually comes together,</text>
+<text x="68" y="1625" font-family="'IBM Plex Mono', 'SFMono-Regular', Consolas, monospace" font-size="12.5" fill="#2C5A80" text-anchor="start">step by step.</text>
+<rect x="24" y="1684" width="342" height="242" rx="26" fill="#FFFFFF" stroke="#82B9E6" stroke-width="1.5" opacity="0.72"/>
+<rect x="26" y="1686" width="339" height="239" rx="24" fill="#FFFFFF" stroke="none" stroke-width="1.5" opacity="0.25"/>
+<text x="68" y="1740" font-family="'IBM Plex Mono', 'SFMono-Regular', Consolas, monospace" font-size="11" fill="#14608F" text-anchor="start" letter-spacing="3.08px">METHOD 02</text>
+<text x="68" y="1766" font-family="Fraunces, Georgia, 'Times New Roman', serif" font-size="20" fill="#0B2E4E" text-anchor="start" font-weight="500">Persona building</text>
+<text x="68" y="1804" font-family="'IBM Plex Mono', 'SFMono-Regular', Consolas, monospace" font-size="12.5" fill="#2C5A80" text-anchor="start">Field-based and composite</text>
+<text x="68" y="1825" font-family="'IBM Plex Mono', 'SFMono-Regular', Consolas, monospace" font-size="12.5" fill="#2C5A80" text-anchor="start">profiles of both sides of the</text>
+<text x="68" y="1847" font-family="'IBM Plex Mono', 'SFMono-Regular', Consolas, monospace" font-size="12.5" fill="#2C5A80" text-anchor="start">market — what they want, what</text>
+<text x="68" y="1868" font-family="'IBM Plex Mono', 'SFMono-Regular', Consolas, monospace" font-size="12.5" fill="#2C5A80" text-anchor="start">they do today, and where it</text>
+<text x="68" y="1889" font-family="'IBM Plex Mono', 'SFMono-Regular', Consolas, monospace" font-size="12.5" fill="#2C5A80" text-anchor="start">breaks.</text>
+<rect x="24" y="1948" width="342" height="221" rx="26" fill="#FFFFFF" stroke="#82B9E6" stroke-width="1.5" opacity="0.72"/>
+<rect x="26" y="1950" width="339" height="218" rx="24" fill="#FFFFFF" stroke="none" stroke-width="1.5" opacity="0.25"/>
+<text x="68" y="2004" font-family="'IBM Plex Mono', 'SFMono-Regular', Consolas, monospace" font-size="11" fill="#14608F" text-anchor="start" letter-spacing="3.08px">METHOD 03</text>
+<text x="68" y="2030" font-family="Fraunces, Georgia, 'Times New Roman', serif" font-size="20" fill="#0B2E4E" text-anchor="start" font-weight="500">Empathy &amp; journey maps</text>
+<text x="68" y="2068" font-family="'IBM Plex Mono', 'SFMono-Regular', Consolas, monospace" font-size="12.5" fill="#2C5A80" text-anchor="start">Walking the full arc from "I need</text>
+<text x="68" y="2090" font-family="'IBM Plex Mono', 'SFMono-Regular', Consolas, monospace" font-size="12.5" fill="#2C5A80" text-anchor="start">work / I need workers" to payday</text>
+<text x="68" y="2111" font-family="'IBM Plex Mono', 'SFMono-Regular', Consolas, monospace" font-size="12.5" fill="#2C5A80" text-anchor="start">— marking every workaround, wait,</text>
+<text x="68" y="2132" font-family="'IBM Plex Mono', 'SFMono-Regular', Consolas, monospace" font-size="12.5" fill="#2C5A80" text-anchor="start">and moment of doubt.</text>
+<rect x="24" y="2191" width="342" height="242" rx="26" fill="#FFFFFF" stroke="#82B9E6" stroke-width="1.5" opacity="0.72"/>
+<rect x="26" y="2193" width="339" height="239" rx="24" fill="#FFFFFF" stroke="none" stroke-width="1.5" opacity="0.25"/>
+<text x="68" y="2247" font-family="'IBM Plex Mono', 'SFMono-Regular', Consolas, monospace" font-size="11" fill="#14608F" text-anchor="start" letter-spacing="3.08px">METHOD 04</text>
+<text x="68" y="2273" font-family="Fraunces, Georgia, 'Times New Roman', serif" font-size="20" fill="#0B2E4E" text-anchor="start" font-weight="500">Affinity mapping</text>
+<text x="68" y="2311" font-family="'IBM Plex Mono', 'SFMono-Regular', Consolas, monospace" font-size="12.5" fill="#2C5A80" text-anchor="start">Clustering interview notes into</text>
+<text x="68" y="2333" font-family="'IBM Plex Mono', 'SFMono-Regular', Consolas, monospace" font-size="12.5" fill="#2C5A80" text-anchor="start">themes: discovery, trust,</text>
+<text x="68" y="2354" font-family="'IBM Plex Mono', 'SFMono-Regular', Consolas, monospace" font-size="12.5" fill="#2C5A80" text-anchor="start">verification, payment, and the</text>
+<text x="68" y="2375" font-family="'IBM Plex Mono', 'SFMono-Regular', Consolas, monospace" font-size="12.5" fill="#2C5A80" text-anchor="start">last mile — so patterns, not</text>
+<text x="68" y="2396" font-family="'IBM Plex Mono', 'SFMono-Regular', Consolas, monospace" font-size="12.5" fill="#2C5A80" text-anchor="start">anecdotes, drove the design.</text>
+<rect x="24" y="2456" width="342" height="264" rx="26" fill="#FFFFFF" stroke="#82B9E6" stroke-width="1.5" opacity="0.72"/>
+<rect x="26" y="2457" width="339" height="260" rx="24" fill="#FFFFFF" stroke="none" stroke-width="1.5" opacity="0.25"/>
+<text x="68" y="2512" font-family="'IBM Plex Mono', 'SFMono-Regular', Consolas, monospace" font-size="11" fill="#14608F" text-anchor="start" letter-spacing="3.08px">METHOD 05</text>
+<text x="68" y="2538" font-family="Fraunces, Georgia, 'Times New Roman', serif" font-size="20" fill="#0B2E4E" text-anchor="start" font-weight="500">Competitive analysis</text>
+<text x="68" y="2576" font-family="'IBM Plex Mono', 'SFMono-Regular', Consolas, monospace" font-size="12.5" fill="#2C5A80" text-anchor="start">Urban Company, Broomees and</text>
+<text x="68" y="2597" font-family="'IBM Plex Mono', 'SFMono-Regular', Consolas, monospace" font-size="12.5" fill="#2C5A80" text-anchor="start">others assign anonymous service</text>
+<text x="68" y="2618" font-family="'IBM Plex Mono', 'SFMono-Regular', Consolas, monospace" font-size="12.5" fill="#2C5A80" text-anchor="start">workers. Kaam is a direct-hire</text>
+<text x="68" y="2639" font-family="'IBM Plex Mono', 'SFMono-Regular', Consolas, monospace" font-size="12.5" fill="#2C5A80" text-anchor="start">identity platform instead —</text>
+<text x="68" y="2661" font-family="'IBM Plex Mono', 'SFMono-Regular', Consolas, monospace" font-size="12.5" fill="#2C5A80" text-anchor="start">workers as individuals with</text>
+<text x="68" y="2682" font-family="'IBM Plex Mono', 'SFMono-Regular', Consolas, monospace" font-size="12.5" fill="#2C5A80" text-anchor="start">portable reputations.</text>
+<rect x="24" y="2741" width="342" height="221" rx="26" fill="#FFFFFF" stroke="#82B9E6" stroke-width="1.5" opacity="0.72"/>
+<rect x="26" y="2743" width="339" height="218" rx="24" fill="#FFFFFF" stroke="none" stroke-width="1.5" opacity="0.25"/>
+<text x="68" y="2797" font-family="'IBM Plex Mono', 'SFMono-Regular', Consolas, monospace" font-size="11" fill="#14608F" text-anchor="start" letter-spacing="3.08px">METHOD 06</text>
+<text x="68" y="2823" font-family="Fraunces, Georgia, 'Times New Roman', serif" font-size="20" fill="#0B2E4E" text-anchor="start" font-weight="500">Cold-start analysis</text>
+<text x="68" y="2861" font-family="'IBM Plex Mono', 'SFMono-Regular', Consolas, monospace" font-size="12.5" fill="#2C5A80" text-anchor="start">Mapping how the system earns</text>
+<text x="68" y="2882" font-family="'IBM Plex Mono', 'SFMono-Regular', Consolas, monospace" font-size="12.5" fill="#2C5A80" text-anchor="start">trust with zero history — who</text>
+<text x="68" y="2904" font-family="'IBM Plex Mono', 'SFMono-Regular', Consolas, monospace" font-size="12.5" fill="#2C5A80" text-anchor="start">verifies whom first, and what</text>
+<text x="68" y="2925" font-family="'IBM Plex Mono', 'SFMono-Regular', Consolas, monospace" font-size="12.5" fill="#2C5A80" text-anchor="start">makes the first hire feel safe.</text>
+<text x="24" y="3072" font-family="'IBM Plex Mono', 'SFMono-Regular', Consolas, monospace" font-size="11" fill="#14608F" text-anchor="start" letter-spacing="3.08px">02 — FINDINGS</text>
+<text x="24" y="3072" font-family="Fraunces, Georgia, 'Times New Roman', serif" font-size="34" fill="#0B2E4E" text-anchor="start">What the research</text>
+<text x="24" y="3111" font-family="Fraunces, Georgia, 'Times New Roman', serif" font-size="34" fill="#0B2E4E" text-anchor="start">found</text>
+<text x="24" y="3168" font-family="'IBM Plex Mono', 'SFMono-Regular', Consolas, monospace" font-size="11" fill="#2C5A80" text-anchor="start">Five findings kept repeating across</text>
+<text x="24" y="3187" font-family="'IBM Plex Mono', 'SFMono-Regular', Consolas, monospace" font-size="11" fill="#2C5A80" text-anchor="start">interviews, on both sides of the market.</text>
+<rect x="24" y="3246" width="342" height="1378" rx="26" fill="#FFFFFF" stroke="#82B9E6" stroke-width="1.5" opacity="0.72"/>
+<text x="68" y="3290" font-family="'IBM Plex Mono', 'SFMono-Regular', Consolas, monospace" font-size="11" fill="#14608F" text-anchor="start" letter-spacing="3.08px">FINDING 01</text>
+<text x="68" y="3316" font-family="Fraunces, Georgia, 'Times New Roman', serif" font-size="20" fill="#0B2E4E" text-anchor="start" font-weight="500">Hiring runs on referrals</text>
+<text x="68" y="3341" font-family="Fraunces, Georgia, 'Times New Roman', serif" font-size="20" fill="#0B2E4E" text-anchor="start" font-weight="500">— or legwork. There is no</text>
+<text x="68" y="3366" font-family="Fraunces, Georgia, 'Times New Roman', serif" font-size="20" fill="#0B2E4E" text-anchor="start" font-weight="500">reliable channel.</text>
+<text x="68" y="3401" font-family="'IBM Plex Mono', 'SFMono-Regular', Consolas, monospace" font-size="12.5" fill="#2C5A80" text-anchor="start">"The only way hiring worked was</text>
+<text x="68" y="3422" font-family="'IBM Plex Mono', 'SFMono-Regular', Consolas, monospace" font-size="12.5" fill="#2C5A80" text-anchor="start">through referrals — or by</text>
+<text x="68" y="3443" font-family="'IBM Plex Mono', 'SFMono-Regular', Consolas, monospace" font-size="12.5" fill="#2C5A80" text-anchor="start">manually going and searching in</text>
+<text x="68" y="3464" font-family="'IBM Plex Mono', 'SFMono-Regular', Consolas, monospace" font-size="12.5" fill="#2C5A80" text-anchor="start">the market." Hirers travel to</text>
+<text x="68" y="3486" font-family="'IBM Plex Mono', 'SFMono-Regular', Consolas, monospace" font-size="12.5" fill="#2C5A80" text-anchor="start">villages, spread the word, and</text>
+<text x="68" y="3507" font-family="'IBM Plex Mono', 'SFMono-Regular', Consolas, monospace" font-size="12.5" fill="#2C5A80" text-anchor="start">hope. Some days it works. Some</text>
+<text x="68" y="3528" font-family="'IBM Plex Mono', 'SFMono-Regular', Consolas, monospace" font-size="12.5" fill="#2C5A80" text-anchor="start">days the canteen runs</text>
+<text x="68" y="3549" font-family="'IBM Plex Mono', 'SFMono-Regular', Consolas, monospace" font-size="12.5" fill="#2C5A80" text-anchor="start">short-staffed.</text>
+<line x1="68" y1="3593" x2="322" y2="3593" stroke="#82B9E6" stroke-width="1.5" opacity="0.40"/>
+<text x="68" y="3601" font-family="'IBM Plex Mono', 'SFMono-Regular', Consolas, monospace" font-size="11" fill="#14608F" text-anchor="start" letter-spacing="3.08px">FINDING 02</text>
+<text x="68" y="3627" font-family="Fraunces, Georgia, 'Times New Roman', serif" font-size="20" fill="#0B2E4E" text-anchor="start" font-weight="500">Workers are invisible</text>
+<text x="68" y="3652" font-family="Fraunces, Georgia, 'Times New Roman', serif" font-size="20" fill="#0B2E4E" text-anchor="start" font-weight="500">without a phone, network,</text>
+<text x="68" y="3677" font-family="Fraunces, Georgia, 'Times New Roman', serif" font-size="20" fill="#0B2E4E" text-anchor="start" font-weight="500">or English.</text>
+<text x="68" y="3712" font-family="'IBM Plex Mono', 'SFMono-Regular', Consolas, monospace" font-size="12.5" fill="#2C5A80" text-anchor="start">Work exists nearby, but discovery</text>
+<text x="68" y="3733" font-family="'IBM Plex Mono', 'SFMono-Regular', Consolas, monospace" font-size="12.5" fill="#2C5A80" text-anchor="start">runs on word of mouth. No phone,</text>
+<text x="68" y="3754" font-family="'IBM Plex Mono', 'SFMono-Regular', Consolas, monospace" font-size="12.5" fill="#2C5A80" text-anchor="start">no network, no English — and you</text>
+<text x="68" y="3775" font-family="'IBM Plex Mono', 'SFMono-Regular', Consolas, monospace" font-size="12.5" fill="#2C5A80" text-anchor="start">are invisible to the market</text>
+<text x="68" y="3797" font-family="'IBM Plex Mono', 'SFMono-Regular', Consolas, monospace" font-size="12.5" fill="#2C5A80" text-anchor="start">around you.</text>
+<line x1="68" y1="3840" x2="322" y2="3840" stroke="#82B9E6" stroke-width="1.5" opacity="0.40"/>
+<text x="68" y="3848" font-family="'IBM Plex Mono', 'SFMono-Regular', Consolas, monospace" font-size="11" fill="#14608F" text-anchor="start" letter-spacing="3.08px">FINDING 03</text>
+<text x="68" y="3874" font-family="Fraunces, Georgia, 'Times New Roman', serif" font-size="20" fill="#0B2E4E" text-anchor="start" font-weight="500">Every hire is a gamble</text>
+<text x="68" y="3899" font-family="Fraunces, Georgia, 'Times New Roman', serif" font-size="20" fill="#0B2E4E" text-anchor="start" font-weight="500">for the hirer.</text>
+<text x="68" y="3934" font-family="'IBM Plex Mono', 'SFMono-Regular', Consolas, monospace" font-size="12.5" fill="#2C5A80" text-anchor="start">Strangers, no verification, no</text>
+<text x="68" y="3955" font-family="'IBM Plex Mono', 'SFMono-Regular', Consolas, monospace" font-size="12.5" fill="#2C5A80" text-anchor="start">track record. Delays in staffing</text>
+<text x="68" y="3976" font-family="'IBM Plex Mono', 'SFMono-Regular', Consolas, monospace" font-size="12.5" fill="#2C5A80" text-anchor="start">hit service quality directly —</text>
+<text x="68" y="3998" font-family="'IBM Plex Mono', 'SFMono-Regular', Consolas, monospace" font-size="12.5" fill="#2C5A80" text-anchor="start">and reviews follow. Risk, fear</text>
+<text x="68" y="4019" font-family="'IBM Plex Mono', 'SFMono-Regular', Consolas, monospace" font-size="12.5" fill="#2C5A80" text-anchor="start">and safety concerns sit</text>
+<text x="68" y="4040" font-family="'IBM Plex Mono', 'SFMono-Regular', Consolas, monospace" font-size="12.5" fill="#2C5A80" text-anchor="start">underneath every new hire.</text>
+<line x1="68" y1="4083" x2="322" y2="4083" stroke="#82B9E6" stroke-width="1.5" opacity="0.40"/>
+<text x="68" y="4091" font-family="'IBM Plex Mono', 'SFMono-Regular', Consolas, monospace" font-size="11" fill="#14608F" text-anchor="start" letter-spacing="3.08px">FINDING 04</text>
+<text x="68" y="4117" font-family="Fraunces, Georgia, 'Times New Roman', serif" font-size="20" fill="#0B2E4E" text-anchor="start" font-weight="500">Money and attendance live</text>
+<text x="68" y="4142" font-family="Fraunces, Georgia, 'Times New Roman', serif" font-size="20" fill="#0B2E4E" text-anchor="start" font-weight="500">on paper and memory.</text>
+<text x="68" y="4177" font-family="'IBM Plex Mono', 'SFMono-Regular', Consolas, monospace" font-size="12.5" fill="#2C5A80" text-anchor="start">Khata handled by the hirer or a</text>
+<text x="68" y="4199" font-family="'IBM Plex Mono', 'SFMono-Regular', Consolas, monospace" font-size="12.5" fill="#2C5A80" text-anchor="start">brother; attendance on a register</text>
+<text x="68" y="4220" font-family="'IBM Plex Mono', 'SFMono-Regular', Consolas, monospace" font-size="12.5" fill="#2C5A80" text-anchor="start">or in someone's head. When wages</text>
+<text x="68" y="4241" font-family="'IBM Plex Mono', 'SFMono-Regular', Consolas, monospace" font-size="12.5" fill="#2C5A80" text-anchor="start">are disputed, there is no record</text>
+<text x="68" y="4262" font-family="'IBM Plex Mono', 'SFMono-Regular', Consolas, monospace" font-size="12.5" fill="#2C5A80" text-anchor="start">to settle it.</text>
+<line x1="68" y1="4306" x2="322" y2="4306" stroke="#82B9E6" stroke-width="1.5" opacity="0.40"/>
+<text x="68" y="4314" font-family="'IBM Plex Mono', 'SFMono-Regular', Consolas, monospace" font-size="11" fill="#14608F" text-anchor="start" letter-spacing="3.08px">FINDING 05</text>
+<text x="68" y="4340" font-family="Fraunces, Georgia, 'Times New Roman', serif" font-size="20" fill="#0B2E4E" text-anchor="start" font-weight="500">At the decision point,</text>
+<text x="68" y="4365" font-family="Fraunces, Georgia, 'Times New Roman', serif" font-size="20" fill="#0B2E4E" text-anchor="start" font-weight="500">existing tools turn</text>
+<text x="68" y="4390" font-family="Fraunces, Georgia, 'Times New Roman', serif" font-size="20" fill="#0B2E4E" text-anchor="start" font-weight="500">text-heavy.</text>
+<text x="68" y="4425" font-family="'IBM Plex Mono', 'SFMono-Regular', Consolas, monospace" font-size="12.5" fill="#2C5A80" text-anchor="start">Listings collapse into dense text</text>
+<text x="68" y="4446" font-family="'IBM Plex Mono', 'SFMono-Regular', Consolas, monospace" font-size="12.5" fill="#2C5A80" text-anchor="start">exactly where a worker must</text>
+<text x="68" y="4467" font-family="'IBM Plex Mono', 'SFMono-Regular', Consolas, monospace" font-size="12.5" fill="#2C5A80" text-anchor="start">decide. The four things workers</text>
+<text x="68" y="4488" font-family="'IBM Plex Mono', 'SFMono-Regular', Consolas, monospace" font-size="12.5" fill="#2C5A80" text-anchor="start">actually ask — pay, start time,</text>
+<text x="68" y="4510" font-family="'IBM Plex Mono', 'SFMono-Regular', Consolas, monospace" font-size="12.5" fill="#2C5A80" text-anchor="start">distance, and who else trusts</text>
+<text x="68" y="4531" font-family="'IBM Plex Mono', 'SFMono-Regular', Consolas, monospace" font-size="12.5" fill="#2C5A80" text-anchor="start">this hirer — are buried or</text>
+<text x="68" y="4552" font-family="'IBM Plex Mono', 'SFMono-Regular', Consolas, monospace" font-size="12.5" fill="#2C5A80" text-anchor="start">missing.</text>
+<text x="24" y="4733" font-family="'IBM Plex Mono', 'SFMono-Regular', Consolas, monospace" font-size="11" fill="#14608F" text-anchor="start" letter-spacing="3.08px">03 — OBSERVED</text>
+<text x="24" y="4733" font-family="Fraunces, Georgia, 'Times New Roman', serif" font-size="34" fill="#0B2E4E" text-anchor="start">What was observed</text>
+<text x="24" y="4773" font-family="Fraunces, Georgia, 'Times New Roman', serif" font-size="34" fill="#0B2E4E" text-anchor="start">through research</text>
+<text x="24" y="4830" font-family="'IBM Plex Mono', 'SFMono-Regular', Consolas, monospace" font-size="11" fill="#2C5A80" text-anchor="start">Not opinions — behaviours. The workarounds</text>
+<text x="24" y="4848" font-family="'IBM Plex Mono', 'SFMono-Regular', Consolas, monospace" font-size="11" fill="#2C5A80" text-anchor="start">people have built because nothing better</text>
+<text x="24" y="4867" font-family="'IBM Plex Mono', 'SFMono-Regular', Consolas, monospace" font-size="11" fill="#2C5A80" text-anchor="start">exists.</text>
+<rect x="24" y="4926" width="342" height="1554" rx="26" fill="#FFFFFF" stroke="#82B9E6" stroke-width="1.5" opacity="0.72"/>
+<text x="68" y="4970" font-family="'IBM Plex Mono', 'SFMono-Regular', Consolas, monospace" font-size="11" fill="#14608F" text-anchor="start" letter-spacing="3.08px">OBSERVATION 01</text>
+<text x="68" y="4996" font-family="Fraunces, Georgia, 'Times New Roman', serif" font-size="20" fill="#0B2E4E" text-anchor="start" font-weight="500">The village trip is the</text>
+<text x="68" y="5021" font-family="Fraunces, Georgia, 'Times New Roman', serif" font-size="20" fill="#0B2E4E" text-anchor="start" font-weight="500">hiring pipeline.</text>
+<text x="68" y="5056" font-family="'IBM Plex Mono', 'SFMono-Regular', Consolas, monospace" font-size="12.5" fill="#2C5A80" text-anchor="start">Hirers manually travel to nearby</text>
+<text x="68" y="5077" font-family="'IBM Plex Mono', 'SFMono-Regular', Consolas, monospace" font-size="12.5" fill="#2C5A80" text-anchor="start">villages or send word through</text>
+<text x="68" y="5098" font-family="'IBM Plex Mono', 'SFMono-Regular', Consolas, monospace" font-size="12.5" fill="#2C5A80" text-anchor="start">contacts. It costs a day, and it</text>
+<text x="68" y="5120" font-family="'IBM Plex Mono', 'SFMono-Regular', Consolas, monospace" font-size="12.5" fill="#2C5A80" text-anchor="start">still fails often enough that</text>
+<text x="68" y="5141" font-family="'IBM Plex Mono', 'SFMono-Regular', Consolas, monospace" font-size="12.5" fill="#2C5A80" text-anchor="start">short-staffing is routine.</text>
+<line x1="68" y1="5184" x2="322" y2="5184" stroke="#82B9E6" stroke-width="1.5" opacity="0.40"/>
+<text x="68" y="5192" font-family="'IBM Plex Mono', 'SFMono-Regular', Consolas, monospace" font-size="11" fill="#14608F" text-anchor="start" letter-spacing="3.08px">OBSERVATION 02</text>
+<text x="68" y="5218" font-family="Fraunces, Georgia, 'Times New Roman', serif" font-size="20" fill="#0B2E4E" text-anchor="start" font-weight="500">15–20 workers run a mess</text>
+<text x="68" y="5243" font-family="Fraunces, Georgia, 'Times New Roman', serif" font-size="20" fill="#0B2E4E" text-anchor="start" font-weight="500">— managed informally.</text>
+<text x="68" y="5278" font-family="'IBM Plex Mono', 'SFMono-Regular', Consolas, monospace" font-size="12.5" fill="#2C5A80" text-anchor="start">A canteen or mess runs on 15–20</text>
+<text x="68" y="5299" font-family="'IBM Plex Mono', 'SFMono-Regular', Consolas, monospace" font-size="12.5" fill="#2C5A80" text-anchor="start">workers, more during events and</text>
+<text x="68" y="5321" font-family="'IBM Plex Mono', 'SFMono-Regular', Consolas, monospace" font-size="12.5" fill="#2C5A80" text-anchor="start">mass crowds. Rosters, khata and</text>
+<text x="68" y="5342" font-family="'IBM Plex Mono', 'SFMono-Regular', Consolas, monospace" font-size="12.5" fill="#2C5A80" text-anchor="start">wages are handled by the hirer or</text>
+<text x="68" y="5363" font-family="'IBM Plex Mono', 'SFMono-Regular', Consolas, monospace" font-size="12.5" fill="#2C5A80" text-anchor="start">a family member, on paper or</text>
+<text x="68" y="5384" font-family="'IBM Plex Mono', 'SFMono-Regular', Consolas, monospace" font-size="12.5" fill="#2C5A80" text-anchor="start">memory.</text>
+<line x1="68" y1="5428" x2="322" y2="5428" stroke="#82B9E6" stroke-width="1.5" opacity="0.40"/>
+<text x="68" y="5436" font-family="'IBM Plex Mono', 'SFMono-Regular', Consolas, monospace" font-size="11" fill="#14608F" text-anchor="start" letter-spacing="3.08px">OBSERVATION 03</text>
+<text x="68" y="5462" font-family="Fraunces, Georgia, 'Times New Roman', serif" font-size="20" fill="#0B2E4E" text-anchor="start" font-weight="500">Referrals do two jobs:</text>
+<text x="68" y="5487" font-family="Fraunces, Georgia, 'Times New Roman', serif" font-size="20" fill="#0B2E4E" text-anchor="start" font-weight="500">matchmaking and the last</text>
+<text x="68" y="5512" font-family="Fraunces, Georgia, 'Times New Roman', serif" font-size="20" fill="#0B2E4E" text-anchor="start" font-weight="500">mile.</text>
+<text x="68" y="5547" font-family="'IBM Plex Mono', 'SFMono-Regular', Consolas, monospace" font-size="12.5" fill="#2C5A80" text-anchor="start">A referral doesn't just introduce</text>
+<text x="68" y="5568" font-family="'IBM Plex Mono', 'SFMono-Regular', Consolas, monospace" font-size="12.5" fill="#2C5A80" text-anchor="start">— it tells the worker how to</text>
+<text x="68" y="5589" font-family="'IBM Plex Mono', 'SFMono-Regular', Consolas, monospace" font-size="12.5" fill="#2C5A80" text-anchor="start">reach the site, what to bring,</text>
+<text x="68" y="5610" font-family="'IBM Plex Mono', 'SFMono-Regular', Consolas, monospace" font-size="12.5" fill="#2C5A80" text-anchor="start">whom to ask for. Any system that</text>
+<text x="68" y="5632" font-family="'IBM Plex Mono', 'SFMono-Regular', Consolas, monospace" font-size="12.5" fill="#2C5A80" text-anchor="start">only matches, without carrying</text>
+<text x="68" y="5653" font-family="'IBM Plex Mono', 'SFMono-Regular', Consolas, monospace" font-size="12.5" fill="#2C5A80" text-anchor="start">that last-mile context, leaves</text>
+<text x="68" y="5674" font-family="'IBM Plex Mono', 'SFMono-Regular', Consolas, monospace" font-size="12.5" fill="#2C5A80" text-anchor="start">the hardest part unsolved.</text>
+<line x1="68" y1="5717" x2="322" y2="5717" stroke="#82B9E6" stroke-width="1.5" opacity="0.40"/>
+<text x="68" y="5725" font-family="'IBM Plex Mono', 'SFMono-Regular', Consolas, monospace" font-size="11" fill="#14608F" text-anchor="start" letter-spacing="3.08px">OBSERVATION 04</text>
+<text x="68" y="5751" font-family="Fraunces, Georgia, 'Times New Roman', serif" font-size="20" fill="#0B2E4E" text-anchor="start" font-weight="500">Voice is the natural</text>
+<text x="68" y="5776" font-family="Fraunces, Georgia, 'Times New Roman', serif" font-size="20" fill="#0B2E4E" text-anchor="start" font-weight="500">input; typing is the</text>
+<text x="68" y="5801" font-family="Fraunces, Georgia, 'Times New Roman', serif" font-size="20" fill="#0B2E4E" text-anchor="start" font-weight="500">barrier.</text>
+<text x="68" y="5836" font-family="'IBM Plex Mono', 'SFMono-Regular', Consolas, monospace" font-size="12.5" fill="#2C5A80" text-anchor="start">Speaking a phone number is easy.</text>
+<text x="68" y="5858" font-family="'IBM Plex Mono', 'SFMono-Regular', Consolas, monospace" font-size="12.5" fill="#2C5A80" text-anchor="start">Tapping it out in English on a</text>
+<text x="68" y="5879" font-family="'IBM Plex Mono', 'SFMono-Regular', Consolas, monospace" font-size="12.5" fill="#2C5A80" text-anchor="start">touchscreen is not. The mic is a</text>
+<text x="68" y="5900" font-family="'IBM Plex Mono', 'SFMono-Regular', Consolas, monospace" font-size="12.5" fill="#2C5A80" text-anchor="start">primary input, not an accessory.</text>
+<line x1="68" y1="5943" x2="322" y2="5943" stroke="#82B9E6" stroke-width="1.5" opacity="0.40"/>
+<text x="68" y="5951" font-family="'IBM Plex Mono', 'SFMono-Regular', Consolas, monospace" font-size="11" fill="#14608F" text-anchor="start" letter-spacing="3.08px">OBSERVATION 05</text>
+<text x="68" y="5977" font-family="Fraunces, Georgia, 'Times New Roman', serif" font-size="20" fill="#0B2E4E" text-anchor="start" font-weight="500">Public screens change</text>
+<text x="68" y="6002" font-family="Fraunces, Georgia, 'Times New Roman', serif" font-size="20" fill="#0B2E4E" text-anchor="start" font-weight="500">behaviour.</text>
+<text x="68" y="6037" font-family="'IBM Plex Mono', 'SFMono-Regular', Consolas, monospace" font-size="12.5" fill="#2C5A80" text-anchor="start">On a shared kiosk, people</text>
+<text x="68" y="6059" font-family="'IBM Plex Mono', 'SFMono-Regular', Consolas, monospace" font-size="12.5" fill="#2C5A80" text-anchor="start">hesitate to enter personal</text>
+<text x="68" y="6080" font-family="'IBM Plex Mono', 'SFMono-Regular', Consolas, monospace" font-size="12.5" fill="#2C5A80" text-anchor="start">details where others can watch.</text>
+<text x="68" y="6101" font-family="'IBM Plex Mono', 'SFMono-Regular', Consolas, monospace" font-size="12.5" fill="#2C5A80" text-anchor="start">Masked numbers, a visible privacy</text>
+<text x="68" y="6122" font-family="'IBM Plex Mono', 'SFMono-Regular', Consolas, monospace" font-size="12.5" fill="#2C5A80" text-anchor="start">promise, and a session that wipes</text>
+<text x="68" y="6144" font-family="'IBM Plex Mono', 'SFMono-Regular', Consolas, monospace" font-size="12.5" fill="#2C5A80" text-anchor="start">itself are what make the first</text>
+<text x="68" y="6165" font-family="'IBM Plex Mono', 'SFMono-Regular', Consolas, monospace" font-size="12.5" fill="#2C5A80" text-anchor="start">tap possible.</text>
+<line x1="68" y1="6208" x2="322" y2="6208" stroke="#82B9E6" stroke-width="1.5" opacity="0.40"/>
+<text x="68" y="6216" font-family="'IBM Plex Mono', 'SFMono-Regular', Consolas, monospace" font-size="11" fill="#14608F" text-anchor="start" letter-spacing="3.08px">OBSERVATION 06</text>
+<text x="68" y="6242" font-family="Fraunces, Georgia, 'Times New Roman', serif" font-size="20" fill="#0B2E4E" text-anchor="start" font-weight="500">Trust is borrowed, never</text>
+<text x="68" y="6267" font-family="Fraunces, Georgia, 'Times New Roman', serif" font-size="20" fill="#0B2E4E" text-anchor="start" font-weight="500">assumed.</text>
+<text x="68" y="6302" font-family="'IBM Plex Mono', 'SFMono-Regular', Consolas, monospace" font-size="12.5" fill="#2C5A80" text-anchor="start">Nobody trusts a stranger's</text>
+<text x="68" y="6323" font-family="'IBM Plex Mono', 'SFMono-Regular', Consolas, monospace" font-size="12.5" fill="#2C5A80" text-anchor="start">listing. They trust that someone</text>
+<text x="68" y="6345" font-family="'IBM Plex Mono', 'SFMono-Regular', Consolas, monospace" font-size="12.5" fill="#2C5A80" text-anchor="start">accountable checked — which is</text>
+<text x="68" y="6366" font-family="'IBM Plex Mono', 'SFMono-Regular', Consolas, monospace" font-size="12.5" fill="#2C5A80" text-anchor="start">why a badge must always state its</text>
+<text x="68" y="6387" font-family="'IBM Plex Mono', 'SFMono-Regular', Consolas, monospace" font-size="12.5" fill="#2C5A80" text-anchor="start">source, never hide behind a</text>
+<text x="68" y="6408" font-family="'IBM Plex Mono', 'SFMono-Regular', Consolas, monospace" font-size="12.5" fill="#2C5A80" text-anchor="start">generic checkmark.</text>
+<text x="24" y="6590" font-family="'IBM Plex Mono', 'SFMono-Regular', Consolas, monospace" font-size="11" fill="#14608F" text-anchor="start" letter-spacing="3.08px">04 — HOW THE GAP WAS REMOVED</text>
+<text x="24" y="6590" font-family="Fraunces, Georgia, 'Times New Roman', serif" font-size="34" fill="#0B2E4E" text-anchor="start">From findings to</text>
+<text x="24" y="6629" font-family="Fraunces, Georgia, 'Times New Roman', serif" font-size="34" fill="#0B2E4E" text-anchor="start">design moves</text>
+<text x="24" y="6686" font-family="'IBM Plex Mono', 'SFMono-Regular', Consolas, monospace" font-size="11" fill="#2C5A80" text-anchor="start">Each finding became a decision. Nothing</text>
+<text x="24" y="6704" font-family="'IBM Plex Mono', 'SFMono-Regular', Consolas, monospace" font-size="11" fill="#2C5A80" text-anchor="start">decorative — every move answers something</text>
+<text x="24" y="6723" font-family="'IBM Plex Mono', 'SFMono-Regular', Consolas, monospace" font-size="11" fill="#2C5A80" text-anchor="start">the field said.</text>
+<rect x="24" y="6782" width="342" height="2624" rx="26" fill="#FFFFFF" stroke="#82B9E6" stroke-width="1.5" opacity="0.72"/>
+<circle cx="94" cy="6834" r="26" fill="#14608F" stroke="none" stroke-width="1.5"/>
+<text x="94" y="6842" font-family="Fraunces, Georgia, 'Times New Roman', serif" font-size="22" fill="#FFFFFF" text-anchor="middle">1</text>
+<text x="146" y="6836" font-family="Fraunces, Georgia, 'Times New Roman', serif" font-size="20" fill="#0B2E4E" text-anchor="start" font-weight="500">A shared surface</text>
+<text x="146" y="6861" font-family="Fraunces, Georgia, 'Times New Roman', serif" font-size="20" fill="#0B2E4E" text-anchor="start" font-weight="500">where need meets</text>
+<text x="146" y="6886" font-family="Fraunces, Georgia, 'Times New Roman', serif" font-size="20" fill="#0B2E4E" text-anchor="start" font-weight="500">availability</text>
+<text x="146" y="6909" font-family="'IBM Plex Mono', 'SFMono-Regular', Consolas, monospace" font-size="12.5" fill="#2C5A80" text-anchor="start">Instead of two private</text>
+<text x="146" y="6930" font-family="'IBM Plex Mono', 'SFMono-Regular', Consolas, monospace" font-size="12.5" fill="#2C5A80" text-anchor="start">struggles, one public</text>
+<text x="146" y="6951" font-family="'IBM Plex Mono', 'SFMono-Regular', Consolas, monospace" font-size="12.5" fill="#2C5A80" text-anchor="start">meeting point: kiosks</text>
+<text x="146" y="6973" font-family="'IBM Plex Mono', 'SFMono-Regular', Consolas, monospace" font-size="12.5" fill="#2C5A80" text-anchor="start">at bus stands, auto</text>
+<text x="146" y="6994" font-family="'IBM Plex Mono', 'SFMono-Regular', Consolas, monospace" font-size="12.5" fill="#2C5A80" text-anchor="start">spots and railway</text>
+<text x="146" y="7015" font-family="'IBM Plex Mono', 'SFMono-Regular', Consolas, monospace" font-size="12.5" fill="#2C5A80" text-anchor="start">stations — exactly</text>
+<text x="146" y="7036" font-family="'IBM Plex Mono', 'SFMono-Regular', Consolas, monospace" font-size="12.5" fill="#2C5A80" text-anchor="start">where workers already</text>
+<text x="146" y="7058" font-family="'IBM Plex Mono', 'SFMono-Regular', Consolas, monospace" font-size="12.5" fill="#2C5A80" text-anchor="start">gather and wait.</text>
+<line x1="68" y1="7099" x2="322" y2="7099" stroke="#82B9E6" stroke-width="1.5" opacity="0.35"/>
+<circle cx="94" cy="7113" r="26" fill="#14608F" stroke="none" stroke-width="1.5"/>
+<text x="94" y="7121" font-family="Fraunces, Georgia, 'Times New Roman', serif" font-size="22" fill="#FFFFFF" text-anchor="middle">2</text>
+<text x="146" y="7115" font-family="Fraunces, Georgia, 'Times New Roman', serif" font-size="20" fill="#0B2E4E" text-anchor="start" font-weight="500">Voice and icon</text>
+<text x="146" y="7140" font-family="Fraunces, Georgia, 'Times New Roman', serif" font-size="20" fill="#0B2E4E" text-anchor="start" font-weight="500">first — no</text>
+<text x="146" y="7165" font-family="Fraunces, Georgia, 'Times New Roman', serif" font-size="20" fill="#0B2E4E" text-anchor="start" font-weight="500">English, no</text>
+<text x="146" y="7190" font-family="Fraunces, Georgia, 'Times New Roman', serif" font-size="20" fill="#0B2E4E" text-anchor="start" font-weight="500">typing required</text>
+<text x="146" y="7213" font-family="'IBM Plex Mono', 'SFMono-Regular', Consolas, monospace" font-size="12.5" fill="#2C5A80" text-anchor="start">Hindi-first onboarding</text>
+<text x="146" y="7234" font-family="'IBM Plex Mono', 'SFMono-Regular', Consolas, monospace" font-size="12.5" fill="#2C5A80" text-anchor="start">with Aadhaar scan +</text>
+<text x="146" y="7255" font-family="'IBM Plex Mono', 'SFMono-Regular', Consolas, monospace" font-size="12.5" fill="#2C5A80" text-anchor="start">voice input. Speak the</text>
+<text x="146" y="7277" font-family="'IBM Plex Mono', 'SFMono-Regular', Consolas, monospace" font-size="12.5" fill="#2C5A80" text-anchor="start">number or tap the</text>
+<text x="146" y="7298" font-family="'IBM Plex Mono', 'SFMono-Regular', Consolas, monospace" font-size="12.5" fill="#2C5A80" text-anchor="start">numpad; icons carry the</text>
+<text x="146" y="7319" font-family="'IBM Plex Mono', 'SFMono-Regular', Consolas, monospace" font-size="12.5" fill="#2C5A80" text-anchor="start">meaning where words</text>
+<text x="146" y="7340" font-family="'IBM Plex Mono', 'SFMono-Regular', Consolas, monospace" font-size="12.5" fill="#2C5A80" text-anchor="start">would exclude.</text>
+<line x1="68" y1="7382" x2="322" y2="7382" stroke="#82B9E6" stroke-width="1.5" opacity="0.35"/>
+<circle cx="94" cy="7396" r="26" fill="#14608F" stroke="none" stroke-width="1.5"/>
+<text x="94" y="7404" font-family="Fraunces, Georgia, 'Times New Roman', serif" font-size="22" fill="#FFFFFF" text-anchor="middle">3</text>
+<text x="146" y="7398" font-family="Fraunces, Georgia, 'Times New Roman', serif" font-size="20" fill="#0B2E4E" text-anchor="start" font-weight="500">Pay first, then</text>
+<text x="146" y="7423" font-family="Fraunces, Georgia, 'Times New Roman', serif" font-size="20" fill="#0B2E4E" text-anchor="start" font-weight="500">everything else</text>
+<text x="146" y="7446" font-family="'IBM Plex Mono', 'SFMono-Regular', Consolas, monospace" font-size="12.5" fill="#2C5A80" text-anchor="start">Job cards lead with the</text>
+<text x="146" y="7467" font-family="'IBM Plex Mono', 'SFMono-Regular', Consolas, monospace" font-size="12.5" fill="#2C5A80" text-anchor="start">four things workers</text>
+<text x="146" y="7488" font-family="'IBM Plex Mono', 'SFMono-Regular', Consolas, monospace" font-size="12.5" fill="#2C5A80" text-anchor="start">actually ask: pay per</text>
+<text x="146" y="7509" font-family="'IBM Plex Mono', 'SFMono-Regular', Consolas, monospace" font-size="12.5" fill="#2C5A80" text-anchor="start">day, start time,</text>
+<text x="146" y="7531" font-family="'IBM Plex Mono', 'SFMono-Regular', Consolas, monospace" font-size="12.5" fill="#2C5A80" text-anchor="start">distance, and rating —</text>
+<text x="146" y="7552" font-family="'IBM Plex Mono', 'SFMono-Regular', Consolas, monospace" font-size="12.5" fill="#2C5A80" text-anchor="start">the text-heavy decision</text>
+<text x="146" y="7573" font-family="'IBM Plex Mono', 'SFMono-Regular', Consolas, monospace" font-size="12.5" fill="#2C5A80" text-anchor="start">point, rebuilt.</text>
+<line x1="68" y1="7614" x2="322" y2="7614" stroke="#82B9E6" stroke-width="1.5" opacity="0.35"/>
+<circle cx="94" cy="7628" r="26" fill="#14608F" stroke="none" stroke-width="1.5"/>
+<text x="94" y="7636" font-family="Fraunces, Georgia, 'Times New Roman', serif" font-size="22" fill="#FFFFFF" text-anchor="middle">4</text>
+<text x="146" y="7630" font-family="Fraunces, Georgia, 'Times New Roman', serif" font-size="20" fill="#0B2E4E" text-anchor="start" font-weight="500">Honest</text>
+<text x="146" y="7655" font-family="Fraunces, Georgia, 'Times New Roman', serif" font-size="20" fill="#0B2E4E" text-anchor="start" font-weight="500">verification</text>
+<text x="146" y="7678" font-family="'IBM Plex Mono', 'SFMono-Regular', Consolas, monospace" font-size="12.5" fill="#2C5A80" text-anchor="start">Badges always state</text>
+<text x="146" y="7700" font-family="'IBM Plex Mono', 'SFMono-Regular', Consolas, monospace" font-size="12.5" fill="#2C5A80" text-anchor="start">their source —</text>
+<text x="146" y="7721" font-family="'IBM Plex Mono', 'SFMono-Regular', Consolas, monospace" font-size="12.5" fill="#2C5A80" text-anchor="start">"Verified hirer ·</text>
+<text x="146" y="7742" font-family="'IBM Plex Mono', 'SFMono-Regular', Consolas, monospace" font-size="12.5" fill="#2C5A80" text-anchor="start">checked by Kaam" —</text>
+<text x="146" y="7763" font-family="'IBM Plex Mono', 'SFMono-Regular', Consolas, monospace" font-size="12.5" fill="#2C5A80" text-anchor="start">because trust is</text>
+<text x="146" y="7785" font-family="'IBM Plex Mono', 'SFMono-Regular', Consolas, monospace" font-size="12.5" fill="#2C5A80" text-anchor="start">borrowed from someone</text>
+<text x="146" y="7806" font-family="'IBM Plex Mono', 'SFMono-Regular', Consolas, monospace" font-size="12.5" fill="#2C5A80" text-anchor="start">accountable, never</text>
+<text x="146" y="7827" font-family="'IBM Plex Mono', 'SFMono-Regular', Consolas, monospace" font-size="12.5" fill="#2C5A80" text-anchor="start">assumed.</text>
+<line x1="68" y1="7868" x2="322" y2="7868" stroke="#82B9E6" stroke-width="1.5" opacity="0.35"/>
+<circle cx="94" cy="7882" r="26" fill="#14608F" stroke="none" stroke-width="1.5"/>
+<text x="94" y="7890" font-family="Fraunces, Georgia, 'Times New Roman', serif" font-size="22" fill="#FFFFFF" text-anchor="middle">5</text>
+<text x="146" y="7884" font-family="Fraunces, Georgia, 'Times New Roman', serif" font-size="20" fill="#0B2E4E" text-anchor="start" font-weight="500">The job survives</text>
+<text x="146" y="7909" font-family="Fraunces, Georgia, 'Times New Roman', serif" font-size="20" fill="#0B2E4E" text-anchor="start" font-weight="500">without a</text>
+<text x="146" y="7934" font-family="Fraunces, Georgia, 'Times New Roman', serif" font-size="20" fill="#0B2E4E" text-anchor="start" font-weight="500">smartphone</text>
+<text x="146" y="7957" font-family="'IBM Plex Mono', 'SFMono-Regular', Consolas, monospace" font-size="12.5" fill="#2C5A80" text-anchor="start">Token code + SMS to a</text>
+<text x="146" y="7979" font-family="'IBM Plex Mono', 'SFMono-Regular', Consolas, monospace" font-size="12.5" fill="#2C5A80" text-anchor="start">basic phone + printable</text>
+<text x="146" y="8000" font-family="'IBM Plex Mono', 'SFMono-Regular', Consolas, monospace" font-size="12.5" fill="#2C5A80" text-anchor="start">slip. No app to</text>
+<text x="146" y="8021" font-family="'IBM Plex Mono', 'SFMono-Regular', Consolas, monospace" font-size="12.5" fill="#2C5A80" text-anchor="start">install, no data needed</text>
+<text x="146" y="8042" font-family="'IBM Plex Mono', 'SFMono-Regular', Consolas, monospace" font-size="12.5" fill="#2C5A80" text-anchor="start">— the loop closes over</text>
+<text x="146" y="8064" font-family="'IBM Plex Mono', 'SFMono-Regular', Consolas, monospace" font-size="12.5" fill="#2C5A80" text-anchor="start">the technology workers</text>
+<text x="146" y="8085" font-family="'IBM Plex Mono', 'SFMono-Regular', Consolas, monospace" font-size="12.5" fill="#2C5A80" text-anchor="start">already have.</text>
+<line x1="68" y1="8126" x2="322" y2="8126" stroke="#82B9E6" stroke-width="1.5" opacity="0.35"/>
+<circle cx="94" cy="8140" r="26" fill="#14608F" stroke="none" stroke-width="1.5"/>
+<text x="94" y="8148" font-family="Fraunces, Georgia, 'Times New Roman', serif" font-size="22" fill="#FFFFFF" text-anchor="middle">6</text>
+<text x="146" y="8142" font-family="Fraunces, Georgia, 'Times New Roman', serif" font-size="20" fill="#0B2E4E" text-anchor="start" font-weight="500">The referral's</text>
+<text x="146" y="8167" font-family="Fraunces, Georgia, 'Times New Roman', serif" font-size="20" fill="#0B2E4E" text-anchor="start" font-weight="500">last mile, built</text>
+<text x="146" y="8192" font-family="Fraunces, Georgia, 'Times New Roman', serif" font-size="20" fill="#0B2E4E" text-anchor="start" font-weight="500">in</text>
+<text x="146" y="8215" font-family="'IBM Plex Mono', 'SFMono-Regular', Consolas, monospace" font-size="12.5" fill="#2C5A80" text-anchor="start">Requirements and</text>
+<text x="146" y="8236" font-family="'IBM Plex Mono', 'SFMono-Regular', Consolas, monospace" font-size="12.5" fill="#2C5A80" text-anchor="start">how-to-reach are shown</text>
+<text x="146" y="8258" font-family="'IBM Plex Mono', 'SFMono-Regular', Consolas, monospace" font-size="12.5" fill="#2C5A80" text-anchor="start">before acceptance —</text>
+<text x="146" y="8279" font-family="'IBM Plex Mono', 'SFMono-Regular', Consolas, monospace" font-size="12.5" fill="#2C5A80" text-anchor="start">what to bring, whom to</text>
+<text x="146" y="8300" font-family="'IBM Plex Mono', 'SFMono-Regular', Consolas, monospace" font-size="12.5" fill="#2C5A80" text-anchor="start">ask for, how far it is.</text>
+<text x="146" y="8321" font-family="'IBM Plex Mono', 'SFMono-Regular', Consolas, monospace" font-size="12.5" fill="#2C5A80" text-anchor="start">The system carries the</text>
+<text x="146" y="8343" font-family="'IBM Plex Mono', 'SFMono-Regular', Consolas, monospace" font-size="12.5" fill="#2C5A80" text-anchor="start">context a referral used</text>
+<text x="146" y="8364" font-family="'IBM Plex Mono', 'SFMono-Regular', Consolas, monospace" font-size="12.5" fill="#2C5A80" text-anchor="start">to carry.</text>
+<line x1="68" y1="8405" x2="322" y2="8405" stroke="#82B9E6" stroke-width="1.5" opacity="0.35"/>
+<circle cx="94" cy="8419" r="26" fill="#14608F" stroke="none" stroke-width="1.5"/>
+<text x="94" y="8427" font-family="Fraunces, Georgia, 'Times New Roman', serif" font-size="22" fill="#FFFFFF" text-anchor="middle">7</text>
+<text x="146" y="8421" font-family="Fraunces, Georgia, 'Times New Roman', serif" font-size="20" fill="#0B2E4E" text-anchor="start" font-weight="500">Privacy on a</text>
+<text x="146" y="8446" font-family="Fraunces, Georgia, 'Times New Roman', serif" font-size="20" fill="#0B2E4E" text-anchor="start" font-weight="500">public screen</text>
+<text x="146" y="8469" font-family="'IBM Plex Mono', 'SFMono-Regular', Consolas, monospace" font-size="12.5" fill="#2C5A80" text-anchor="start">Masked numbers, a</text>
+<text x="146" y="8490" font-family="'IBM Plex Mono', 'SFMono-Regular', Consolas, monospace" font-size="12.5" fill="#2C5A80" text-anchor="start">visible privacy</text>
+<text x="146" y="8512" font-family="'IBM Plex Mono', 'SFMono-Regular', Consolas, monospace" font-size="12.5" fill="#2C5A80" text-anchor="start">promise, session</text>
+<text x="146" y="8533" font-family="'IBM Plex Mono', 'SFMono-Regular', Consolas, monospace" font-size="12.5" fill="#2C5A80" text-anchor="start">auto-wipe with an</text>
+<text x="146" y="8554" font-family="'IBM Plex Mono', 'SFMono-Regular', Consolas, monospace" font-size="12.5" fill="#2C5A80" text-anchor="start">inactivity countdown —</text>
+<text x="146" y="8575" font-family="'IBM Plex Mono', 'SFMono-Regular', Consolas, monospace" font-size="12.5" fill="#2C5A80" text-anchor="start">so the first tap</text>
+<text x="146" y="8597" font-family="'IBM Plex Mono', 'SFMono-Regular', Consolas, monospace" font-size="12.5" fill="#2C5A80" text-anchor="start">doesn't feel like</text>
+<text x="146" y="8618" font-family="'IBM Plex Mono', 'SFMono-Regular', Consolas, monospace" font-size="12.5" fill="#2C5A80" text-anchor="start">exposure.</text>
+<line x1="68" y1="8659" x2="322" y2="8659" stroke="#82B9E6" stroke-width="1.5" opacity="0.35"/>
+<circle cx="94" cy="8673" r="26" fill="#14608F" stroke="none" stroke-width="1.5"/>
+<text x="94" y="8681" font-family="Fraunces, Georgia, 'Times New Roman', serif" font-size="22" fill="#FFFFFF" text-anchor="middle">8</text>
+<text x="146" y="8675" font-family="Fraunces, Georgia, 'Times New Roman', serif" font-size="20" fill="#0B2E4E" text-anchor="start" font-weight="500">Skills become</text>
+<text x="146" y="8700" font-family="Fraunces, Georgia, 'Times New Roman', serif" font-size="20" fill="#0B2E4E" text-anchor="start" font-weight="500">visible tags</text>
+<text x="146" y="8723" font-family="'IBM Plex Mono', 'SFMono-Regular', Consolas, monospace" font-size="12.5" fill="#2C5A80" text-anchor="start">Sponsored Skill India /</text>
+<text x="146" y="8744" font-family="'IBM Plex Mono', 'SFMono-Regular', Consolas, monospace" font-size="12.5" fill="#2C5A80" text-anchor="start">PMKVY courses complete</text>
+<text x="146" y="8766" font-family="'IBM Plex Mono', 'SFMono-Regular', Consolas, monospace" font-size="12.5" fill="#2C5A80" text-anchor="start">into verified skill</text>
+<text x="146" y="8787" font-family="'IBM Plex Mono', 'SFMono-Regular', Consolas, monospace" font-size="12.5" fill="#2C5A80" text-anchor="start">tags on the worker's</text>
+<text x="146" y="8808" font-family="'IBM Plex Mono', 'SFMono-Regular', Consolas, monospace" font-size="12.5" fill="#2C5A80" text-anchor="start">profile — cooking,</text>
+<text x="146" y="8829" font-family="'IBM Plex Mono', 'SFMono-Regular', Consolas, monospace" font-size="12.5" fill="#2C5A80" text-anchor="start">masonry, driving,</text>
+<text x="146" y="8851" font-family="'IBM Plex Mono', 'SFMono-Regular', Consolas, monospace" font-size="12.5" fill="#2C5A80" text-anchor="start">housekeeping.</text>
+<text x="146" y="8872" font-family="'IBM Plex Mono', 'SFMono-Regular', Consolas, monospace" font-size="12.5" fill="#2C5A80" text-anchor="start">Reputation stops being</text>
+<text x="146" y="8893" font-family="'IBM Plex Mono', 'SFMono-Regular', Consolas, monospace" font-size="12.5" fill="#2C5A80" text-anchor="start">only stars; it becomes</text>
+<text x="146" y="8914" font-family="'IBM Plex Mono', 'SFMono-Regular', Consolas, monospace" font-size="12.5" fill="#2C5A80" text-anchor="start">provable skill.</text>
+<line x1="68" y1="8956" x2="322" y2="8956" stroke="#82B9E6" stroke-width="1.5" opacity="0.35"/>
+<circle cx="94" cy="8970" r="26" fill="#14608F" stroke="none" stroke-width="1.5"/>
+<text x="94" y="8978" font-family="Fraunces, Georgia, 'Times New Roman', serif" font-size="22" fill="#FFFFFF" text-anchor="middle">9</text>
+<text x="146" y="8972" font-family="Fraunces, Georgia, 'Times New Roman', serif" font-size="20" fill="#0B2E4E" text-anchor="start" font-weight="500">Trust with a</text>
+<text x="146" y="8997" font-family="Fraunces, Georgia, 'Times New Roman', serif" font-size="20" fill="#0B2E4E" text-anchor="start" font-weight="500">paper trail</text>
+<text x="146" y="9020" font-family="'IBM Plex Mono', 'SFMono-Regular', Consolas, monospace" font-size="12.5" fill="#2C5A80" text-anchor="start">Workers give</text>
+<text x="146" y="9041" font-family="'IBM Plex Mono', 'SFMono-Regular', Consolas, monospace" font-size="12.5" fill="#2C5A80" text-anchor="start">consent-based</text>
+<text x="146" y="9062" font-family="'IBM Plex Mono', 'SFMono-Regular', Consolas, monospace" font-size="12.5" fill="#2C5A80" text-anchor="start">self-declaration of no</text>
+<text x="146" y="9083" font-family="'IBM Plex Mono', 'SFMono-Regular', Consolas, monospace" font-size="12.5" fill="#2C5A80" text-anchor="start">criminal record, linked</text>
+<text x="146" y="9105" font-family="'IBM Plex Mono', 'SFMono-Regular', Consolas, monospace" font-size="12.5" fill="#2C5A80" text-anchor="start">to the local police</text>
+<text x="146" y="9126" font-family="'IBM Plex Mono', 'SFMono-Regular', Consolas, monospace" font-size="12.5" fill="#2C5A80" text-anchor="start">station for</text>
+<text x="146" y="9147" font-family="'IBM Plex Mono', 'SFMono-Regular', Consolas, monospace" font-size="12.5" fill="#2C5A80" text-anchor="start">verification — the same</text>
+<text x="146" y="9168" font-family="'IBM Plex Mono', 'SFMono-Regular', Consolas, monospace" font-size="12.5" fill="#2C5A80" text-anchor="start">check households</text>
+<text x="146" y="9190" font-family="'IBM Plex Mono', 'SFMono-Regular', Consolas, monospace" font-size="12.5" fill="#2C5A80" text-anchor="start">already ask for, now</text>
+<text x="146" y="9211" font-family="'IBM Plex Mono', 'SFMono-Regular', Consolas, monospace" font-size="12.5" fill="#2C5A80" text-anchor="start">with a record. Identity</text>
+<text x="146" y="9232" font-family="'IBM Plex Mono', 'SFMono-Regular', Consolas, monospace" font-size="12.5" fill="#2C5A80" text-anchor="start">is anchored to e-Shram</text>
+<text x="146" y="9253" font-family="'IBM Plex Mono', 'SFMono-Regular', Consolas, monospace" font-size="12.5" fill="#2C5A80" text-anchor="start">(Ministry of Labour &amp;</text>
+<text x="146" y="9275" font-family="'IBM Plex Mono', 'SFMono-Regular', Consolas, monospace" font-size="12.5" fill="#2C5A80" text-anchor="start">Employment), which</text>
+<text x="146" y="9296" font-family="'IBM Plex Mono', 'SFMono-Regular', Consolas, monospace" font-size="12.5" fill="#2C5A80" text-anchor="start">already covers</text>
+<text x="146" y="9317" font-family="'IBM Plex Mono', 'SFMono-Regular', Consolas, monospace" font-size="12.5" fill="#2C5A80" text-anchor="start">unorganised and rural</text>
+<text x="146" y="9338" font-family="'IBM Plex Mono', 'SFMono-Regular', Consolas, monospace" font-size="12.5" fill="#2C5A80" text-anchor="start">workers.</text>
+<text x="24" y="9516" font-family="'IBM Plex Mono', 'SFMono-Regular', Consolas, monospace" font-size="11" fill="#14608F" text-anchor="start" letter-spacing="3.08px">05 — FINAL SOLUTION</text>
+<text x="24" y="9516" font-family="Fraunces, Georgia, 'Times New Roman', serif" font-size="34" fill="#0B2E4E" text-anchor="start">Two surfaces, one</text>
+<text x="24" y="9555" font-family="Fraunces, Georgia, 'Times New Roman', serif" font-size="34" fill="#0B2E4E" text-anchor="start">bridge</text>
+<text x="24" y="9612" font-family="'IBM Plex Mono', 'SFMono-Regular', Consolas, monospace" font-size="11" fill="#2C5A80" text-anchor="start">The final system doesn't ask either side</text>
+<text x="24" y="9630" font-family="'IBM Plex Mono', 'SFMono-Regular', Consolas, monospace" font-size="11" fill="#2C5A80" text-anchor="start">to change how they live. It meets workers</text>
+<text x="24" y="9649" font-family="'IBM Plex Mono', 'SFMono-Regular', Consolas, monospace" font-size="11" fill="#2C5A80" text-anchor="start">where they wait and hirers where they post</text>
+<text x="24" y="9668" font-family="'IBM Plex Mono', 'SFMono-Regular', Consolas, monospace" font-size="11" fill="#2C5A80" text-anchor="start">— and turns referrals into portable,</text>
+<text x="24" y="9687" font-family="'IBM Plex Mono', 'SFMono-Regular', Consolas, monospace" font-size="11" fill="#2C5A80" text-anchor="start">verifiable reputation.</text>
+<rect x="24" y="9745" width="342" height="663" rx="26" fill="#FFFFFF" stroke="#82B9E6" stroke-width="1.5" opacity="0.72"/>
+<rect x="26" y="9747" width="339" height="660" rx="24" fill="#FFFFFF" stroke="none" stroke-width="1.5" opacity="0.25"/>
+<text x="68" y="9801" font-family="'IBM Plex Mono', 'SFMono-Regular', Consolas, monospace" font-size="11" fill="#14608F" text-anchor="start" letter-spacing="3.08px">SURFACE 01 · WORKER SIDE</text>
+<text x="68" y="9827" font-family="Fraunces, Georgia, 'Times New Roman', serif" font-size="26" fill="#0B2E4E" text-anchor="start" font-weight="500">Kaam — the kiosk</text>
+<text x="68" y="9875" font-family="'IBM Plex Mono', 'SFMono-Regular', Consolas, monospace" font-size="12.5" fill="#2C5A80" text-anchor="start">A Hindi-first, voice/icon-first</text>
+<text x="68" y="9896" font-family="'IBM Plex Mono', 'SFMono-Regular', Consolas, monospace" font-size="12.5" fill="#2C5A80" text-anchor="start">touchscreen kiosk for transit</text>
+<text x="68" y="9918" font-family="'IBM Plex Mono', 'SFMono-Regular', Consolas, monospace" font-size="12.5" fill="#2C5A80" text-anchor="start">hotspots. Walk up, choose a</text>
+<text x="68" y="9939" font-family="'IBM Plex Mono', 'SFMono-Regular', Consolas, monospace" font-size="12.5" fill="#2C5A80" text-anchor="start">language, register with Aadhaar</text>
+<text x="68" y="9960" font-family="'IBM Plex Mono', 'SFMono-Regular', Consolas, monospace" font-size="12.5" fill="#2C5A80" text-anchor="start">or a spoken phone number, pick a</text>
+<text x="68" y="9981" font-family="'IBM Plex Mono', 'SFMono-Regular', Consolas, monospace" font-size="12.5" fill="#2C5A80" text-anchor="start">work category, and see live job</text>
+<text x="68" y="10003" font-family="'IBM Plex Mono', 'SFMono-Regular', Consolas, monospace" font-size="12.5" fill="#2C5A80" text-anchor="start">cards — pay first, always.</text>
+<text x="68" y="10042" font-family="'IBM Plex Mono', 'SFMono-Regular', Consolas, monospace" font-size="12.5" fill="#14608F" text-anchor="start">→</text>
+<text x="98" y="10042" font-family="'IBM Plex Mono', 'SFMono-Regular', Consolas, monospace" font-size="12.5" fill="#2C5A80" text-anchor="start">32″ tilted floor kiosk —</text>
+<text x="98" y="10063" font-family="'IBM Plex Mono', 'SFMono-Regular', Consolas, monospace" font-size="12.5" fill="#2C5A80" text-anchor="start">1920×1080, built for</text>
+<text x="98" y="10084" font-family="'IBM Plex Mono', 'SFMono-Regular', Consolas, monospace" font-size="12.5" fill="#2C5A80" text-anchor="start">arm's-length touch</text>
+<text x="68" y="10116" font-family="'IBM Plex Mono', 'SFMono-Regular', Consolas, monospace" font-size="12.5" fill="#14608F" text-anchor="start">→</text>
+<text x="98" y="10116" font-family="'IBM Plex Mono', 'SFMono-Regular', Consolas, monospace" font-size="12.5" fill="#2C5A80" text-anchor="start">Voice is a primary input, not</text>
+<text x="98" y="10137" font-family="'IBM Plex Mono', 'SFMono-Regular', Consolas, monospace" font-size="12.5" fill="#2C5A80" text-anchor="start">an accessory</text>
+<text x="68" y="10168" font-family="'IBM Plex Mono', 'SFMono-Regular', Consolas, monospace" font-size="12.5" fill="#14608F" text-anchor="start">→</text>
+<text x="98" y="10168" font-family="'IBM Plex Mono', 'SFMono-Regular', Consolas, monospace" font-size="12.5" fill="#2C5A80" text-anchor="start">Category grid with live job</text>
+<text x="98" y="10189" font-family="'IBM Plex Mono', 'SFMono-Regular', Consolas, monospace" font-size="12.5" fill="#2C5A80" text-anchor="start">counts — no empty-list</text>
+<text x="98" y="10211" font-family="'IBM Plex Mono', 'SFMono-Regular', Consolas, monospace" font-size="12.5" fill="#2C5A80" text-anchor="start">disappointment</text>
+<text x="68" y="10242" font-family="'IBM Plex Mono', 'SFMono-Regular', Consolas, monospace" font-size="12.5" fill="#14608F" text-anchor="start">→</text>
+<text x="98" y="10242" font-family="'IBM Plex Mono', 'SFMono-Regular', Consolas, monospace" font-size="12.5" fill="#2C5A80" text-anchor="start">Token + SMS + print slip — no</text>
+<text x="98" y="10263" font-family="'IBM Plex Mono', 'SFMono-Regular', Consolas, monospace" font-size="12.5" fill="#2C5A80" text-anchor="start">smartphone needed</text>
+<text x="68" y="10294" font-family="'IBM Plex Mono', 'SFMono-Regular', Consolas, monospace" font-size="12.5" fill="#14608F" text-anchor="start">→</text>
+<text x="98" y="10294" font-family="'IBM Plex Mono', 'SFMono-Regular', Consolas, monospace" font-size="12.5" fill="#2C5A80" text-anchor="start">Session wipes itself; numbers</text>
+<text x="98" y="10316" font-family="'IBM Plex Mono', 'SFMono-Regular', Consolas, monospace" font-size="12.5" fill="#2C5A80" text-anchor="start">stay masked on a public</text>
+<text x="98" y="10337" font-family="'IBM Plex Mono', 'SFMono-Regular', Consolas, monospace" font-size="12.5" fill="#2C5A80" text-anchor="start">screen</text>
+<rect x="24" y="10430" width="342" height="654" rx="26" fill="#FFFFFF" stroke="#82B9E6" stroke-width="1.5" opacity="0.72"/>
+<rect x="26" y="10432" width="339" height="651" rx="24" fill="#FFFFFF" stroke="none" stroke-width="1.5" opacity="0.25"/>
+<text x="68" y="10486" font-family="'IBM Plex Mono', 'SFMono-Regular', Consolas, monospace" font-size="11" fill="#14608F" text-anchor="start" letter-spacing="3.08px">SURFACE 02 · HIRER SIDE</text>
+<text x="68" y="10512" font-family="Fraunces, Georgia, 'Times New Roman', serif" font-size="26" fill="#0B2E4E" text-anchor="start" font-weight="500">RozgaarSetu — the</text>
+<text x="68" y="10546" font-family="Fraunces, Georgia, 'Times New Roman', serif" font-size="26" fill="#0B2E4E" text-anchor="start" font-weight="500">mobile app</text>
+<text x="68" y="10594" font-family="'IBM Plex Mono', 'SFMono-Regular', Consolas, monospace" font-size="12.5" fill="#2C5A80" text-anchor="start">The hirer's end of the bridge:</text>
+<text x="68" y="10615" font-family="'IBM Plex Mono', 'SFMono-Regular', Consolas, monospace" font-size="12.5" fill="#2C5A80" text-anchor="start">post a job once, and it appears</text>
+<text x="68" y="10636" font-family="'IBM Plex Mono', 'SFMono-Regular', Consolas, monospace" font-size="12.5" fill="#2C5A80" text-anchor="start">on kiosks across hotspots.</text>
+<text x="68" y="10657" font-family="'IBM Plex Mono', 'SFMono-Regular', Consolas, monospace" font-size="12.5" fill="#2C5A80" text-anchor="start">Shortlist by trust points, hire</text>
+<text x="68" y="10679" font-family="'IBM Plex Mono', 'SFMono-Regular', Consolas, monospace" font-size="12.5" fill="#2C5A80" text-anchor="start">verified workers, and keep</text>
+<text x="68" y="10700" font-family="'IBM Plex Mono', 'SFMono-Regular', Consolas, monospace" font-size="12.5" fill="#2C5A80" text-anchor="start">attendance that both sides can</text>
+<text x="68" y="10721" font-family="'IBM Plex Mono', 'SFMono-Regular', Consolas, monospace" font-size="12.5" fill="#2C5A80" text-anchor="start">see.</text>
+<text x="68" y="10760" font-family="'IBM Plex Mono', 'SFMono-Regular', Consolas, monospace" font-size="12.5" fill="#14608F" text-anchor="start">→</text>
+<text x="98" y="10760" font-family="'IBM Plex Mono', 'SFMono-Regular', Consolas, monospace" font-size="12.5" fill="#2C5A80" text-anchor="start">Post-a-job flow with kiosk</text>
+<text x="98" y="10782" font-family="'IBM Plex Mono', 'SFMono-Regular', Consolas, monospace" font-size="12.5" fill="#2C5A80" text-anchor="start">visibility built in</text>
+<text x="68" y="10813" font-family="'IBM Plex Mono', 'SFMono-Regular', Consolas, monospace" font-size="12.5" fill="#14608F" text-anchor="start">→</text>
+<text x="98" y="10813" font-family="'IBM Plex Mono', 'SFMono-Regular', Consolas, monospace" font-size="12.5" fill="#2C5A80" text-anchor="start">Trust-point shortlisting —</text>
+<text x="98" y="10834" font-family="'IBM Plex Mono', 'SFMono-Regular', Consolas, monospace" font-size="12.5" fill="#2C5A80" text-anchor="start">reputation, not just</text>
+<text x="98" y="10855" font-family="'IBM Plex Mono', 'SFMono-Regular', Consolas, monospace" font-size="12.5" fill="#2C5A80" text-anchor="start">availability</text>
+<text x="68" y="10887" font-family="'IBM Plex Mono', 'SFMono-Regular', Consolas, monospace" font-size="12.5" fill="#14608F" text-anchor="start">→</text>
+<text x="98" y="10887" font-family="'IBM Plex Mono', 'SFMono-Regular', Consolas, monospace" font-size="12.5" fill="#2C5A80" text-anchor="start">Verified worker profiles with</text>
+<text x="98" y="10908" font-family="'IBM Plex Mono', 'SFMono-Regular', Consolas, monospace" font-size="12.5" fill="#2C5A80" text-anchor="start">bidirectional ratings</text>
+<text x="68" y="10939" font-family="'IBM Plex Mono', 'SFMono-Regular', Consolas, monospace" font-size="12.5" fill="#14608F" text-anchor="start">→</text>
+<text x="98" y="10939" font-family="'IBM Plex Mono', 'SFMono-Regular', Consolas, monospace" font-size="12.5" fill="#2C5A80" text-anchor="start">Attendance logs that settle</text>
+<text x="98" y="10960" font-family="'IBM Plex Mono', 'SFMono-Regular', Consolas, monospace" font-size="12.5" fill="#2C5A80" text-anchor="start">wage disputes with a record</text>
+<text x="68" y="10992" font-family="'IBM Plex Mono', 'SFMono-Regular', Consolas, monospace" font-size="12.5" fill="#14608F" text-anchor="start">→</text>
+<text x="98" y="10992" font-family="'IBM Plex Mono', 'SFMono-Regular', Consolas, monospace" font-size="12.5" fill="#2C5A80" text-anchor="start">Bilingual interface — Hindi</text>
+<text x="98" y="11013" font-family="'IBM Plex Mono', 'SFMono-Regular', Consolas, monospace" font-size="12.5" fill="#2C5A80" text-anchor="start">and English throughout</text>
+<rect x="24" y="11084" width="342" height="352" rx="26" fill="#FFFFFF" stroke="#82B9E6" stroke-width="1.5" opacity="0.72"/>
+<text x="68" y="11136" font-family="Fraunces, Georgia, 'Times New Roman', serif" font-size="22" fill="#0B2E4E" text-anchor="start">Referrals become</text>
+<text x="68" y="11167" font-family="Fraunces, Georgia, 'Times New Roman', serif" font-size="22" fill="#0B2E4E" text-anchor="start">reputation. Word of</text>
+<text x="68" y="11198" font-family="Fraunces, Georgia, 'Times New Roman', serif" font-size="22" fill="#0B2E4E" text-anchor="start">mouth becomes a record.</text>
+<text x="68" y="11229" font-family="Fraunces, Georgia, 'Times New Roman', serif" font-size="22" fill="#0B2E4E" text-anchor="start">And the worker with no</text>
+<text x="68" y="11259" font-family="Fraunces, Georgia, 'Times New Roman', serif" font-size="22" fill="#0B2E4E" text-anchor="start">phone, no English and</text>
+<text x="68" y="11290" font-family="Fraunces, Georgia, 'Times New Roman', serif" font-size="22" fill="#0B2E4E" text-anchor="start">no network is visible</text>
+<text x="68" y="11321" font-family="Fraunces, Georgia, 'Times New Roman', serif" font-size="22" fill="#0B2E4E" text-anchor="start">to the market at last.</text>
+<text x="68" y="11368" font-family="'IBM Plex Mono', 'SFMono-Regular', Consolas, monospace" font-size="10" fill="#5E87A8" text-anchor="start" letter-spacing="1.2px">THE BRIDGE — WHAT THE TWO SURFACES DO</text>
+<text x="68" y="11384" font-family="'IBM Plex Mono', 'SFMono-Regular', Consolas, monospace" font-size="10" fill="#5E87A8" text-anchor="start" letter-spacing="1.2px">TOGETHER</text>
+<rect x="24" y="11436" width="342" height="982" rx="26" fill="#FFFFFF" stroke="#82B9E6" stroke-width="1.5" opacity="0.72"/>
+<text x="68" y="11488" font-family="'IBM Plex Mono', 'SFMono-Regular', Consolas, monospace" font-size="11" fill="#14608F" text-anchor="start" letter-spacing="3.08px">THE INSTITUTIONAL LAYER</text>
+<text x="68" y="11518" font-family="Fraunces, Georgia, 'Times New Roman', serif" font-size="19" fill="#0B2E4E" text-anchor="start">The system doesn't stand</text>
+<text x="68" y="11544" font-family="Fraunces, Georgia, 'Times New Roman', serif" font-size="19" fill="#0B2E4E" text-anchor="start">alone — it plugs into the</text>
+<text x="68" y="11571" font-family="Fraunces, Georgia, 'Times New Roman', serif" font-size="19" fill="#0B2E4E" text-anchor="start">state's existing rails.</text>
+<text x="68" y="11628" font-family="'IBM Plex Mono', 'SFMono-Regular', Consolas, monospace" font-size="11" fill="#14608F" text-anchor="start" letter-spacing="3.08px">IDENTITY</text>
+<text x="68" y="11658" font-family="'IBM Plex Mono', 'SFMono-Regular', Consolas, monospace" font-size="12.5" fill="#2C5A80" text-anchor="start">e-Shram · Ministry of Labour &amp;</text>
+<text x="68" y="11679" font-family="'IBM Plex Mono', 'SFMono-Regular', Consolas, monospace" font-size="12.5" fill="#2C5A80" text-anchor="start">Employment. The national</text>
+<text x="68" y="11700" font-family="'IBM Plex Mono', 'SFMono-Regular', Consolas, monospace" font-size="12.5" fill="#2C5A80" text-anchor="start">database of unorganised and</text>
+<text x="68" y="11721" font-family="'IBM Plex Mono', 'SFMono-Regular', Consolas, monospace" font-size="12.5" fill="#2C5A80" text-anchor="start">rural workers becomes the</text>
+<text x="68" y="11743" font-family="'IBM Plex Mono', 'SFMono-Regular', Consolas, monospace" font-size="12.5" fill="#2C5A80" text-anchor="start">identity anchor — Kaam profiles</text>
+<text x="68" y="11764" font-family="'IBM Plex Mono', 'SFMono-Regular', Consolas, monospace" font-size="12.5" fill="#2C5A80" text-anchor="start">link to it instead of</text>
+<text x="68" y="11785" font-family="'IBM Plex Mono', 'SFMono-Regular', Consolas, monospace" font-size="12.5" fill="#2C5A80" text-anchor="start">rebuilding trust from zero.</text>
+<text x="68" y="11876" font-family="'IBM Plex Mono', 'SFMono-Regular', Consolas, monospace" font-size="11" fill="#14608F" text-anchor="start" letter-spacing="3.08px">SKILLS</text>
+<text x="68" y="11906" font-family="'IBM Plex Mono', 'SFMono-Regular', Consolas, monospace" font-size="12.5" fill="#2C5A80" text-anchor="start">Skill India / PMKVY courses,</text>
+<text x="68" y="11928" font-family="'IBM Plex Mono', 'SFMono-Regular', Consolas, monospace" font-size="12.5" fill="#2C5A80" text-anchor="start">sponsored. Training partners</text>
+<text x="68" y="11949" font-family="'IBM Plex Mono', 'SFMono-Regular', Consolas, monospace" font-size="12.5" fill="#2C5A80" text-anchor="start">sponsor courses; on completion,</text>
+<text x="68" y="11970" font-family="'IBM Plex Mono', 'SFMono-Regular', Consolas, monospace" font-size="12.5" fill="#2C5A80" text-anchor="start">verified skill tags land on the</text>
+<text x="68" y="11991" font-family="'IBM Plex Mono', 'SFMono-Regular', Consolas, monospace" font-size="12.5" fill="#2C5A80" text-anchor="start">worker's profile — free</text>
+<text x="68" y="12013" font-family="'IBM Plex Mono', 'SFMono-Regular', Consolas, monospace" font-size="12.5" fill="#2C5A80" text-anchor="start">upskilling, visible to every</text>
+<text x="68" y="12034" font-family="'IBM Plex Mono', 'SFMono-Regular', Consolas, monospace" font-size="12.5" fill="#2C5A80" text-anchor="start">hirer.</text>
+<text x="68" y="12125" font-family="'IBM Plex Mono', 'SFMono-Regular', Consolas, monospace" font-size="11" fill="#14608F" text-anchor="start" letter-spacing="3.08px">SAFETY</text>
+<text x="68" y="12155" font-family="'IBM Plex Mono', 'SFMono-Regular', Consolas, monospace" font-size="12.5" fill="#2C5A80" text-anchor="start">Consent + local police station.</text>
+<text x="68" y="12176" font-family="'IBM Plex Mono', 'SFMono-Regular', Consolas, monospace" font-size="12.5" fill="#2C5A80" text-anchor="start">Workers self-declare no</text>
+<text x="68" y="12198" font-family="'IBM Plex Mono', 'SFMono-Regular', Consolas, monospace" font-size="12.5" fill="#2C5A80" text-anchor="start">criminal record with explicit</text>
+<text x="68" y="12219" font-family="'IBM Plex Mono', 'SFMono-Regular', Consolas, monospace" font-size="12.5" fill="#2C5A80" text-anchor="start">consent; verification routes</text>
+<text x="68" y="12240" font-family="'IBM Plex Mono', 'SFMono-Regular', Consolas, monospace" font-size="12.5" fill="#2C5A80" text-anchor="start">through the local police</text>
+<text x="68" y="12261" font-family="'IBM Plex Mono', 'SFMono-Regular', Consolas, monospace" font-size="12.5" fill="#2C5A80" text-anchor="start">station — the check households</text>
+<text x="68" y="12283" font-family="'IBM Plex Mono', 'SFMono-Regular', Consolas, monospace" font-size="12.5" fill="#2C5A80" text-anchor="start">already trust, now on record.</text>
+<rect x="24" y="12418" width="342" height="1395" rx="26" fill="#FFFFFF" stroke="#82B9E6" stroke-width="1.5" opacity="0.72"/>
+<text x="68" y="12470" font-family="'IBM Plex Mono', 'SFMono-Regular', Consolas, monospace" font-size="11" fill="#14608F" text-anchor="start" letter-spacing="3.08px">HOW KAAM DIFFERS</text>
+<text x="68" y="12500" font-family="Fraunces, Georgia, 'Times New Roman', serif" font-size="19" fill="#0B2E4E" text-anchor="start">Existing platforms</text>
+<text x="68" y="12526" font-family="Fraunces, Georgia, 'Times New Roman', serif" font-size="19" fill="#0B2E4E" text-anchor="start">digitize workers who are</text>
+<text x="68" y="12553" font-family="Fraunces, Georgia, 'Times New Roman', serif" font-size="19" fill="#0B2E4E" text-anchor="start">already reachable.</text>
+<text x="68" y="12580" font-family="Fraunces, Georgia, 'Times New Roman', serif" font-size="19" fill="#14608F" text-anchor="start" font-style="italic">Kaam reaches workers</text>
+<text x="68" y="12606" font-family="Fraunces, Georgia, 'Times New Roman', serif" font-size="19" fill="#14608F" text-anchor="start" font-style="italic">nobody has digitized yet.</text>
+<text x="68" y="12663" font-family="'IBM Plex Mono', 'SFMono-Regular', Consolas, monospace" font-size="11" fill="#14608F" text-anchor="start" letter-spacing="3.08px">URBAN COMPANY</text>
+<text x="68" y="12693" font-family="'IBM Plex Mono', 'SFMono-Regular', Consolas, monospace" font-size="12.5" fill="#2C5A80" text-anchor="start">A service marketplace:</text>
+<text x="68" y="12714" font-family="'IBM Plex Mono', 'SFMono-Regular', Consolas, monospace" font-size="12.5" fill="#2C5A80" text-anchor="start">customers book a service, the</text>
+<text x="68" y="12735" font-family="'IBM Plex Mono', 'SFMono-Regular', Consolas, monospace" font-size="12.5" fill="#2C5A80" text-anchor="start">platform assigns an anonymous</text>
+<text x="68" y="12757" font-family="'IBM Plex Mono', 'SFMono-Regular', Consolas, monospace" font-size="12.5" fill="#2C5A80" text-anchor="start">partner. Workers need a</text>
+<text x="68" y="12778" font-family="'IBM Plex Mono', 'SFMono-Regular', Consolas, monospace" font-size="12.5" fill="#2C5A80" text-anchor="start">smartphone, the partner app,</text>
+<text x="68" y="12799" font-family="'IBM Plex Mono', 'SFMono-Regular', Consolas, monospace" font-size="12.5" fill="#2C5A80" text-anchor="start">training — and pay ~25%</text>
+<text x="68" y="12820" font-family="'IBM Plex Mono', 'SFMono-Regular', Consolas, monospace" font-size="12.5" fill="#2C5A80" text-anchor="start">commission plus kit and lead</text>
+<text x="68" y="12842" font-family="'IBM Plex Mono', 'SFMono-Regular', Consolas, monospace" font-size="12.5" fill="#2C5A80" text-anchor="start">costs. Built for metro</text>
+<text x="68" y="12863" font-family="'IBM Plex Mono', 'SFMono-Regular', Consolas, monospace" font-size="12.5" fill="#2C5A80" text-anchor="start">households.</text>
+<text x="68" y="12966" font-family="'IBM Plex Mono', 'SFMono-Regular', Consolas, monospace" font-size="11" fill="#14608F" text-anchor="start" letter-spacing="3.08px">BROOMEES</text>
+<text x="68" y="12996" font-family="'IBM Plex Mono', 'SFMono-Regular', Consolas, monospace" font-size="12.5" fill="#2C5A80" text-anchor="start">Organized domestic-help</text>
+<text x="68" y="13017" font-family="'IBM Plex Mono', 'SFMono-Regular', Consolas, monospace" font-size="12.5" fill="#2C5A80" text-anchor="start">staffing for metros: trained at</text>
+<text x="68" y="13039" font-family="'IBM Plex Mono', 'SFMono-Regular', Consolas, monospace" font-size="12.5" fill="#2C5A80" text-anchor="start">their centers, booked on</text>
+<text x="68" y="13060" font-family="'IBM Plex Mono', 'SFMono-Regular', Consolas, monospace" font-size="12.5" fill="#2C5A80" text-anchor="start">subscription. Same trust</text>
+<text x="68" y="13081" font-family="'IBM Plex Mono', 'SFMono-Regular', Consolas, monospace" font-size="12.5" fill="#2C5A80" text-anchor="start">primitives (Aadhaar, police</text>
+<text x="68" y="13102" font-family="'IBM Plex Mono', 'SFMono-Regular', Consolas, monospace" font-size="12.5" fill="#2C5A80" text-anchor="start">verification) — but locked</text>
+<text x="68" y="13124" font-family="'IBM Plex Mono', 'SFMono-Regular', Consolas, monospace" font-size="12.5" fill="#2C5A80" text-anchor="start">inside a metro product the</text>
+<text x="68" y="13145" font-family="'IBM Plex Mono', 'SFMono-Regular', Consolas, monospace" font-size="12.5" fill="#2C5A80" text-anchor="start">kiosk worker will never open.</text>
+<text x="68" y="13248" font-family="'IBM Plex Mono', 'SFMono-Regular', Consolas, monospace" font-size="11" fill="#14608F" text-anchor="start" letter-spacing="3.08px">BETTERPLACE</text>
+<text x="68" y="13278" font-family="'IBM Plex Mono', 'SFMono-Regular', Consolas, monospace" font-size="12.5" fill="#2C5A80" text-anchor="start">B2B workforce lifecycle for</text>
+<text x="68" y="13299" font-family="'IBM Plex Mono', 'SFMono-Regular', Consolas, monospace" font-size="12.5" fill="#2C5A80" text-anchor="start">enterprises — hiring,</text>
+<text x="68" y="13321" font-family="'IBM Plex Mono', 'SFMono-Regular', Consolas, monospace" font-size="12.5" fill="#2C5A80" text-anchor="start">verification, payroll for</text>
+<text x="68" y="13342" font-family="'IBM Plex Mono', 'SFMono-Regular', Consolas, monospace" font-size="12.5" fill="#2C5A80" text-anchor="start">companies like Amazon and</text>
+<text x="68" y="13363" font-family="'IBM Plex Mono', 'SFMono-Regular', Consolas, monospace" font-size="12.5" fill="#2C5A80" text-anchor="start">Flipkart. Serves the employer,</text>
+<text x="68" y="13384" font-family="'IBM Plex Mono', 'SFMono-Regular', Consolas, monospace" font-size="12.5" fill="#2C5A80" text-anchor="start">not the canteen owner or the</text>
+<text x="68" y="13406" font-family="'IBM Plex Mono', 'SFMono-Regular', Consolas, monospace" font-size="12.5" fill="#2C5A80" text-anchor="start">small contractor.</text>
+<text x="68" y="13509" font-family="'IBM Plex Mono', 'SFMono-Regular', Consolas, monospace" font-size="11" fill="#14608F" text-anchor="start" letter-spacing="3.08px">KAAM × ROZGAARSETU</text>
+<text x="68" y="13539" font-family="'IBM Plex Mono', 'SFMono-Regular', Consolas, monospace" font-size="12.5" fill="#2C5A80" text-anchor="start">Direct hire, not a service. The</text>
+<text x="68" y="13560" font-family="'IBM Plex Mono', 'SFMono-Regular', Consolas, monospace" font-size="12.5" fill="#2C5A80" text-anchor="start">hirer hires a person, and her</text>
+<text x="68" y="13581" font-family="'IBM Plex Mono', 'SFMono-Regular', Consolas, monospace" font-size="12.5" fill="#2C5A80" text-anchor="start">reputation travels with her. No</text>
+<text x="68" y="13603" font-family="'IBM Plex Mono', 'SFMono-Regular', Consolas, monospace" font-size="12.5" fill="#2C5A80" text-anchor="start">degree, no certificate, no</text>
+<text x="68" y="13624" font-family="'IBM Plex Mono', 'SFMono-Regular', Consolas, monospace" font-size="12.5" fill="#2C5A80" text-anchor="start">smartphone needed — the kiosk</text>
+<text x="68" y="13645" font-family="'IBM Plex Mono', 'SFMono-Regular', Consolas, monospace" font-size="12.5" fill="#2C5A80" text-anchor="start">meets workers where they</text>
+<text x="68" y="13666" font-family="'IBM Plex Mono', 'SFMono-Regular', Consolas, monospace" font-size="12.5" fill="#2C5A80" text-anchor="start">already wait, and the worker</text>
+<text x="68" y="13688" font-family="'IBM Plex Mono', 'SFMono-Regular', Consolas, monospace" font-size="12.5" fill="#2C5A80" text-anchor="start">never pays.</text>
+<text x="24" y="13923" font-family="'IBM Plex Mono', 'SFMono-Regular', Consolas, monospace" font-size="11" fill="#14608F" text-anchor="start" letter-spacing="3.08px">06 — REVENUE MODEL</text>
+<text x="24" y="13923" font-family="Fraunces, Georgia, 'Times New Roman', serif" font-size="34" fill="#0B2E4E" text-anchor="start">How it sustains</text>
+<text x="24" y="13962" font-family="Fraunces, Georgia, 'Times New Roman', serif" font-size="34" fill="#0B2E4E" text-anchor="start">itself</text>
+<text x="24" y="14019" font-family="'IBM Plex Mono', 'SFMono-Regular', Consolas, monospace" font-size="11" fill="#2C5A80" text-anchor="start">Money comes from hirers, sponsors, and</text>
+<text x="24" y="14038" font-family="'IBM Plex Mono', 'SFMono-Regular', Consolas, monospace" font-size="11" fill="#2C5A80" text-anchor="start">institutions — the sides with budget.</text>
+<rect x="24" y="14096" width="342" height="260" rx="26" fill="#14608F" stroke="none" stroke-width="1.5" opacity="1.00"/>
+<text x="74" y="14148" font-family="'IBM Plex Mono', 'SFMono-Regular', Consolas, monospace" font-size="11" fill="#9FD4F5" text-anchor="start" letter-spacing="3.08px">THE ONE RULE</text>
+<text x="74" y="14182" font-family="Fraunces, Georgia, 'Times New Roman', serif" font-size="22" fill="#FFFFFF" text-anchor="start">The worker never pays.</text>
+<text x="74" y="14213" font-family="Fraunces, Georgia, 'Times New Roman', serif" font-size="22" fill="#FFFFFF" text-anchor="start">Charging daily-wage</text>
+<text x="74" y="14244" font-family="Fraunces, Georgia, 'Times New Roman', serif" font-size="22" fill="#FFFFFF" text-anchor="start">workers would kill</text>
+<text x="74" y="14275" font-family="Fraunces, Georgia, 'Times New Roman', serif" font-size="22" fill="#FFFFFF" text-anchor="start">adoption and betray</text>
+<text x="74" y="14306" font-family="Fraunces, Georgia, 'Times New Roman', serif" font-size="22" fill="#FFFFFF" text-anchor="start">the trust the system</text>
+<text x="74" y="14336" font-family="Fraunces, Georgia, 'Times New Roman', serif" font-size="22" fill="#FFFFFF" text-anchor="start">is built on.</text>
+<rect x="24" y="14378" width="342" height="278" rx="26" fill="#FFFFFF" stroke="#82B9E6" stroke-width="1.5" opacity="0.72"/>
+<rect x="26" y="14380" width="339" height="274" rx="24" fill="#FFFFFF" stroke="none" stroke-width="1.5" opacity="0.25"/>
+<text x="68" y="14434" font-family="'IBM Plex Mono', 'SFMono-Regular', Consolas, monospace" font-size="11" fill="#14608F" text-anchor="start" letter-spacing="3.08px">REVENUE 01</text>
+<text x="68" y="14460" font-family="Fraunces, Georgia, 'Times New Roman', serif" font-size="20" fill="#0B2E4E" text-anchor="start" font-weight="500">Hirer placement fee</text>
+<text x="68" y="14498" font-family="'IBM Plex Mono', 'SFMono-Regular', Consolas, monospace" font-size="12.5" fill="#2C5A80" text-anchor="start">Posting is free; a small fee</text>
+<text x="68" y="14520" font-family="'IBM Plex Mono', 'SFMono-Regular', Consolas, monospace" font-size="12.5" fill="#2C5A80" text-anchor="start">lands on a successful hire — or a</text>
+<text x="68" y="14541" font-family="'IBM Plex Mono', 'SFMono-Regular', Consolas, monospace" font-size="12.5" fill="#2C5A80" text-anchor="start">monthly plan for contractors</text>
+<text x="68" y="14562" font-family="'IBM Plex Mono', 'SFMono-Regular', Consolas, monospace" font-size="12.5" fill="#2C5A80" text-anchor="start">hiring crew after crew. The hirer</text>
+<text x="68" y="14583" font-family="'IBM Plex Mono', 'SFMono-Regular', Consolas, monospace" font-size="12.5" fill="#2C5A80" text-anchor="start">pays for a problem removed, not</text>
+<text x="68" y="14605" font-family="'IBM Plex Mono', 'SFMono-Regular', Consolas, monospace" font-size="12.5" fill="#2C5A80" text-anchor="start">for browsing.</text>
+<rect x="24" y="14678" width="342" height="256" rx="26" fill="#FFFFFF" stroke="#82B9E6" stroke-width="1.5" opacity="0.72"/>
+<rect x="26" y="14679" width="339" height="253" rx="24" fill="#FFFFFF" stroke="none" stroke-width="1.5" opacity="0.25"/>
+<text x="68" y="14734" font-family="'IBM Plex Mono', 'SFMono-Regular', Consolas, monospace" font-size="11" fill="#14608F" text-anchor="start" letter-spacing="3.08px">REVENUE 02</text>
+<text x="68" y="14760" font-family="Fraunces, Georgia, 'Times New Roman', serif" font-size="20" fill="#0B2E4E" text-anchor="start" font-weight="500">Paid verification add-ons</text>
+<text x="68" y="14798" font-family="'IBM Plex Mono', 'SFMono-Regular', Consolas, monospace" font-size="12.5" fill="#2C5A80" text-anchor="start">Police-linked verification and</text>
+<text x="68" y="14819" font-family="'IBM Plex Mono', 'SFMono-Regular', Consolas, monospace" font-size="12.5" fill="#2C5A80" text-anchor="start">certified skill tags as premium</text>
+<text x="68" y="14840" font-family="'IBM Plex Mono', 'SFMono-Regular', Consolas, monospace" font-size="12.5" fill="#2C5A80" text-anchor="start">checks, bought by hirers who want</text>
+<text x="68" y="14862" font-family="'IBM Plex Mono', 'SFMono-Regular', Consolas, monospace" font-size="12.5" fill="#2C5A80" text-anchor="start">extra assurance — safety as a</text>
+<text x="68" y="14883" font-family="'IBM Plex Mono', 'SFMono-Regular', Consolas, monospace" font-size="12.5" fill="#2C5A80" text-anchor="start">service, not a tax on workers.</text>
+<rect x="24" y="14956" width="342" height="278" rx="26" fill="#FFFFFF" stroke="#82B9E6" stroke-width="1.5" opacity="0.72"/>
+<rect x="26" y="14958" width="339" height="274" rx="24" fill="#FFFFFF" stroke="none" stroke-width="1.5" opacity="0.25"/>
+<text x="68" y="15012" font-family="'IBM Plex Mono', 'SFMono-Regular', Consolas, monospace" font-size="11" fill="#14608F" text-anchor="start" letter-spacing="3.08px">REVENUE 03</text>
+<text x="68" y="15038" font-family="Fraunces, Georgia, 'Times New Roman', serif" font-size="20" fill="#0B2E4E" text-anchor="start" font-weight="500">Sponsored skill courses</text>
+<text x="68" y="15076" font-family="'IBM Plex Mono', 'SFMono-Regular', Consolas, monospace" font-size="12.5" fill="#2C5A80" text-anchor="start">Training partners, NSDC-aligned</text>
+<text x="68" y="15097" font-family="'IBM Plex Mono', 'SFMono-Regular', Consolas, monospace" font-size="12.5" fill="#2C5A80" text-anchor="start">bodies and CSR funds sponsor</text>
+<text x="68" y="15119" font-family="'IBM Plex Mono', 'SFMono-Regular', Consolas, monospace" font-size="12.5" fill="#2C5A80" text-anchor="start">Skill India courses. They pay for</text>
+<text x="68" y="15140" font-family="'IBM Plex Mono', 'SFMono-Regular', Consolas, monospace" font-size="12.5" fill="#2C5A80" text-anchor="start">a pipeline of verified, skilled</text>
+<text x="68" y="15161" font-family="'IBM Plex Mono', 'SFMono-Regular', Consolas, monospace" font-size="12.5" fill="#2C5A80" text-anchor="start">workers; workers upskill free and</text>
+<text x="68" y="15182" font-family="'IBM Plex Mono', 'SFMono-Regular', Consolas, monospace" font-size="12.5" fill="#2C5A80" text-anchor="start">hirers see the tags.</text>
+<rect x="24" y="15256" width="342" height="299" rx="26" fill="#FFFFFF" stroke="#82B9E6" stroke-width="1.5" opacity="0.72"/>
+<rect x="26" y="15257" width="339" height="296" rx="24" fill="#FFFFFF" stroke="none" stroke-width="1.5" opacity="0.25"/>
+<text x="68" y="15312" font-family="'IBM Plex Mono', 'SFMono-Regular', Consolas, monospace" font-size="11" fill="#14608F" text-anchor="start" letter-spacing="3.08px">REVENUE 04</text>
+<text x="68" y="15338" font-family="Fraunces, Georgia, 'Times New Roman', serif" font-size="20" fill="#0B2E4E" text-anchor="start" font-weight="500">Kiosk sponsorship</text>
+<text x="68" y="15376" font-family="'IBM Plex Mono', 'SFMono-Regular', Consolas, monospace" font-size="12.5" fill="#2C5A80" text-anchor="start">Kiosks at bus stands and stations</text>
+<text x="68" y="15397" font-family="'IBM Plex Mono', 'SFMono-Regular', Consolas, monospace" font-size="12.5" fill="#2C5A80" text-anchor="start">carry sponsor branding — CSR</text>
+<text x="68" y="15418" font-family="'IBM Plex Mono', 'SFMono-Regular', Consolas, monospace" font-size="12.5" fill="#2C5A80" text-anchor="start">money from companies that already</text>
+<text x="68" y="15439" font-family="'IBM Plex Mono', 'SFMono-Regular', Consolas, monospace" font-size="12.5" fill="#2C5A80" text-anchor="start">spend on skilling and</text>
+<text x="68" y="15461" font-family="'IBM Plex Mono', 'SFMono-Regular', Consolas, monospace" font-size="12.5" fill="#2C5A80" text-anchor="start">livelihoods, in exchange for</text>
+<text x="68" y="15482" font-family="'IBM Plex Mono', 'SFMono-Regular', Consolas, monospace" font-size="12.5" fill="#2C5A80" text-anchor="start">visible presence where workers</text>
+<text x="68" y="15503" font-family="'IBM Plex Mono', 'SFMono-Regular', Consolas, monospace" font-size="12.5" fill="#2C5A80" text-anchor="start">gather.</text>
+<rect x="24" y="15576" width="342" height="312" rx="26" fill="#FFFFFF" stroke="#82B9E6" stroke-width="1.5" opacity="0.72"/>
+<text x="68" y="15628" font-family="'IBM Plex Mono', 'SFMono-Regular', Consolas, monospace" font-size="11" fill="#14608F" text-anchor="start" letter-spacing="3.08px">REVENUE 05 — INSTITUTIONAL</text>
+<text x="68" y="15658" font-family="Fraunces, Georgia, 'Times New Roman', serif" font-size="19" fill="#0B2E4E" text-anchor="start">Service fees from</text>
+<text x="68" y="15685" font-family="Fraunces, Georgia, 'Times New Roman', serif" font-size="19" fill="#0B2E4E" text-anchor="start">government partnership —</text>
+<text x="68" y="15712" font-family="Fraunces, Georgia, 'Times New Roman', serif" font-size="19" fill="#0B2E4E" text-anchor="start">e-Shram onboarding and</text>
+<text x="68" y="15738" font-family="Fraunces, Georgia, 'Times New Roman', serif" font-size="19" fill="#0B2E4E" text-anchor="start">state labour-department</text>
+<text x="68" y="15765" font-family="Fraunces, Georgia, 'Times New Roman', serif" font-size="19" fill="#0B2E4E" text-anchor="start">integrations, paid per</text>
+<text x="68" y="15791" font-family="Fraunces, Georgia, 'Times New Roman', serif" font-size="19" fill="#0B2E4E" text-anchor="start">worker brought into the</text>
+<text x="68" y="15818" font-family="Fraunces, Georgia, 'Times New Roman', serif" font-size="19" fill="#0B2E4E" text-anchor="start">formal fold.</text>
+<text x="24" y="15999" font-family="'IBM Plex Mono', 'SFMono-Regular', Consolas, monospace" font-size="11" fill="#14608F" text-anchor="start" letter-spacing="3.08px">07 — PERSONAS</text>
+<text x="24" y="15999" font-family="Fraunces, Georgia, 'Times New Roman', serif" font-size="34" fill="#0B2E4E" text-anchor="start">The people on both</text>
+<text x="24" y="16038" font-family="Fraunces, Georgia, 'Times New Roman', serif" font-size="34" fill="#0B2E4E" text-anchor="start">sides</text>
+<text x="24" y="16095" font-family="'IBM Plex Mono', 'SFMono-Regular', Consolas, monospace" font-size="11" fill="#2C5A80" text-anchor="start">Three hirers, three workers. Bhagat Singh</text>
+<text x="24" y="16114" font-family="'IBM Plex Mono', 'SFMono-Regular', Consolas, monospace" font-size="11" fill="#2C5A80" text-anchor="start">is field-based; the rest are sample</text>
+<text x="24" y="16132" font-family="'IBM Plex Mono', 'SFMono-Regular', Consolas, monospace" font-size="11" fill="#2C5A80" text-anchor="start">profiles built from the research patterns.</text>
+<rect x="24" y="16191" width="342" height="691" rx="26" fill="#FFFFFF" stroke="#82B9E6" stroke-width="1.5" opacity="0.72"/>
+<rect x="26" y="16192" width="339" height="688" rx="24" fill="#FFFFFF" stroke="none" stroke-width="1.5" opacity="0.25"/>
+<rect x="54" y="16221" width="205" height="30" rx="15" fill="#14608F" stroke="none" stroke-width="1.5" opacity="1.00"/>
+<text x="72" y="16241" font-family="'IBM Plex Mono', 'SFMono-Regular', Consolas, monospace" font-size="10.5" fill="#FFFFFF" text-anchor="start" letter-spacing="2.4px">HIRER · FIELD-BASED</text>
+<circle cx="86" cy="16299" r="32" fill="#14608F" stroke="none" stroke-width="1.5"/>
+<text x="86" y="16310" font-family="Fraunces, Georgia, 'Times New Roman', serif" font-size="28" fill="#FFFFFF" text-anchor="middle">भ</text>
+<text x="134" y="16295" font-family="Fraunces, Georgia, 'Times New Roman', serif" font-size="22" fill="#0B2E4E" text-anchor="start" font-weight="500">Bhagat Singh</text>
+<text x="134" y="16320" font-family="'IBM Plex Mono', 'SFMono-Regular', Consolas, monospace" font-size="10.5" fill="#5E87A8" text-anchor="start" letter-spacing="1px">39 · CANTEEN &amp; MESS · UMRI,</text>
+<text x="134" y="16335" font-family="'IBM Plex Mono', 'SFMono-Regular', Consolas, monospace" font-size="10.5" fill="#5E87A8" text-anchor="start" letter-spacing="1px">HARYANA</text>
+<text x="54" y="16382" font-family="'IBM Plex Mono', 'SFMono-Regular', Consolas, monospace" font-size="10.5" fill="#14608F" text-anchor="start" letter-spacing="2.4px">GOAL</text>
+<text x="54" y="16404" font-family="'IBM Plex Mono', 'SFMono-Regular', Consolas, monospace" font-size="12.5" fill="#2C5A80" text-anchor="start">Everyday meals and canteen orders</text>
+<text x="54" y="16425" font-family="'IBM Plex Mono', 'SFMono-Regular', Consolas, monospace" font-size="12.5" fill="#2C5A80" text-anchor="start">served smoothly, no delay — under</text>
+<text x="54" y="16446" font-family="'IBM Plex Mono', 'SFMono-Regular', Consolas, monospace" font-size="12.5" fill="#2C5A80" text-anchor="start">strict food regulations where</text>
+<text x="54" y="16468" font-family="'IBM Plex Mono', 'SFMono-Regular', Consolas, monospace" font-size="12.5" fill="#2C5A80" text-anchor="start">compliance is non-negotiable.</text>
+<text x="54" y="16509" font-family="'IBM Plex Mono', 'SFMono-Regular', Consolas, monospace" font-size="10.5" fill="#14608F" text-anchor="start" letter-spacing="2.4px">BEHAVIOUR &amp; WORKAROUNDS</text>
+<text x="54" y="16531" font-family="'IBM Plex Mono', 'SFMono-Regular', Consolas, monospace" font-size="12.5" fill="#2C5A80" text-anchor="start">Hires 15–20 workers through village</text>
+<text x="54" y="16552" font-family="'IBM Plex Mono', 'SFMono-Regular', Consolas, monospace" font-size="12.5" fill="#2C5A80" text-anchor="start">word of mouth; travels to villages</text>
+<text x="54" y="16573" font-family="'IBM Plex Mono', 'SFMono-Regular', Consolas, monospace" font-size="12.5" fill="#2C5A80" text-anchor="start">himself to spread requirements. Khata</text>
+<text x="54" y="16595" font-family="'IBM Plex Mono', 'SFMono-Regular', Consolas, monospace" font-size="12.5" fill="#2C5A80" text-anchor="start">handled by him or his brother.</text>
+<text x="54" y="16636" font-family="'IBM Plex Mono', 'SFMono-Regular', Consolas, monospace" font-size="10.5" fill="#14608F" text-anchor="start" letter-spacing="2.4px">FRUSTRATIONS</text>
+<text x="54" y="16658" font-family="'IBM Plex Mono', 'SFMono-Regular', Consolas, monospace" font-size="12.5" fill="#2C5A80" text-anchor="start">Hiring is a gamble — sometimes it</text>
+<text x="54" y="16679" font-family="'IBM Plex Mono', 'SFMono-Regular', Consolas, monospace" font-size="12.5" fill="#2C5A80" text-anchor="start">works, sometimes the canteen runs</text>
+<text x="54" y="16700" font-family="'IBM Plex Mono', 'SFMono-Regular', Consolas, monospace" font-size="12.5" fill="#2C5A80" text-anchor="start">short-staffed. New hires are</text>
+<text x="54" y="16722" font-family="'IBM Plex Mono', 'SFMono-Regular', Consolas, monospace" font-size="12.5" fill="#2C5A80" text-anchor="start">strangers: no verification, no track</text>
+<text x="54" y="16743" font-family="'IBM Plex Mono', 'SFMono-Regular', Consolas, monospace" font-size="12.5" fill="#2C5A80" text-anchor="start">record.</text>
+<text x="54" y="16784" font-family="'IBM Plex Mono', 'SFMono-Regular', Consolas, monospace" font-size="10.5" fill="#14608F" text-anchor="start" letter-spacing="2.4px">WHAT THE SYSTEM GIVES</text>
+<text x="54" y="16806" font-family="'IBM Plex Mono', 'SFMono-Regular', Consolas, monospace" font-size="12.5" fill="#2C5A80" text-anchor="start">Verified workers with ratings on his</text>
+<text x="54" y="16827" font-family="'IBM Plex Mono', 'SFMono-Regular', Consolas, monospace" font-size="12.5" fill="#2C5A80" text-anchor="start">phone; attendance logs that end khata</text>
+<text x="54" y="16849" font-family="'IBM Plex Mono', 'SFMono-Regular', Consolas, monospace" font-size="12.5" fill="#2C5A80" text-anchor="start">disputes.</text>
+<rect x="24" y="16904" width="342" height="648" rx="26" fill="#FFFFFF" stroke="#82B9E6" stroke-width="1.5" opacity="0.72"/>
+<rect x="26" y="16905" width="339" height="646" rx="24" fill="#FFFFFF" stroke="none" stroke-width="1.5" opacity="0.25"/>
+<rect x="54" y="16934" width="162" height="30" rx="15" fill="#14608F" stroke="none" stroke-width="1.5" opacity="1.00"/>
+<text x="72" y="16954" font-family="'IBM Plex Mono', 'SFMono-Regular', Consolas, monospace" font-size="10.5" fill="#FFFFFF" text-anchor="start" letter-spacing="2.4px">HIRER · SAMPLE</text>
+<circle cx="86" cy="17012" r="32" fill="#14608F" stroke="none" stroke-width="1.5"/>
+<text x="86" y="17023" font-family="Fraunces, Georgia, 'Times New Roman', serif" font-size="28" fill="#FFFFFF" text-anchor="middle">मी</text>
+<text x="134" y="17008" font-family="Fraunces, Georgia, 'Times New Roman', serif" font-size="22" fill="#0B2E4E" text-anchor="start" font-weight="500">Meera Sharma</text>
+<text x="134" y="17033" font-family="'IBM Plex Mono', 'SFMono-Regular', Consolas, monospace" font-size="10.5" fill="#5E87A8" text-anchor="start" letter-spacing="1px">44 · HOUSEHOLD EMPLOYER ·</text>
+<text x="134" y="17048" font-family="'IBM Plex Mono', 'SFMono-Regular', Consolas, monospace" font-size="10.5" fill="#5E87A8" text-anchor="start" letter-spacing="1px">SOUTH DELHI</text>
+<text x="54" y="17095" font-family="'IBM Plex Mono', 'SFMono-Regular', Consolas, monospace" font-size="10.5" fill="#14608F" text-anchor="start" letter-spacing="2.4px">GOAL</text>
+<text x="54" y="17117" font-family="'IBM Plex Mono', 'SFMono-Regular', Consolas, monospace" font-size="12.5" fill="#2C5A80" text-anchor="start">Reliable domestic help she can trust</text>
+<text x="54" y="17138" font-family="'IBM Plex Mono', 'SFMono-Regular', Consolas, monospace" font-size="12.5" fill="#2C5A80" text-anchor="start">inside her home — cooking and</text>
+<text x="54" y="17159" font-family="'IBM Plex Mono', 'SFMono-Regular', Consolas, monospace" font-size="12.5" fill="#2C5A80" text-anchor="start">cleaning, six days a week.</text>
+<text x="54" y="17201" font-family="'IBM Plex Mono', 'SFMono-Regular', Consolas, monospace" font-size="10.5" fill="#14608F" text-anchor="start" letter-spacing="2.4px">BEHAVIOUR &amp; WORKAROUNDS</text>
+<text x="54" y="17223" font-family="'IBM Plex Mono', 'SFMono-Regular', Consolas, monospace" font-size="12.5" fill="#2C5A80" text-anchor="start">Asks neighbours, tries agencies that</text>
+<text x="54" y="17244" font-family="'IBM Plex Mono', 'SFMono-Regular', Consolas, monospace" font-size="12.5" fill="#2C5A80" text-anchor="start">charge a month's salary as</text>
+<text x="54" y="17265" font-family="'IBM Plex Mono', 'SFMono-Regular', Consolas, monospace" font-size="12.5" fill="#2C5A80" text-anchor="start">commission. Every agency worker quits</text>
+<text x="54" y="17286" font-family="'IBM Plex Mono', 'SFMono-Regular', Consolas, monospace" font-size="12.5" fill="#2C5A80" text-anchor="start">within weeks; the search restarts.</text>
+<text x="54" y="17328" font-family="'IBM Plex Mono', 'SFMono-Regular', Consolas, monospace" font-size="10.5" fill="#14608F" text-anchor="start" letter-spacing="2.4px">FRUSTRATIONS</text>
+<text x="54" y="17350" font-family="'IBM Plex Mono', 'SFMono-Regular', Consolas, monospace" font-size="12.5" fill="#2C5A80" text-anchor="start">Safety fears with strangers at home;</text>
+<text x="54" y="17371" font-family="'IBM Plex Mono', 'SFMono-Regular', Consolas, monospace" font-size="12.5" fill="#2C5A80" text-anchor="start">no way to check a worker's history;</text>
+<text x="54" y="17392" font-family="'IBM Plex Mono', 'SFMono-Regular', Consolas, monospace" font-size="12.5" fill="#2C5A80" text-anchor="start">agency fees with zero accountability.</text>
+<text x="54" y="17433" font-family="'IBM Plex Mono', 'SFMono-Regular', Consolas, monospace" font-size="10.5" fill="#14608F" text-anchor="start" letter-spacing="2.4px">WHAT THE SYSTEM GIVES</text>
+<text x="54" y="17455" font-family="'IBM Plex Mono', 'SFMono-Regular', Consolas, monospace" font-size="12.5" fill="#2C5A80" text-anchor="start">Verified profiles with source-stated</text>
+<text x="54" y="17477" font-family="'IBM Plex Mono', 'SFMono-Regular', Consolas, monospace" font-size="12.5" fill="#2C5A80" text-anchor="start">badges and bidirectional ratings —</text>
+<text x="54" y="17498" font-family="'IBM Plex Mono', 'SFMono-Regular', Consolas, monospace" font-size="12.5" fill="#2C5A80" text-anchor="start">trust she can inspect, not just hope</text>
+<text x="54" y="17519" font-family="'IBM Plex Mono', 'SFMono-Regular', Consolas, monospace" font-size="12.5" fill="#2C5A80" text-anchor="start">for.</text>
+<rect x="24" y="17574" width="342" height="670" rx="26" fill="#FFFFFF" stroke="#82B9E6" stroke-width="1.5" opacity="0.72"/>
+<rect x="26" y="17576" width="339" height="667" rx="24" fill="#FFFFFF" stroke="none" stroke-width="1.5" opacity="0.25"/>
+<rect x="54" y="17604" width="162" height="30" rx="15" fill="#14608F" stroke="none" stroke-width="1.5" opacity="1.00"/>
+<text x="72" y="17624" font-family="'IBM Plex Mono', 'SFMono-Regular', Consolas, monospace" font-size="10.5" fill="#FFFFFF" text-anchor="start" letter-spacing="2.4px">HIRER · SAMPLE</text>
+<circle cx="86" cy="17682" r="32" fill="#14608F" stroke="none" stroke-width="1.5"/>
+<text x="86" y="17693" font-family="Fraunces, Georgia, 'Times New Roman', serif" font-size="28" fill="#FFFFFF" text-anchor="middle">ब</text>
+<text x="134" y="17678" font-family="Fraunces, Georgia, 'Times New Roman', serif" font-size="22" fill="#0B2E4E" text-anchor="start" font-weight="500">Balraj Yadav</text>
+<text x="134" y="17703" font-family="'IBM Plex Mono', 'SFMono-Regular', Consolas, monospace" font-size="10.5" fill="#5E87A8" text-anchor="start" letter-spacing="1px">51 · BUILDING CONTRACTOR ·</text>
+<text x="134" y="17718" font-family="'IBM Plex Mono', 'SFMono-Regular', Consolas, monospace" font-size="10.5" fill="#5E87A8" text-anchor="start" letter-spacing="1px">NOIDA</text>
+<text x="54" y="17765" font-family="'IBM Plex Mono', 'SFMono-Regular', Consolas, monospace" font-size="10.5" fill="#14608F" text-anchor="start" letter-spacing="2.4px">GOAL</text>
+<text x="54" y="17787" font-family="'IBM Plex Mono', 'SFMono-Regular', Consolas, monospace" font-size="12.5" fill="#2C5A80" text-anchor="start">8–12 site workers on day one of every</text>
+<text x="54" y="17809" font-family="'IBM Plex Mono', 'SFMono-Regular', Consolas, monospace" font-size="12.5" fill="#2C5A80" text-anchor="start">project — masons, helpers, mixers —</text>
+<text x="54" y="17830" font-family="'IBM Plex Mono', 'SFMono-Regular', Consolas, monospace" font-size="12.5" fill="#2C5A80" text-anchor="start">without losing a week to assembling a</text>
+<text x="54" y="17851" font-family="'IBM Plex Mono', 'SFMono-Regular', Consolas, monospace" font-size="12.5" fill="#2C5A80" text-anchor="start">crew.</text>
+<text x="54" y="17892" font-family="'IBM Plex Mono', 'SFMono-Regular', Consolas, monospace" font-size="10.5" fill="#14608F" text-anchor="start" letter-spacing="2.4px">BEHAVIOUR &amp; WORKAROUNDS</text>
+<text x="54" y="17914" font-family="'IBM Plex Mono', 'SFMono-Regular', Consolas, monospace" font-size="12.5" fill="#2C5A80" text-anchor="start">Hires through mistri referrals and</text>
+<text x="54" y="17936" font-family="'IBM Plex Mono', 'SFMono-Regular', Consolas, monospace" font-size="12.5" fill="#2C5A80" text-anchor="start">the morning labour chowk. Attendance</text>
+<text x="54" y="17957" font-family="'IBM Plex Mono', 'SFMono-Regular', Consolas, monospace" font-size="12.5" fill="#2C5A80" text-anchor="start">on a paper register; wages settled in</text>
+<text x="54" y="17978" font-family="'IBM Plex Mono', 'SFMono-Regular', Consolas, monospace" font-size="12.5" fill="#2C5A80" text-anchor="start">cash on memory.</text>
+<text x="54" y="18019" font-family="'IBM Plex Mono', 'SFMono-Regular', Consolas, monospace" font-size="10.5" fill="#14608F" text-anchor="start" letter-spacing="2.4px">FRUSTRATIONS</text>
+<text x="54" y="18041" font-family="'IBM Plex Mono', 'SFMono-Regular', Consolas, monospace" font-size="12.5" fill="#2C5A80" text-anchor="start">Workers don't show up and there's no</text>
+<text x="54" y="18063" font-family="'IBM Plex Mono', 'SFMono-Regular', Consolas, monospace" font-size="12.5" fill="#2C5A80" text-anchor="start">backup list. Wage disputes with no</text>
+<text x="54" y="18084" font-family="'IBM Plex Mono', 'SFMono-Regular', Consolas, monospace" font-size="12.5" fill="#2C5A80" text-anchor="start">record poison the next project's</text>
+<text x="54" y="18105" font-family="'IBM Plex Mono', 'SFMono-Regular', Consolas, monospace" font-size="12.5" fill="#2C5A80" text-anchor="start">hiring.</text>
+<text x="54" y="18146" font-family="'IBM Plex Mono', 'SFMono-Regular', Consolas, monospace" font-size="10.5" fill="#14608F" text-anchor="start" letter-spacing="2.4px">WHAT THE SYSTEM GIVES</text>
+<text x="54" y="18168" font-family="'IBM Plex Mono', 'SFMono-Regular', Consolas, monospace" font-size="12.5" fill="#2C5A80" text-anchor="start">One post reaches kiosks across</text>
+<text x="54" y="18190" font-family="'IBM Plex Mono', 'SFMono-Regular', Consolas, monospace" font-size="12.5" fill="#2C5A80" text-anchor="start">hotspots; attendance logs both sides</text>
+<text x="54" y="18211" font-family="'IBM Plex Mono', 'SFMono-Regular', Consolas, monospace" font-size="12.5" fill="#2C5A80" text-anchor="start">can see.</text>
+<rect x="24" y="18266" width="342" height="655" rx="26" fill="#FFFFFF" stroke="#82B9E6" stroke-width="1.5" opacity="0.72"/>
+<rect x="26" y="18268" width="339" height="652" rx="24" fill="#FFFFFF" stroke="none" stroke-width="1.5" opacity="0.25"/>
+<rect x="54" y="18296" width="170" height="30" rx="15" fill="#2D9C6E" stroke="none" stroke-width="1.5" opacity="1.00"/>
+<text x="72" y="18316" font-family="'IBM Plex Mono', 'SFMono-Regular', Consolas, monospace" font-size="10.5" fill="#FFFFFF" text-anchor="start" letter-spacing="2.4px">WORKER · SAMPLE</text>
+<circle cx="86" cy="18374" r="32" fill="#2D9C6E" stroke="none" stroke-width="1.5"/>
+<text x="86" y="18385" font-family="Fraunces, Georgia, 'Times New Roman', serif" font-size="28" fill="#FFFFFF" text-anchor="middle">सु</text>
+<text x="134" y="18370" font-family="Fraunces, Georgia, 'Times New Roman', serif" font-size="22" fill="#0B2E4E" text-anchor="start" font-weight="500">Sunita Devi</text>
+<text x="134" y="18395" font-family="'IBM Plex Mono', 'SFMono-Regular', Consolas, monospace" font-size="10.5" fill="#5E87A8" text-anchor="start" letter-spacing="1px">38 · DOMESTIC WORKER · DELHI</text>
+<text x="54" y="18442" font-family="'IBM Plex Mono', 'SFMono-Regular', Consolas, monospace" font-size="10.5" fill="#14608F" text-anchor="start" letter-spacing="2.4px">GOAL</text>
+<text x="54" y="18464" font-family="'IBM Plex Mono', 'SFMono-Regular', Consolas, monospace" font-size="12.5" fill="#2C5A80" text-anchor="start">Steady monthly work in 3–4 houses —</text>
+<text x="54" y="18485" font-family="'IBM Plex Mono', 'SFMono-Regular', Consolas, monospace" font-size="12.5" fill="#2C5A80" text-anchor="start">enough to keep her children in school</text>
+<text x="54" y="18507" font-family="'IBM Plex Mono', 'SFMono-Regular', Consolas, monospace" font-size="12.5" fill="#2C5A80" text-anchor="start">without depending on any single</text>
+<text x="54" y="18528" font-family="'IBM Plex Mono', 'SFMono-Regular', Consolas, monospace" font-size="12.5" fill="#2C5A80" text-anchor="start">employer.</text>
+<text x="54" y="18569" font-family="'IBM Plex Mono', 'SFMono-Regular', Consolas, monospace" font-size="10.5" fill="#14608F" text-anchor="start" letter-spacing="2.4px">BEHAVIOUR &amp; WORKAROUNDS</text>
+<text x="54" y="18591" font-family="'IBM Plex Mono', 'SFMono-Regular', Consolas, monospace" font-size="12.5" fill="#2C5A80" text-anchor="start">Finds work through neighbours. No</text>
+<text x="54" y="18612" font-family="'IBM Plex Mono', 'SFMono-Regular', Consolas, monospace" font-size="12.5" fill="#2C5A80" text-anchor="start">phone of her own — uses her</text>
+<text x="54" y="18634" font-family="'IBM Plex Mono', 'SFMono-Regular', Consolas, monospace" font-size="12.5" fill="#2C5A80" text-anchor="start">husband's; cannot read English,</text>
+<text x="54" y="18655" font-family="'IBM Plex Mono', 'SFMono-Regular', Consolas, monospace" font-size="12.5" fill="#2C5A80" text-anchor="start">manages with Hindi and voice notes.</text>
+<text x="54" y="18696" font-family="'IBM Plex Mono', 'SFMono-Regular', Consolas, monospace" font-size="10.5" fill="#14608F" text-anchor="start" letter-spacing="2.4px">FRUSTRATIONS</text>
+<text x="54" y="18718" font-family="'IBM Plex Mono', 'SFMono-Regular', Consolas, monospace" font-size="12.5" fill="#2C5A80" text-anchor="start">When a house drops her, income stops</text>
+<text x="54" y="18739" font-family="'IBM Plex Mono', 'SFMono-Regular', Consolas, monospace" font-size="12.5" fill="#2C5A80" text-anchor="start">with no notice. Her years of good</text>
+<text x="54" y="18761" font-family="'IBM Plex Mono', 'SFMono-Regular', Consolas, monospace" font-size="12.5" fill="#2C5A80" text-anchor="start">work leave no trace — every new house</text>
+<text x="54" y="18782" font-family="'IBM Plex Mono', 'SFMono-Regular', Consolas, monospace" font-size="12.5" fill="#2C5A80" text-anchor="start">starts at zero trust.</text>
+<text x="54" y="18823" font-family="'IBM Plex Mono', 'SFMono-Regular', Consolas, monospace" font-size="10.5" fill="#14608F" text-anchor="start" letter-spacing="2.4px">WHAT THE SYSTEM GIVES</text>
+<text x="54" y="18845" font-family="'IBM Plex Mono', 'SFMono-Regular', Consolas, monospace" font-size="12.5" fill="#2C5A80" text-anchor="start">A portable reputation that travels</text>
+<text x="54" y="18866" font-family="'IBM Plex Mono', 'SFMono-Regular', Consolas, monospace" font-size="12.5" fill="#2C5A80" text-anchor="start">with her; jobs found by voice at a</text>
+<text x="54" y="18888" font-family="'IBM Plex Mono', 'SFMono-Regular', Consolas, monospace" font-size="12.5" fill="#2C5A80" text-anchor="start">kiosk, confirmed by SMS.</text>
+<rect x="24" y="18943" width="342" height="648" rx="26" fill="#FFFFFF" stroke="#82B9E6" stroke-width="1.5" opacity="0.72"/>
+<rect x="26" y="18944" width="339" height="646" rx="24" fill="#FFFFFF" stroke="none" stroke-width="1.5" opacity="0.25"/>
+<rect x="54" y="18973" width="170" height="30" rx="15" fill="#2D9C6E" stroke="none" stroke-width="1.5" opacity="1.00"/>
+<text x="72" y="18993" font-family="'IBM Plex Mono', 'SFMono-Regular', Consolas, monospace" font-size="10.5" fill="#FFFFFF" text-anchor="start" letter-spacing="2.4px">WORKER · SAMPLE</text>
+<circle cx="86" cy="19051" r="32" fill="#2D9C6E" stroke="none" stroke-width="1.5"/>
+<text x="86" y="19062" font-family="Fraunces, Georgia, 'Times New Roman', serif" font-size="28" fill="#FFFFFF" text-anchor="middle">र</text>
+<text x="134" y="19047" font-family="Fraunces, Georgia, 'Times New Roman', serif" font-size="22" fill="#0B2E4E" text-anchor="start" font-weight="500">Ramesh Kumar</text>
+<text x="134" y="19072" font-family="'IBM Plex Mono', 'SFMono-Regular', Consolas, monospace" font-size="10.5" fill="#5E87A8" text-anchor="start" letter-spacing="1px">34 · CONSTRUCTION WORKER ·</text>
+<text x="134" y="19087" font-family="'IBM Plex Mono', 'SFMono-Regular', Consolas, monospace" font-size="10.5" fill="#5E87A8" text-anchor="start" letter-spacing="1px">BIHAR → DELHI</text>
+<text x="54" y="19134" font-family="'IBM Plex Mono', 'SFMono-Regular', Consolas, monospace" font-size="10.5" fill="#14608F" text-anchor="start" letter-spacing="2.4px">GOAL</text>
+<text x="54" y="19156" font-family="'IBM Plex Mono', 'SFMono-Regular', Consolas, monospace" font-size="12.5" fill="#2C5A80" text-anchor="start">Daily wages without the daily</text>
+<text x="54" y="19177" font-family="'IBM Plex Mono', 'SFMono-Regular', Consolas, monospace" font-size="12.5" fill="#2C5A80" text-anchor="start">uncertainty — know the night before</text>
+<text x="54" y="19198" font-family="'IBM Plex Mono', 'SFMono-Regular', Consolas, monospace" font-size="12.5" fill="#2C5A80" text-anchor="start">whether tomorrow pays.</text>
+<text x="54" y="19240" font-family="'IBM Plex Mono', 'SFMono-Regular', Consolas, monospace" font-size="10.5" fill="#14608F" text-anchor="start" letter-spacing="2.4px">BEHAVIOUR &amp; WORKAROUNDS</text>
+<text x="54" y="19262" font-family="'IBM Plex Mono', 'SFMono-Regular', Consolas, monospace" font-size="12.5" fill="#2C5A80" text-anchor="start">Gathers at the labour chowk at dawn;</text>
+<text x="54" y="19283" font-family="'IBM Plex Mono', 'SFMono-Regular', Consolas, monospace" font-size="12.5" fill="#2C5A80" text-anchor="start">waits to be picked. Some days chosen,</text>
+<text x="54" y="19304" font-family="'IBM Plex Mono', 'SFMono-Regular', Consolas, monospace" font-size="12.5" fill="#2C5A80" text-anchor="start">some days not. Basic keypad phone, no</text>
+<text x="54" y="19325" font-family="'IBM Plex Mono', 'SFMono-Regular', Consolas, monospace" font-size="12.5" fill="#2C5A80" text-anchor="start">data.</text>
+<text x="54" y="19367" font-family="'IBM Plex Mono', 'SFMono-Regular', Consolas, monospace" font-size="10.5" fill="#14608F" text-anchor="start" letter-spacing="2.4px">FRUSTRATIONS</text>
+<text x="54" y="19389" font-family="'IBM Plex Mono', 'SFMono-Regular', Consolas, monospace" font-size="12.5" fill="#2C5A80" text-anchor="start">The wait itself is the tax — hours</text>
+<text x="54" y="19410" font-family="'IBM Plex Mono', 'SFMono-Regular', Consolas, monospace" font-size="12.5" fill="#2C5A80" text-anchor="start">unpaid, every morning. Contractors</text>
+<text x="54" y="19431" font-family="'IBM Plex Mono', 'SFMono-Regular', Consolas, monospace" font-size="12.5" fill="#2C5A80" text-anchor="start">he's worked for can't find him again</text>
+<text x="54" y="19452" font-family="'IBM Plex Mono', 'SFMono-Regular', Consolas, monospace" font-size="12.5" fill="#2C5A80" text-anchor="start">when they need him.</text>
+<text x="54" y="19494" font-family="'IBM Plex Mono', 'SFMono-Regular', Consolas, monospace" font-size="10.5" fill="#14608F" text-anchor="start" letter-spacing="2.4px">WHAT THE SYSTEM GIVES</text>
+<text x="54" y="19516" font-family="'IBM Plex Mono', 'SFMono-Regular', Consolas, monospace" font-size="12.5" fill="#2C5A80" text-anchor="start">Job cards with pay, distance and</text>
+<text x="54" y="19537" font-family="'IBM Plex Mono', 'SFMono-Regular', Consolas, monospace" font-size="12.5" fill="#2C5A80" text-anchor="start">start time the evening before; a</text>
+<text x="54" y="19558" font-family="'IBM Plex Mono', 'SFMono-Regular', Consolas, monospace" font-size="12.5" fill="#2C5A80" text-anchor="start">token that holds his place.</text>
+<rect x="24" y="19613" width="342" height="591" rx="26" fill="#FFFFFF" stroke="#82B9E6" stroke-width="1.5" opacity="0.72"/>
+<rect x="26" y="19615" width="339" height="588" rx="24" fill="#FFFFFF" stroke="none" stroke-width="1.5" opacity="0.25"/>
+<rect x="54" y="19643" width="170" height="30" rx="15" fill="#2D9C6E" stroke="none" stroke-width="1.5" opacity="1.00"/>
+<text x="72" y="19663" font-family="'IBM Plex Mono', 'SFMono-Regular', Consolas, monospace" font-size="10.5" fill="#FFFFFF" text-anchor="start" letter-spacing="2.4px">WORKER · SAMPLE</text>
+<circle cx="86" cy="19721" r="32" fill="#2D9C6E" stroke="none" stroke-width="1.5"/>
+<text x="86" y="19732" font-family="Fraunces, Georgia, 'Times New Roman', serif" font-size="28" fill="#FFFFFF" text-anchor="middle">इ</text>
+<text x="134" y="19717" font-family="Fraunces, Georgia, 'Times New Roman', serif" font-size="22" fill="#0B2E4E" text-anchor="start" font-weight="500">Imran Sheikh</text>
+<text x="134" y="19742" font-family="'IBM Plex Mono', 'SFMono-Regular', Consolas, monospace" font-size="10.5" fill="#5E87A8" text-anchor="start" letter-spacing="1px">27 · DRIVER / DELIVERY · DELHI</text>
+<text x="54" y="19789" font-family="'IBM Plex Mono', 'SFMono-Regular', Consolas, monospace" font-size="10.5" fill="#14608F" text-anchor="start" letter-spacing="2.4px">GOAL</text>
+<text x="54" y="19811" font-family="'IBM Plex Mono', 'SFMono-Regular', Consolas, monospace" font-size="12.5" fill="#2C5A80" text-anchor="start">Trade gig fluctuations for one steady</text>
+<text x="54" y="19833" font-family="'IBM Plex Mono', 'SFMono-Regular', Consolas, monospace" font-size="12.5" fill="#2C5A80" text-anchor="start">monthly driving or delivery job.</text>
+<text x="54" y="19874" font-family="'IBM Plex Mono', 'SFMono-Regular', Consolas, monospace" font-size="10.5" fill="#14608F" text-anchor="start" letter-spacing="2.4px">BEHAVIOUR &amp; WORKAROUNDS</text>
+<text x="54" y="19896" font-family="'IBM Plex Mono', 'SFMono-Regular', Consolas, monospace" font-size="12.5" fill="#2C5A80" text-anchor="start">Has a basic smartphone but rations</text>
+<text x="54" y="19917" font-family="'IBM Plex Mono', 'SFMono-Regular', Consolas, monospace" font-size="12.5" fill="#2C5A80" text-anchor="start">mobile data; juggles two gig apps.</text>
+<text x="54" y="19938" font-family="'IBM Plex Mono', 'SFMono-Regular', Consolas, monospace" font-size="12.5" fill="#2C5A80" text-anchor="start">Asks at auto stands about monthly</text>
+<text x="54" y="19960" font-family="'IBM Plex Mono', 'SFMono-Regular', Consolas, monospace" font-size="12.5" fill="#2C5A80" text-anchor="start">openings.</text>
+<text x="54" y="20001" font-family="'IBM Plex Mono', 'SFMono-Regular', Consolas, monospace" font-size="10.5" fill="#14608F" text-anchor="start" letter-spacing="2.4px">FRUSTRATIONS</text>
+<text x="54" y="20023" font-family="'IBM Plex Mono', 'SFMono-Regular', Consolas, monospace" font-size="12.5" fill="#2C5A80" text-anchor="start">Gig ratings don't transfer anywhere —</text>
+<text x="54" y="20044" font-family="'IBM Plex Mono', 'SFMono-Regular', Consolas, monospace" font-size="12.5" fill="#2C5A80" text-anchor="start">4.8 stars on an app means nothing to</text>
+<text x="54" y="20065" font-family="'IBM Plex Mono', 'SFMono-Regular', Consolas, monospace" font-size="12.5" fill="#2C5A80" text-anchor="start">a canteen owner hiring a driver.</text>
+<text x="54" y="20107" font-family="'IBM Plex Mono', 'SFMono-Regular', Consolas, monospace" font-size="10.5" fill="#14608F" text-anchor="start" letter-spacing="2.4px">WHAT THE SYSTEM GIVES</text>
+<text x="54" y="20129" font-family="'IBM Plex Mono', 'SFMono-Regular', Consolas, monospace" font-size="12.5" fill="#2C5A80" text-anchor="start">One verified identity and portable</text>
+<text x="54" y="20150" font-family="'IBM Plex Mono', 'SFMono-Regular', Consolas, monospace" font-size="12.5" fill="#2C5A80" text-anchor="start">ratings that any hirer on the system</text>
+<text x="54" y="20171" font-family="'IBM Plex Mono', 'SFMono-Regular', Consolas, monospace" font-size="12.5" fill="#2C5A80" text-anchor="start">can read.</text>
+<text x="195" y="20294" font-family="Fraunces, Georgia, 'Times New Roman', serif" font-size="28" fill="#0B2E4E" text-anchor="middle">Kaam × RozgaarSetu</text>
+<text x="195" y="20346" font-family="'IBM Plex Mono', 'SFMono-Regular', Consolas, monospace" font-size="12.5" fill="#2C5A80" text-anchor="middle">Final research compilation · UI/UX</text>
+<text x="195" y="20372" font-family="'IBM Plex Mono', 'SFMono-Regular', Consolas, monospace" font-size="12.5" fill="#5E87A8" text-anchor="middle">Sample personas are composites built from</text>
+<text x="195" y="20389" font-family="'IBM Plex Mono', 'SFMono-Regular', Consolas, monospace" font-size="12.5" fill="#5E87A8" text-anchor="middle">research patterns; Bhagat Singh is</text>
+<text x="195" y="20407" font-family="'IBM Plex Mono', 'SFMono-Regular', Consolas, monospace" font-size="12.5" fill="#5E87A8" text-anchor="middle">field-based.</text>
+</svg>
