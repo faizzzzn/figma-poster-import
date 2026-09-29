@@ -1,0 +1,45 @@
+name: import-portfolio-v7-to-figma
+
+on:
+  workflow_dispatch:
+    inputs:
+      file_name:
+        description: "Name for the new Figma file"
+        default: "Faizan Haidri — Portfolio Website v7"
+
+jobs:
+  import:
+    runs-on: ubuntu-latest
+    timeout-minutes: 45
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Install deps (Pillow, Playwright + Chromium)
+        run: |
+          pip install pillow playwright
+          python -m playwright install chromium --with-deps
+
+      - name: Generate portfolio v7 Figma artboards
+        run: python build_portfolio_v7_exact.py --out website_svg_portfolio_v7
+
+      - name: Import portfolio v7 into Figma
+        env:
+          FIGMA_EMAIL: ${{ secrets.FIGMA_EMAIL }}
+          FIGMA_PASSWORD: ${{ secrets.FIGMA_PASSWORD }}
+          # fast viewport-pan placement (12 artboards); 0 = legacy nudge
+          PASTE_STRIDE_PX: "2000"
+        run: |
+          python import_research.py \
+            --svgs website_svg_portfolio_v7 \
+            --name "${{ inputs.file_name }}"
+
+      - name: Upload screenshots
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: figma-portfolio-v7-import-shots
+          path: shots/
