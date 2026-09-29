@@ -1,0 +1,52 @@
+name: import-magazine-to-figma
+
+on:
+  workflow_dispatch:
+    inputs:
+      file_name:
+        description: "Name for the new Figma file"
+        default: "GATHER NO MOSS — Rolling Stones Magazine"
+
+jobs:
+  import:
+    runs-on: ubuntu-latest
+    timeout-minutes: 45
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Install deps (Playwright + Chromium)
+        run: |
+          pip install playwright
+          python -m playwright install chromium --with-deps
+
+      - name: Install magazine fonts (Anton, Archivo)
+        run: |
+          mkdir -p ~/.local/share/fonts
+          cp magazine/fonts/*.ttf ~/.local/share/fonts/
+          fc-cache -f ~/.local/share/fonts
+          fc-list | grep -iE "anton|archivo" | head -5
+
+      - name: Generate magazine Figma artboards
+        run: python build_magazine_exact.py
+
+      - name: Import magazine into Figma
+        env:
+          FIGMA_EMAIL: ${{ secrets.FIGMA_EMAIL }}
+          FIGMA_PASSWORD: ${{ secrets.FIGMA_PASSWORD }}
+          # fast viewport-pan placement (10 artboards); 0 = legacy nudge
+          PASTE_STRIDE_PX: "1000"
+        run: |
+          python import_research.py \
+            --svgs magazine_svg \
+            --name "${{ inputs.file_name }}"
+
+      - name: Upload screenshots
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: figma-magazine-import-shots
+          path: shots/
