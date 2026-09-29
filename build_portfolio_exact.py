@@ -5,8 +5,9 @@ Renders portfolio.html (committed next to this script) in headless Chromium,
 extracts the REAL rendered layout -- per-line text runs with exact position,
 font, size, weight, color, letter-spacing, alignment, plus image rects with
 their data-URI sources -- and emits 12 SVGs (main page + 5 case studies x
-desktop 1440 / mobile 390) with editable <text> and <image> layers over a
-raster backdrop layer (hide the raster group in Figma for clean text editing).
+desktop 1440 / mobile 390) with editable <text> and <image> layers over
+flat opaque background rects. NO raster backdrop layer (dropped per
+Faizan's request -- it caused a visual glitch in Figma).
 
 Usage:
     python3 build_portfolio_exact.py [--out website_svg_portfolio] [--only 01]
@@ -14,8 +15,6 @@ Usage:
 Requires: playwright + Chromium (headless), Pillow (only for QA).
 """
 import argparse
-import base64
-import io
 import json
 import os
 import re
@@ -211,7 +210,7 @@ EXTRACT_JS = r"""
                      src, fit: csOf(img).objectFit || 'fill'});
   });
 
-  // ---- opaque flat backgrounds (for the clean-edit layer under the raster) ----
+  // ---- opaque flat backgrounds (clean-edit layer; no raster backdrop) ----
   const seen = [];
   root.querySelectorAll('*').forEach(el => {
     if(!isVis(el)) return;
@@ -249,26 +248,22 @@ def fit_to_par(fit):
     return "none"
 
 
-def build_svg(name, W, H, page_bg, bgs, raster_b64, images, texts):
+def build_svg(name, W, H, page_bg, bgs, images, texts):
     p = []
     A = p.append
     A('<?xml version="1.0" encoding="UTF-8"?>')
     A(f'<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" '
       f'width="{W}" height="{H}" viewBox="0 0 {W} {H}">')
     A(f'<title>{escape(name)}</title>')
-    # 1. flat backgrounds (clean-edit layer)
+    # 1. flat backgrounds (clean-edit layer; full-artboard rect guarantees
+    #    nothing transparent shows through)
     A('<g id="flat-backgrounds">')
     A(f'<rect x="0" y="0" width="{W}" height="{H}" fill="{page_bg}"/>')
     for b in bgs:
         A(f'<rect x="{b["x"]:.1f}" y="{b["y"]:.1f}" width="{b["w"]:.1f}" height="{b["h"]:.1f}" '
           f'fill="{b["fill"]}"/>')
     A('</g>')
-    # 2. raster backdrop (pixel-faithful; hide in Figma to edit text cleanly)
-    A('<g id="raster-backdrop">')
-    A(f'<image x="0" y="0" width="{W}" height="{H}" preserveAspectRatio="none" '
-      f'xlink:href="data:image/jpeg;base64,{raster_b64}"/>')
-    A('</g>')
-    # 3. images
+    # 2. images (editable, unaltered sources at exact rects)
     A('<g id="images">')
     for im in images:
         par = fit_to_par(im["fit"])
@@ -364,13 +359,9 @@ def capture_view(pw, name, vw, vh, slug, out_dir):
             f"images={len(data['images'])} bgs={len(data['bgs'])} "
             f"skipped_imgs={data.get('skipped', 0)}")
 
-        # raster backdrop: full-page JPEG (fixed .nav renders once at top)
-        shot = page.screenshot(full_page=True, type="jpeg", quality=72)
-        raster_b64 = base64.b64encode(shot).decode("ascii")
-        log(f"{name}: raster {len(shot)//1024}KB")
-
+        # no raster backdrop: flat backgrounds + images + text only
         svg = build_svg(name, W, H, data["pageBg"], data["bgs"],
-                        raster_b64, data["images"], data["texts"])
+                        data["images"], data["texts"])
         dest = out_dir / f"{name}.svg"
         dest.write_text(svg, encoding="utf-8")
         log(f"{name}: wrote {len(svg)//1024}KB -> {dest.name}")
