@@ -1,0 +1,37 @@
+name: find-figma-file-url
+
+on:
+  workflow_dispatch:
+    inputs:
+      file_name:
+        description: "Exact Figma file name to open"
+        default: "Faizan Haidri — Project Pages"
+
+jobs:
+  find:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Install deps (Playwright + Chromium)
+        run: |
+          pip install playwright
+          python -m playwright install chromium --with-deps
+
+      - name: Find file URL
+        env:
+          FIGMA_EMAIL: ${{ secrets.FIGMA_EMAIL }}
+          FIGMA_PASSWORD: ${{ secrets.FIGMA_PASSWORD }}
+        run: python find_file_url.py --name "${{ inputs.file_name }}"
+
+      - name: Upload screenshots
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: figma-find-url-shots
+          path: shots/

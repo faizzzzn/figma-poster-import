@@ -128,6 +128,14 @@ def main():
             page.screenshot(path="shots/no-editor.png")
             log("the editor did not open \u2014 see shots/no-editor.png")
             sys.exit(5)
+        # /design/new is the pre-navigation template URL -- wait for the real
+        # file key before capturing, otherwise the summary link is useless.
+        try:
+            page.wait_for_url(re.compile(r"figma\.com/design/(?!new\b)[A-Za-z0-9]"),
+                              timeout=90000)
+        except Exception:
+            log("WARNING: editor URL never resolved to a file key; "
+                "capturing whatever URL is current")
         file_url = page.url
         log("editor open:", file_url)
         page.wait_for_timeout(9000)
