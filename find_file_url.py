@@ -84,12 +84,13 @@ def main():
             page.screenshot(path="shots/find-not-found.png")
             log(f'file "{args.name}" not found in this view')
             sys.exit(4)
-        # Tiles open the file in a NEW tab — capture the popup. Fall back
-        # to same-tab navigation if no popup appears.
+        # A single click only SELECTS the tile (blue outline) — Figma's
+        # file browser needs a double-click to open. The file may open in a
+        # new tab, so capture a popup; fall back to same-tab navigation.
         file_page = None
         try:
             with page.expect_popup(timeout=15000) as pop:
-                name_el.click(timeout=10000)
+                name_el.dblclick(timeout=10000)
             file_page = pop.value
             log("file opened in new tab")
         except Exception:
