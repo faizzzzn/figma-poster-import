@@ -77,20 +77,27 @@ def main():
         page.screenshot(path="shots/find-file-browser.png")
 
         # ---- 3. click the file tile ----
-        tile = page.get_by_text(args.name, exact=True).first
+        # Tiles are anchors wrapping thumbnail + name; clicking the bare
+        # name text does not navigate, so target the enclosing link.
+        link = page.locator("a", has_text=args.name).first
         try:
-            tile.wait_for(timeout=20000)
+            link.wait_for(timeout=20000)
         except Exception:
             page.screenshot(path="shots/find-not-found.png")
             log(f'file "{args.name}" not found in this view')
             sys.exit(4)
-        # the name text may sit inside the tile; click its closest tile link
-        try:
-            tile.click(timeout=10000)
-        except Exception:
-            page.screenshot(path="shots/find-click-failed.png")
-            log("could not click the file tile")
-            sys.exit(4)
+        href = link.get_attribute("href")
+        log("tile href:", href)
+        if href and "/design/" in href and "new" not in href:
+            page.goto("https://www.figma.com" + href,
+                      wait_until="domcontentloaded")
+        else:
+            try:
+                link.click(timeout=10000)
+            except Exception:
+                page.screenshot(path="shots/find-click-failed.png")
+                log("could not click the file tile")
+                sys.exit(4)
 
         # ---- 4. wait for the real file-key URL ----
         try:
