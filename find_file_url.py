@@ -77,39 +77,39 @@ def main():
         page.screenshot(path="shots/find-file-browser.png")
 
         # ---- 3. click the file tile ----
-        # Tiles are anchors wrapping thumbnail + name; clicking the bare
-        # name text does not navigate, so target the enclosing link.
-        link = page.locator("a", has_text=args.name).first
+        name_el = page.get_by_text(args.name, exact=True).first
         try:
-            link.wait_for(timeout=20000)
+            name_el.wait_for(timeout=20000)
         except Exception:
             page.screenshot(path="shots/find-not-found.png")
             log(f'file "{args.name}" not found in this view')
             sys.exit(4)
-        href = link.get_attribute("href")
-        log("tile href:", href)
-        if href and "/design/" in href and "new" not in href:
-            page.goto("https://www.figma.com" + href,
-                      wait_until="domcontentloaded")
-        else:
-            try:
-                link.click(timeout=10000)
-            except Exception:
-                page.screenshot(path="shots/find-click-failed.png")
-                log("could not click the file tile")
-                sys.exit(4)
+        # Tiles open the file in a NEW tab — capture the popup. Fall back
+        # to same-tab navigation if no popup appears.
+        file_page = None
+        try:
+            with page.expect_popup(timeout=15000) as pop:
+                name_el.click(timeout=10000)
+            file_page = pop.value
+            log("file opened in new tab")
+        except Exception:
+            log("no popup; assuming same-tab navigation")
+            file_page = page
+        page.screenshot(path="shots/find-clicked.png")
 
         # ---- 4. wait for the real file-key URL ----
         try:
-            page.wait_for_url(re.compile(r"figma\.com/design/(?!new\b)[A-Za-z0-9]"),
-                              timeout=90000)
+            file_page.wait_for_url(
+                re.compile(r"figma\.com/design/(?!new\b)[A-Za-z0-9]"),
+                timeout=90000)
         except Exception:
-            page.screenshot(path="shots/find-no-url.png")
-            log("editor URL never resolved to a file key; current:", page.url)
+            file_page.screenshot(path="shots/find-no-url.png")
+            log("editor URL never resolved to a file key; current:",
+                file_page.url)
             sys.exit(5)
-        page.wait_for_timeout(2000)
-        page.screenshot(path="shots/find-opened.png")
-        print(f"FILE_URL: {page.url}", flush=True)
+        file_page.wait_for_timeout(2000)
+        file_page.screenshot(path="shots/find-opened.png")
+        print(f"FILE_URL: {file_page.url}", flush=True)
         browser.close()
 
 
