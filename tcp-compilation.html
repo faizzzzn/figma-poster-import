@@ -1,0 +1,645 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>TCP — ARID Research Compilation · Faizan Haidri</title>
+<meta name="description" content="Research compilation for ARID, a hearing-aid dehumidifier — Technically Complex Product, NID Haryana 2026. Corrosion research, market study, desiccant science, prototyping, form iteration.">
+<style>
+:root{
+  --bg:#f8f7f2; --panel:#f2f1ec; --line:#d7d5cf; --ink:#22211e;
+  --mut:#77736d; --body:#55524c; --red:#d92d24;
+  --mono:"DM Mono",ui-monospace,SFMono-Regular,Menlo,Consolas,monospace;
+  --sans:Manrope,"Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+*{margin:0;padding:0;box-sizing:border-box}
+html{scroll-behavior:smooth}
+html,body{background:var(--bg);color:var(--ink);font-family:var(--sans);
+  -webkit-font-smoothing:antialiased;text-rendering:optimizeLegibility}
+body{overflow-x:hidden}
+img{display:block;max-width:100%}
+a{color:inherit;text-decoration:none}
+::selection{background:var(--red);color:#fff}
+.kicker{font-family:var(--mono);font-size:9px;font-weight:400;letter-spacing:.08em;
+  text-transform:uppercase;color:var(--red)}
+.wrap{max-width:1440px;margin:0 auto;padding:0 56px}
+
+/* ---------- slim header ---------- */
+header.site{position:sticky;top:0;z-index:50;background:rgba(248,247,242,.92);
+  backdrop-filter:blur(12px);-webkit-backdrop-filter:blur(12px);border-bottom:1px solid var(--line)}
+.hd-in{display:flex;align-items:center;justify-content:space-between;height:60px}
+.wordmark{font-size:15px;font-weight:600;letter-spacing:-.01em}
+.hd-mid{font-family:var(--mono);font-size:9px;letter-spacing:.08em;text-transform:uppercase;color:var(--mut)}
+.hd-back{font-family:var(--mono);font-size:9px;letter-spacing:.08em;text-transform:uppercase;color:var(--mut)}
+.hd-back:hover{color:var(--red)}
+
+/* ---------- title block ---------- */
+.title-block{padding:72px 0 0}
+.title-block h1{font-size:clamp(64px,9vw,150px);font-weight:500;letter-spacing:-.05em;
+  line-height:.9;margin:26px 0 18px}
+.tagline{font-size:clamp(20px,2.4vw,32px);font-weight:500;letter-spacing:-.03em;color:var(--body)}
+.tagline em{font-style:normal;color:var(--red)}
+.meta{margin-top:48px;border-top:1px solid var(--line);border-bottom:1px solid var(--line);
+  display:grid;grid-template-columns:repeat(6,1fr);background:var(--panel)}
+.meta-cell{padding:22px 24px 26px;border-left:1px solid var(--line)}
+.meta-cell:first-child{border-left:none;padding-left:0}
+.meta-label{font-family:var(--mono);font-size:9px;letter-spacing:.08em;text-transform:uppercase;
+  color:var(--mut);margin-bottom:10px}
+.meta-value{font-size:14.5px;line-height:1.5;color:var(--ink)}
+.hero-plate{margin:64px 0 0;background:#0a0a0a;border:1px solid var(--line);
+  border-radius:18px;overflow:hidden}
+.hero-plate img{width:100%;height:min(72vh,780px);object-fit:contain}
+.hero-cap{padding:14px 18px;background:var(--panel);border-top:1px solid var(--line);
+  font-family:var(--mono);font-size:9px;letter-spacing:.08em;text-transform:uppercase;color:var(--mut)}
+
+/* ---------- chapters ---------- */
+section.chapter{padding:96px 0 0}
+.chapter-head{display:grid;grid-template-columns:minmax(120px,22%) 1fr;gap:24px;
+  align-items:baseline;padding:15px 0;border-top:1px solid var(--line);margin-bottom:28px}
+.chapter-no{font-family:var(--mono);font-size:9px;letter-spacing:.08em;text-transform:uppercase;color:var(--mut)}
+.chapter-head h2{font-size:clamp(30px,4vw,60px);font-weight:500;letter-spacing:-.045em;line-height:.95}
+.case-copy{display:grid;grid-template-columns:minmax(120px,22%) minmax(0,1fr);gap:24px;margin-bottom:44px}
+.fact{font-family:var(--mono);font-size:9px;line-height:1.7;letter-spacing:.06em;
+  text-transform:uppercase;color:var(--mut);white-space:pre-line}
+.case-copy .prose p{font-size:clamp(16px,1.6vw,24px);letter-spacing:-.02em;line-height:1.45;
+  margin:0 0 22px;max-width:940px;color:var(--ink)}
+.case-copy .prose p.small{font-size:15.5px;line-height:1.7;letter-spacing:0;color:var(--body)}
+.case-copy .prose b{font-weight:600}
+.quote{border-left:3px solid var(--red);padding:6px 0 6px 22px;margin:0 0 26px;max-width:940px}
+.quote p{font-size:clamp(18px,2vw,27px);letter-spacing:-.025em;line-height:1.35;margin:0}
+.footnote{font-size:13px;color:var(--mut);font-style:italic;max-width:940px;margin-top:14px}
+
+/* ---------- galleries ---------- */
+.gallery{display:grid;grid-template-columns:repeat(12,minmax(0,1fr));gap:8px;align-items:start;margin-bottom:8px}
+.gallery figure{grid-column:span 6;margin:0;background:#dedcd5;overflow:hidden;border-radius:6px}
+.gallery figure.wide{grid-column:1/-1}
+.gallery figure.tall3{grid-column:span 4}
+.gallery img{width:100%;height:auto;display:block}
+.gallery figcaption{padding:9px 12px;background:#eeede8;font-family:var(--mono);
+  font-size:8px;line-height:1.5;letter-spacing:.06em;text-transform:uppercase;color:#68655f}
+
+/* ---------- market table ---------- */
+.mtable{width:100%;border-collapse:collapse;margin-bottom:44px;background:var(--panel);
+  border:1px solid var(--line);border-radius:12px;overflow:hidden;font-size:14px}
+.mtable th{font-family:var(--mono);font-size:9px;letter-spacing:.08em;text-transform:uppercase;
+  color:var(--mut);text-align:left;padding:16px;border-bottom:1px solid var(--line);background:#eeede8}
+.mtable td{padding:16px;border-bottom:1px solid var(--line);vertical-align:top;line-height:1.55;color:var(--body)}
+.mtable td:first-child{color:var(--ink);font-weight:600}
+.mtable tr:last-child td{border-bottom:none}
+.gap-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:8px;margin-bottom:44px}
+.gap-card{background:var(--panel);border:1px solid var(--line);border-radius:12px;padding:24px}
+.gap-card h4{font-size:17px;font-weight:600;letter-spacing:-.02em;margin-bottom:10px}
+.gap-card h4 span{color:var(--red)}
+.gap-card p{font-size:14px;line-height:1.65;color:var(--body)}
+
+/* ---------- HMW ---------- */
+.hmw{list-style:none;counter-reset:hmw;margin-bottom:8px}
+.hmw li{counter-increment:hmw;display:grid;grid-template-columns:80px 1fr;gap:24px;
+  padding:26px 0;border-top:1px solid var(--line);align-items:baseline}
+.hmw li:last-child{border-bottom:1px solid var(--line)}
+.hmw li::before{content:"0" counter(hmw);font-family:var(--mono);font-size:11px;
+  letter-spacing:.08em;color:var(--red)}
+.hmw p{font-size:clamp(19px,2.2vw,30px);font-weight:500;letter-spacing:-.03em;line-height:1.15}
+
+/* ---------- tech blocks ---------- */
+.tech{display:grid;grid-template-columns:80px 1fr;gap:24px;padding:30px 0;
+  border-top:1px solid var(--line)}
+.tech:last-of-type{border-bottom:1px solid var(--line)}
+.tech-no{font-family:var(--mono);font-size:11px;letter-spacing:.08em;color:var(--red)}
+.tech h3{font-size:clamp(20px,2.2vw,30px);font-weight:500;letter-spacing:-.03em;margin-bottom:12px}
+.tech p{font-size:15.5px;line-height:1.7;color:var(--body);max-width:940px;margin-bottom:10px}
+.tech p b{color:var(--ink)}
+.narrative{margin:40px 0 8px;background:var(--panel);border:1px solid var(--line);
+  border-left:4px solid var(--red);border-radius:0 12px 12px 0;padding:30px 34px}
+.narrative .kicker{display:block;margin-bottom:14px}
+.narrative p{font-size:clamp(19px,2.2vw,28px);font-weight:500;letter-spacing:-.025em;line-height:1.3}
+.narrative p .arrow{color:var(--red)}
+
+/* ---------- footer ---------- */
+
+/* ---------- references ---------- */
+.ref-group{margin-bottom:48px}
+.ref-group>h3{font-family:var(--mono);font-size:9px;letter-spacing:.08em;
+  text-transform:uppercase;color:var(--mut);margin-bottom:4px}
+.ref{padding:24px 0;border-top:1px solid var(--line);display:grid;
+  grid-template-columns:64px 1fr;gap:24px;align-items:baseline}
+.ref:last-child{border-bottom:1px solid var(--line)}
+.ref-no{font-family:var(--mono);font-size:11px;letter-spacing:.08em;color:var(--red)}
+.ref p.cite{font-size:15px;line-height:1.65;color:var(--ink);margin-bottom:8px;max-width:960px}
+.ref p.why{font-size:14px;line-height:1.65;color:var(--body);max-width:960px;margin-bottom:10px}
+.ref p.why b{color:var(--ink)}
+.ref a.dl{font-family:var(--mono);font-size:9px;letter-spacing:.08em;
+  text-transform:uppercase;color:var(--red);text-decoration:none}
+.ref a.dl:hover{text-decoration:underline}
+
+/* ---------- footer ---------- */
+footer.site{margin-top:110px;border-top:1px solid var(--line);padding:40px 0 34px}
+.ft-in{display:flex;align-items:center;justify-content:space-between;gap:20px}
+.ft-in small{font-family:var(--mono);font-size:9px;letter-spacing:.08em;text-transform:uppercase;color:var(--mut)}
+.to-top{background:none;border:none;font-family:var(--mono);font-size:9px;letter-spacing:.08em;
+  text-transform:uppercase;color:var(--ink);cursor:pointer}
+.to-top:hover{color:var(--red)}
+
+@media(max-width:900px){
+  .wrap{padding:0 22px}
+  .hd-mid{display:none}
+  .meta{grid-template-columns:1fr 1fr}
+  .meta-cell:nth-child(odd){border-left:none;padding-left:0}
+  .chapter-head{grid-template-columns:64px 1fr;gap:12px}
+  .chapter-head h2{font-size:34px}
+  .case-copy{grid-template-columns:1fr;gap:14px}
+  .gallery figure,.gallery figure.tall3{grid-column:1/-1}
+  .gap-grid{grid-template-columns:1fr}
+  .hmw li{grid-template-columns:44px 1fr;gap:12px}
+  .tech{grid-template-columns:44px 1fr;gap:12px}
+  .mtable thead{display:none}
+  .mtable,.mtable tbody,.mtable tr,.mtable td{display:block;width:100%}
+  .mtable tr{border-bottom:1px solid var(--line);padding:8px 0}
+  .mtable td{border:none;padding:8px 18px}
+  .mtable td[data-th]::before{content:attr(data-th);display:block;font-family:var(--mono);
+    font-size:8px;letter-spacing:.08em;text-transform:uppercase;color:var(--mut);margin-bottom:4px}
+  section.chapter{padding:64px 0 0}
+  .figma-reserve{padding:44px 24px}
+}
+
+/* ---- native-resolution caps (never upscale raster figures) ---- */
+img[src="images/fig-aid-anatomy.jpg"]{max-width:min(100%,525px);margin-left:auto;margin-right:auto}
+img[src="images/fig-aid-components.jpg"]{max-width:min(100%,797px);margin-left:auto;margin-right:auto}
+img[src="images/fig-aid-in-ear.jpg"]{max-width:min(100%,556px);margin-left:auto;margin-right:auto}
+img[src="images/fig-airflow-diagram.jpg"]{max-width:min(100%,550px);margin-left:auto;margin-right:auto}
+img[src="images/fig-arch-detail.jpg"]{max-width:min(100%,853px);margin-left:auto;margin-right:auto}
+img[src="images/fig-arch-exploded-1.jpg"]{max-width:min(100%,590px);margin-left:auto;margin-right:auto}
+img[src="images/fig-arch-exploded-2.jpg"]{max-width:min(100%,588px);margin-left:auto;margin-right:auto}
+img[src="images/fig-arch-exploded-3.jpg"]{max-width:min(100%,592px);margin-left:auto;margin-right:auto}
+img[src="images/fig-arch-exploded-4.jpg"]{max-width:min(100%,588px);margin-left:auto;margin-right:auto}
+img[src="images/fig-arch-exploded-stack.jpg"]{max-width:min(100%,3840px);margin-left:auto;margin-right:auto}
+img[src="images/fig-arch-layers.jpg"]{max-width:min(100%,2360px);margin-left:auto;margin-right:auto}
+img[src="images/fig-arch-variant-red.jpg"]{max-width:min(100%,2360px);margin-left:auto;margin-right:auto}
+img[src="images/fig-bead-test-cloth.jpg"]{max-width:min(100%,611px);margin-left:auto;margin-right:auto}
+img[src="images/fig-bead-test-rig.jpg"]{max-width:min(100%,320px);margin-left:auto;margin-right:auto}
+img[src="images/fig-beads-tray.jpg"]{max-width:min(100%,561px);margin-left:auto;margin-right:auto}
+img[src="images/fig-corrosion-closeups.jpg"]{max-width:min(100%,315px);margin-left:auto;margin-right:auto}
+img[src="images/fig-corrosion-failures.jpg"]{max-width:min(100%,385px);margin-left:auto;margin-right:auto}
+img[src="images/fig-dielectric-diagram.jpg"]{max-width:min(100%,288px);margin-left:auto;margin-right:auto}
+img[src="images/fig-field-pattern.jpg"]{max-width:min(100%,345px);margin-left:auto;margin-right:auto}
+img[src="images/fig-form-box-white.jpg"]{max-width:min(100%,310px);margin-left:auto;margin-right:auto}
+img[src="images/fig-form-colorways.jpg"]{max-width:min(100%,492px);margin-left:auto;margin-right:auto}
+img[src="images/fig-form-cylinder.jpg"]{max-width:min(100%,308px);margin-left:auto;margin-right:auto}
+img[src="images/fig-form-lifestyle.jpg"]{max-width:min(100%,591px);margin-left:auto;margin-right:auto}
+img[src="images/fig-form-pebble-dark.jpg"]{max-width:min(100%,661px);margin-left:auto;margin-right:auto}
+img[src="images/fig-form-pebble-open.jpg"]{max-width:min(100%,470px);margin-left:auto;margin-right:auto}
+img[src="images/fig-form-pod-blue.jpg"]{max-width:min(100%,401px);margin-left:auto;margin-right:auto}
+img[src="images/fig-form-pod-open.jpg"]{max-width:min(100%,345px);margin-left:auto;margin-right:auto}
+img[src="images/fig-form-trays.jpg"]{max-width:min(100%,474px);margin-left:auto;margin-right:auto}
+img[src="images/fig-form-vents.jpg"]{max-width:min(100%,472px);margin-left:auto;margin-right:auto}
+img[src="images/fig-hero-arid.jpg"]{max-width:min(100%,2560px);margin-left:auto;margin-right:auto}
+img[src="images/fig-idea-paper-mockups.jpg"]{max-width:min(100%,245px);margin-left:auto;margin-right:auto}
+img[src="images/fig-market-box.jpg"]{max-width:min(100%,121px);margin-left:auto;margin-right:auto}
+img[src="images/fig-market-drybrik.jpg"]{max-width:min(100%,122px);margin-left:auto;margin-right:auto}
+img[src="images/fig-market-dryer-blue.jpg"]{max-width:min(100%,129px);margin-left:auto;margin-right:auto}
+img[src="images/fig-market-drystore.jpg"]{max-width:min(100%,122px);margin-left:auto;margin-right:auto}
+img[src="images/fig-market-enlinea.jpg"]{max-width:min(100%,124px);margin-left:auto;margin-right:auto}
+img[src="images/fig-moisture-macro.jpg"]{max-width:min(100%,348px);margin-left:auto;margin-right:auto}
+img[src="images/fig-mood-earbud.jpg"]{max-width:min(100%,564px);margin-left:auto;margin-right:auto}
+img[src="images/fig-mood-ruka.jpg"]{max-width:min(100%,411px);margin-left:auto;margin-right:auto}
+img[src="images/fig-parallel-plates.jpg"]{max-width:min(100%,294px);margin-left:auto;margin-right:auto}
+img[src="images/fig-proto-cartridge-box.jpg"]{max-width:min(100%,320px);margin-left:auto;margin-right:auto}
+img[src="images/fig-proto-cartridge-palm.jpg"]{max-width:min(100%,245px);margin-left:auto;margin-right:auto}
+img[src="images/fig-proto-cartridge-slats.jpg"]{max-width:min(100%,245px);margin-left:auto;margin-right:auto}
+img[src="images/fig-proto-cells.jpg"]{max-width:min(100%,320px);margin-left:auto;margin-right:auto}
+img[src="images/fig-proto-device-hand.jpg"]{max-width:min(100%,245px);margin-left:auto;margin-right:auto}
+img[src="images/fig-proto-glow.jpg"]{max-width:min(100%,320px);margin-left:auto;margin-right:auto}
+img[src="images/fig-proto-power.jpg"]{max-width:min(100%,320px);margin-left:auto;margin-right:auto}
+img[src="images/fig-sieve-jar.jpg"]{max-width:min(100%,612px);margin-left:auto;margin-right:auto}
+img[src="images/fig-uv-lid.jpg"]{max-width:min(100%,1042px);margin-left:auto;margin-right:auto}
+</style>
+</head>
+<body>
+
+<header class="site">
+  <div class="wrap hd-in">
+    <a class="wordmark" href="#">Faizan Haidri</a>
+    <span class="hd-mid">TCP — Research Compilation · ARID</span>
+    <a class="hd-back" href="#">Back to index ←</a>
+  </div>
+</header>
+
+<main>
+  <!-- ============ TITLE ============ -->
+  <div class="wrap title-block">
+    <span class="kicker">TCP · Technically Complex Product — Research Compilation</span>
+    <h1>ARID</h1>
+    <p class="tagline">Arid. <em>Dry without heat.</em> A hearing-aid dehumidifier, researched from corrosion up.</p>
+    <div class="meta">
+      <div class="meta-cell"><div class="meta-label">Client</div><div class="meta-value">NID Haryana · TCP Course</div></div>
+      <div class="meta-cell"><div class="meta-label">Type</div><div class="meta-value">Technically Complex Product</div></div>
+      <div class="meta-cell"><div class="meta-label">Duration</div><div class="meta-value">8 weeks</div></div>
+      <div class="meta-cell"><div class="meta-label">Year</div><div class="meta-value">2026</div></div>
+      <div class="meta-cell"><div class="meta-label">Guide</div><div class="meta-value">Dyutiman Moulik</div></div>
+      <div class="meta-cell"><div class="meta-label">Location</div><div class="meta-value">Haryana, India</div></div>
+    </div>
+    <figure class="hero-plate">
+      <img src="images/fig-hero-arid.jpg" alt="ARID — the finished hearing-aid dehumidifier, closed pebble form.">
+      <div class="hero-cap">ARID — closed form · 80 × 101.4 mm pebble, green status button</div>
+    </figure>
+  </div>
+
+  <!-- ============ 01 PROBLEM & CORROSION ============ -->
+  <section class="chapter">
+    <div class="wrap">
+      <div class="chapter-head">
+        <span class="chapter-no">Chapter 01</span>
+        <h2>The problem, documented</h2>
+      </div>
+      <div class="case-copy">
+        <div class="fact">Failure analysis
+Corrosion research
+4 photos · deck p. 40</div>
+        <div class="prose">
+          <div class="quote"><p>&ldquo;Moisture is a major cause of hearing aid damage, reducing device lifespan and performance. Existing solutions often fail to provide safe, reliable, and efficient moisture removal for sensitive electronic components.&rdquo;</p></div>
+          <p>The project opened with failure analysis, not form. Corroded receiver terminals pulled from devices across markets were documented against a published reference: <b>&ldquo;A comparative study on corrosion failure analysis of hearing aid devices from different markets&rdquo; — Yadav, 2023 — <i>Materials and Corrosion</i> (Wiley)</b>.</p>
+          <p class="small"><b>Where the moisture comes from:</b> sweat · humid weather · condensation from walking out of a fully air-conditioned room · accidental splashes · and earwax binding with moisture to choke components. Hearing aids live in the ear canal — a high-moisture environment — packed with microelectronics (microphone, volume control, processor, battery, amplifier) that water attacks daily.</p>
+          <p class="small"><b>What users reported:</b> battery issues from moisture · earwax-plus-moisture blocking components · static noise and feedback · device malfunction and shortened lifespan · difficulty keeping up maintenance routines · discomfort during sleep.</p>
+          <div class="quote"><p>&ldquo;To achieve — a compact and user-friendly dehumidification system that protects hearing aids effectively without exposing them to harmful heat?&rdquo;</p></div>
+        </div>
+      </div>
+      <div class="gallery">
+        <figure class="wide"><img loading="lazy" src="images/fig-corrosion-failures.jpg" alt="Annotated corrosion failure photos — switch terminals and covers from European, Japanese and US market devices."><figcaption>Fig. 01 — Corrosion failure photos across markets (Yadav 2023, Materials and Corrosion)</figcaption></figure>
+        <figure><img loading="lazy" src="images/fig-corrosion-closeups.jpg" alt="Close-up corrosion photos of hearing-aid internals."><figcaption>Fig. 02 — Corrosion close-ups, device internals</figcaption></figure>
+        <figure><img loading="lazy" src="images/fig-moisture-macro.jpg" alt="Macro photo of a moisture- and earwax-fouled receiver component."><figcaption>Fig. 03 — Macro: moisture + earwax fouling at the receiver</figcaption></figure>
+        <figure><img loading="lazy" src="images/fig-aid-anatomy.jpg" alt="Opened hearing aid showing internal electronics."><figcaption>Fig. 04 — Opened hearing aid: the electronics moisture attacks</figcaption></figure>
+        <figure><img loading="lazy" src="images/fig-aid-components.jpg" alt="Diagram of hearing-aid components — microphone, volume, processor, battery, amplifier."><figcaption>Fig. 05 — Component map: microphone · volume · processor · battery · amplifier</figcaption></figure>
+        <figure><img loading="lazy" src="images/fig-aid-in-ear.jpg" alt="Hearing aid worn in the ear — the high-moisture operating environment."><figcaption>Fig. 06 — In context: the ear canal is a high-moisture environment</figcaption></figure>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ 02 MARKET STUDY ============ -->
+  <section class="chapter">
+    <div class="wrap">
+      <div class="chapter-head">
+        <span class="chapter-no">Chapter 02</span>
+        <h2>Market study — five dryers, one gap</h2>
+      </div>
+      <div class="case-copy">
+        <div class="fact">5 products compared
+deck p. 43
+USA · India/China</div>
+        <div class="prose">
+          <p>Five incumbent dryers were compared across cycle time, drying method and India street price — from a ₹200 passive jar to ₹20,000 imports. The pattern: <b>every product either cooks the aid or leaves it damp</b>.</p>
+          <p class="small">Market products leave relative humidity at <b>25–30% against a &lt;10% RH target</b> — figures from the project deck, not independently verified published specs. Unregulated heat corrodes circuits and degrades batteries, and no two products share a common drying benchmark, so moisture claims can't be compared.</p>
+        </div>
+      </div>
+      <table class="mtable">
+        <thead><tr><th>Product</th><th>Type</th><th>Cycle</th><th>Key specs</th><th>India price</th></tr></thead>
+        <tbody>
+          <tr><td data-th="Product">PerfectDry LUX — USA</td><td data-th="Type">Electronic</td><td data-th="Cycle">45 min</td><td data-th="Key specs">≤45&nbsp;°C pulsed hot air, 360° UV-C lamp, 9×5×8 cm. World&rsquo;s fastest cycle; FDA-registered Class 1.</td><td data-th="India price">₹8,000–12,000</td></tr>
+          <tr><td data-th="Product">Zephyr by Dry &amp; Store — USA</td><td data-th="Type">Electronic</td><td data-th="Cycle">8 hr</td><td data-th="Key specs">Dry-Brik II desiccant, warm moving air, fits 4 BTE / 2 CI, auto shut-off. First audiologist-recommended dryer.</td><td data-th="India price">₹8,000–12,000</td></tr>
+          <tr><td data-th="Product">Global II by Dry &amp; Store — USA</td><td data-th="Type">Electronic</td><td data-th="Cycle">8 hr</td><td data-th="Key specs">UV-C germicidal lamp, USB powered. Premium import segment.</td><td data-th="India price">₹15,000–20,000</td></tr>
+          <tr><td data-th="Product">Enlinea Desiccant Jar — India</td><td data-th="Type">Passive</td><td data-th="Cycle">n/a</td><td data-th="Key specs">30–50 g silica gel beads, no electricity, reusable / rechargeable. Budget passive users.</td><td data-th="India price">₹200–500</td></tr>
+          <tr><td data-th="Product">Generic Electric Dry Box — India/China</td><td data-th="Type">Basic electric</td><td data-th="Cycle">3–8 hr</td><td data-th="Key specs">Constant heat element, USB/AC. Budget electric segment.</td><td data-th="India price">₹4,000–6,000</td></tr>
+        </tbody>
+      </table>
+      <div class="gap-grid">
+        <div class="gap-card"><h4><span>01</span> — Damp inside</h4><p>Deep internal regions of the device stay damp after a full cycle; surface drying is mistaken for complete drying.</p></div>
+        <div class="gap-card"><h4><span>02</span> — Heat damage</h4><p>Unregulated heating elements corrode circuits and degrade batteries — the cure damages what it should protect.</p></div>
+        <div class="gap-card"><h4><span>03</span> — No benchmark</h4><p>Every product makes moisture claims against no common drying standard, so nothing can be honestly compared.</p></div>
+      </div>
+      <div class="gallery">
+        <figure><img loading="lazy" src="images/fig-market-drystore.jpg" alt="Dry & Store dryer advertisement — simple and functional positioning."><figcaption>Fig. 07 — Dry &amp; Store: the audiologist-recommended incumbent</figcaption></figure>
+        <figure><img loading="lazy" src="images/fig-market-drybrik.jpg" alt="Dry-Brik II desiccant unit for Dry & Store dryers."><figcaption>Fig. 08 — Dry-Brik II desiccant cartridge</figcaption></figure>
+        <figure><img loading="lazy" src="images/fig-market-dryer-blue.jpg" alt="Compact blue electronic hearing-aid dryer."><figcaption>Fig. 09 — Compact electronic dryer, market sample</figcaption></figure>
+        <figure><img loading="lazy" src="images/fig-market-enlinea.jpg" alt="Enlinea desiccant jar — the ₹200 passive option."><figcaption>Fig. 10 — Enlinea jar: passive, cheap, slow</figcaption></figure>
+        <figure><img loading="lazy" src="images/fig-market-box.jpg" alt="Retail box of a budget electric dry box."><figcaption>Fig. 11 — Budget electric dry box packaging</figcaption></figure>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ 03 DESICCANT SCIENCE ============ -->
+  <section class="chapter">
+    <div class="wrap">
+      <div class="chapter-head">
+        <span class="chapter-no">Chapter 03</span>
+        <h2>Desiccant science — why sieve 3A</h2>
+      </div>
+      <div class="case-copy">
+        <div class="fact">Bead tests
+deck pp. 46–48
+WiseSorb 3A</div>
+        <div class="prose">
+          <p>Molecular sieves are zeolites with 3–10 ångström pores — adsorbents that trap molecules by size (H<sub>2</sub>O, CO<sub>2</sub>, N<sub>2</sub>), used for extreme drying and gas purification. Bench tests used <b>WiseSorb 3A</b>, rechargeable.</p>
+          <p class="small"><b>Why the sieve won:</b> it adsorbs aggressively even at low humidity, has extremely high water affinity, and rapidly pulls moisture down toward <b>10% RH</b>. Silica gel absorbs gradually and works at moderate-to-high humidity — but its curve <b>plateaus and declines at saturation</b>. The bead tests photographed the difference, and that result is what made the cartridge regenerable-by-design instead of disposable.</p>
+        </div>
+      </div>
+      <div class="gallery">
+        <figure><img loading="lazy" src="images/fig-sieve-jar.jpg" alt="WiseSorb 3A molecular sieve jar — the bench desiccant stock."><figcaption>Fig. 12 — WiseSorb 3A molecular sieve, rechargeable</figcaption></figure>
+        <figure><img loading="lazy" src="images/fig-beads-tray.jpg" alt="Sieve beads spread in a test tray."><figcaption>Fig. 13 — Bead stock in the test tray</figcaption></figure>
+        <figure><img loading="lazy" src="images/fig-bead-test-cloth.jpg" alt="Bead absorption test with cloth on the bench."><figcaption>Fig. 14 — Absorption test, cloth method</figcaption></figure>
+        <figure><img loading="lazy" src="images/fig-bead-test-rig.jpg" alt="Bead test rig on the cutting mat with the sieve jar."><figcaption>Fig. 15 — Test rig on the bench</figcaption></figure>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ 04 HMW ============ -->
+  <section class="chapter">
+    <div class="wrap">
+      <div class="chapter-head">
+        <span class="chapter-no">Chapter 04</span>
+        <h2>How Might We</h2>
+      </div>
+      <div class="case-copy">
+        <div class="fact">8 questions
+Framing the
+concept phase</div>
+        <div class="prose">
+          <p class="small">Eight solution-free questions carried the research into concepting — kept deliberately open so the answers could come from the bench, not from assumptions.</p>
+        </div>
+      </div>
+      <ol class="hmw">
+        <li><p>Prevent condensation buildup inside a closed drying system?</p></li>
+        <li><p>Maintain performance within safe temperature limits at all times?</p></li>
+        <li><p>Ensure safe operation under extreme conditions like overheating, leaks, or saturation?</p></li>
+        <li><p>Remove moisture from deep internal regions without damaging sensitive electronics or outer casing?</p></li>
+        <li><p>Design a system that integrates seamlessly into a user&rsquo;s daily routine?</p></li>
+        <li><p>Minimize user interaction while maximizing effectiveness?</p></li>
+        <li><p>Make the device portable, intuitive, and easy to operate with one hand?</p></li>
+        <li><p>Ensure the product feels effortless and reliable for elderly users?</p></li>
+      </ol>
+    </div>
+  </section>
+
+  <!-- ============ 05 FEATURE INTEGRATION ============ -->
+  <section class="chapter">
+    <div class="wrap">
+      <div class="chapter-head">
+        <span class="chapter-no">Chapter 05</span>
+        <h2>Feature integration — six technologies, one system</h2>
+      </div>
+      <div class="case-copy">
+        <div class="fact">deck p. 49
+4 diagrams
+Physics corrected
+2026-10-02</div>
+        <div class="prose">
+          <p class="small">The six technologies below are how the research answered the HMWs. The physics was reviewed and corrected after the deck was drawn — the corrected version is the only one recorded here.</p>
+        </div>
+      </div>
+      <div class="tech">
+        <span class="tech-no">T.01</span>
+        <div><h3>RF dielectric heating — 13.56 MHz</h3>
+        <p>A microcontroller-driven <b>13.56 MHz ISM-band RF generator</b> drives a dielectric field between parallel plates. At this frequency heating is dominated by <b>ionic conduction</b> rather than molecular rotation — so <b>salty sweat (~1.8 g/L NaCl, the actual contaminant killing hearing aids) heats preferentially</b>. It does not heat &ldquo;only water molecules&rdquo;: everything lossy in the field warms somewhat.</p>
+        <p>Two genuine advantages: deep penetration (λ ≈ 22 m reaches internal regions microwaves can&rsquo;t), and negligible direct pickup by the aid&rsquo;s own electronics — a 2 cm device is electrically tiny at this wavelength, a poor antenna.</p></div>
+      </div>
+      <div class="tech">
+        <span class="tech-no">T.02</span>
+        <div><h3>Faraday cage — the outer EMC shield</h3>
+        <p>The layered <b>copper / polyester / polypropylene</b> shield is the product&rsquo;s <b>outer electromagnetic-compatibility enclosure</b>: it contains RF emissions so the device is safe and doesn&rsquo;t interfere with its surroundings. It does <b>not</b> sit around the hearing aid — a cage there would block the RF field from ever reaching the moisture. The aid sits <b>in the field, between the plates</b>.</p></div>
+      </div>
+      <div class="tech">
+        <span class="tech-no">T.03</span>
+        <div><h3>Molecular sieve cartridge — Grade 3A, reusable</h3>
+        <p>A regenerable <b>Grade-3A sieve cartridge</b> captures what the field liberates, fed by the channeled airflow system. Rechargeable by design — the desiccant direction the bead tests validated.</p></div>
+      </div>
+      <div class="tech">
+        <span class="tech-no">T.04</span>
+        <div><h3>UV-C sanitisation</h3>
+        <p>Germicidal UV-C in the open-lid cradle sanitises the aids while they dry — one nightly ritual, two jobs done.</p></div>
+      </div>
+      <div class="tech">
+        <span class="tech-no">T.05</span>
+        <div><h3>Channeled airflow</h3>
+        <p>Controlled air circulation carries liberated vapour through the sieve cartridge. Without airflow plus desiccant, evaporated moisture would simply recondense inside the case.</p></div>
+      </div>
+      <div class="tech">
+        <span class="tech-no">T.06</span>
+        <div><h3>Feedback loop — temperature-guarded</h3>
+        <p>Microcontroller feedback governs modes and on/off, with a <b>temperature feedback loop</b> enforcing safe limits. &ldquo;No harmful heat&rdquo; comes from this loop — not from the frequency itself. Power: 3.7 V Li-ion/Li-Po, 3000–5000 mAh, USB-C charging (project values).</p></div>
+      </div>
+      <div class="narrative">
+        <span class="kicker">The system narrative</span>
+        <p>RF <b>liberates</b> the moisture <span class="arrow">→</span> airflow <b>carries</b> it <span class="arrow">→</span> the sieve <b>captures</b> it. The trio is the product; each stage needs the other two.</p>
+      </div>
+      <p class="footnote">Physics reviewed; bench validation pending. Battery and RF figures are project values from the student deck, not validated performance.</p>
+      <div class="gallery" style="margin-top:44px">
+        <figure><img loading="lazy" src="images/fig-dielectric-diagram.jpg" alt="Diagram — response of polar molecules in an alternating electric field."><figcaption>Fig. 16 — Dielectric heating: field–molecule interaction</figcaption></figure>
+        <figure><img loading="lazy" src="images/fig-parallel-plates.jpg" alt="Parallel-plate electrode diagram with material between top and bottom electrodes."><figcaption>Fig. 17 — Parallel plates: the aid sits in the field between them</figcaption></figure>
+        <figure><img loading="lazy" src="images/fig-airflow-diagram.jpg" alt="Airflow diagram — process air and reactivation air paths."><figcaption>Fig. 18 — Channeled airflow paths</figcaption></figure>
+        <figure><img loading="lazy" src="images/fig-field-pattern.jpg" alt="Circular field-pattern study for the plate geometry."><figcaption>Fig. 19 — Field-pattern study, circular plate geometry</figcaption></figure>
+        <figure class="wide"><img loading="lazy" src="images/fig-uv-lid.jpg" alt="Open-lid render with UV-C glow over the hearing-aid cradle."><figcaption>Fig. 20 — UV-C in the open lid, over the cradle</figcaption></figure>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ 06 PROTOTYPING ============ -->
+  <section class="chapter">
+    <div class="wrap">
+      <div class="chapter-head">
+        <span class="chapter-no">Chapter 06</span>
+        <h2>Prototyping — the bench</h2>
+      </div>
+      <div class="case-copy">
+        <div class="fact">9 builds
+deck p. 50
+Bench photos</div>
+        <div class="prose">
+          <p class="small">Nine prototype builds tested the system in pieces before it became a product: heating checks, power from cells, perforated cartridge boxes, and sieve cartridges held in the hand for scale. What the bench proved was the <b>desiccant direction</b> — the full RF system still awaits bench validation.</p>
+        </div>
+      </div>
+      <div class="gallery">
+        <figure><img loading="lazy" src="images/fig-proto-glow.jpg" alt="Early prototype with glowing heating element held in hand."><figcaption>Fig. 21 — Heating element check, early prototype</figcaption></figure>
+        <figure><img loading="lazy" src="images/fig-proto-power.jpg" alt="Prototype powered by AA cells on a notebook."><figcaption>Fig. 22 — Power test: cells and control box</figcaption></figure>
+        <figure><img loading="lazy" src="images/fig-proto-cells.jpg" alt="Hand holding batteries and desiccant beads."><figcaption>Fig. 23 — Cells and bead stock, side by side</figcaption></figure>
+        <figure><img loading="lazy" src="images/fig-proto-cartridge-box.jpg" alt="Perforated cartridge box prototype on a cutting mat."><figcaption>Fig. 24 — Perforated cartridge box, first build</figcaption></figure>
+        <figure><img loading="lazy" src="images/fig-proto-cartridge-palm.jpg" alt="Bead cartridge held in palm for scale."><figcaption>Fig. 25 — Cartridge in palm, scale check</figcaption></figure>
+        <figure><img loading="lazy" src="images/fig-proto-cartridge-slats.jpg" alt="Slatted cartridge variant held in hand."><figcaption>Fig. 26 — Slatted cartridge variant</figcaption></figure>
+        <figure class="wide"><img loading="lazy" src="images/fig-proto-device-hand.jpg" alt="Small white prototype device held in hand."><figcaption>Fig. 27 — Form prototype in hand</figcaption></figure>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ 07 FORM ITERATION ============ -->
+  <section class="chapter">
+    <div class="wrap">
+      <div class="chapter-head">
+        <span class="chapter-no">Chapter 07</span>
+        <h2>Form iteration — toward the pebble</h2>
+      </div>
+      <div class="case-copy">
+        <div class="fact">8 renders
+deck p. 51
+Moodboard p. 52</div>
+        <div class="prose">
+          <p class="small">Eight form iterations moved from lidded pods toward the final pebble — <b>80 mm × 101.4 mm</b>, dark body, green status button. The moodboard set the language: earbud cases (Anker, UGREEN), RUKA&rsquo;s vented red device, tray references — a bedside object, not a medical machine.</p>
+        </div>
+      </div>
+      <div class="gallery">
+        <figure><img loading="lazy" src="images/fig-form-pod-open.jpg" alt="Early open-pod render with controls."><figcaption>Fig. 28 — Lidded pod, early direction</figcaption></figure>
+        <figure><img loading="lazy" src="images/fig-form-pod-blue.jpg" alt="Blue open-pod render."><figcaption>Fig. 29 — Pod variant, blue</figcaption></figure>
+        <figure><img loading="lazy" src="images/fig-form-colorways.jpg" alt="Four pebble colorways — blue, orange, black, white."><figcaption>Fig. 30 — Pebble colorways</figcaption></figure>
+        <figure><img loading="lazy" src="images/fig-form-pebble-dark.jpg" alt="Dark pebble render with green status button."><figcaption>Fig. 31 — Dark pebble, status button</figcaption></figure>
+        <figure><img loading="lazy" src="images/fig-form-pebble-open.jpg" alt="Open pebble render showing the cradle."><figcaption>Fig. 32 — Open pebble, cradle view</figcaption></figure>
+        <figure class="wide"><img loading="lazy" src="images/fig-form-lifestyle.jpg" alt="Lifestyle render — ARID on a bedside desk."><figcaption>Fig. 33 — Bedside lifestyle: disappear into routine</figcaption></figure>
+        <figure><img loading="lazy" src="images/fig-form-box-white.jpg" alt="White rounded-box form study."><figcaption>Fig. 34 — Rounded-box study</figcaption></figure>
+        <figure><img loading="lazy" src="images/fig-form-cylinder.jpg" alt="Ribbed green cylinder form study."><figcaption>Fig. 35 — Ribbed cylinder study</figcaption></figure>
+        <figure><img loading="lazy" src="images/fig-form-vents.jpg" alt="Vented pod studies in blue and orange."><figcaption>Fig. 36 — Vented pod studies</figcaption></figure>
+        <figure><img loading="lazy" src="images/fig-form-trays.jpg" alt="Tray form studies in green/white and orange/white."><figcaption>Fig. 37 — Tray studies</figcaption></figure>
+        <figure><img loading="lazy" src="images/fig-mood-ruka.jpg" alt="RUKA vented device — moodboard reference."><figcaption>Fig. 38 — Moodboard: RUKA vent language</figcaption></figure>
+        <figure><img loading="lazy" src="images/fig-mood-earbud.jpg" alt="Light-blue earbud-case-style device — moodboard reference."><figcaption>Fig. 39 — Moodboard: earbud-case language</figcaption></figure>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ 08 ARCHITECTURE ============ -->
+  <section class="chapter">
+    <div class="wrap">
+      <div class="chapter-head">
+        <span class="chapter-no">Chapter 08</span>
+        <h2>Architecture — engineered in layers</h2>
+      </div>
+      <div class="case-copy">
+        <div class="fact">deck p. 53
+pp. 56–64
+Exploded views</div>
+        <div class="prose">
+          <p class="small"><b>Exploded stack:</b> outer body · inner housing · parallel plate (dielectric heating) · UV-C · silicon gasket · molecular sieve cartridge · cartridge housing · Type-C port · button · hinge · component housing · anti-slip feet. <b>Signal path:</b> microcontroller → RF generator (13.56 MHz ISM) → controlled airflow → sieve cartridge → feedback (modes, on/off).</p>
+          <p class="footnote">Architecture as drawn in the student project; bench validation pending.</p>
+        </div>
+      </div>
+      <div class="gallery">
+        <figure class="wide"><img loading="lazy" src="images/fig-arch-exploded-stack.jpg" alt="Full exploded stack render of ARID layers."><figcaption>Fig. 40 — Full exploded stack</figcaption></figure>
+        <figure><img loading="lazy" src="images/fig-arch-exploded-1.jpg" alt="Exploded layer view — lid, cradle and body."><figcaption>Fig. 41 — Exploded: lid · cradle · body</figcaption></figure>
+        <figure><img loading="lazy" src="images/fig-arch-exploded-2.jpg" alt="Exploded layer view — mid stack."><figcaption>Fig. 42 — Exploded: mid stack</figcaption></figure>
+        <figure><img loading="lazy" src="images/fig-arch-exploded-3.jpg" alt="Exploded layer view — plate and cartridge layers."><figcaption>Fig. 43 — Exploded: plate · cartridge layers</figcaption></figure>
+        <figure><img loading="lazy" src="images/fig-arch-exploded-4.jpg" alt="Exploded layer view — base stack."><figcaption>Fig. 44 — Exploded: base stack</figcaption></figure>
+        <figure><img loading="lazy" src="images/fig-arch-layers.jpg" alt="Layered dark render showing internal separation."><figcaption>Fig. 45 — Layered section, dark</figcaption></figure>
+        <figure><img loading="lazy" src="images/fig-arch-variant-red.jpg" alt="Dark-red variant render."><figcaption>Fig. 46 — Dark-red variant</figcaption></figure>
+        <figure class="wide"><img loading="lazy" src="images/fig-arch-detail.jpg" alt="Close detail render of the device surface and button."><figcaption>Fig. 47 — Surface and button detail</figcaption></figure>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ 09 SKETCHES & NOTES ============ -->
+  <section class="chapter">
+    <div class="wrap">
+      <div class="chapter-head">
+        <span class="chapter-no">Chapter 09</span>
+        <h2>Sketches &amp; notes</h2>
+      </div>
+      <div class="case-copy">
+        <div class="fact">Ideation
+artefacts
+Physical studies</div>
+        <div class="prose">
+          <p class="small">Thinking happened in the hand as well as on paper — folded paper mockups tested lid gestures and proportions before anything was modelled.</p>
+        </div>
+      </div>
+      <div class="gallery">
+        <figure><img loading="lazy" src="images/fig-idea-paper-mockups.jpg" alt="Folded paper mockups testing lid and proportion studies."><figcaption>Fig. 48 — Paper mockups: lid gestures and proportions</figcaption></figure>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ 10 REFERENCES ============ -->
+  <section class="chapter">
+    <div class="wrap">
+      <div class="chapter-head">
+        <span class="chapter-no">Chapter 10</span>
+        <h2>References — case studies &amp; papers</h2>
+      </div>
+      <div class="case-copy">
+        <div class="fact">Independently
+researched
+2026-10-02</div>
+        <div class="prose">
+          <p class="small">Every claim the project leans on should trace to something real. These are the papers and studies behind the corrosion story, the RF mechanism, and the desiccant choice — researched independently and linked for reading.</p>
+        </div>
+      </div>
+
+      <div class="ref-group">
+        <h3>Corrosion &amp; failure analysis</h3>
+        <div class="ref">
+          <span class="ref-no">R.01</span>
+          <div>
+            <p class="cite">Yadav, A., &amp; Ambat, R. (2023). A comparative study on corrosion failure analysis of hearing aid devices from different markets. <i>Materials and Corrosion</i>, 74(1), 159–173.</p>
+            <p class="why"><b>Why it matters:</b> root-cause analysis of real failed hearing aids across markets — KOH electrolyte leakage in tropical humidity, sweat chlorides, galvanic corrosion of gold-plated contacts, coating delamination. The corrosion photo set in Chapter 01 traces to this work. (DTU + WS Audiology.)</p>
+            <a class="dl" href="https://doi.org/10.1002/maco.202213420">doi.org/10.1002/maco.202213420 ↗</a>
+          </div>
+        </div>
+        <div class="ref">
+          <span class="ref-no">R.02</span>
+          <div>
+            <p class="cite">Yadav, A., Gupta, K. K., Ambat, R., &amp; Christensen, M. L. (2021). Statistical analysis of corrosion failures in hearing aid devices from tropical regions. <i>Engineering Failure Analysis</i>, 130, 105758.</p>
+            <p class="why"><b>Why it matters:</b> the statistical backbone — corrosion failure rates specifically in tropical regions, i.e. the climate case for a dryer designed for Indian humidity.</p>
+            <a class="dl" href="https://doi.org/10.1016/j.engfailanal.2021.105758">doi.org/10.1016/j.engfailanal.2021.105758 ↗</a>
+          </div>
+        </div>
+        <div class="ref">
+          <span class="ref-no">R.03</span>
+          <div>
+            <p class="cite">Asikainen, M., Yadav, A., Freels, B., &amp; Ambat, R. (2024). A systematic corrosion failure analysis of Li-ion powered hearing aids from various markets. <i>Corrosion Engineering, Science and Technology</i>.</p>
+            <p class="why"><b>Why it matters:</b> the newer battery chemistry — passive components, solder joints and galvanic charging contacts fail most; causes are chloride ions, high humidity, flux residues and insufficient coating protection.</p>
+            <a class="dl" href="https://doi.org/10.1177/1478422X241275299">doi.org/10.1177/1478422X241275299 ↗</a>
+          </div>
+        </div>
+        <div class="ref">
+          <span class="ref-no">R.04</span>
+          <div>
+            <p class="cite">Rao, J. M., Yadav, A., Conseil-Gudla, H., &amp; Ambat, R. (2022). Synergetic effect of temperature and humidity on the leakage of KOH electrolyte and related reliability of zinc-air batteries. <i>Frontiers in Materials</i>, 9.</p>
+            <p class="why"><b>Why it matters:</b> the mechanism behind battery-driven corrosion — heat plus humidity drives KOH electrolyte leakage, which is hygroscopic and corrosive to the surrounding electronics.</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="ref-group">
+        <h3>RF dielectric heating</h3>
+        <div class="ref">
+          <span class="ref-no">R.05</span>
+          <div>
+            <p class="cite">Piyasena, P., Dussault, C., Koutchma, T., Ramaswamy, H. S., &amp; Awuah, G. B. (2007). Radio frequency heating of foods: Principles, applications and related properties — A review. <i>Critical Reviews in Food Science and Nutrition</i>, 43(6), 587–606.</p>
+            <p class="why"><b>Why it matters:</b> the physics reference — RF heating principles including ionic conduction, the mechanism ARID's 13.56 MHz stage relies on.</p>
+            <a class="dl" href="https://doi.org/10.1080/10408690390251129">doi.org/10.1080/10408690390251129 ↗</a>
+          </div>
+        </div>
+        <div class="ref">
+          <span class="ref-no">R.06</span>
+          <div>
+            <p class="cite">Review of dielectric drying of foods and agricultural products (2011), Vol. 4, No. 1.</p>
+            <p class="why"><b>Why it matters:</b> a dielectric-drying survey — dipole rotation plus ionic conduction as the combined polarization mechanisms, and the 13.56 MHz ISM-band allocation ARID uses.</p>
+            <a class="dl" href="http://www.idc-online.com/technical_references/pdfs/civil_engineering/Review%20of%20dielectric%20drying.pdf">idc-online.com — review PDF ↗</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="ref-group">
+        <h3>Desiccant science</h3>
+        <div class="ref">
+          <span class="ref-no">R.07</span>
+          <div>
+            <p class="cite">Desiccant films made of low-density polyethylene with dispersed silica gel — water vapor absorption, permeability and mechanical properties. <i>Materials</i> (2019), 12, 2304.</p>
+            <p class="why"><b>Why it matters:</b> the isotherm evidence — molecular sieves absorb water vapour down to a few percent RH with a sharp low-RH uptake, while silica gel needs &gt;50% RH to condense. The published justification for Grade-3A over silica gel.</p>
+            <a class="dl" href="https://www.mdpi.com/1996-1944/12/14/2304">mdpi.com/1996-1944/12/14/2304 ↗</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  </main>
+
+<footer class="site">
+  <div class="wrap ft-in">
+    <small>© 2026 Faizan Haidri · TCP — ARID research compilation</small>
+    <button class="to-top" id="toTop">Back to top ↑</button>
+  </div>
+</footer>
+
+<script>
+(function(){
+  "use strict";
+  document.getElementById('toTop').addEventListener('click', function(){
+    window.scrollTo({top:0, behavior:'smooth'});
+  });
+})();
+</script>
+</body>
+</html>
