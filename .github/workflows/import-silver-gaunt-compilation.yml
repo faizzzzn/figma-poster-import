@@ -31,7 +31,7 @@ jobs:
       - name: Import Silver Gaunt compilation into Figma
         env:
           FIGMA_EMAIL: ${{ secrets.FIGMA_EMAIL }}
-FIGMA_PASSWORD: <redacted>
+          FIGMA_PASSWORD: ${{ secrets.FIGMA_PASSWORD }}
           # fast viewport-pan placement (6 artboards); 0 = legacy nudge
           PASTE_STRIDE_PX: "2000"
         run: |
