@@ -1,0 +1,47 @@
+name: import-silver-gaunt-compilation-to-figma
+
+on:
+  workflow_dispatch:
+    inputs:
+      file_name:
+        description: "Name for the new Figma file"
+        default: "The Silver Gaunt — Compilation"
+
+jobs:
+  import:
+    runs-on: ubuntu-latest
+    timeout-minutes: 45
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Install deps (Pillow, Playwright + Chromium)
+        run: |
+          pip install pillow playwright
+          python -m playwright install chromium --with-deps
+
+      - name: Generate Silver Gaunt compilation artboards (cover + 5 chapters, desktop)
+        run: |
+          python build_silver_gaunt_svg.py --out website_svg_silver_gaunt
+          ls -la website_svg_silver_gaunt/
+
+      - name: Import Silver Gaunt compilation into Figma
+        env:
+          FIGMA_EMAIL: ${{ secrets.FIGMA_EMAIL }}
+FIGMA_PASSWORD: <redacted>
+          # fast viewport-pan placement (6 artboards); 0 = legacy nudge
+          PASTE_STRIDE_PX: "2000"
+        run: |
+          python import_research.py \
+            --svgs website_svg_silver_gaunt \
+            --name "${{ inputs.file_name }}"
+
+      - name: Upload screenshots
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: figma-silver-gaunt-import-shots
+          path: shots/

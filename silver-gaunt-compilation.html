@@ -1,0 +1,304 @@
+<!doctype html>
+<!-- The Silver Gaunt — research × build compilation. v7 theme. Images unaltered. Captions verbatim from Faizan. -->
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover" />
+<meta name="color-scheme" content="light" />
+<link rel="icon" href="data:," />
+<title>The Silver Gaunt — Research × Build Compilation · Faizan Haidri</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600&family=DM+Mono:wght@400&display=swap" rel="stylesheet">
+<style>
+:root{
+  color-scheme:light;
+  --bg:#ffffff;--ink:#111111;--muted:#77736d;--line:rgba(17,17,15,.14);
+  --glass:rgba(255,255,255,.72);--glass-line:rgba(17,17,15,.1);--red:#d92d24;
+  --red-dark:#5f0907;--card:#ffffff;--photo:#eceae4;--shadow:0 18px 60px rgba(19,10,8,.14);
+  --pad:max(20px,4vw);--mono:"DM Mono",monospace;--sans:"Manrope",sans-serif;
+}
+*{box-sizing:border-box}html{scroll-behavior:smooth;background:var(--bg)}
+body{margin:0;background:var(--bg);color:var(--ink);font-family:var(--sans);overflow-x:hidden}
+button,a{font:inherit}a{color:inherit}
+.reveal{opacity:0;transform:translateY(22px);transition:opacity .7s ease,transform .7s ease}
+.reveal.in{opacity:1;transform:none}
+@media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}.reveal{opacity:1;transform:none;transition:none}}
+/* topbar */
+.topbar{position:fixed;z-index:50;top:14px;left:var(--pad);right:var(--pad);display:flex;align-items:center;justify-content:space-between;pointer-events:none}
+.topbar>*{pointer-events:auto}
+.status{font:400 10px/1 var(--mono);letter-spacing:.11em;text-transform:uppercase;color:#aaa59d}
+.nav{display:flex;gap:4px;background:var(--glass);border:1px solid var(--glass-line);backdrop-filter:blur(15px);-webkit-backdrop-filter:blur(15px);padding:4px;border-radius:99px}
+.nav a{text-decoration:none;font:400 10px/1 var(--mono);text-transform:uppercase;letter-spacing:.08em;padding:9px 12px;border-radius:99px;transition:.25s}
+.nav a:hover,.nav a:focus-visible{background:var(--ink);color:var(--bg)}
+/* hero — project-card cover */
+.hero{background:var(--bg);color:var(--ink);padding:120px var(--pad) 64px}
+.hero-kicker{font:400 11px/1 var(--mono);letter-spacing:.11em;text-transform:uppercase;color:var(--muted);margin:0 0 14px}
+.hero .project-no{display:block;margin:0 0 30px;font:400 9px/1 var(--mono);letter-spacing:.08em;text-transform:uppercase;color:var(--muted)}
+.hero h1{font-size:clamp(54px,10vw,148px);font-weight:500;letter-spacing:-.085em;line-height:.84;margin:0 0 36px;max-width:1000px}
+.hero h1 span{color:var(--red)}
+.hero-figure{margin:0;background:var(--photo);overflow:hidden}
+.hero-figure img{display:block;width:auto;height:auto;max-width:100%;max-height:74svh;margin:0 auto}
+.hero-meta{margin-top:24px;font:400 11px/1.5 var(--mono);letter-spacing:.08em;text-transform:uppercase;color:var(--muted)}
+/* case shell */
+.case-shell{min-height:100%;display:grid;grid-template-columns:minmax(260px,29.5vw) minmax(0,1fr)}
+.case-rail{position:sticky;top:0;height:100svh;align-self:start;padding:88px 23px 20px;border-right:1px solid var(--line);background:var(--bg);display:flex;flex-direction:column}
+.case-title{margin:0 0 28px;font-size:clamp(19px,1.7vw,27px);font-weight:500;letter-spacing:-.045em;line-height:1.04}
+.case-index{margin-top:7px;font:400 9px/1.45 var(--mono);color:var(--muted);text-transform:uppercase;letter-spacing:.075em}
+.rail-block{border-top:1px solid var(--line);padding:13px 0 14px}
+.rail-block:last-of-type{border-bottom:1px solid var(--line)}
+.rail-label,.rail-toggle{margin:0 0 12px;font:500 10px/1.2 var(--sans);letter-spacing:-.01em}
+.rail-toggle{width:100%;display:flex;align-items:center;justify-content:space-between;border:0;background:transparent;padding:0;cursor:pointer;text-align:left;color:var(--ink)}
+.rail-toggle span{font:400 15px/1 var(--sans)}
+.rail-content{padding:12px 0 0}
+.rail-content[hidden]{display:none}
+.rail-content p{margin:0 0 10px;color:var(--ink);font-size:11px;line-height:1.48}
+.rail-content p:last-child{margin-bottom:0}
+.rail-content .detail-line{font:400 9px/1.55 var(--mono);text-transform:uppercase;letter-spacing:.045em;color:var(--muted);white-space:pre-line}
+.rail-back{margin-top:auto;align-self:flex-start;border:0;background:transparent;padding:18px 0 0;color:var(--ink);font:400 9px/1 var(--mono);letter-spacing:.08em;text-transform:uppercase;cursor:pointer;text-decoration:none}
+.rail-back:hover,.rail-back:focus-visible{color:var(--red)}
+.case-main{min-width:0;background:var(--bg);padding:110px 28px 0}
+.case-chapter{padding:0 0 110px;scroll-margin-top:90px}
+.chapter-head{display:grid;grid-template-columns:minmax(120px,22%) 1fr;gap:24px;align-items:baseline;padding:15px 0;border-top:1px solid var(--line);margin:0 0 28px}
+.chapter-no{font:400 9px/1 var(--mono);color:var(--muted);text-transform:uppercase;letter-spacing:.075em}
+.chapter-head h3{margin:0;font-size:clamp(29px,4vw,63px);font-weight:500;letter-spacing:-.065em;line-height:.95}
+.chapter-head h3 em{font-style:normal;color:var(--red)}
+.case-copy{display:grid;grid-template-columns:minmax(120px,22%) minmax(0,1fr);gap:24px;margin-bottom:42px}
+.case-copy .fact{font:400 9px/1.65 var(--mono);color:var(--muted);text-transform:uppercase;white-space:pre-line}
+.case-copy p{font-size:clamp(16px,1.75vw,27px);letter-spacing:-.032em;line-height:1.33;margin:0;max-width:900px}
+/* verbatim text blocks — Faizan's own words from the project file */
+.verbatim{max-width:900px;margin:0 0 44px;padding:0 0 0 18px;border-left:3px solid var(--red)}
+.verbatim.heading-block{margin-top:6px}
+.verbatim h4{margin:0 0 14px;font-size:clamp(30px,4.4vw,68px);font-weight:500;letter-spacing:-.055em;line-height:1}
+.verbatim p{margin:0;font:400 clamp(13px,1.3vw,17px)/1.6 var(--mono);letter-spacing:.01em;color:var(--muted)}
+.gallery{display:grid;grid-template-columns:repeat(12,minmax(0,1fr));gap:12px;align-items:start}
+.gallery figure{grid-column:span 6;margin:0;background:var(--photo);overflow:hidden;aspect-ratio:4/3}
+.gallery figure img{display:block;width:100%;height:100%;object-fit:contain}
+/* wall — strict 3×3, square mattes, every edge aligned */
+.gallery.wall{grid-template-columns:repeat(3,minmax(0,1fr))}
+.gallery.wall figure{grid-column:auto;aspect-ratio:1/1}
+/* full — single image, natural aspect, inset for rhythm; .bleed goes edge to edge */
+.gallery.full figure{grid-column:2/12;aspect-ratio:auto}
+.gallery.full figure img{height:auto;object-fit:cover}
+.gallery.full.bleed figure{grid-column:1/-1}
+@media(max-width:900px){
+  .gallery figure{grid-column:span 6}
+  .gallery.full figure{grid-column:1/-1}
+  .gallery.wall{grid-template-columns:repeat(2,minmax(0,1fr))}
+}
+@media(max-width:560px){
+  .gallery.full figure{grid-column:1/-1}
+  .gallery.duo,.gallery.wall{grid-template-columns:repeat(2,minmax(0,1fr))}
+  .gallery.duo figure,.gallery.wall figure{grid-column:auto}
+}
+/* footer */
+.site-foot{display:flex;align-items:center;justify-content:space-between;gap:20px;flex-wrap:wrap;padding:30px var(--pad) 44px;border-top:1px solid var(--line)}
+.f-copy{font:400 11px/1.5 var(--mono);letter-spacing:.06em;text-transform:uppercase;color:var(--muted)}
+.back-top{text-decoration:none;font:400 10px/1 var(--mono);letter-spacing:.1em;text-transform:uppercase;color:var(--ink);border-bottom:1px solid var(--line);padding-bottom:4px;transition:.2s}
+.back-top:hover{color:var(--red)}
+/* responsive */
+@media(max-width:900px){
+  .case-shell{display:block}
+  .case-rail{position:relative;top:auto;height:auto;padding:86px 20px 30px;border-right:0;border-bottom:1px solid var(--line)}
+  .case-main{padding:64px 14px 0}
+  .chapter-head{grid-template-columns:58px 1fr;gap:10px;margin-bottom:22px}
+  .chapter-head h3{font-size:34px}
+  .case-copy{grid-template-columns:1fr;gap:16px;margin-bottom:26px}
+  .case-copy p{font-size:19px}
+  .case-chapter{padding-bottom:80px}
+  .hero{padding:100px var(--pad) 48px}
+  .hero h1{font-size:clamp(52px,17vw,96px)}
+  .nav a.hide-m{display:none}
+}
+/* print — A4 PDF in the same v7 colours */
+@page{size:A4;margin:0}
+@media print{
+  *{-webkit-print-color-adjust:exact;print-color-adjust:exact}
+  html,body{background:var(--bg)}
+  .topbar{display:none !important}
+  .reveal{opacity:1 !important;transform:none !important;transition:none !important}
+  .hero{min-height:100svh;break-after:page}
+  .case-shell{display:block}
+  .case-rail{position:static;height:auto;border-right:0;border-bottom:1px solid var(--line);padding:22px var(--pad)}
+  .case-main{padding:22px var(--pad) 0}
+  .case-chapter{padding-bottom:26px;break-inside:auto}
+  .chapter-head{margin-bottom:14px;padding:10px 0}
+  .chapter-head h3{font-size:clamp(24px,3vw,44px)}
+  .case-copy{margin-bottom:18px}
+  .case-copy p{font-size:clamp(14px,1.4vw,20px)}
+  .verbatim{margin-bottom:18px}
+  .verbatim h4{font-size:clamp(24px,3.2vw,46px)}
+  .gallery{gap:8px}
+  .chapter-head,.case-copy,.verbatim,.gallery.duo{break-inside:avoid;break-after:avoid}
+  .gallery{break-inside:auto}
+  .gallery figure{break-inside:avoid}
+  .gallery.full figure{display:flex;align-items:center;justify-content:center;aspect-ratio:auto;min-height:0}
+  .gallery.full figure img{width:auto;height:auto;max-width:100%;max-height:42svh}
+  .site-foot{break-inside:avoid}
+  .site-foot .back-top{display:none !important}
+}
+</style>
+</head>
+<body id="top">
+
+<header class="topbar">
+  <div class="status">Faizan Haidri — Project 01 compilation</div>
+  <nav class="nav" aria-label="Chapters">
+    <a href="#inspiration" class="hide-m">Inspiration</a>
+    <a href="#joints" class="hide-m">Joints</a>
+    <a href="#fingers" class="hide-m">Finger set</a>
+    <a href="#glove" class="hide-m">Glove</a>
+    <a href="#final">Final</a>
+    <a href="#top">Top ↑</a>
+  </nav>
+</header>
+
+<section class="hero">
+  <p class="hero-kicker reveal">Research × Build Compilation</p>
+  <span class="project-no reveal">Project 01 — Wearable / Metal craft</span>
+  <h1 class="reveal">The Silver <span>Gaunt</span></h1>
+  <figure class="hero-figure reveal"><img src="assets/silver-gaunt_p8_01.jpg" alt="The finished Silver Gaunt worn on the hand" /></figure>
+  <div class="hero-meta reveal">Articulated metal gauntlet — joint studies, sheet-form trials, physical assembly</div>
+</section>
+
+<div class="case-shell">
+  <aside class="case-rail">
+    <h2 class="case-title">The Silver Gaunt</h2>
+    <div class="case-index">Project 01 / Wearable / Metal craft</div>
+    <div class="rail-block"><h3 class="rail-label">Vision</h3><div class="rail-content"><p>An articulated metal gauntlet developed through joint studies, sheet-form trials and physical assembly.</p></div></div>
+    <div class="rail-block"><button class="rail-toggle" type="button" aria-expanded="false" aria-controls="projectDetails">Project details <span aria-hidden="true">+</span></button><div class="rail-content" id="projectDetails" hidden><p class="detail-line">Wearable / Metal craft
+Project 01
+Sheet metal · wire &amp; chain · pinned plates · pliers · black fabric
+Hand-cut · mandrel-formed · trial &amp; rework</p></div></div>
+    <div class="rail-block"><button class="rail-toggle" type="button" aria-expanded="false" aria-controls="projectCredits">Credits <span aria-hidden="true">+</span></button><div class="rail-content" id="projectCredits" hidden><p>Design, research and development<br>Faizan Haidri</p></div></div>
+    <a class="rail-back" href="#top">Back to index ↑</a>
+  </aside>
+
+  <main class="case-main">
+
+    <!-- 01 · Inspiration -->
+    <article class="case-chapter" id="inspiration">
+      <div class="chapter-head reveal"><span class="chapter-no">Chapter 01</span><h3>Inspiration</h3></div>
+      <div class="case-copy reveal">
+        <span class="fact">Medieval armoury
+Reference study
+The starting point</span>
+        <p>The reference study. Medieval armored gauntlets — overlapping finger plates, knuckle lames, a cuffed wrist. The target: metal that moves with the hand.</p>
+      </div>
+      <div class="gallery duo reveal">
+        <figure><img src="assets/silver-gaunt_p4_01.jpg" alt="Medieval armored gauntlet reference — clasped hands" loading="lazy" /></figure>
+        <figure><img src="assets/silver-gaunt_p4_02.jpg" alt="Medieval armored gauntlet reference — finger articulation close-up" loading="lazy" /></figure>
+      </div>
+    </article>
+
+    <!-- 02 · Figuring out the connection of joints -->
+    <article class="case-chapter" id="joints">
+      <div class="chapter-head reveal"><span class="chapter-no">Chapter 02</span><h3>Figuring out the connection of <em>joints</em></h3></div>
+      <div class="case-copy reveal">
+        <span class="fact">Sheet metal
+Wire · chain · pinned plates
+Hand-formed</span>
+        <p>Sheet-metal finger segments, cut and formed by hand. Joints tried with wire links, chain and pinned plates — version after version, fixed and learned.</p>
+      </div>
+      <div class="gallery wall reveal">
+        <figure><img src="assets/silver-gaunt_p5_01.jpg" alt="Single formed finger segment held on the workbench" loading="lazy" /></figure>
+        <figure><img src="assets/silver-gaunt_p5_02.jpg" alt="Two segments joined with a wire link" loading="lazy" /></figure>
+        <figure><img src="assets/silver-gaunt_p5_03.jpg" alt="Two formed segments with a pinned joint" loading="lazy" /></figure>
+        <figure><img src="assets/silver-gaunt_p5_04.jpg" alt="Segment pair with wire connector" loading="lazy" /></figure>
+        <figure><img src="assets/silver-gaunt_p5_05.jpg" alt="Segment pair with pinned plate joint" loading="lazy" /></figure>
+        <figure><img src="assets/silver-gaunt_p5_06.jpg" alt="Three-segment joint chain" loading="lazy" /></figure>
+        <figure><img src="assets/silver-gaunt_p5_07.jpg" alt="Wire-linked joint, side view" loading="lazy" /></figure>
+        <figure><img src="assets/silver-gaunt_p5_08.jpg" alt="Three segments linked with wire" loading="lazy" /></figure>
+        <figure><img src="assets/silver-gaunt_p5_09.jpg" alt="Segment formed over a wooden mandrel" loading="lazy" /></figure>
+      </div>
+      <div class="verbatim heading-block reveal">
+        <h4>Made the complete finger set</h4>
+        <p>From figuring out how the frame will stay on to the finger, tried various versions, fixed, learned and made.</p>
+      </div>
+      <div class="gallery full reveal">
+        <figure><img src="assets/silver-gaunt_p5_10.jpg" alt="Fingertip segment tried on the finger" loading="lazy" /></figure>
+      </div>
+    </article>
+
+    <!-- 03 · The complete finger set -->
+    <article class="case-chapter" id="fingers">
+      <div class="chapter-head reveal"><span class="chapter-no">Chapter 03</span><h3>The complete finger <em>set</em></h3></div>
+      <div class="case-copy reveal">
+        <span class="fact">Five fingers
+Formed segments
+Wear test</span>
+        <p>Every finger built from formed segments — then worn on the hand to test whether the joints stay put and still move.</p>
+      </div>
+      <div class="gallery full reveal">
+        <figure><img src="assets/silver-gaunt_p6_01.jpg" alt="The complete finger set — five segmented fingers laid out" loading="lazy" /></figure>
+      </div>
+      <div class="verbatim reveal" style="margin-top:44px">
+        <p>Figuring out how the joints will stay put also move was very hectic and tiring</p>
+      </div>
+      <div class="gallery duo reveal">
+        <figure><img src="assets/silver-gaunt_p6_02.jpg" alt="Finger segments worn on the hand" loading="lazy" /></figure>
+        <figure><img src="assets/silver-gaunt_p6_03.jpg" alt="Pliers working on the joint chain" loading="lazy" /></figure>
+      </div>
+    </article>
+
+    <!-- 04 · Knuckle plates & the inner glove -->
+    <article class="case-chapter" id="glove">
+      <div class="chapter-head reveal"><span class="chapter-no">Chapter 04</span><h3>Knuckle plates &amp; the <em>inner glove</em></h3></div>
+      <div class="case-copy reveal">
+        <span class="fact">Knuckle lames
+Full hand assembly
+Fabric lining</span>
+        <p>Knuckle plates and the assembled hand. A black fabric glove is stitched to go inside — the hand is never exposed to metal.</p>
+      </div>
+      <div class="gallery duo reveal">
+        <figure><img src="assets/silver-gaunt_p7_01.jpg" alt="Assembled hand with knuckle plate and finger segments" loading="lazy" /></figure>
+        <figure><img src="assets/silver-gaunt_p7_02.jpg" alt="Knuckle plates and finger caps" loading="lazy" /></figure>
+      </div>
+      <div class="verbatim reveal" style="margin-top:44px">
+        <p>Final Gauntlet made with stitching a glove inside so the hand is not exposed to metal</p>
+      </div>
+      <div class="gallery full reveal">
+        <figure><img src="assets/silver-gaunt_p7_03.jpg" alt="Black fabric glove pattern with stitching in progress" loading="lazy" /></figure>
+      </div>
+    </article>
+
+    <!-- 05 · The final gauntlet -->
+    <article class="case-chapter" id="final">
+      <div class="chapter-head reveal"><span class="chapter-no">Chapter 05</span><h3>The final <em>gauntlet</em></h3></div>
+      <div class="case-copy reveal">
+        <span class="fact">Articulated fingers
+Laced cuff
+Finished piece</span>
+        <p>The final gauntlet. Sheet-metal cuff with cord lacing, articulated fingers, worn over the stitched inner glove.</p>
+      </div>
+      <div class="gallery full bleed reveal">
+        <figure><img src="assets/silver-gaunt_p8_01.jpg" alt="The finished Silver Gaunt — laced cuff, articulated fingers, worn on the hand" loading="lazy" /></figure>
+      </div>
+    </article>
+  </main>
+</div>
+
+<footer class="site-foot">
+  <div class="f-copy">© Faizan. All rights reserved.</div>
+  <a class="back-top" href="#top">Back to top ↑</a>
+</footer>
+
+<script>
+(function(){
+  document.querySelectorAll('.rail-toggle').forEach(function(btn){
+    btn.addEventListener('click',function(){
+      var open=btn.getAttribute('aria-expanded')==='true';
+      btn.setAttribute('aria-expanded',String(!open));
+      var c=document.getElementById(btn.getAttribute('aria-controls'));
+      if(c){c.hidden=open;}
+      var s=btn.querySelector('span');if(s){s.textContent=open?'+':'–';}
+    });
+  });
+  var io=new IntersectionObserver(function(es){
+    es.forEach(function(e){if(e.isIntersecting){e.target.classList.add('in');io.unobserve(e.target);}});
+  },{threshold:.08,rootMargin:'0px 0px -6% 0px'});
+  document.querySelectorAll('.reveal').forEach(function(el){io.observe(el);});
+})();
+</script>
+</body>
+</html>
