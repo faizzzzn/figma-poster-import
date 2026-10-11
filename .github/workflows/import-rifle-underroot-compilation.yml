@@ -1,0 +1,72 @@
+name: import-rifle-underroot-compilation-to-figma
+
+on:
+  workflow_dispatch:
+    inputs:
+      rifle_file_name:
+        description: "Name for the new Rifle Figma file"
+        default: "Single Barrel Rifle — Compilation"
+      underroot_file_name:
+        description: "Name for the new Underroot Figma file"
+        default: "Underroot — Compilation"
+
+jobs:
+  import:
+    runs-on: ubuntu-latest
+    timeout-minutes: 60
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Install deps (Pillow, Playwright + Chromium)
+        run: |
+          pip install pillow playwright
+          python -m playwright install chromium --with-deps
+
+      - name: Generate Rifle compilation artboards (title + 4 chapters, desktop)
+        run: |
+          python build_craft_compilation_svg.py \
+            --src rifle-compilation.html \
+            --out website_svg_rifle \
+            --prefix rifle --chapters 4 \
+            --names brief,workshop-process,joinery,final-model
+          ls -la website_svg_rifle/
+
+      - name: Generate Underroot compilation artboards (title + 7 chapters, desktop)
+        run: |
+          python build_craft_compilation_svg.py \
+            --src underroot-compilation.html \
+            --out website_svg_underroot \
+            --prefix underroot --chapters 7 \
+            --names design-brief,references,ergonomics,scale-model,technical-resolution,fabrication,final-outcome
+          ls -la website_svg_underroot/
+
+      - name: Import Rifle compilation into Figma
+        env:
+          FIGMA_EMAIL: ${{ secrets.FIGMA_EMAIL }}
+          FIGMA_PASSWORD: ${{ secrets.FIGMA_PASSWORD }}
+          PASTE_STRIDE_PX: "2000"
+        run: |
+          python import_research.py \
+            --svgs website_svg_rifle \
+            --name "${{ inputs.rifle_file_name }}"
+
+      - name: Import Underroot compilation into Figma
+        env:
+          FIGMA_EMAIL: ${{ secrets.FIGMA_EMAIL }}
+          FIGMA_PASSWORD: ${{ secrets.FIGMA_PASSWORD }}
+          PASTE_STRIDE_PX: "2000"
+        run: |
+          python import_research.py \
+            --svgs website_svg_underroot \
+            --name "${{ inputs.underroot_file_name }}"
+
+      - name: Upload screenshots
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: figma-rifle-underroot-import-shots
+          path: shots/
